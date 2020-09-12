@@ -1,6 +1,10 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d6b49afd-cd07-4714-87d1-bc8e8239068f/deploy-status)](https://app.netlify.com/sites/braindump-jethrokuan/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/56bfbc4e-0096-4f60-8fab-2cde1d5c6e7f/deploy-status)](https://app.netlify.com/sites/frosty-pasteur-cec15b/deploys)
 
-# Jethro's Braindump
+# Notes
+
+This is a repository for [org-roam](https://www.orgroam.com/) notes. It is a fork of [jethrokuan/braindump](https://github.com/jethrokuan/braindump/).
+
+## Jethro's Braindump
 
 This braindump is generated via [ox-hugo][ox-hugo] and uses the
 [cortex][cortex] theme.
