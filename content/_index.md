@@ -7,4 +7,4 @@ draft = false
 +++
 
 * All notes are accessible from the [note index](/posts/).
-* [back to homepage](https://www.cameronraysmith.net/)
+* [back to homepage](https://cameronraysmith.net/)
