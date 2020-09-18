@@ -1,4 +1,0 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: iterative_closed_point
-#+roam_alias: ICP
-#+title: Iterative Closed Point

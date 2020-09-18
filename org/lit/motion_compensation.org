@@ -1,3 +1,0 @@
-#+setupfile:./hugo_setup.org
-#+hugo_slug: motion_compensation
-#+title: Motion Compensation
