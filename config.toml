@@ -5,7 +5,7 @@ theme = "cortex"
 
 [params]
 email = "camrn86@gmail.com"
-footer = "Icon by Freepik. Built with ♥ with Org-mode and Hugo."
+# footer = "Icon by Freepik. Built with ♥ with Org-mode and Hugo."
 
 [markup]
   [markup.goldmark]

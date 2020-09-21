@@ -6,5 +6,7 @@ type = "index"
 draft = false
 +++
 
-* All notes are accessible from the [note index](/posts/).
-* [back to homepage](https://cameronraysmith.net/)
+* this is a repository of **unedited note fragments**
+* the **[note index](/posts/)** contains everything here
+* [back to **homepage**](https://cameronraysmith.net/)
+* **many thanks** to [Jethro Kuan](https://www.jethro.dev/) and [org-roam](https://www.orgroam.com/)
