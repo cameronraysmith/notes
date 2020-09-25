@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: variational_autoencoder
+#+TITLE: variational autoencoder
+* [[file:probabilistic_inference.org][probabilistic inference]], [[file:computation.org][computation]]
+* variational autoencdoers vs [[file:factor_analysis.org][factor analysis]] 
+** https://www.cs.cmu.edu/~bhiksha/courses/deeplearning/Spring.2017/slides/lec12.vae.pdf#page=9
+* [[file:Multi-Omics_Factor_Analysis_v2_MOFA+_a_statistical_framework_for_comprehensive_integration_of_multi-modal_single-cell_data_by_Ricard_Argelaguet,_Oliver_Stegle,_et_al_in_2020.org][Multi-Omics Factor Analysis v2 MOFA+ a statistical framework for comprehensive integration of multi-modal single-cell data by Ricard Argelaguet, Oliver Stegle, et al in 2020]]

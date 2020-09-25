@@ -1,0 +1,14 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: How_to_construct_and_debug_a_dockerfile
+#+TITLE: How to construct and debug a dockerfile
+* [[https://subscription.packtpub.com/book/virtualization_and_cloud/9781787286986/6/ch06lvl1sec38/debugging-a-dockerfile][Debugging a Dockerfile * Docker Bootcamp]]
+* simplest example of a custom dockerfile that does not inherit from one of those provided by the deeplearning images and successfully runs on ai platform notebooks
+* GCP AI platform notebooks custom images
+** [[https://zainrizvi.io/blog/create-custom-deep-learning-containers/][How to Create Customized Deep Learning Containers – Zain Rizvi's blog]]
+** [[https://stackoverflow.com/questions/57322838/requirements-for-launching-google-cloud-ai-platform-notebooks-with-custom-docker][Requirements for launching Google Cloud AI Platform Notebooks with custom docker image * Stack Overflow]]
+** [[https://github.com/robert-dodier/maxima-jupyter][robert-dodier/maxima-jupyter: A Maxima kernel for Jupyter, based on CL-Jupyter (Common Lisp kernel)]]
+** [[https://github.com/AustinRochford/notebooks/blob/master/Makefile][notebooks/Makefile at master · AustinRochford/notebooks]]
+* jupyter-maxima
+** https://gitlab.com/alessandro.dibella/docker/jupyter-maxima/-/tree/master
+* nice framework for dockerfiles that inherit from deeplearning ai platform notebooks
+** https://github.com/ZainRizvi/UseRWithGpus

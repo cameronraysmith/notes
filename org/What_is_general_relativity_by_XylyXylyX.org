@@ -1,0 +1,12 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: What_is_general_relativity_by_XylyXylyX
+#+TITLE: What is general relativity? by XylyXylyX
+* "[[https://www.youtube.com/playlist?list=PLRlVmXqzHjURQIIebhT7UNTwGQHUEPlsb][What is General Relativity? by XylyXylyX]] 66 videos"
+* 5. The [[file:Catalogue_of_Spacetimes_by_Mueller_and_Grave_in_2009.org][Catalogue of Spacetimes by Mueller and Grave in 2009]]
+* 6. Introduction to compact coordinates
+* 7. The glome
+* 8. Intro to the metric connection and the induced metric
+* 9. Parallelism and the covariant derivative
+* 10. CFREE notation and the covariant derivative
+* 11. CFREE to COMP conversion
+* 36. Introduction to the Einstein equation [[file:progress_indicators.org][progress indicators]]

@@ -1,0 +1,60 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Epistemology_An_introduction_to_the_theory_of_knowledge_by_Nicholas_Rescher_in_2003
+#+TITLE: Epistemology An introduction to the theory of knowledge by Nicholas Rescher in 2003
+* [[file:philosophy.org][philosophy]], [[file:pragmatism.org][pragmatism]], [[file:Nicholas_Rescher.org][Nicholas Rescher]], [[file:books.org][books]]
+* citations
+** p. 120 of [[file:Intelligence_and_spirit_by_Reza_Negarestani_in_2018.org][Intelligence and spirit by Reza Negarestani in 2018]]
+* contents
+** I. Knowledge and its problems
+*** 1. Modes of knowledge
+*** 2. Fallibilism and truth estimation
+*** 3. Skepticism and its deficits
+*** 4. Epistemic justification in a functionalistic and naturalistic perspective
+*** 5. Plausibility and presumption
+*** 6. Trust and cooperation in pragmatic perspective
+** II. Rational inquiry and the quest for truth
+*** 7. Foundationalism versus coherentism
+*** 8. The pursuit of truth: Coherentist Criteriology
+**** SYNOPSIS
+***** Coherentism bases its criteriology of truth in “coherence,” that is, on cognitive systematicity. But what is it that gets systematized?
+***** The answer here lies in the idea of data—claims that are substantially plausible in the epistemic circumstances at issue, not certified truths but promising truth-candidates.
+***** The ultimate validation of a coherentist approach to truth assessment lies in the pragmatic utility of its results. For in the end it is the efficacy of its applications—alike in theoretical and practical matters—that serves as the arbiter of our cognition—the controlling monitor of adequacy for truth-estimation.
+***** The idea of truth with regard to general matters of fact as we deal with them in science is in fact something of an idealization.
+***** It is not the accomplished product of current inquiry but the hypothesized product of idealized inquiry. The idea of truth as idealized coherence accordingly provides a cogent specification for the nature of truth.
+*** 9. Cognitive relativism and contextualism
+*** 10. The pragmatic rationale of cognitive objectivity
+*** 11. Rationality
+** III. Cognitive progress
+*** 12. Scientific progress
+*** 13. The law of logarithmic returns and the complexification of natural science
+**** 13.1 The principle of least effort and the methodological status of simplicity-preference in science
+**** 13.2 Complexification [[file:key_subsection.org][key subsection]]
+***** See the quotation of this in [[file:Intelligence_and_spirit_by_Reza_Negarestani_in_2018.org][Intelligence and spirit by Reza Negarestani in 2018]] p. 120
+
+For rational beings will of course try simple things first and thereafter be driven step by step toward an ever-enhanced complexifi* cation. In the course of rational inquiry we try the simple solutions first, and only thereafter, if and when they cease to work—when they are ruled out by fur* ther findings (by some further influx of coordinating information)—do we move on to the more complex.Things go along smoothly until an oversimple solution becomes destabilized by enlarged experience. For a time we get by with the comparatively simpler options—until the expanding information about the world’s modus operandi made possible by enhanced new means of observation and experimentation insists otherwise. And with the expansion of knowledge those new accessions make ever increasing demands. And so evolution, be it nat* ural or rational—whether of animal species or of literary genres—ongoingly confronts us with products of greater and greater complexity.
+**** 13.3 The expansion of science
+**** 13.4 The law of logarithmic returns
+**** 13.5 The rationale and implications of the law of logarithmic returns
+**** 13.6 The growth of knowledge
+**** 13.7 The deceleration of scientific progress
+**** 13.8 Predictive implications of the information/knowledge relationship
+**** 13.9 The centrality of quality and its implications
+*** 14. The imeperfectability of knowledge: knowledge as boundless
+** IV. Cognitive limits and the quest for truth
+*** 15. The rational intelligibility of nature
+*** 16. Human science as characteristically human
+*** 17. On ignorance, insolubilia, and the limits of knowledge
+*** 18. Cognitive realism
+**** 18.1 Existence
+**** 18.2 Is man the measure? Homo mensura?
+**** 18.3 Realism and incapacity
+**** 18.4 The cognitive opacity of real things
+**** 18.5 The cognitive inexhaustibility of things
+**** 18.6 The corrigibility of conceptions
+**** 18.7 The cognitive inexhaustibility of things
+**** 18.8 Cognitive dynamics
+**** 18.9 Conceptual basis of realism as a postulate 
+**** 18.10 Hidden depths: the impetus to realism
+**** 18.11 The pragmatic foundation of realism as a basis for communication and discourse
+**** 18.12 The idealistic aspect of metaphysical realism
+**** 18.13 Science and reality

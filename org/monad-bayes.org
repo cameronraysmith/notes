@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: monad-bayes
+#+TITLE: monad-bayes
+* [[file:probabilistic_inference.org][probabilistic inference]]
+* https://github.com/tweag/monad-bayes
+* Developed on the basis of [[file:Adam_Michal_Scibior.org][Adam Michal Scibior]]'s thesis [[file:Formally_justified_and_modular_Bayesian_inference_for_probabilistic_programs_by_Adam_Michal_Scibior_in_2018.org][Formally justified and modular Bayesian inference for probabilistic programs by Adam Michal Scibior in 2018]].

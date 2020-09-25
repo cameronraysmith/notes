@@ -1,0 +1,25 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Evolutionary_Phase_Transitions_in_Random_Environments_by_Skanata_and_Kussell_in_2016
+#+TITLE: Evolutionary Phase Transitions in Random Environments by Skanata and Kussell in 2016
+* Outline
+** I. The minimal model of memory
+*** A. Two-phenotype model
+*** B. Long-term growth rate
+*** C. Cost-benefit tradeoffs in periodic environments
+*** D. The mean-field approximation
+*** E. Phase diagrams
+*** F. The critical point
+*** G. Continuous and discontinuous evolutionary transitions
+*** H. Three environments
+*** I. Derivation of eq (1)
+** II. Corrections in history
+*** A. Leading order
+*** B. Higher order corrections
+*** C. Discrete distributions
+*** D. Three environments
+*** E. Continuous distributions
+** III. Noisy response
+** IV. Growth in a chemostat
+*** A. Competition in fluctuating environments
+*** B. Anticipatory regulation
+** V. Genetic drift

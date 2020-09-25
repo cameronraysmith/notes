@@ -1,0 +1,74 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Master_equations_and_the_theory_of_stochastic_path_integrals_by_Markus_Weber_and_Erwin_Frey_in_2017
+#+TITLE: Master equations and the theory of stochastic path integrals by Markus Weber and Erwin Frey in 2017
+* [[file:papers.org][papers]], [[file:stochastic_processes.org][stochastic processes]], [[file:statistical_physics.org][statistical physics]], [[file:Erwin_Frey.org][Erwin Frey]]
+* 1. Introduction
+** 1.1 Scope of this review
+** 1.2 Organization of this review
+** 1.3 Continuous-time Markov processes and the forward and backward master equations
+** 1.4 Analytical and numerical methods for the solution of master equations
+** 1.5 History of stochastic path integrals
+** 1.6 Resume
+* 2. The probability generating function
+** 2.1 Flow of the generating function
+** 2.2 Bases for particular stochastic processes
+*** 2.2.2 Random walks
+*** 2.2.2 Chemical reactions
+*** 2.2.3 Intermezzo: the unit vector basis
+*** 2.2.4 Processes with locally excluding particles
+** 2.3 Methods for the analysis of the generating function's flow equation
+*** 2.3.1 A spectral method for the computation of stationary distributions
+*** 2.3.2 WKB approximations and related approaches
+*** 2.3.3 A variational method
+** 2.4 Resume
+* 3. The marginalized distribution and the probability generating functional
+** 3.1 Flow of the marginalized distribution
+** 3.2 Bases for particular stochastic processes
+*** 3.2.1 Random walks
+*** 3.2.2 Chemical reactions
+** 3.3 Mean extinction times
+** 3.4 Flow of the generating functional
+** 3.5 The Poisson representation
+** 3.6 Resume
+* 4. The backward path integral representation
+** 4.1 Derivation
+** 4.2 Simple growth and linear decay
+** 4.3 Feynman-Kac formula for jump processes
+** 4.4 Intermezzo: the backward Kramers-Moyal expansion
+*** 4.4.1 Processes with continuous state spaces
+*** 4.4.2 Path integral representation of the backward Kramers-Moyal expansion
+*** 4.4.3 Path integral representation of the backward Fokker-Planck equation
+*** 4.4.4 The Onsager-Machlup function
+*** 4.4.5 Alternative discretization schemes
+*** 4.4.6 Wiener's path integral
+** 4.5 Further exact solutions and perturbation expansions
+*** 4.5.1 Pair generation
+*** 4.5.2 Diffusion on networks
+*** 4.5.3 Diffusion in continuous space
+*** 4.5.4 Diffusion and decay
+** 4.6 Resume
+* 5. The forward path integral representation
+** 5.1 Derivation
+** 5.2 Linear processes
+** 5.3 Intermezzo: The forward Kramers-Moyal expansion
+** 5.4 Resume
+* 6. Path integral representation of averaged observables
+** 6.1 Derivation
+** 6.2 Intermezzo: Alternative derivation based on coherent states
+** 6.3 Perturbation expansions
+** 6.4 Coagulation
+** 6.5 Resume
+* 7. Stationary paths
+** 7.1 Forward path integral approach
+** 7.2 Binary annihilation
+** 7.3 Backward path integral approach
+** 7.4 Binary annihilation
+*** 7.4.1 Leading order
+*** 7.4.2 Beyond leading order
+** 7.5 Resume
+* 8. Summary and outlook
+* Appendices
+** A. Proof of the Feynman-Kac formula in 1.3
+** B. Proof of the path summation representation in 1.4
+** C. Solution of the random walk in 2.2.1 and 3.2.1
+** D. Details on the evaluation of the backward path integral representation in 4.3

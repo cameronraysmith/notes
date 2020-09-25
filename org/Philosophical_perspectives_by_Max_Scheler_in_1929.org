@@ -1,0 +1,15 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Philosophical_perspectives_by_Max_Scheler_in_1929
+#+TITLE: Philosophical perspectives by Max Scheler in 1929
+* internet archive
+** https://archive.org/details/philosophicalper0000sche/page/n5/mode/2up
+** https://archive.org/details/philosophicalper0000sche
+* contents
+** image
+*** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FH60KqJO-A_.png?alt=media&token=c008b60f-314e-4494-9853-b5bb9b9fc2cf]]
+** text
+*** 1. Philosopher's outlook
+*** 2. The forms of knowledge and culture
+*** 3. Spinoza
+*** 4. Man and history
+*** 5. Man in the era of adjustment

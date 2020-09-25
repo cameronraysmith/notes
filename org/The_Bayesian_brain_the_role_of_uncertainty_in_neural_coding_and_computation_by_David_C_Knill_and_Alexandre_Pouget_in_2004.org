@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_Bayesian_brain_the_role_of_uncertainty_in_neural_coding_and_computation_by_David_CKnill_and_Alexandre_Pouget_in_2004
+#+TITLE: The Bayesian brain the role of uncertainty in neural coding and computation by David C.Knill and Alexandre Pouget in 2004
+* [[file:Bayesian_brain_hypothesis.org][Bayesian brain hypothesis]], [[file:probabilistic_inference.org][probabilistic inference]]
+* Referenced in [[file:Whatever_next_Predictive_brains,_situated_agents,_and_the_future_of_cognitive_science_by_Andy_Clark_in_2013.org][Whatever next? Predictive brains, situated agents, and the future of cognitive science by Andy Clark in 2013]]

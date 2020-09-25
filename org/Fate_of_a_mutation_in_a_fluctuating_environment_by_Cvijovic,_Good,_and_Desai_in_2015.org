@@ -1,0 +1,25 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Fate_of_a_mutation_in_a_fluctuating_environment_by_Cvijovic,_Good,_and_Desai_in_2015
+#+TITLE: Fate of a mutation in a fluctuating environment by Cvijovic, Good, and Desai in 2015
+* Model
+** Fig. 1. Fitness and frequency trajectories.
+** We neglect longer-term changes in discrete environmental epochs (Fig. 1A). Through the bulk of selection pressures, so that s(t) will fluctuate between s1 and s2 in discrete environmental epochs
+** Timescales of environmental variation
+** An effective diffusion process
+* Heuristic analysis
+** The reduced efficiency of selection
+** The role of seasonal drift
+* Formal analysis
+* Discussion
+* Supplement
+** The Effective Diffusion Regime
+*** Fast Switching [$$s \tau \ll 1 \ll 2 \log(Ns)$$]
+*** Slow switching [$$1 \ll \tau \ll 2 \log(Ns)$$]
+*** Unequal epochs ($$\tau_1 \neq \tau_2$$)
+*** Recurrent mutation ($$N \mu \gg 1$$)
+** Beyond the effective diffusion regime
+*** Fixation during the first epoch [$$1 \ll 2 \log (Ns) \ll s \tau$$]
+*** Substantial average fitness effects ( $$\bar{s} \tau \gtrsim 1$$)
+*** Substantial variation in epoch lengths ($$s \delta \tau \gg 1$$)
+** Relation to previous work
+*** 

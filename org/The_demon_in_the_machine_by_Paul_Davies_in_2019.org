@@ -1,0 +1,56 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_demon_in_the_machine_by_Paul_Davies_in_2019
+#+TITLE: The demon in the machine by Paul Davies in 2019
+* 1. What is Life?
+** Goodbye life force
+** Life springs surprises
+** The vexing problem of the life meter
+** The tale of the ancient molecule
+** Life = matter + information
+* 2. Enter the demon
+** Molecular magic
+** Measuring information
+** A little knowledge is a dangerous thing
+** The ultimate laptop
+** Reading the mind of the demon
+** Information engines
+** Demons for dollars: invest now in applied demonology
+** Engines of life: the demons in your cells
+** Beyond the bit
+* 3. The logic of life
+** To infinity and beyond
+** A machine that copies itself
+** Life as a game
+** Can a biologist fix a radio?
+** Biological circuits and the music of life
+** Gene networks as modules
+** Collectively smart
+** The mystery of morphogenesis
+* 4. Darwinism 2.0
+** Electric monsters
+** Flirting with Lamarckism
+** Demons in the genes
+** Cancer: the harsh price of multicellularity
+** Tracing the deep evolutionary roots of cancer
+* 5. Spooky life and quantum demons
+** Quantum theory is seriously weird
+** Tunnelling
+** Tripping the light fantastic
+** Spooky birds
+** Quantum demons up your nose
+** Quantum biology: here to stay?
+* 6. Almost a miracle
+** In the beginning...
+** Where did life begin?
+** How did life begin?
+** Making life in the lab
+** A shadow biosphere
+* 7. The ghost in the machine
+** Is anyone at home?
+** Mind over matter
+** The flow of time
+** Demons in the wiring
+** How to build a mind meter
+** Free will and agency
+** Quantum brains
+* Epilogue

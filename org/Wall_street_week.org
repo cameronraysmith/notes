@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Wall_street_week
+#+TITLE: Wall street week
+#+roam_tags: finance
+* keywords
+- [[file:news.org][news]]

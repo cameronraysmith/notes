@@ -1,0 +1,14 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Simulation_of_High-Energy_Reactions_of_PArticles
+#+TITLE: Simulation of High-Energy Reactions of PArticles
+* [[file:software_library.org][software library]], [[file:interacting_particle_systems.org][interacting particle systems]], [[file:physics.org][physics]], [[file:theoretical_physics.org][theoretical physics]], [[file:high_energy_physics.org][high energy physics]]
+* citation
+** Gleisberg, T., Hoeche, S., Krauss, F., Schoenherr, M., Schumann, S., Siegert, F., & Winter, J. (2008). Event generation with SHERPA 1.1. https://doi.org/10.1088/1126-6708/2009/02/007
+** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FAli7fxwbPR.png?alt=media&token=38e82ec9-209c-4d1b-ac6c-492ff10b3a35]]
+** Pictorial representation of a $$t\bar{t}h$$ event as produced by an event generator. The hard interaction (big red blob) is followed by the decay of both top quarks and the Higgs boson (small red blobs). Additional hard QCD radiation is produced (red) and a secondary interaction takes place (purple blob) before the final-state partons hadronise (light green blobs) and hadrons decay (dark green blobs). Photon radiation occurs at any stage (yellow).
+* references
+** https://sherpa-team.gitlab.io/
+** https://arxiv.org/abs/0811.4622
+** [[file:Efficient_probabilistic_inference_in_the_quest_for_physics_beyond_the_Standard_Model_by_Atilim_Baydin,_Frank_Wood_et_al_in_2019.org][Efficient probabilistic inference in the quest for physics beyond the Standard Model by Atilim Baydin, Frank Wood et al in 2019]]
+* description
+** Sherpa is a Monte Carlo event generator for the Simulation of High-Energy Reactions of PArticles in lepton-lepton, lepton-photon, photon-photon, lepton-hadron and hadron-hadron collisions. This document provides information to help users understand and apply Sherpa for their physics studies. The event generator is introduced, in broad terms, and the installation and running of the program are outlined. The various options and parameters specifying the program are compiled, and their meanings are explained. This document does not aim at giving a complete description of the physics content of Sherpa . To this end, the authors refer the reader to the original publication, [[https://sherpa.hepforge.org/doc/SHERPA-MC-2.2.8.html#Gleisberg2008ta][[Gle08b]]].

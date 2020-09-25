@@ -1,0 +1,15 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Speed_Limits_by_Mark_C_Taylor_in_2014
+#+TITLE: Speed Limits by Mark C Taylor in 2014
+* 0. Introduction
+** 
+* 1. Addiction to speed
+* 2. Invisible hands
+* 3. Time counts
+* 4. Windows shopping
+* 5. Net working
+* 6. Inefficient market hypothesis
+* 7. Dividing by connecting
+* 8. Extreme finance
+* 9. Reprogramming life--deprogramming minds
+* 10. Meltdowns

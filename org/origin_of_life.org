@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: origin_of_life
+#+TITLE: origin of life
+* [[file:The_Origin_and_Nature_of_Life_on_Earth_The_emergence_of_the_fourth_geosphere_by_Eric_Smith_and_Harold_Morowitz_in_2016.org][The Origin and Nature of Life on Earth The emergence of the fourth geosphere by Eric Smith and Harold Morowitz in 2016]]
+* [[file:Eric_Smith_The_Origin_and_Nature_of_Life_on_Earth_on_The_Dissenter_by_Ricardo_Lopes_April_23,_2018.org][Eric Smith The Origin and Nature of Life on Earth on The Dissenter by Ricardo Lopes April 23, 2018]]

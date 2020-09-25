@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Introduction_to_single-cell_Variational_Inference
+#+TITLE: Introduction to single-cell Variational Inference
+* [[file:scVI.org][scVI]], [[file:tutorial.org][tutorial]], [[file:computation.org][computation]]
+* 

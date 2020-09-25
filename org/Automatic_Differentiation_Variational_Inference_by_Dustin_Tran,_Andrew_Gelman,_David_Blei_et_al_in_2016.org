@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Automatic_Differentiation_Variational_Inference_by_Dustin_Tran,_Andrew_Gelman,_David_Blei_et_al_in_2016
+#+TITLE: Automatic Differentiation Variational Inference by Dustin Tran, Andrew Gelman, David Blei et al in 2016
+* [[file:probabilistic_inference.org][probabilistic inference]], [[file:variational_inference.org][variational inference]]
+* https://arxiv.org/abs/1603.00788

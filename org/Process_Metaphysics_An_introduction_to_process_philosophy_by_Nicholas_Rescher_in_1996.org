@@ -1,0 +1,55 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Process_Metaphysics_An_introduction_to_process_philosophy_by_Nicholas_Rescher_in_1996
+#+TITLE: Process Metaphysics An introduction to process philosophy by Nicholas Rescher in 1996
+* [[file:philosophy.org][philosophy]], [[file:process_philosophy.org][process philosophy]], [[file:books.org][books]], [[file:Nicholas_Rescher.org][Nicholas Rescher]]
+* contents
+** 1. Historical Background
+*** 1. Prospect
+*** 2. Heraclitus (6th Century B.C.)
+*** 3. Plato and Aristotle	
+*** 4. Gottfried Wilhelm Leibniz (16461717)	
+*** 5. Georg Wilhelm Friedrich Hegel (17701831)	
+*** 6. Charles Sanders Peirce (18391914)	
+*** 7. William James (18421910)	
+*** 8. Henri Bergson (18591941)	
+*** 9. John Dewey (18591952)	
+*** 10. Alfred North Whitehead (18611947)	
+*** 11. Wilmon H. Sheldon (18751981)
+** 2. Basic Ideas
+*** 1. The Process Approach and Its Alternatives		
+*** 2. Key Concepts and Categories
+*** 3. What Is a Process?	
+*** 4. Modes of Process	
+*** 5. The Priority of Process: Against the Process Reducibility Thesis
+*** 6. Processes and Dispositions	
+** 3. Process and Particulars	
+*** 1. Particulars	
+*** 2. Complexification	
+*** 3. Ongoing Identity as a Matter of Ongoing Reidentifiability: An Idealistic Perspective
+*** 4. Against Strawson's Critique of Processism
+*** 5. Difficulties of Substantialism
+*** 6. The Origination of Particulars	
+** 4. Process and Universals	
+*** 1. Process and "The Problem of Universals"	
+*** 2. Novelty, Innovation, Creativity	
+*** 3. Taxonomic Complexification	
+** 5. Process Philosophy of Nature	
+*** 1. Basic Ideas of a Process Philosophy of Nature	
+*** 2. Process and Existence	
+*** 3. Process and the Laws of Nature	
+*** 4. Space-Time	
+*** 5. The Quantum Aspect	
+*** 6. Process Philosophy and Evolutionary Optimism	
+*** 7. Validation	
+** 6. Process and Persons
+*** 1. Difficulties of the Self and the Process Approach to Persons	
+*** 2. Mind and Matter in Processual Perspective	
+*** 3. Human Life as a Process: The General Idea of a Life Cycle	
+*** 4. Historical Process	
+*** 5. Transiency and Value	
+** 7. Process Logic and Epistemology	
+*** 1. Truth and Knowledge: The Processual Perspective	
+*** 2. Aristotle and Truth-Value Indeterminacy	
+*** 3. The Processual Nature of Knowledge and the Cognitive Inexhaustibility of Things	
+*** 4. Process and Experience	
+*** 5. Process and Communication 

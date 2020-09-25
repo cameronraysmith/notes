@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Out_of_Nature_How_a_Concept_Became_a_Political_Power_by_Didier_Debaise_in_2019
+#+TITLE: Out of Nature: How a Concept Became a Political Power? by Didier Debaise in 2019
+* [[file:lectures.org][lectures]], [[file:philosophy.org][philosophy]], [[file:Didier_Debaise.org][Didier Debaise]]
+* Audio:: https://soundcloud.com/sonicacts/didier-debaise-out-of-nature
+* Video:: __Didier Debaise – Out of Nature. How a Concept Became a Political Power?__ — via [[https://www.youtube.com/watch?v=gKukK6kKRQ0&t=999s][(2) Didier Debaise – Out of Nature. How a Concept Became a Political Power?]]

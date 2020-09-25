@@ -1,0 +1,114 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: A_Class_of_Models_with_the_Potential_to_Represent_Fundamental_Physics_by_Stephen_Wolfram_in_2020
+#+TITLE: A Class of Models with the Potential to Represent Fundamental Physics by Stephen Wolfram in 2020
+* 1. Introduction
+* 2. Basic form of models
+** 2.1 Basic structure
+** 2.2 First example of a rule
+** 2.3 A slightly different rule
+** 2.4 Self-loops
+** 2.5 Multiedges
+** 2.6 The representation of rules
+** 2.7 Rules depending on more than one relation
+** 2.8 Termination
+** 2.9 Connectedness
+* 3. Typical behaviors
+** 3.1 The representation of rules
+** 3.2 The number of possible rules
+** 3.3 Initial conditions
+** 3.4 Rules depending on a single unary relation
+** 3.5 Rules depending on a single binary relation
+** 3.6 Rules depending on one ternary relation
+** 3.7 Rules depending on more than one relation: the $$2_2 \rightarrow 3_2$$ case
+** 3.8 Rules with signature $$2_2 \rightarrow 4_2$$
+** 3.9 Binary rules with signatures beyond $$2_2 \rightarrow 4_2$$
+** 3.10 Rules depending on two ternary relations: the $$2_3 \rightarrow 3_3$$ case
+** 3.11 Rules involving more ternary relations
+** 3.12 Rules with mixed arity
+** 3.13 Multiple transformation rules
+** 3.14 Rules involving disconnected pieces
+** 3.15 Termination
+** 3.16 The effect of initial conditions
+** 3.17 Behavior without growth
+** 3.18 Random rules and overall classification of behavior
+* 4. Limiting behavior and emergent geometry
+** 4.1 Recognizable geometry
+** 4.2 Hyperbolic space
+** 4.3 Geometry from subdivision
+** 4.4 Nested patterns
+** 4.5 The notion of dimension
+** 4.6 Dimension-related characterizations
+** 4.7 Curvature
+** 4.8 Homogeneity and local graph neighborhoods
+** 4.9 Adjacency matrices and age distributions
+** 4.10 Other graph properties
+** 4.11 Graph properties conserved by rules
+** 4.12 Apparent randomness and growth rates
+** 4.13 Statistical mechanics
+** 4.14 The effect of perturbations
+** 4.15 Geodesics
+** 4.16 Functions on graphs
+** 4.17 Manifolds and model spaces
+* 5. The updating process for string substitution systems
+** 5.1 String substitution systems
+** 5.2 The phenomenon of causal invariance
+** 5.3 States graphs
+** 5.4 Typical multiway graph structures
+** 5.5 Testing for causal invariance
+** 5.6 The frequency of causal invariance
+** 5.7 Events and their causal relationships
+** 5.8 Causal graphs for particular updating sequences
+** 5.9 The significance of causal invariance
+** 5.10 Causal foliations and causal cones
+** 5.11 Causal graphs for infinite evolutions
+** 5.12 Typical causal graphs
+** 5.13 Limits of causal graphs
+** 5.14 Foliations and coordinates on causal graphs
+** 5.15 The concept of branchial graphs
+** 5.16 Typical forms of branchial graphs
+** 5.17 Foliations of the multiway graph and the structure of branchial space
+** 5.18 The relationship between graphs and the multiway causal graph
+** 5.19 Weighted multiway graphs
+** 5.20 Effective causal invarance
+** 5.21 Generational evolution
+* 6. The updating process in our models
+** 6.1 Updating events and causal dependence
+** 6.2 Multiway systems for our models
+** 6.3 Causal invariance
+** 6.4 Testing for causal invariance
+** 6.5 Causal graphs for causal invariant rules
+** 6.6 The role of causal graphs
+** 6.7 Typical causal graphs
+** 6.8 Large-scale structure of causal graphs
+** 6.9 Foliations of causal graphs
+** 6.10 Causal disconnection
+** 6.11 Global symmetries and conservation laws
+** 6.12 Local symmetries
+** 6.13 Branchial graphs and multiway causal graphs
+* 7. Equivalence and computation in our models
+** 7.1 Correspondence with other systems
+** 7.2 Alternative formulations
+** 7.3 Computational capabilities of our models
+* 8. Potential relation to physics
+** 8.1 Introduction
+** 8.2 Basic concepts
+** 8.3 Potential basic translations
+** 8.4 The structure of space
+** 8.5 Time and spacetime
+** 8.6 Motion and special relativity
+** 8.7 The vacuum Einstein equations
+** 8.8 Matter, energy and gravitation
+** 8.9 Elementary particles
+** 8.10 Reversibility and irreversibility
+** 8.11 Cosmology, expansion and singularities
+** 8.12 Basic concepts of quantum mechanics
+** 8.13 Quantum formalism 
+** 8.14 Quantum measurement
+** 8.15 Operators in quantum mechanics
+** 8.16 Wave-particle duality, uncertainty relations, etc.
+** 8.17 Correspondence between relativity and quantum mechanics
+** 8.18 Event horizons and singularities in spacetime and quantum mechanics
+** 8.19 Local gauge invariance
+** 8.20 Units and scales
+** 8.21 Specific models of the universe
+** 8.22 Multiway systems in the space of all possible rules

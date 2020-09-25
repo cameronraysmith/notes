@@ -1,0 +1,18 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Process-relational_philosophy_by_C_Robert_Mesle_in_2008
+#+TITLE: Process-relational philosophy by C. Robert Mesle in 2008
+* 1. A process-relational world: an adventure that matters
+** Ideas shape actions, so it matters how we think about reality, the world, and ourselves. I don’t mean that only people who believe in one particular religion or philosophy can be good or intelligent people.
+* 2. Imaginative generalization: the search for a comprehensive vision
+* 3. Minds, bodies, and experience: envisioning a unified self
+* 4. Experience all the way down: seeking an imaginative leap
+* 5. Reality as relational process: substance and process
+* 6. Reality as a causal web: a constructive postmodernism
+* 7. Unilateral power: power, value, and reality
+* 8. Relational power: so what?
+* 9. Creativity, freedom, and God: what makes freedom possible?
+** 
+* 10. Looking ahead: the future of process-relational thought
+* Appendix: Whitehead's language
+** [[file:Whitehead's_conceptual_vocabulary_for_process_philosophy.org][Whitehead's conceptual vocabulary for process philosophy]]
+* 

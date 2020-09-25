@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Why_you_should_walk_more_by_Kelly_Starrett_in_2020
+#+TITLE: Why you should walk more by Kelly Starrett in 2020
+#+roam_tags: exercise
+* [[file:Kelly_Starrett.org][Kelly Starrett]], [[file:mobility.org][mobility]]
+* https://web.archive.org/web/20200420033757/https://thereadystate.com/why-you-should-walk-more-according-to-kelly-starrett/
+* __Rucking doesn’t require fancy equipment or technique. You were literally born for this. I have been prescribing short bouts of walking to people experiencing back pain and persistent pain for as long as I’ve been a physiotherapist. Progressing those walks by making them longer and “heavier” actually follows every principle of loading progression that exists today. Our friends over at GORUCK even make cool packs and loadable plates. They have created incredible events where crazy people can go have an adventure with their friends while carrying a loaded backpack.__ — via [[https://thereadystate.com/why-you-should-walk-more-according-to-kelly-starrett/?utm_source=Newsletter&utm_medium=Email&utm_campaign=WalkMoreBlog][Why You Should Walk More * The Ready State]]

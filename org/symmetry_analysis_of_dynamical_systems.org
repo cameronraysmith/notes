@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: symmetry_analysis_of_dynamical_systems
+#+TITLE: symmetry analysis of dynamical systems
+* [[file:Symmetry_analysis_of_differential_equations_by_Gerd_Baumann_in_2000.org][Symmetry analysis of differential equations by Gerd Baumann in 2000]]
+* [[file:Introduction_to_symmetry_analysis_by_Brian_Cantwell_in_2002.org][Introduction to symmetry analysis by Brian Cantwell in 2002]]
+* 

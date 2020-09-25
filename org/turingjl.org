@@ -1,0 +1,13 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: turingjl
+#+TITLE: turing.jl
+* [[file:probabilistic_inference.org][probabilistic inference]], [[file:computation.org][computation]], [[file:julia.org][julia]], [[file:software_library.org][software library]]
+* tutorials
+** https://turing.ml/dev/tutorials/
+** tutorial on the beta-bernoulli model
+** tutorial on [[file:linear_models.org][linear models]]
+** tutorial on [[file:variational_inference.org][variational inference]]: https://turing.ml/dev/tutorials/9-variationalinference/
+*** By default, i.e. when calling `vi(m, advi)`, Turing uses a [[file:mean-field approximation.org][mean-field approximation]] with a multivariate normal as the base-distribution. Mean-field refers to the fact that we assume all the latent variables to be __independent__. This is the “standard” ADVI approach; see [[file:Automatic_Differentiation_Variational_Inference_by_Dustin_Tran,_Andrew_Gelman,_David_Blei_et_al_in_2016.org][Automatic Differentiation Variational Inference by Dustin Tran, Andrew Gelman, David Blei et al in 2016]] for more. In Turing, one can obtain such a [[file:mean-field_approximation.org][mean-field approximation]] by calling Variational.meanfield(model) for which there exists an internal implementation for update
+** 
+* [[file:Gaussian_process.org][Gaussian process]]
+** https://discourse.julialang.org/t/gaussian-process-model-with-turing/42453/13

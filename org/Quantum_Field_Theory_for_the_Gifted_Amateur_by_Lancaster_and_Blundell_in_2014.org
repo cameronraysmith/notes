@@ -1,0 +1,102 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Quantum_Field_Theory_for_the_Gifted_Amateur_by_Lancaster_and_Blundell_in_2014
+#+TITLE: Quantum Field Theory for the Gifted Amateur by Lancaster and Blundell in 2014
+* 0. Overture
+* I. The Universe as a set of harmonic oscillators
+** 1. Lagrangians
+** 2. Simple harmonic oscillators
+** 3. Occupation number representation
+** 4. Making second quantization work
+* II. Writing down Lagrangians
+** 5. Continuous systems
+** 6. A first stab at relativistic quantum mechanics
+** 7. Examples of Lagrangians, or how to write down a theory
+* III. The need for quantum fields
+** 8. The passage of time
+** 9. Quantum mechanical transformations
+** 10. Symmetry
+** 11. Canonical quantization of fields
+** 12. Examples of canonical quantization
+** 13. Fields with many components and massive electromagnetism
+** 14. Gauge fields and gauge theory
+** 15. Discrete transformations
+* IV. Propagators and perturbations
+** 16. Propagators and Green's functions
+** 17. Propagators and fields
+** 18. The S-matrix
+** 19. Expanding the S-matrix: Feynman diagrams
+** 20. Scattering theory
+* V. Interlude: wisdom from statistical physics
+** 21. Statistical physics: a crash course
+** 22. The generating functional for fields
+* VI. Path integrals
+* VII. Topological ideas
+* VIII. Renormalization:taming the infinite
+** 31. Renormalization, quasiparticles and the Fermi surface
+*** 31.1 Recap: interacting and non-interacting theories
+*** 31.2 Quasiparticles
+*** 31.3 The propagator for a dressed particle
+*** 31.4 Elementary quasiparticles in a metal
+*** 31.5 The Landau Fermi liquid
+** 32. Renormalization: the problem and its solution
+*** 32.1 The problem is divergences
+*** 32.2 The solution is counterterms
+*** 32.3 How to tame an integral
+*** 32.4 What counterterms mean
+*** 32.5 Making renormalization even simpler
+*** 32.6 Which theories are renormalizable?
+** 33. Renormalization in action: propagators and Feynman diagrams
+*** 33.1 How interactions change the propagator in perturbation theory
+*** 33.2 The role of counterterms: renormalization conditions
+*** 33.3 The vertex function
+** 34. The renormalization group
+*** 34.1 The problem
+*** 34.2 Flows in parameter space
+*** 34.3 The renormalization group method
+*** 34.4 Application 1: asymptotic freedom
+*** 34.5 Application 2: Anderson localization
+*** 34.6 Application 3: the Kosterlitz-Thouless transition
+** 35. Ferromagnetism: a renormalization group tutorial
+*** 35.1 Background: critical phenomena and scaling
+*** 35.2 The ferrogmagnetic transition and critical phenomena
+* IX. Putting a spin on QFT
+** 36. The Dirac equation
+*** 36.1 The Dirac equation
+*** 36.2 Massless particles: left* and right-handed wave functions
+*** 36.3 Dirac and Weyl [[file:spinors.org][spinors]]
+*** 36.4 Basis states for superpositions
+*** 36.5 The non-relativistic limit of the Dirac equation
+** 37. How to transform a spinor
+*** 37.1 [[file:spinors.org][spinors]] aren't vectors
+*** 37.2 Rotating [[file:spinors.org][spinors]]
+*** 37.3 Boosting [[file:spinors.org][spinors]]
+*** 37.4 Why are there four components in the Dirac equation?
+** 38. The quantum Dirac field
+*** 38.1 Canonical quantization and Noether current
+*** 38.2 The fermion propagator
+*** 38.3 Feynman rules and scattering
+*** 38.4 Local symmetry and aguage theory for fermions
+** 39. A rough guide to quantum electrodynamics
+*** 39.1 Quantum light and the photon propagator
+*** 39.2 Feynman rules and a first QED process
+*** 39.3 Gauge invariance in QED
+** 40. QED scattering: three famous cross-sections
+*** 40.1 Example 1: Rutherford scattering
+*** 40.2 Example 2: Spin sums and the Mott formula
+*** 40.3 Example 3: Compton scattering
+*** 40.4 Crossing symmetry
+** 41. The renormalization of QED and two great results
+*** 41.1 Renormalizing the photon propagator: dielectric vacuum
+*** 41.2 The renormalization group and the electric charge
+*** 41.3 Vertex corrections and the electron g-factor
+* X. Some applications from the world of condensed matter
+** 42. Superfluids
+** 43. The many-body problem and the metal
+** 44. Superconductors
+** 45. The fractional quantum Hall fluid
+* XI. Some applications from the world of particle physics
+** 46. Non-abelian gauge theory
+** 47. The Weinberg-Salam model
+** 48. Majorana fermions
+** 49. Magnetic monopoles
+** 50. Instantons, tunnelling and the end of the world

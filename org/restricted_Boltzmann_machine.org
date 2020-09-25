@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: restricted_Boltzmann_machine
+#+TITLE: restricted Boltzmann machine
+* https://github.com/echen/restricted-boltzmann-machines

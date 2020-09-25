@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: grand_unified_theories
+#+TITLE: grand unified theories
+* $$SU(5)$$, $$SO(10)$$ and $$E(6)$$

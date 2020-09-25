@@ -1,0 +1,10 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Decent_espresso
+#+TITLE: Decent espresso
+* [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2F-TL6heD8tc.png?alt=media&token=462a05c3-d99c-4e93-ac21-4e9d7de88f3b]]
+** DE1PRO rated to 200,000 shots $3200 + $250
+** 600 mL milk jug $35
+** Self-leveling v3 tamper $120 + $10
+* Videos
+** [[https://www.youtube.com/watch?v=vrhjtTy0G3Y][Decent DE1 Pro and Monolith MAX workflow]]
+** [[https://www.youtube.com/watch?v=HR2PxQVjVyI][Blooming Allonge Daily Espresso Preparation * Decent Espresso]]

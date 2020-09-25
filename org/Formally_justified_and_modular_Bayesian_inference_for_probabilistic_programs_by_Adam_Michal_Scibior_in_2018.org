@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Formally_justified_and_modular_Bayesian_inference_for_probabilistic_programs_by_Adam_Michal_Scibior_in_2018
+#+TITLE: Formally justified and modular Bayesian inference for probabilistic programs by Adam Michal Scibior in 2018

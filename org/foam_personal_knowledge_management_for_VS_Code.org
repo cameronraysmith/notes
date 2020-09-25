@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: foam_personal_knowledge_management_for_VS_Code
+#+TITLE: foam personal knowledge management for VS Code
+* https://foambubble.github.io/foam/

@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Jennifer_Hill
+#+TITLE: Jennifer Hill
+* [[file:probabilistic_inference.org][probabilistic inference]]

@@ -1,0 +1,33 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_Road_to_Reality_by_Roger_Penrose_in_2004
+#+TITLE: The Road to Reality by Roger Penrose in 2004
+* 13. Symmetry groups
+* 14. Calculus on manifolds
+* 15. Fibre bundles and gauge connections
+** 15.1 Some physical motivations for fibre bundles
+** 15.2 The mathematical idea of a bundle
+** 15.3 Cross-sections of bundles
+** 15.4 The Clifford bundle
+** 15.5 Complex vector bundles, (co)tangent bundles
+** 15.6 Projective spaces
+** 15.7 Non-triviality in a bundle connection
+** 15.8 Bundle curvature
+* 16. The ladder of infinity
+* 17. Spacetime
+* 18. Minkowskian geometry
+* 19. The classical fields of Maxwell and Einstein
+* 20. Lagrangians and Hamiltonians
+* 21. The quantum principle
+* 22. Quantum algebra, geometry, and spin
+* 23. The entangled quantum world
+* 24. Dirac's electron and antiparticles
+* 25. The standard model of particle physics
+* 26. Quantum field theory
+* 27. The big bang and its thermodynamic legacy
+* 28. Speculative theories of the early universe
+* 29. The measurement paradox
+* 30. Gravity's role in quantum state reduction
+* 31. Supersymmetry, supra-dimensionality, and strings
+* 32. Einstein's narrower path; loop variables
+* 33. More radical perspectives; twistor theory
+* 34. Where lies the road to reality

@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: logistic_sigmoid_function
+#+TITLE: logistic sigmoid function

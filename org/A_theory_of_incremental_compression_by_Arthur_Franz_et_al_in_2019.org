@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: A_theory_of_incremental_compression_by_Arthur_Franz_et_al_in_2019
+#+TITLE: A theory of incremental compression by Arthur Franz et al in 2019
+* [[file:papers.org][papers]], [[file:Marcus_Hutter.org][Marcus Hutter]], [[file:Solomonoff_induction.org][Solomonoff induction]], [[file:Arthur_Franz.org][Arthur Franz]]
+* [[https://www.youtube.com/watch?v=7PFDwh7q3Qs][Toward an efficient AIXI approximation given the properties of our universe (AGI conference 2019)]]

@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: molecular_pathology
+#+TITLE: molecular pathology
+- [[file:The_Molecular_Basis_of_Cancer_by_John_Mendelsohn_et_al_in_2014.org][The Molecular Basis of Cancer by John Mendelsohn et al in 2014]]

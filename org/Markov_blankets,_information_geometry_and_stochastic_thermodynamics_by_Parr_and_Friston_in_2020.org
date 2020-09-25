@@ -1,0 +1,15 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Markov_blankets,_information_geometry_and_stochastic_thermodynamics_by_Parr_and_Friston_in_2020
+#+TITLE: Markov blankets, information geometry and stochastic thermodynamics by Parr and Friston in 2020
+* Introduction
+* Markov blankets
+** Internal and external
+** Information geometry
+* Dynamics and inference
+** Non-equilibrium steady state
+** Bayesian mechanics
+* Stochastic thermodynamics
+** Path integrals and reversibility
+** Fluctuation theorems
+* Discussion
+* Conclusion

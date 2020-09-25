@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Dirichlet_process_mixture_model
+#+TITLE: Dirichlet process mixture model

@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: information_bottleneck_method
+#+TITLE: information bottleneck method
+* [[file:Naftali_Tishby.org][Naftali Tishby]] et al. (1999) for analyzing time series

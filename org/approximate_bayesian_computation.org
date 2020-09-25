@@ -1,0 +1,25 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: approximate_bayesian_computation
+#+TITLE: approximate bayesian computation
+* [[file:probabilistic_inference.org][probabilistic inference]], [[file:algorithms.org][algorithms]], [[file:probabilistic_programming.org][probabilistic programming]]
+* [[file:wikipedia.org][wikipedia]]
+
+In all model-based statistical inference, the likelihood function is of central importance, since it expresses the probability of the observed data under a particular statistical model, and thus quantifies the support data lend to particular values of parameters and to choices among different models. For simple models, an analytical formula for the likelihood function can typically be derived. However, for more complex models, an analytical formula might be elusive or the likelihood function might be computationally very costly to evaluate.
+
+ABC methods bypass the evaluation of the likelihood function. In this way, ABC methods widen the realm of models for which statistical inference can be considered. ABC methods are mathematically well-founded, but they inevitably make assumptions and approximations whose impact needs to be carefully assessed. Furthermore, the wider application domain of ABC exacerbates the challenges of parameter estimation and model selection.
+
+* questions
+** How does [[https://fehiepsi.github.io/rethinking-numpyro/16-generalized-linear-madness.html][[file:approximate_bayesian_computation.org][approximate bayesian computation]] compare to the Lotka-Volterra parameter inference in [Chapter 16. Generalized Linear Madness]] of [[file:Du_Phan's_implementation_of_Statistical_rethinking_in_pyro.org][Du Phan's implementation of Statistical rethinking in pyro]]? 
+** More generally, how does [[file:approximate_bayesian_computation.org][approximate bayesian computation]] compare to [[file:mean-field_approximation.org][mean-field approximation]], [[file:variational_inference.org][variational inference]]?
+* code
+** https://github.com/tanhevg/GpABC.jl [[file:julia.org][julia]]
+** https://github.com/icb-dcm/pyabc [[file:python.org][python]]
+** https://github.com/pyprob/pyprob [[file:python.org][python]]
+* papers
+** [[file:approximate_bayesian_computation_scheme_for_parameter_inference_and_model_selection_in_dynamical_systems_by_Tina_Toni,_Michael_P_H_Stumpf_et_al_in_2009.org][approximate bayesian computation scheme for parameter inference and model selection in dynamical systems by Tina Toni, Michael P. H. Stumpf et al in 2009]]
+** [[file:A_framework_for_parameter_estimation_and_model_selection_from_experimental_data_in_systems_biology_using_approximate_bayesian_computation_by_Juliane_Liepe,_Michael_P_H_Stumpf_et_al_in_2014.org][A framework for parameter estimation and model selection from experimental data in systems biology using approximate bayesian computation by Juliane Liepe, Michael P. H. Stumpf et al in 2014]]
+** [[file:A_Simulated_Annealing_Approach_to_Bayesian_Inference_by_Carlo_Albert_in_2018.org][A Simulated Annealing Approach to Bayesian Inference by Carlo Albert in 2018]]
+** [[file:GpABC_a_Julia_package_for_approximate_bayesian_computation_with_Gaussian_process_emulation_by_Evgeny_Tankhilevich,_Michael_P_H_Stumpf_et_al_in_2020.org][GpABC a Julia package for approximate bayesian computation with Gaussian process emulation by Evgeny Tankhilevich, Michael P. H. Stumpf et al in 2020]]
+** [[file:Efficient_exact_inference_for_dynamical_systems_with_noisy_measurements_using_sequential_approximate_bayesian_computation_by_Yannik_Schalte_and_Jan_Hasenauer_in_2020.org][Efficient exact inference for dynamical systems with noisy measurements using sequential approximate bayesian computation by Yannik Schalte and Jan Hasenauer in 2020]]
+** [[file:Statistical_inference_for_stochastic_simulation_models_-_theory_and_application_by_Florian_Hartig,_Andreas_Huth,_et_al_in_2011.org][Statistical inference for stochastic simulation models theory and application by Florian Hartig, Andreas Huth, et al in 2011]]
+** [[file:Efficient_probabilistic_inference_in_the_quest_for_physics_beyond_the_Standard_Model_by_Atilim_Baydin,_Frank_Wood_et_al_in_2019.org][Efficient probabilistic inference in the quest for physics beyond the Standard Model by Atilim Baydin, Frank Wood et al in 2019]]

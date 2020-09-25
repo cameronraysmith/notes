@@ -1,0 +1,93 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Quantum_field_theory_for_economics_and_finance_by_Belal_Baaquie_in_2018
+#+TITLE: Quantum field theory for economics and finance by Belal Baaquie in 2018
+* Author
+** Belal Baaquie was a student of Ken Wilson. As such, his description of renormalization methods may be of particular interest.
+** "Any probability distribution which obeys a condition on correlation functions called reflection positivity leads to a local quantum field theory after Wick rotation to Minkowski spacetime. The operation of renormalization is a specified set of mappings from the space of probability distributions to itself. A quantum field theory is called renormalizable if this mapping has a fixed point which gives a quantum field theory."
+*** https://diigo.com/0gzv7u
+* 1. Synopsis
+** Underlying template
+*** application of the concepts of quantum field theory to the description of **indeterminate and random phenomena**, be they **classical** or quantum in origin.
+** A general view of applications of tools from physics: quantum mathematics
+*** Quantum mathematics refers to the system of mathematical concepts that arise in quantum systems – with some of the leading concepts being that of quantum fields, vacuum expectation values, Hamiltonians, state spaces, operators, correlation func* tions, Feynman path integrals and Lagrangians.1 The interpretation of quantum mathematics, in general, does not have any relation to physics and, instead, needs to reflect the specificity of the domain of inquiry to which quantum mathematics is being applied.
+** 1.1 Organization of the book
+*** Chapters 2, 3, 7, 8, 9, and 14-17 cover the primary material from physics independent of the relevant economics and finance material
+**** 2) Quantum mechanics
+**** 3) Classical field theory
+**** 7) Scalar fields
+**** 8) Spinor fields
+**** 9) Photon fields
+**** 14) Nonlinear scalar fields
+**** 15) Renormalization
+**** 16) $$\beta$$-function
+**** 17) Renormalization group
+** 1.2 What is a quantum field
+* Part I: Introduction
+** **2. Quantum mechanics**
+*** 2.1 Introduction
+**** all applications to economics and finance considered in this book are based on the view that stochastic and random phenomena in economics and finance are described by __classical probability theory__; quantum mathematics is employed solely as a powerful computational tool for addressing these problems.
+**** 
+*** 2.2 Quantum principles
+**** all physical systems are constituted by degrees of freedom that are fundamentally indeterminate.
+*** 2.3 Theory of measurement
+*** 2.4 Dirac delta function
+*** 2.5 Schrodinger and Heisenberg formalism
+*** 2.6 Feynman path integral
+*** 2.7 Hamiltonian and path integral
+*** 2.8 Hamiltonian from Lagrangian
+*** 2.9 Summary
+*** Appendices
+**** 2.10 Diract bracket and vector notation
+**** 2.11 Gaussian integration
+***** 2.11.1 Quadratic action
+***** 2.11.2 Gaussian white noise
+** **3. Classical field theory**
+** 4. Acceleration action
+** 5. Option theory
+** 6. Path integral of asset prices
+* Part II: Linear quantum fields
+** **7. Scalar quantum field**
+** **8. Dirac spinor field**
+** **9. Photon gauge field**
+** 10. Forward interest rates quantum field
+** 11. Risky interest rates quantum fields
+** 12. Bonds: index-linked stochastic coupons
+* Part III: Nonlinear quantum fields
+** 13. Operator expectation and S matrix
+** **14. Nonlinear scalar field: Feynman diagrams**
+** **15. Renormalization**
+*** 15.1 Introduction
+*** 15.2 Renormalization schemes
+*** 15.3 Bare perturbation theory
+*** 15.4 Mass and field renormalization
+*** 15.5 Minimal subtraction
+*** 15.6 Coupling constant renormalization
+**** 15.6.1 Renormalized massless four-point
+*** 15.7 Change of scale $$\mu$$
+*** 15.8 $$O(N)$$ symmetric scalar field
+*** 15.9 Renormalization constants of $$\phi^4$$ theory
+*** 15.10 Renormalized perturbation theory
+*** 15.11 Momentum cutoff regularization
+*** 15.12 Background field method
+*** 15.13 Wilson renormalization
+*** 15.14 Thinning of degrees of freedom
+**** 15.14.1 What is a quantum field? Revisited
+***** Wilson and Kogut 1974; Wilson 1983
+***** A quantum field theory prior to having defined a cutoff must be obtained as the limit of a theory with a cutoff. This is independent of perturbation theory [Wilson and Kogut 1974].
+***** A quantum field is understood to consist of infinitely many degrees of freedom organized in a connected sequence of changing length scales. The nonlinear terms in the action couple all the momentum scales. There is no characteristic scale that can be singled out thereby allowing for the neglect of or treatment of the other scales as perturbations [Wislon 1983].
+***** Action with cutoff $$\Lambda$$ describes correlation functions at scale $$\Lambda$$. The breaking of scale invariance is essential in defining the renormalized theory.
+***** All the divergences of quantum fields are rendered finite by comparing two nearby scales
+****** renormalization constants arise from describing correlation functions at scale $$b \Lambda$$ in terms of coupling constants at scale $$\Lambda$$
+*** 15.15 Renormalizability to all orders
+**** 15.15.1 $$\phi^3$$: super-renormalizable in $$d=4$$
+*** 15.16 Superficial degree of divergence
+*** 15.17 Summary
+** **16.** $$\beta$$**-function; fixed points**
+** **17. Renormalization group and phase transitions**
+** 18. Effective action
+** 19. Nonlinear interest rates quantum field
+** 20. Simulation of nonlinear interest rates
+** 21. Interest rate range accrual swap
+* Part IV: Two-dimensional quantum fields
+** 22. Two-dimensional quantum electrodynamics
+** 23. Bosonic string theory

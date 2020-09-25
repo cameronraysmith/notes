@@ -1,0 +1,15 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Exact_solution_of_a_two-type_branching_process_clone_size_distribution_in_cell_division_kinetics_by_Antal_and_Krapivsky_in_2010
+#+TITLE: Exact solution of a two-type branching process clone size distribution in cell division kinetics by Antal and Krapivsky in 2010
+* 1. Introduction
+* 2. Model
+* 3. Generating function
+* 4. Elementary solutions
+* 5. Explicit results at a special point
+* 6. General results
+* 7. Scaling limit
+* 8. Fokker-Planck approximation
+* 9. Discussion
+* A. Special cases
+** A.1 Horizontal line r=1/4
+** A.2 Special curve gamma = 2r/(1-2r)

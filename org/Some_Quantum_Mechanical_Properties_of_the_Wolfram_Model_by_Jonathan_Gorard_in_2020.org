@@ -1,0 +1,16 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Some_Quantum_Mechanical_Properties_of_the_Wolfram_Model_by_Jonathan_Gorard_in_2020
+#+TITLE: Some Quantum Mechanical Properties of the Wolfram Model by Jonathan Gorard in 2020
+* [[file:digital_physics.org][digital physics]], [[file:theoretical_physics.org][theoretical physics]], [[file:physics.org][physics]], [[file:quantum_mechanics.org][quantum mechanics]]
+* 1. Introduction
+* 2. Operators, observables, and the uncertainty principle
+** 2.1 A brief recap: abstract term rewriting, the Church-Rosser property and causal invariance
+** 2.2 Multiway evolution and Knuth-Bendix completion
+** 2.3 Wave function collapse and the uncertainty principle
+** 2.4 Some mathematical and computational considerations
+* 3. Branchlike foliations and multiway relativity
+** 3.1 Branchial geometry and multiway invariance
+** 3.2 Complex projective Hilbert space and multiway relativity
+** 3.3 Interpretations of multiway invariance and the multiway causal graph
+** 3.4 Bell's theorem, particles and consequences of multiway relativity
+* 4. Concluding remarks

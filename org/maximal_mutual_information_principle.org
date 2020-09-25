@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: maximal_mutual_information_principle
+#+TITLE: maximal mutual information principle
+* [[file:mutual_information.org][mutual information]]

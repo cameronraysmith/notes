@@ -1,0 +1,20 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: variational_inference
+#+TITLE: variational inference
+* [[file:probabilistic_inference.org][probabilistic inference]], [[file:algorithms.org][algorithms]]
+* relationship to the [[file:free_energy_principle.org][free energy principle]]
+** "At the core of the background necessary to understand the [[file:free_energy_principle.org][free energy principle]] is the relationship between free energy as it is used in [[file:statistical_physics.org][statistical physics]] versus its use in [[file:probabilistic_inference.org][probabilistic inference]] which is encapsulated in the notion of [[file:variational_inference.org][variational inference]]. The best explanation I know of this relationship is in the formulation of Gibbs free energy via a variational principle in [[file:Information,_physics,_and_computation_by_Marc_Mezard_and_Andrea_Montanari_in_2009.org][Information, physics, and computation by Marc Mezard and Andrea Montanari in 2009]]."
+* books
+** see "10. Approximate inference" in [[file:Pattern_recognition_and_machine_learning_by_Chris_Bishop_in_2006.org][Pattern recognition and machine learning by Chris Bishop in 2006]]
+* papers
+** [[file:The_Helmholtz_Machine_by_Peter_Dayan,_Geoffrey_Hinton,_Radford_Neal,_and_Richard_Zemel_in_1995.org][The Helmholtz Machine by Peter Dayan, Geoffrey Hinton, Radford Neal, and Richard Zemel in 1995]]
+** [[file:Information,_physics,_and_computation_by_Marc_Mezard_and_Andrea_Montanari_in_2009.org][Information, physics, and computation by Marc Mezard and Andrea Montanari in 2009]]
+** [[file:Automatic_Differentiation_Variational_Inference_by_Dustin_Tran,_Andrew_Gelman,_David_Blei_et_al_in_2016.org][Automatic Differentiation Variational Inference by Dustin Tran, Andrew Gelman, David Blei et al in 2016]]
+** [[file:Variational_inference_a_review_for_statisticians_by_David_Blei_et_al_in_2017.org][Variational inference a review for statisticians by David Blei et al in 2017]]
+** [[file:A_free_energy_principle_for_a_particular_physics_by_Karl_Friston_in_2019.org][A free energy principle for a particular physics by Karl Friston in 2019]]
+* software
+** [[file:pyro.org][pyro]] including [[file:Du_Phan's_implementation_of_Statistical_rethinking_in_pyro.org][Du Phan's implementation of Statistical rethinking in pyro]]
+* [[file:lectures.org][lectures]]
+** [[file:Russ_Salakhutdinov's_lectures_on_Large_Scale_Machine_Learning.org][Russ Salakhutdinov's lectures on Large Scale Machine Learning]]
+** [[file:Variational_inference_by_Chieh_Wu_in_2015.org][Variational inference by Chieh Wu in 2015]]
+**  [[https://www.youtube.com/watch?v=3KGZDC3-_iY&t=197s][Austin Rochford | Variational Inference in Python]]

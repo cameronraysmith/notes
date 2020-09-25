@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: making_presentations_in_org_mode
+#+latex_header: \input{../header.tex}
+#+title: Making presentations in org-mode
+#+roam_tags: org-mode
+
+- [[https://orgmode.org/worg/org-tutorials/non-beamer-presentations.html][Writing Non-Beamer presentations in org-mode]]

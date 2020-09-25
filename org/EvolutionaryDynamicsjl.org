@@ -1,0 +1,13 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: EvolutionaryDynamicsjl
+#+TITLE: EvolutionaryDynamics.jl
+* [[file:software_library.org][software library]], [[file:julia.org][julia]], [[file:evolutionary_timescale.org][evolutionary timescale]]
+* objective
+** Analyze and simulate models of [[file:evolution_in_fluctuating_environments.org][evolution in fluctuating environments]] in [[file:julia.org][julia]]
+* progress
+** created git repository <2020-09-11 Fri>
+* todo
+** add data sets from [[file:The_evolutionary_dynamics_and_fitness_landscape_of_clonal_hematopoiesis_by_Caroline_Watson,_Daniel_Fisher,_Jamie_Blundell,_et_al_in_2020.org][The evolutionary dynamics and fitness landscape of clonal hematopoiesis by Caroline Watson, Daniel Fisher, Jamie Blundell, et al in 2020]] paper in HDF5 format
+** create simple models
+** convert https://github.com/caravagn/evoverse.datasets to https://github.com/JuliaIO/HDF5.jl using https://github.com/JuliaData/RData.jl
+* 

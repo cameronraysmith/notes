@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: DPMM-GP_model
+#+TITLE: DPMM-GP model
+* a synthesis of the [[file:Dirichlet_process_mixture_model.org][Dirichlet process mixture model]] with the [[file:Gaussian_process.org][Gaussian process]] for clustering time series
+* application to [[file:gene_panel.org][gene panel]] data
+** [[file:A_statistical_approach_for_tracking_clonal_dynamics_in_cancer_using_longitudinal_next-generation_sequencing_data_by_Dimitrios_Vavoulis_et_al_in_2020.org][A statistical approach for tracking clonal dynamics in cancer using longitudinal next-generation sequencing data by Dimitrios Vavoulis et al in 2020]].

@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Population_Genetics_and_Evolution_by_Joachim_Krug_in_2018
+#+TITLE: Population Genetics and Evolution by Joachim Krug in 2018

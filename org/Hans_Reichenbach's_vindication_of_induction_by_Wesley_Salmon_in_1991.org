@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Hans_Reichenbach's_vindication_of_induction_by_Wesley_Salmon_in_1991
+#+TITLE: Hans Reichenbach's vindication of induction by Wesley Salmon in 1991
+* Heard about the notion of vindication of induction in [[file:Bayesian_informal_logic_and_fallacy_by_Kevin_Korb_in_2003.org][Bayesian informal logic and fallacy by Kevin Korb in 2003]]
+* "Over time and place, the reasons Reichenbach gives for convergence of frequency estimates to a limiting value vary, including 1) his early view that convergence is synthetic a priori, or that 2) the principle of induction expresses a kind of psychological habit, 3) the semantic argument we quoted above in Section 2.2 that the negation of the principle of induction is meaningless, 4) a pragmatic vindication that induction using the straight rule works if any method of induction works, 5) a convergence argument based on higher order probabilities, or 6) that there is no guarantee, merely “posits.”"
+** https://diigo.com/0hl8nj

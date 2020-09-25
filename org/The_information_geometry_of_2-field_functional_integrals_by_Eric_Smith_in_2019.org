@@ -1,0 +1,52 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_information_geometry_of_2-field_functional_integrals_by_Eric_Smith_in_2019
+#+TITLE: The information geometry of 2-field functional integrals by Eric Smith in 2019
+* [[file:probabilistic_inference.org][probabilistic inference]], [[file:path_integral.org][path integral]], [[file:quantum_field_theory.org][quantum field theory]], [[file:stochastic_processes.org][stochastic processes]], [[file:statistical_physics.org][statistical physics]], [[file:physics.org][physics]], [[file:papers.org][papers]], [[file:information_geometry.org][information geometry]]
+* [[https://arxiv.org/pdf/1906.09312.pdf][pdf on arXiv]]
+* outline
+** I. Understanding the Liouville Theorems that emerge in 2-field functional integrals for dissipative systems
+** II. The dual geometry from cumulant-generating functions for counts on integer lattices
+*** A. The exponential families from generating functions for species counts
+*** B. The Fisher metric on the exponential family of tilted distributions
+**** 1. The variance as local metric, and the Fisher distance element introduced
+**** 2. Coordinate dualization, Legendre transform, and the Large-Deviation function
+**** 3. Exponential families on multinomial distributions
+*** C. The base and the tilt: inner products between vector fields describing two sources of variation
+*** D. Preservation of the inner product in connection with Liouville's theorem
+** II. Finite-system models as sample estimators; the Large-deviation function, and importance sampling
+*** A. States as samples; system scaling and sample aggregation
+*** B. Legendre transform and large deviations in the interpretation of importance sampling
+** IV. Doi-Peliti 2-field functional integrals, and dual mappings induced by time translation
+*** A. Time evolution of moment* and cumulant-generating functions
+*** B. The 2FFI representation of the identity on distributions
+**** 1. Coherent states and the Peliti construction of the functional integral
+**** 2. The Peliti functional integral as a statistical model
+*** C. Stationary paths of the 2-field action functional
+*** D. Canonical transformations of the field variables of integration
+**** 1. An action-angle transform from coherent-state variables to number-potential variables
+**** 2. Descaling with respect to the instantaneous steady-state mean number
+**** 3. Time-translation along stationary paths
+** V. The Liouville theorem connecting dynamics to inference induced by 2-field stationary trajectories
+*** A. The Wigner function from the 2-field identity operator plays the role of a phase-space density
+*** B. The Fisher metric and cubic tensor in dual canonical coordinates
+*** C. The dual vector fields induced by base-distribution initial conditions and final-time tilts
+**** 1. The conserved inner product of dual vector fields, and directional transport of the metric
+*** D. Dual connections respecting the symplectic structure of canonical transformations in the 2-field system
+**** 1. Conservation of the inner product through the combined effects of two maps
+**** 2. Referencing arbitrary dual connections to dually flat connections in the exponential family
+**** 3. Flat connections for coherent-state coordinates
+*** E. On the roles of coherent-state versus number-potential coordinates in the Doi-Peliti representation
+** VI. A worked example: The 2-state linear system
+*** A. Two-argument and one-argument generating functions on distributions with a conserved quantity
+*** B. Generator and conserved volume element in coherent-state coordinates
+**** 1. Splitting the symplectic structure between coherent-state conjugate field pairs
+**** 2. Stationary-path solutions and Liouville volume element
+**** 3. Invariant cumulant-generating function and the incompressible phase-space density
+*** C. Fisher metric
+*** D. Dual coordinates for base and tilt, and the additive exponential family
+*** E. Why coherent-state fields do not generally produce invertible coordinate transformations
+*** F. Flat transport in the coherent-state connection
+**** 1. Connection coefficients and absorption of measure terms
+**** 2. Duality of dynamics and inference in Doi-Peliti theory
+*** G. The Fisher information density and large-deviation ratios as sample estimators
+** VII. Conclusions: the duality of dynamics and inference for irreversible and reversible processes

@@ -1,0 +1,11 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: invariant_measures_of_random_dynamical_systems_as_analogs_to_attractors_in_deterministic_dynamical_systems
+#+TITLE: invariant measures of random dynamical systems as analogs to attractors in deterministic dynamical systems
+* [[file:random_dynamical_systems.org][random dynamical systems]], [[file:dynamical_systems.org][dynamical systems]], [[file:stochastic_processes.org][stochastic processes]], [[file:applications_of_stochastic_processes.org][applications of stochastic processes]]
+* [[file:references.org][references]]
+** Mendler, M., Falk, J., & Drossel, B. (2018). Analysis of stochastic bifurcations with phase portraits. __PLOS ONE__, __13__(4), e0196126. https://doi.org/10.1371/journal.pone.0196126
+** Mendler, M., & Drossel, B. (2020). Predicting properties of the stationary probability currents for two-species reaction systems without solving the Fokker-Planck equation. Retrieved from http://arxiv.org/abs/2004.03966
+*** Reminds me of [[file:Large_deviations_and_dynamical_phase_transitions_in_stochastic_chemical_networks_by_Lazarescu_and_Esposito_in_2019.org][Large deviations and dynamical phase transitions in stochastic chemical networks by Lazarescu and Esposito in 2019]]
+** Becker, L., Mendler, M., & Drossel, B. (2020). Relation between the convective field and the stationary probability distribution of chemical reaction networks. __New Journal of Physics__, __22__(3). https://doi.org/10.1088/1367-2630/ab73c6
+** A paper on gene regulatory network dynamics that cites the above papers from Mendler and Drossel
+*** Lee, J., & Lee, J. (2018). Quantitative analysis of a transient dynamics of a gene regulatory network. __Physical Review E__, __98__(6), 1–19. https://doi.org/10.1103/PhysRevE.98.062404

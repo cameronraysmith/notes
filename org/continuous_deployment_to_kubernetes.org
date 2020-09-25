@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: continuous_deployment_to_kubernetes
+#+TITLE: continuous deployment to kubernetes
+* [[file:cloud_computing.org][cloud computing]], [[file:web_development.org][web development]]
+* [[https://codelabs.developers.google.com/codelabs/cloud-builder-gke-continuous-deploy/index.html][Achieve continuous deployment to Google Kubernetes Engine (GKE) with Cloud Build]]

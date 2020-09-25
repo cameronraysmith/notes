@@ -1,0 +1,11 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: marginal_observations
+#+TITLE: marginal observations
+* keywords:  [[file:research.org][research]]
+goals: 
+due date:: <2020-06-12 Fri>
+* marginal observations of arbitrary [[file:stochastic_processes.org][stochastic processes]]
+** [[file:Effective_fluctuation_and_response_theory_by_Polettini_and_Esposito_in_2018.org][Effective fluctuation and response theory by Polettini and Esposito in 2018]]
+* marginal observations of biochemical systems
+** Altaner, B., & Vollmer, J. (2012). Fluctuation-Preserving Coarse Graining for Biochemical Systems. __Physical Review Letters__, __108__(22), 228101. https://doi.org/10.1103/PhysRevLett.108.228101
+** Bravi, B., & Sollich, P. (2017). Statistical physics approaches to subnetwork dynamics in biochemical systems. __Physical Biology__, __14__(4), 045010. https://doi.org/10.1088/1478-3975/aa7363

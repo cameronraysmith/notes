@@ -1,0 +1,17 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Structural_stability_and_morphogenesis_by_Rene_Thom_in_1972
+#+TITLE: Structural stability and morphogenesis by Rene Thom in 1972
+* 1. Introduction
+* 2. Form and [[file:structural_stability.org][structural stability]]
+* 3. [[file:structural_stability.org][structural stability]] in mathematics
+* 4. Kinematic of forms; Catastrophes
+* 5. Elementary catastrophes on $$\mathbb{R}^4$$ associated with conflicts of regimes
+* 6. General morphology
+* 7. The dynamic of forms
+* 8. Biology and topology
+* 9. Local models in embryology
+* 10. Global models for a living being (metazoa)
+* 11. Models in ultrastructure
+* 12. The basic problems of biology
+* 13. From animal to man: thought and language
+* 

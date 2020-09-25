@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: fcs_file_format
+#+TITLE: fcs file format

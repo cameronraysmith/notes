@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: George_Box
+#+TITLE: George Box
+* [[file:probabilistic_inference.org][probabilistic inference]], [[file:model_construction.org][model construction]], [[file:statistics.org][statistics]]
+* references
+** https://en.wikipedia.org/wiki/George_E._P._Box
+* lectures
+** [[https://www.youtube.com/watch?v=tQaq9XEcgyw][George Box * Rethinking Statistics for Quality Control]]

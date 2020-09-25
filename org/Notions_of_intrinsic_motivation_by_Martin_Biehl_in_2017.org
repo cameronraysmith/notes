@@ -1,0 +1,15 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Notions_of_intrinsic_motivation_by_Martin_Biehl_in_2017
+#+TITLE: Notions of intrinsic motivation by Martin Biehl in 2017
+* [[file:intrinsic_motivation.org][intrinsic motivation]], [[file:lectures.org][lectures]], [[file:Martin_Biehl.org][Martin Biehl]]
+* [[https://www.youtube.com/watch?v=Op24sHWm008&t=68s][Notions of intrinsic motivation]]
+* This talk can be viewed as a companion to [[file:Expanding_the_Active_Inference_Landscape_More_Intrinsic_Motivations_in_the_Perception-Action_Loop_by_Martin_Biehl,_Daniel_Polani,_et_al_in_2018.org][Expanding the Active Inference Landscape More Intrinsic Motivations in the Perception-Action Loop by Martin Biehl, Daniel Polani, et al in 2018]]
+* @11:00 oudeyer and Kaplan 2008, berlyne 1965, schmidhuber 2010
+** "Computational approaches to intrinsic motivations (Oudeyer and Kaplan, 2009; Schmidhuber, 2010; Santucci et al., 2013) can be categorized roughly by the psychological motivations they are imitating, e.g., drives to manipulate and explore, the reduction of cognitive dissonance, the achievement of optimal incongruity, and finally motivations for effectance, personal causation, competence and self-determination."
+* @27:17 Examples
+** compression progress
+** information gain
+** [[file:free_energy_principle.org][free energy principle]] of [[file:Karl_Friston.org][Karl Friston]]
+** [[file:empowerment_maximization.org][empowerment maximization]] of [[file:Daniel_Polani.org][Daniel Polani]]
+** [[file:predictive_information_maximization.org][predictive information maximization]] of [[file:Naftali_Tishby.org][Naftali Tishby]] and [[file:William_Bialek.org][William Bialek]]
+* 

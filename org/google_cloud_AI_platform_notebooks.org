@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: google_cloud_AI_platform_notebooks
+#+TITLE: google cloud AI platform notebooks
+* https://gist.github.com/michaelwsherman/4faa4a4b8aad41ea1931dcf9b18d569b
+** https://medium.com/google-cloud/using-google-cloud-ai-platform-notebooks-as-a-web-based-python-ide-e729e0dc6eed

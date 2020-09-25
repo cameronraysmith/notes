@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_cellular_automaton_interpretation_of_quantum_mechanics_by_Gerard_'t_Hooft_in_2014
+#+TITLE: The cellular automaton interpretation of quantum mechanics by Gerard 't Hooft in 2014
+* [[file:physics.org][physics]], [[file:digital_physics.org][digital physics]], [[file:computation.org][computation]]
+* 

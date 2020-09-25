@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Splatter_simulation_of_single-cell_RNA_sequencing_data_by_Luke_Zappia,_Belinda_Phipson,_and_Alicia_Oshlack
+#+TITLE: Splatter simulation of single-cell RNA sequencing data by Luke Zappia, Belinda Phipson, and Alicia Oshlack
+* [[file:papers.org][papers]]
+* 

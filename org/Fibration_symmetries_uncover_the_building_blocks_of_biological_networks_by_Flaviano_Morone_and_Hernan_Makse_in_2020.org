@@ -1,0 +1,25 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Fibration_symmetries_uncover_the_building_blocks_of_biological_networks_by_Flaviano_Morone_and_Hernan_Makse_in_2020
+#+TITLE: Fibration symmetries uncover the building blocks of biological networks by Flaviano Morone and Hernan Makse in 2020
+* [[file:systems_biology.org][systems biology]], [[file:papers.org][papers]]
+* I. Results
+** A. Input tree representation 
+** B. Symmetry fibration of a network
+** C. Symmetry fibration leads to synchronization
+** D. Strongly connected components of the E. coli network E. Fiber building blocks
+** F. Fibonacci fibers
+** G. Multi-layer composite fibers 10
+** H. Fibration landscape across biological networks, species and system domains 
+** I. Gene co-expression and synchronization via symmetry fibration
+* II. Discussion
+* III. transcriptional regulatory network of __E. coli__
+* IV. Symmetry fibrations
+** A. Input tree
+** B. Isomorphic input trees
+** C. From fibrations to symmetry fibrations via isomorphic input trees and minimal bases
+* V. Algorithm to find fibers with minimal balance coloring
+* VI. Strongly connected component
+* VII. Statistics of fibers in the TRN of __E. coli__
+** A. Fibers statistics in __E. coli__
+** B. Full list of fibers in __E. coli__
+* VIII. Datasets of biological and non-biological networks

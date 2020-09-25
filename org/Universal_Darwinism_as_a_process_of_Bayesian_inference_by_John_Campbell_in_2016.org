@@ -1,0 +1,9 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Universal_Darwinism_as_a_process_of_Bayesian_inference_by_John_Campbell_in_2016
+#+TITLE: Universal Darwinism as a process of Bayesian inference by John Campbell in 2016
+* [[file:probabilistic_inference.org][probabilistic inference]], [[file:mathematical_models_of_evolution.org][mathematical models of evolution]], [[file:evolutionary_timescale.org][evolutionary timescale]], [[file:free_energy_principle.org][free energy principle]], [[file:Bayesian_brain_hypothesis.org][Bayesian brain hypothesis]], [[file:intrinsic_motivation.org][intrinsic motivation]]
+* 2. Information and Bayesian inference
+* 3. Free energy minimization principle
+* 4. The arena of Bayesian inference
+* 5. Universal Darwinism
+* 

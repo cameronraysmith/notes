@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: the_roadmap_for_web_development
+#+TITLE: the roadmap for web development
+* [[file:computation.org][computation]], [[file:cloud_computing.org][cloud computing]], [[file:web_development.org][web development]]
+* [[https://github.com/kamranahmedse/developer-roadmap][kamranahmedse/developer-roadmap: Roadmap to becoming a web developer in 2020]]
+* [[https://www.youtube.com/channel/UCA0H2KIWgWTwpTFjSxp0now/videos][the roadmap]]

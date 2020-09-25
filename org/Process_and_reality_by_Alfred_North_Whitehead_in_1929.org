@@ -1,0 +1,12 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Process_and_reality_by_Alfred_North_Whitehead_in_1929
+#+TITLE: Process and reality by Alfred North Whitehead in 1929
+* I. The Speculative Scheme
+** 1. Speculative philosophy
+*** 1.1 speculative philosophy; coherent logical necessary system of ideas; interpretation of experience
+*** 1.2 defects of insight and of language; conditions for observation; rigid empiricism, imagination, generalization; coherence and incoherence; creativity, the ultimate 
+*** 1.3 rationalism and dogmatism; scheme as a matrix, false and true propositions, use of the matrix; experimental adventure
+*** 1.4 philosophy and science, grades of generality; dogmatic influence of mathematics; progress of philosophy
+*** 1.5 defects of language; propositions and their background; metaphysical presupposition; excessive trust in language; metaphysics and practice; metaphysics and linguistic expression
+*** 1.6 speculative philosophy and over ambition; over ambition, dogmatism and progress; interpretation and metaphysics; The higher elements of experience, subjectivity and the metaphysical correction; morality, religion, science, connected by philosophy; contrast between religion and science; conclusion
+** 

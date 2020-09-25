@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: kalman_filters
+#+TITLE: kalman filters
+* [[file:probabilistic_inference.org][probabilistic inference]], [[file:time_series.org][time series]]
+* What is the relationship among the multivariate Gaussian convolution model, linear dynamical systems (in the sense that they are referred to in the [[file:probabilistic_inference.org][probabilistic inference]] literature), [[file:hidden_markov_models.org][hidden markov models]], [[file:kalman_filters.org][kalman filters]]
+* [[file:metacademy.org][metacademy]]
+** [[https://metacademy.org/graphs/concepts/kalman_as_forward_backward#focus=u74hkbbl&mode=explore][Kalman smoothing as forward backward algorithm]]
+** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FRZs6n6FQka.png?alt=media&token=cb7d1b4b-ae27-4b26-895d-5faf2764d37b]]

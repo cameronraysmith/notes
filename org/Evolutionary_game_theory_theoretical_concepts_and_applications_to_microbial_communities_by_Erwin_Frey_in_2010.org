@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Evolutionary_game_theory_theoretical_concepts_and_applications_to_microbial_communities_by_Erwin_Frey_in_2010
+#+TITLE: Evolutionary game theory theoretical concepts and applications to microbial communities by Erwin Frey in 2010
+* [[file:population_dynamics.org][population dynamics]], [[file:evolutionary_timescale.org][evolutionary timescale]], [[file:papers.org][papers]], [[file:Erwin_Frey.org][Erwin Frey]]
+* citation
+* contents
+** 

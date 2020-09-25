@@ -1,0 +1,312 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Pattern_recognition_and_machine_learning_by_Chris_Bishop_in_2006
+#+TITLE: Pattern recognition and machine learning by Chris Bishop in 2006
+* "__This is the first textbook on pattern recognition to present the Bayesian viewpoint. The book presents approximate inference algorithms that permit fast approximate answers in situations where exact answers are not feasible. It uses graphical models to describe probability distributions when no other books apply graphical models to machine learning.__ — via [[https://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738/][Pattern Recognition and Machine Learning (Information Science and Statistics): Bishop, Christopher M.: 9780387310732: Amazon.com: Books]] brought back to my attention via https://bloomberg.github.io/foml/#lectures "
+* "Found another source pointing to [[https://discourse.pymc.io/t/machine-learning-textbook-with-a-bayesian-perceptive/68][[file:Pattern_recognition_and_machine_learning_by_Chris_Bishop_in_2006.org][Pattern recognition and machine learning by Chris Bishop in 2006]] on the [pymc3 discourse]]"
+* [[file:books.org][books]], [[file:probabilistic_inference.org][probabilistic inference]]
+* 1. Introduction
+** 1.1 Example polynomial curve fitting
+*** maximum likelihood
+*** shrinkage methods
+**** [[https://en.wikipedia.org/wiki/Tikhonov_regularization) / ridge regression (Hoerl and Kennard, 1970][Tikhonov regularization]] and weight decay
+***** $$\tilde{E}(w) = \frac{1}{2} \sum_{n=1}^{N} \{ y(x_n, \mathbf{w}) * t_n \}^2 + \frac{\lambda}{2} || \mathbf{w} ||^2$$
+** 1.2 Probability theory
+*** 1.2.1 Probability densities
+*** 1.2.2 Expectations and covariances
+*** 1.2.3 Bayesian probabilities
+**** Consider an uncertain event, for example whether the moon was once in its own orbit around the sun, or whether the Arctic ice cap will have disappeared by the end of the century. These are not events that can be repeated numerous times in order to define a notion of probability as we did earlier in the context of boxes of fruit. Nevertheless, we will generally have some idea, for example, of how quickly we think the polar ice is melting.
+**** we would like to be able to quantify our expression of uncertainty and make precise revisions of uncertainty in the light of new evidence, as well as subsequently to be able to take optimal actions or decisions as a consequence
+**** candidate axiomatizations of probability
+***** Ramsey, F. (1931). Truth and probability. In R. Braithwaite (Ed.), The Foundations of Mathematics and other Logical Essays. Humanities Press.
+***** Cox, R. T. (1946). Probability, frequency and reasonable expectation. American Journal of Physics 14(1), 1–13.
+***** Good, I. (1950). Probability and the Weighing of Evidence. Hafners.
+***** Savage, L. J. (1961). The subjective basis of statistical practice. Technical report, Department of Statistics, University of Michigan, Ann Arbor.
+***** deFinetti, B. (1970). Theory of Probability. Wiley and Sons.
+***** Lindley, D. V. (1982). Scoring rules and the inevitability of probability. International Statistical Review 50, 1–26.
+***** Jaynes, E. T. (2003). Probability Theory: The Logic of Science. Cambridge University Press.
+*** 1.2.4 The Gaussian distribution
+*** 1.2.5 Curve fitting re-visited
+*** 1.2.6 Bayesian curve fitting [[file:key_subsection.org][key subsection]]
+**** Look for reference with code / derivation of the analytical form given in equations 1.69-1.72 
+** 1.3 Model selection [[file:progress_indicators.org][progress indicators]]
+** 1.4 The curse of dimensionality
+** 1.5 Decision theory
+*** 1.5.1 Minimizing the misclassification rate
+*** 1.5.2 Minimizing the expected loss
+*** 1.5.3 The reject option
+*** 1.5.4 Inference and decision
+**** Cross-references
+***** "4.2 Probabilistic generative models (for classification) [[file:key_subsection.org][key subsection]]"
+**** 
+*** 1.5.5 Loss functions for regression
+** 1.6 Information theory
+*** 1.6.1 Relative entropy and mutual information
+* 2. Probability distributions
+** 2.1 Binary variables
+*** 2.1.1 The beta distribution
+** 2.2 Multinomial variables
+*** 2.2.1 The Dirichlet distribution
+** 2.3 The Gausssian distribution
+*** 2.3.1 Conditional Gaussian distributions
+*** 2.3.2 Marginal Gaussian distributions
+*** 2.3.3 Bayes' theorem for Gaussian variables
+*** 2.3.4 Maximum likelihood for the Gaussian
+*** 2.3.5 Sequential estimation
+*** 2.3.6 Bayesian inference for the Gaussian
+*** 2.3.7 Student's t-distribution
+*** 2.3.8 Periodic variables
+*** 2.3.9 Mixtures of Gaussians
+** 2.4 The exponential family
+*** 2.4.1 Maximum likelihood and sufficient statistics
+*** 2.4.2 Conjugate priors
+*** 2.4.3 Noninformative priors
+** 2.5 Nonparametric methods
+*** 2.5.1 Kernel density estimators
+*** 2.5.2 Nearest-neighbor methods
+* 3. Linear models for regression
+** 3.1 Linear basis function models
+*** 3.1.1 Maximum likelihood and least squares
+*** 3.1.2 Geometry of least squares
+*** 3.1.3 Sequential learning
+*** 3.1.4 Regularized least squares
+*** 3.1.5 Multiple outputs
+** 3.2 The bias-variance decomposition
+** 3.3 Bayesian linear regression [[file:key_subsection.org][key subsection]]
+*** 3.3.1 Parameter distribution
+*** 3.3.2 Predictive distribution
+*** 3.3.3 Equivalent kernel
+** 3.4 Bayesian model comparison
+** 3.5 The evidence approximation
+*** 3.5.1 Evaluation of the evidence function
+*** 3.5.2 Maximizing the evidence function
+*** 3.5.3 Effective number of parameters
+** 3.6 Limitations of fixed basis functions
+* 4. Linear models for classification
+** 4.1 Discriminant functions
+*** 4.1.1 Two classes
+*** 4.1.2 Multiple classes
+*** 4.1.3 Least squares for classification
+*** 4.1.4 Fisher's linear discriminant
+*** 4.1.5 Relation to least squares
+*** 4.1.6 Fisher's discriminant for multiple classes
+*** 4.1.7 The perceptron algorithm
+** 4.2 Probabilistic generative models (for classification) [[file:key_subsection.org][key subsection]]
+*** 4.2.0 Introduction
+**** We turn next to a **probabilistic view of classification** and show how **models with linear decision boundaries** arise from **simple assumptions about the distribution of the data**.
+**** The class-conditional densities $$p(\mathbf{x} \vert \mathcal{C}_k)$$ and class priors $$p(\mathcal{C}_k)$$ can be used to compute the class posteriors $$p(\mathcal{C}_k \vert x)$$.
+**** In general, the posterior distribution takes the form of a [[file:normalized_exponential_function.org][normalized exponential function]], which is a multiclass generalization of the [[file:logistic_sigmoid_function.org][logistic sigmoid function]].
+***** $$p(\mathcal{C}_k \vert x) = \frac{\exp(a_k)}{\Sigma_j \exp(a_j)}$$
+***** where $$a_k = \ln p(\mathbf{x} \vert \mathcal{C}_k) p(\mathcal{C}_k)$$
+*** 4.2.1 Continuous inputs
+**** Let us assume that the class-conditional densities are Gaussian and then explore the resulting form for the posterior probabilities.
+*** 4.2.2 Maximum likelihood solution
+*** 4.2.3 Discrete features
+*** 4.2.4 Exponential family
+** 4.3 Probabilistic discriminative models
+*** 4.3.1 Fixed basis functions
+*** 4.3.2 Logistic regression
+*** 4.3.3 Iteratively reweighted least squares
+*** 4.3.4 Multiclass logistic regression
+*** 4.3.5 Probit regression
+*** 4.3.6 Canonical link functions
+** 4.4 The Laplace approximation [[file:key_subsection.org][key subsection]]
+*** 4.4.0 Introduction
+*** 4.4.1 Model comparison and BIC
+** 4.5 Bayesian logistic regression [[file:key_subsection.org][key subsection]]
+*** 4.5.0 Introduction
+**** Exact Bayesian inference for logistic regression is intractable. 
+**** Here we consider the application of the Laplace approximation to the problem of Bayesian logistic regression 
+***** Spiegelhalter and Lauritzen, 1990; 
+****** Spiegelhalter, D. and S. Lauritzen (1990). Sequential updating of conditional probabilities on directed graphical structures. Networks 20, 579–605.
+***** MacKay, 1992b
+****** MacKay, D. J. C. (1992b). The evidence framework applied to classification networks. Neural Computation 4(5), 720–736.
+*** 4.5.1 Laplace approximation
+*** 4.5.2 Predictive distribution
+*** 
+* 5. Neural networks
+** 5.1 Feed-forward network functions
+*** 5.1.1 Weight-space symmetries
+** 5.2 Network training
+*** 5.2.1 Parameter optimization
+*** 5.2.2 Local quadratic approximation
+*** 5.2.3 Use of gradient information
+*** 5.2.4 Gradient descent optimization
+** 5.3 Error backpropagation
+*** 5.3.1 Evaluation of error-function derivatives
+*** 5.3.2 A simple example
+*** 5.3.3 Efficiency of backpropagation
+*** 5.3.4 The Jacobian matrix
+** 5.4 The Hessian matrix
+*** 5.4.1 Diagonal approximation
+*** 5.4.2 Outer product approximation
+*** 5.4.3 Inverse Hessian
+*** 5.4.4 Finite differences
+*** 5.4.5 Exact evaluation of the Hessian
+*** 5.4.6 Fast multiplication by the Hessian
+** 5.5 Regularization in neural networks
+*** 5.5.1 Consistent Gaussian priors
+*** 5.5.2 Early stopping
+*** 5.5.3 Invariances
+*** 5.5.4 Tangent propagation
+*** 5.5.5 Training with transformed data
+*** 5.5.6 Convolutional networks
+*** 5.5.7 Soft weight sharing
+** 5.6 Mixture density networks
+** 5.7 Bayesian neural networks
+*** 5.7.1 Posterior parameter distribution
+*** 5.7.2 Hyperparameter optimization
+*** 5.7.3 Bayesian neural networks for classification
+* 6. Kernel methods
+** 6.0 Introduction
+** 6.1 Dual representations
+** 6.2 Constructing kernels
+** 6.3 Radial basis function networks
+*** 6.3.1 Nadaraya-Watson model
+** 6.4 Gaussian processes [[file:key_subsection.org][key subsection]]
+*** 6.4.1 Linear regression revisited
+*** 6.4.2 Gaussian processes for regression
+*** 6.4.3 Learning the hyperparameters
+*** 6.4.4 Automatic relevance determination
+*** 6.4.5 Gaussian processes for classification
+*** 6.4.6 Laplace approximation
+*** 6.4.7 Connection to neural networks
+**** In a Bayesian neural network, the prior distribution over the parameter vector w, in conjunction with the network function f(x,w), produces a prior distribution over functions from y(x) where y is the vector of network outputs. Neal (1996) has shown that, for a broad class of prior distributions over w, the distribution of functions generated by a neural network will tend to a Gaussian process in the limit M →∞. It should be noted, however, that in this limit the output variables of the neural network become independent. One of the great merits of neural networks is that the outputs share the hidden units and so they can ‘borrow statistical strength’ from each other, that is, the weights associated with each hidden unit are influenced by all of the output variables not just by one of them. This property is therefore lost in the Gaussian process limit.
+* 7. Sparse kernel machines
+** 7.1 Maximum margin classifiers
+*** 7.1.1 Overlapping class distributions
+*** 7.1.2 Relation to logistic regression
+*** 7.1.3 Multiclass SVMs
+*** 7.1.4 SVMs for regression
+*** 7.1.5 Computational learning theory
+** 7.2 Relevance vector machines
+*** 7.2.1 RVM for regression
+*** 7.2.2 Analysis of sparsity
+*** 7.2.3 RVM for classification
+* 8. Graphical models
+** 8.1 Bayesian networks
+*** 8.1.1 Example: polynomial regression
+*** 8.1.2 Generative models
+*** 8.1.3 Discrete variables
+*** 8.1.4 Linear-Gaussian models
+** 8.2 Conditional independence
+*** 8.2.1 Three example graphs
+*** 8.2.2 D-separation
+** 8.3 Markov random fields
+*** 8.3.1 Conditional independence properties
+*** 8.3.2 Factorization properties
+*** 8.3.3 Illustration: Image de-noising
+*** 8.3.4 Relation to directed graphs
+** 8.4 Inference in graphical models
+*** 8.4.1 Inference on a chain
+*** 8.4.2 Trees
+*** 8.4.3 Factor graphs
+*** 8.4.4 The sum-product algorithm
+*** 8.4.5 The max-sum algorithm
+*** 8.4.6 Exact inference in general graphs
+*** 8.4.7 Loopy belief propagation
+*** 8.4.8 Learning the graph structure
+* 9. Mixture models and expectation maximization (EM)
+** 9.1 K-means clustering
+*** 9.1.1 Image segmentation and compression
+** 9.2 Mixtures of Gaussians
+*** 9.2.1 Maximum likelihood
+*** 9.2.2 EM for Gaussian mixtures
+** 9.3 An alternative view of EM
+*** 9.3.1 Gaussian mixtures revisited
+*** 9.3.2 Relation to K-means
+*** 9.3.3 Mixtures of Bernoulli distributions
+*** 9.3.4 EM for Bayesian linear regression
+** 9.4 The EM algorithm in general
+* 10. Approximate inference
+** 10.1 Variational inference
+*** 10.1.1 Factorized distributions
+*** 10.1.2 Properties of factorized approximations
+*** 10.1.3 Example: the univariate Gaussian
+*** 10.1.4 Model comparison
+** 10.2 Illustration: Variational mixture of Gaussians
+*** 10.2.1 Variational distribution
+*** 10.2.2 Variational lower bound
+*** 10.2.3 Predictive density
+*** 10.2.4 Determining the number of components
+*** 10.2.5 Induced factorizations
+** 10.3 Variational linear regression
+*** 10.3.1 Variational distribution
+*** 10.3.2 Predictive distribution
+*** 10.3.3 Lower bound
+** 10.4 Exponential family distributions
+*** 10.4.0 Introduction
+**** Up to now we have grouped the variables in the model into **observed variables** and **hidden variables**. We now make a further distinction between __latent variables__, denoted $$Z$$, and __parameters__, denoted $$\theta$$, where **parameters** are **intensive** ^^(fixed in number independent of the size of the data set)^^, whereas **latent variables** are **extensive** ^^(scale in number with the size of the data set)^^.
+*** 10.4.1 Variational message passing
+** 10.5 Local variational methods
+** 10.6 Variational logistic regression
+*** 10.6.1 Variational posterior distribution
+*** 10.6.2 Optimizing the variational parameters
+*** 10.6.3 Inference of hyperparameters
+** 10.7 Expectation propagation
+*** 10.7.1 Example: the clutter problem
+*** 10.7.2 Expectation propagation on graphs
+* 11. Sampling methods
+** 11.1 Basic sampling algorithms
+*** 11.1.1 Standard distributions
+*** 11.1.2 Rejection sampling
+*** 11.1.3 Adaptive rejection sampling
+*** 11.1.4 Importance sampling
+*** 11.1.5 Sampling-importance-resampling
+*** 11.1.6 Sampling and the EM algorithm
+** 11.2 Markov Chain Monte Carlo
+*** 11.2.1 Markov chains
+*** 11.2.2 The Metropolis-Hastings algorithm
+** 11.3 Gibbs sampling
+** 11.4 Slice sampling
+** 11.5 The hybrid Monte Carlo algorithm
+*** 11.5.1 Dynamical systems
+*** 11.5.2 Hybrid Monte Carlo
+** 11.6 Estimating the partition function
+* 12. Continuous latent variables
+** 12.1 Principal component analysis
+*** 12.1.1 Maximum variance formulation
+*** 12.1.2 Minimum-error formulation
+*** 12.1.3 Applications of PCA
+*** 12.1.4 PCA for high-dimensional data
+** 12.2 Probabilistic PCA
+*** 12.2.1 Maximum likelihood PCA
+*** 12.2.2 EM algorithm for PCA
+*** 12.2.3 Bayesian PCA
+*** 12.2.4 Factor analysis
+** 12.3 Kernel PCA
+** 12.4 Nonlinear latent variable models
+*** 12.4.1 Independent component analysis
+*** 12.4.2 Autoassociative neural networks
+*** 12.4.3 Modelling nonlinear manifolds
+* 13. Sequential data
+** 13.0 Introduction
+*** Although such models are tractable, they are also severely limited. We can obtain a more general framework, while still retaining tractability, by the introduction of latent variables, leading to state space models. 
+*** The two most important examples of state space models are the hidden Markov model, in which the latent variables are discrete, and linear dynamical systems, in which the latent variables are Gaussian.
+*** Both models are described by directed graphs having a tree structure (no loops) for which inference can be performed efficiently using the sum-product algorithm.
+** 13.1 Markov models
+** 13.2 Hidden Markov models
+*** 13.2.1 Maximum likelihood for the HMM
+*** 13.2.2 The forward-backward algorithm
+*** 13.2.3 The sum-product algorithm for the HMM
+*** 13.2.4 Scaling factors
+*** 13.2.5 The Viterbi algorithm
+*** 13.2.6 Extensions of the hidden Markov model
+** 13.3 Linear dynamical systems
+*** 13.3.0 Introduction
+**** We now consider extensions to other distributions for the latent variables. In particular, we consider continuous latent variables in which the summations of the sum-product algorithm become integrals. The general form of the inference algorithms will, however, be the same as for the hidden Markov model. ^^It is interesting to note that, historically, hidden Markov models and linear dynamical systems were developed independently. Once they are both expressed as graphical models, however, the deep relationship between them immediately becomes apparent.^^
+**** Because the linear dynamical system is a linear-Gaussian model, the joint distribution over all variables, as well as all marginals and conditionals, will be Gaussian. It follows that ^^the sequence of individually most probable latent variable values is the same as the most probable latent sequence. There is thus no need to consider the analogue of the Viterbi algorithm for the linear dynamical system.^^
+*** 13.3.1 Inference in LDS
+*** 13.3.2 Learning in LDS
+*** 13.3.3 Extensions of LDS
+*** 13.3.4 Particle filters
+* 14. Combining models
+** 14.1 Bayesian model averaging
+** 14.2 Committees
+** 14.3 Boosting
+*** 14.3.1 Minimizing exponential error
+*** 14.3.2 Error functions for boosting
+** 14.4 Tree-based models
+** 14.5 Conditional mixture models
+*** 14.5.1 Mixtures of linear regression models
+*** 14.5.2 Mixtures of logistic models
+*** 14.5.3 Mixtures of experts

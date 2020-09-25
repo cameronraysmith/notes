@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Making_it_explicit_by_Robert_Brandom_in_1998
+#+TITLE: Making it explicit by Robert Brandom in 1998
+* [[file:Robert_Brandom.org][Robert Brandom]], [[file:philosophy.org][philosophy]], [[file:books.org][books]]

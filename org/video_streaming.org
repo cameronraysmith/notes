@@ -1,0 +1,23 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: video_streaming
+#+TITLE: video streaming
+* [[file:screencasting.org][screencasting]]
+* summary
+** use obs studio to aggregate content from your computer for streaming
+** use reastream.io for simulcasting to youtube, twitch, periscope/twitter, linkedin, and facebook
+* simulcasting
+** broadcast multiple streams yourself
+*** [[https://www.youtube.com/watch?v=BgpDb1XDDfY][How To Use OBS Studio To Live Stream * Twitch and YouTube]]
+*** con: load on computer and network, questionable ability to integrate chat from the different platforms into a single thread though what if it's disabled and just enabled in a livestream channel in a discord group?
+** use a simulcast platform to offload the task of producing multiple streams
+*** to stream to multiple channels (youtube, twitch +/* facebook live) with integrated chat 
+**** [[https://www.youtube.com/watch?v=sMLEZb0k1YE][Live Stream to Multiple Platforms at the same time (How to Simulcast!)]]
+**** [[https://www.youtube.com/watch?v=5hOgmnz16fw][Restream VS Castr Comparison. Which is the best multi-streaming service?]]
+***** claim: restream is better than castr
+**** https://castr.io/ for about $100-120/year
+**** https://streamyard.com/destinations/connect about $25/mo
+* resources
+** [[https://www.youtube.com/watch?v=OnGkE0w9JrE][Streamlabs OBS (SLOBS) vs OBS Studio. Which One is Better?!]]
+*** claim: obs studio is better than streamlabs obs for the vast majority of people
+*** note: you cannot even stream to twitch and youtube simultaneously from streamlabs obs (you can only pair either with facebook) as of <2020-05-21 Thu>
+** [[https://primalvideo.com/resources/][Recommended Gear, Tools & Resources * Primal Video]]

@@ -1,0 +1,37 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Resolving_genetic_heterogeneity_in_cancer_by_Turajlic,_Graham,_and_Swanton_et_al_2019
+#+TITLE: Resolving genetic heterogeneity in cancer by Turajlic, Graham, and Swanton et al 2019
+* Is cancer a special case of evolution?
+** Subclones * subpopulations of cells within a tumor distinguished by genetic alterations and growth rates
+** [[file:asexual_evolution.org][asexual evolution]]
+*** replication
+*** heritable variation
+*** genetic drift
+*** selection
+** 
+* Current models of tumor evolution
+** Selection
+** Branching evolution
+** Linear evolution
+** Neutral evolution
+** Punctuated evolution
+* Inferring evolutionary mode with genomics
+** Bulk sequencing
+** Choice of sequencing assay
+** Allelic copy number correction
+** Single-cell sequencing
+* Detecting selection
+** Using clone frequency to detect selection
+** Using mutational patterns to detect selection
+** Stochasticity versus determinism
+* Chromosome instability in cancer evolution
+** CIN and clonal fitness
+** CIN and metastasis
+** CIN and clinical outcomes
+* Evolutionary patterns and patient outcomes
+** Clonal diversity and clinical outcomes
+** Punctuated versus gradual evolution and clinical outcomes
+* Origin of treatment-resistant clones
+** Resistance to targeted therapies
+** Resistance to immune checkpoint inhibition
+* Conclusions and perspective

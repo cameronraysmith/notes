@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: symmetry_magazine
+#+TITLE: symmetry magazine
+* [[file:physics.org][physics]], [[file:news.org][news]], [[file:quantum_field_theory.org][quantum field theory]], [[file:symmetry.org][symmetry]]
+* 

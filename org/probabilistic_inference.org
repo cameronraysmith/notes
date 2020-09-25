@@ -1,0 +1,31 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: probabilistic_inference
+#+TITLE: probabilistic inference
+* [[file:references.org][references]]
+** Books
+*** [[file:Pattern_recognition_and_machine_learning_by_Chris_Bishop_in_2006.org][Pattern recognition and machine learning by Chris Bishop in 2006]]
+*** [[file:Statistical_rethinking_by_Richard_McElreath_in_2020.org][Statistical rethinking by Richard McElreath in 2020]] with code implementing [[file:variational_inference.org][variational inference]] in [[file:pyro.org][pyro]] in [[file:Du_Phan's_implementation_of_Statistical_rethinking_in_pyro.org][Du Phan's implementation of Statistical rethinking in pyro]]
+*** [[file:Information,_physics,_and_computation_by_Marc_Mezard_and_Andrea_Montanari_in_2009.org][Information, physics, and computation by Marc Mezard and Andrea Montanari in 2009]]
+** Papers
+*** [[file:The_Helmholtz_Machine_by_Peter_Dayan,_Geoffrey_Hinton,_Radford_Neal,_and_Richard_Zemel_in_1995.org][The Helmholtz Machine by Peter Dayan, Geoffrey Hinton, Radford Neal, and Richard Zemel in 1995]]
+** Lectures
+*** [[file:ETH_probabilistic_AI_course.org][ETH probabilistic AI course]]
+*** [[file:Russ_Salakhutdinov's_lectures_on_Large_Scale_Machine_Learning.org][Russ Salakhutdinov's lectures on Large Scale Machine Learning]]
+** People
+*** [[file:Chris_Bishop.org][Chris Bishop]]
+*** [[file:Karl_Friston.org][Karl Friston]]
+*** [[file:Michael_I_Jordan.org][Michael I. Jordan]]
+*** [[file:David_Duvenaud.org][David Duvenaud]]
+* Methods
+** [[file:variational_inference.org][variational inference]]
+* Software libraries
+** [[file:pyro.org][pyro]]
+*** ☐ Complete next element of tutorial @est(1h) @today 
+*** ☐ Deep HMM tutorial referenced in [[file:David_Duvenaud.org][David Duvenaud]]'s talks on learning stochastic differential equations
+** Gen
+*** DONE Complete ground up intro @est(1h) @done(19-11-23 01:27)
+*** DONE Test regression example @est(1h) @done(19-11-23 02:35)
+*** TODO Translate some other model @est(2h)
+** [[file:turingjl.org][turing.jl]]
+** Paysage:
+*** Read section I of high-bias low-variance introduction to ML

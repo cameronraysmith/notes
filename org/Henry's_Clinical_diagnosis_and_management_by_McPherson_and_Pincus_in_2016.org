@@ -1,0 +1,449 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Henry's_Clinical_diagnosis_and_management_by_McPherson_and_Pincus_in_2016
+#+TITLE: Henry's Clinical diagnosis and management by McPherson and Pincus in 2016
+* Part 4: Hematology and transfusion medicine
+** hematopathology (510-734 = 224)
+*** 30. Basic examination of blood and bone marrow (510-539)
+**** Hematology principles and procedures
+***** Hemoglobin
+***** Hematocrit (packed cell volume)
+***** Erythrocyte indices
+***** Manual blood cell counts
+***** Instrument technology
+**** Blood film examination
+***** Examination of wet preparations
+***** Making and staining blood films
+***** Erythrocytes
+***** Leukocytes on peripheral blood smear examination
+***** Platelets on peripheral blood smear examination
+***** Erythrocytes
+*** 31. Hematopoiesis (540-558)
+*** 32. Erythrocytic disorders (559-605)
+**** 32.1 Anemias
+***** General manifestations
+***** Impaired production--Iron deficiency anemia
+****** Iron metabolism
+****** Iron deficiency anemia
+******* Clinical features
+******* Laboratory features
+******** blood
+******** marrow
+******** serum iron
+******** serum iron-binding capacity
+******** percent saturation of TIBC
+******** serum ferritin
+******** erythrocyte porphyrins
+******** serum transferrin receptors
+******** serum transferrin receptors
+******** serum transferrin receptor-to-serum ferritin ratio
+******** reticulocyte hemoglobin content
+******** hepcidin level
+******* Differential diagnosis
+******* Management
+****** Iron-refractory iron deficiency anemia (IRIDA)
+***** Impaired production--Megaloblastic anemia
+****** Macrocytosis with normoblastic marrow
+****** Megaloblastic anemia
+******* blood
+******* marrow
+******* erythrokinetics
+****** Cobalamin (Vitamin B12) metabolism
+****** Cobalamin deficiency
+******* Inadequate intake
+******* Defective production of intrinsic factor
+****** Pernicious anemia
+******* clinical features
+******* gastric findings
+******* immune abnormalities
+******* pernicious anemia in children
+******* gastrectomy
+******* defective absorption of cobalamin
+******** malabsorption syndromes
+******** lack of availability
+******* diagnosis of cobalamin deficiency
+******** therapeutic trial
+******** serum cobalamin assay
+******** methylmalonic acid and homocysteine assays
+******** deoxyuridine suppression test
+******* detecting the cause of cobalamin deficiency
+****** Folic acid metabolism
+******* The folate-cobalamin relationship
+****** Folic acid deficiency
+******* Inadequate intake of folate
+******** Evolution of laboratory abnormalities
+******** Nutritional folate defiency
+******** Liver disease
+******* Defective absorption of folate
+******* Increased requirement for folate
+******* Inadequate utilization of folate
+******* Diagnosis of folate deficiency
+******** Serum and red cell folate
+******** Urinary formiminoglutamic acid (FIGLU)
+******** Deoxyuridine suppression test
+******** Plasma homocysteine assay
+******* Acute megaloblastic anemia
+****** Therapy for megaloblastic anemia
+****** Other defects of nucleoprotein synthesis
+******* congenital defects
+******* synthetic inhibitors
+******* refractory anemias
+***** Impaired production--Other
+****** Anemia of chronic disease
+****** Anemia of renal insufficiency
+****** Anemia of liver disease
+****** Anemia in endocrine disease
+****** Anemia associated with bone marrow infiltration (myelophthisic anemia)
+****** Aplastic anemia
+****** Pure red cell aplasia
+******* Transitory arrest of erythropoiesis
+******* Transient erythroblastopenia of childhood
+******* Congenital red cell aplasia (Diamond-Blackfan anemia; Congenital hypoplastic anemia)
+******* Acquired pure red cell aplasia
+****** Sideroblastic anemia
+****** Refractory anemia
+****** Congenital dyserythropoietic anemias
+***** Blood loss anemia
+****** Acute posthemorrhagic anemia
+****** Chronic posthemorrhagic anemia
+***** Hemolysis--general
+****** Erythrocyte survival studies
+****** Hemoglobin destruction
+******* Blood film
+******* Bone marrow
+***** Hemolysis--membrane disorders
+****** Hereditary spherocytosis
+****** Hereditary elliptocytosis
+***** Hemolysis--hemoglobin disorders
+****** Normal hemoglobins
+******* Hb A (a2b2)
+******* Hb F (a2g2)
+******* Hb A2 (a2d2)
+******* Embryonic hemoglobins
+******* The globin gene clusters
+******* Glycosylated hemoglobins
+****** Laboratory investigation of hemoglobinopathies and thalassemias
+****** Abnormal hemoglobin synthesis
+****** Sickling disorders
+****** Common alpha chain variants
+****** Disorders of hemoglobin function
+***** Thalassemias
+****** Molecular defects
+****** Beta-thalassemias
+******* homozygous beta thalassemia (thalassemia major; Cooley's anemia)
+******* heterozygous beta-thalassemia (beta thalassemia trait; thalassemia minor; Cooley's trait)
+******* beta thalassemia trait with normal hemoglobin a2
+******* delta-beta 0 thalassemia 
+******* delta-beta +: Lepore hemoglobins
+****** Hereditary persistence of fetal hemoglobin
+****** Alpha thalassemias
+******* alpha thalassemia syndromes
+******** hemoglobin Bart's hydrops fetalis
+******** hemoglobin H disease
+******** alpha thalassemia trait: heterozygous alpha 0 thalassemia (* * / alpha alpha) or homozygous alpha + thalassemia (* alpha/ * alpha)
+******** silent carrier alpha thalassemia (heterozygous alpha+ thalassemia) (alpha alpha/-alpha) 
+******** hemoglobin constant spring (alphaCS alpha/)
+****** Screening and prenatal diagnosis of hemoglobin disorders
+***** Hemolysis--metabolic disorders
+****** Erythrocyte metabolism
+****** Glucose-6-phosphate dehydrogenase deficiency
+****** Pyruvate kinase (PK) deficiency
+****** Other glycolytic enzyme deficiencies
+****** Pyrimidine-5'-nucleotidase deficiency
+***** Hemolysis--acquired; extrinsic
+****** Chemical agents
+****** Physical agents
+****** Infectious agents
+****** Immune hemolytic anemias
+***** Laboratory investigations of anemia
+****** Macrocytic anemia (increased MCV)
+****** Microcytic and hypochromic anemias (decreased MCV and MCH)
+******* iron deficiency anemias
+******** low iron low TIBC
+******* anemia of chronic disease
+******** low iron normal TIBC
+******* thalassemia
+******** normal to elevated iron with hypochromic anemia and basophilic stippling
+******* sideroblastic anemia
+****** Normocytic and normochromic anemias (normal MCV)
+******* optimal marrow response: reticulocyte production index greater than two
+******** direct antiglobulin (Coombs) test
+******* inadequate marrow response: reticulocyte production index less than two
+**** 32.2 Polycythemia
+***** Relative polycythemia
+***** Absolute polycythemia
+***** Measurement of erythrocyte and plasma volume
+**** 32.3 Porphyrias
+***** Physiology
+***** Approach to the porphyrias
+***** Clinical porphyrias and their biochemical basis
+***** Analytic techniques
+*** 33. Leukocytic disorders (606-658)
+**** 33.1 Leukocytes
+**** 33.2 Nonneoplastic disorders
+***** Granulocytic and monocytic disorders
+***** Lymphocytic and plasmacytic disorders
+***** Leukemoid reactions
+**** 33.3 Neoplastic disorders primarily involving leukocytes
+***** Overview of hematopoietic neoplasms
+****** CML t(9;22)(q34;q11) BCR/ABL translocation targeted by imatinib / Gleevec
+****** promyelocytic leukemia t(15;17)(q22;q12) PML/RARA abnormal retinoic acid receptor responds to all-trans retinoic acid
+***** Chronic myeloproliferative disorders
+****** Introduction
+******* Includes clonal proliferations of pluripotent stem cells that can differentiate along granulocytic, erythroid, and megakaryocytic lines
+******* The chronic course may terminate as acute leukemia, myelofibrosis, or coagulopathy 
+****** Chronic myelogenous leukemia
+******* +/* BCR/ABL1
+******* Clinical features
+******** Young and middle aged; >50
+******** Anemia, weight loss, splenomegaly, fever and night sweats
+******* Laboratory features
+******** Blood
+********* increased leukocyte count (usually >5e9/L , possibly >30e9/L )
+********* normocytic anemia
+******** Marrow
+********* markedly hypercellular due to granulocytic proliferation
+********* failure to aspirate due to cellular density and increased reticulin
+********* blue pigment laden macrophages
+******** Neutrophil alkaline phosphatase
+********* greatly reduced or absent in more than 90% of patients
+********* this is in contrast to elevations seen in PV, IMF, and leukemoid reactions
+******** Cytogenetic abnormalities
+********* t(9;22)(q34;q11) in more than 95%
+********** the BCR-ABL1 fusion results in a novel RNA transcript and associated growth factor with tyrosine kinase activity higher than that of the normal p145 protein encoded by the ABL1 gene
+********* Major and minor breakpoint regions of BCR
+********** M-BCR --> p210
+********** mu region --> p230
+********** m-BCR --> p190 --> usually associated with ALL
+******** Other findings
+********* Serum cobalamin and transcobalamin are usually increased as a result of increased transcobalamin I reflecting the size of the total blood granulocyte pool
+********* Lysozyme (muramidase) is also increased
+******* Course
+******** Untreated patients or those who fail treatment progress to a more aggressive or accelerated phase characterized by features of progressive myeloproliferation
+******** Blast phase is a progression to acute leukemia defined by >20% blasts in the blood or BM which is myeloid lineage in >70% of cases. In approximately 1/3 of cases ALL mostly of precursor B-lineage appears.
+****** Chronic neutrophilic leukemia
+****** Polycythemia vera
+******* JAK2 V617F
+****** Primary myelofibrosis
+****** Essential thrombocythemia
+****** MPN with eosinophilia and abnormalities of PDGFRA, PDGFRB, or FGFR1
+****** Chronic eosinophilic leukemia
+****** Mastocytosis
+****** Myelodysplastic and myelodysplastic/myeloproliferative neoplasms
+****** Myelodysplastic/myeloproliferative disease, unclassifiable
+****** Myelodysplastic syndromes
+***** Acute myeloid leukemia
+****** Acute leukemia with recurrent genetic abnormalities
+******* AML with balanced translocations/inversions
+******** AML with t(8;21)(q22;q22) RUNX1-RUNX1T1
+******** AML with inv(16)(p13q22) or t(16;16)(p13.1;q22), CBF beta/MYH11
+******** Acute promyelocytic leukemia with t(15;17)(q22;q12) PML/RARA, and variants
+******** AML with t(9;11)(p22;q23); MLLT3-MLL
+******** AML with t(6;9)(p23;q34); DEK-NUP214
+******** AML with inv(3)(q21q26.2) or t(3;3)(q21;q26.2); RPN1-EVI1
+******** AML (megakaryoblastic) with t(1;22)(p13;q13); RBM15-MKL1
+******* AML with gene mutations
+******** AML with FLT3 mutation
+******** AML with NPM1 mutation
+******** AML with CEBPA mutation
+****** Acute myeloid leukemia with myelodysplasia-related changes
+****** Acute myeloid leukemia, NOS
+****** Myeloid proliferations related to Down syndrome
+****** Acute leukemias of ambiguous lineage
+***** Precursor lymphoid neoplasms
+****** B lymphoblastic leukemia/lymphoma
+****** B lymphoblastic leukemia/lymphoma, NOS
+***** Mature B cell neoplasms
+****** Monoclonal B cell lymphocytosis
+****** Chronic lymphocytic leukemia/Small lymphocytic lymphoma
+******* M>F over 60 years
+******* Fatigue, lymphadenopathy WBC > 5e3/uL, anemia, thrombocytopenia
+****** B cell prolymphocytic leukemia
+****** Splenic marginal zone lymphoma
+****** Hairy cell leukemia
+****** Splenic B cell lymphoma/leukemia, unclassifiable
+****** Hairy cell leukemia variant
+****** Lymphoplasmacytic lymphoma
+****** Heavy chain diseases
+****** Plasma cell neoplasms
+******* MGUS
+******* plasma cell myeloma
+****** Monoclonal immunoglobulin deposition diseases
+****** Extranodal marginal zone B cell lymphoma of mucosa-associated lymphoid tissue
+****** Nodal marginal zone lymphoma
+****** Follicular lymphoma
+****** Mantle cell lymphoma
+****** Diffuse large B cell lymphoma, NOS
+****** Lymphomatoid granulomatosis
+****** Primary mediastinal thymic large B cell lymphoma
+****** Intravascular large B cell lymphoma
+****** ALK-positive large B cell lymphoma
+****** Plasmablastic lymphoma
+****** Large B cell lymphoma arising in HHV8-associated multicentric Castleman's disease
+****** Primary effusion lymphoma
+****** Burkitt lymphoma
+****** B cell lymphoma unclassifiable with features intermediate between DLBCL and Burkitt lymphoma
+****** B cell lymphoma unclassifiable with features intermediate between DLBCL and classical Hodgkin lymphoma
+***** Mature T cell and natural killer cell neoplasms
+****** T-prolymphocytic leukemia
+****** Large granular lymphocyte leukemia
+****** Chronic-lymphoproliferative disorders of NK cells
+****** Aggressive NK cell leukemia
+****** EBV-positive T cell lymphoproliferative disorders of childhood
+****** Adult T cell leukemia-lymphoma
+****** Extranodal NK/T cell lymphoma, Nasal type
+****** Enteropathy-associated T cell lymphoma
+****** Hepatosplenic T cell lymphoma
+****** Subcutaneous panniculitis-like T cell lymphoma
+****** Mycosis fungoides and Sezary syndrome
+****** Primary cutaneous CD30-positive T cell lymphoproliferative disorder
+****** Primary cutaneous gamma delta T cell lymphoma
+****** Angioimmunoblastic T cell lymphoma
+****** Peripheral T/NK cell lymphoma, unspecified
+****** Anaplastic large cell lymphoma
+****** Anaplastic large cell lymphoma ALK negative
+***** Hodgkin lymphoma
+****** Classical hodgkin lymphoma
+******* nodular sclerosis
+******* mixed cellularity
+******* lymphocyte depletion
+****** Nodular lymphocyte-predominant HL
+****** Nodular lymphocyte-rich classical HL
+***** Immunodeficiency-associated lymphoproliferative disorders
+****** HIV-associated lymphomas
+****** Posttransplant lymphoproliferative disorders
+***** Histiocytic and dendritic cell neoplasms
+****** Hemophagocytic syndromes, or hemophagocytic lymphohistiocytosis (HLH)
+****** Langerhans cell histiocytosis
+****** Interdigitating dendritic cell sarcoma/tumor
+****** Follicular dendritic cell sarcoma/tumor
+****** Dendritic cell sarcoma, not otherwise specified
+*** 34. The flow cytometric evaluation of hematopoietic neoplasia (659-679)
+**** 
+*** 35. Immunohematology (680-734)
+** transfusion medicine
+*** 36. Transfusion medicine
+*** 37. Hemapheresis
+*** 38. Tissue banking and progenitor cells
+* Part 5: Hemostasis and Thrombosis
+** coagulation
+*** 39. Coagulation and fibrinolysis
+*** 40. Platelet disorders and von Willebrand disease
+*** 41. Laboratory approach to thrombotic risk
+*** 42. Antithrombotic therapy
+* Part 6: Immunology and immunopathoogy
+** 43. Overview of the immune system and immunologic disorders
+** 44. Immunoassays and immunochemistry
+** 45. Laboratory evaluation of the cellular immune system
+** 46. Laboratory evaluation of immunoglobulin function and humoral immunity
+** 47. Mediators of inflammation: complement, cytokines, and adhesion molecules
+** 48. Mediators of inflammation: cytokines and adhesion molecules
+** 49. Human leukocyte antigen: the major histocompatibility complex of man
+** 50. The major histocompatibility complex and disease
+** 51. Immunodeficiency disorders
+** 52. Clinical and laboratory evaluation of systemic rheumatic diseases
+** 53. Vasculitis
+** 54. Organ-specific autoimmune diseases
+** 55. Allergic diseases
+* Part 8: Molecular pathology
+** 65. Introduction to molecular pathology
+** 66. Molecular diagnostics: basic principles and techniques
+** 67. Polymerase chain reaction and other nucleic acid amplification technologies
+** 68. Hybridization array technologies
+** 69. Applications of cytogenetics in modern pathology [[file:progress_indicators.org][progress indicators]]
+*** Definitions
+*** Cytogenetics
+**** Chromosomes
+***** Chromosome structure
+***** Cell culture
+****** specimens
+****** cell culture technique
+***** Staining
+***** Karyotype analysis
+****** computer-assisted imaging
+***** Fluorescence in situ hybridization
+****** technique
+****** multicolor FISH
+***** Microarray technology
+**** Chromosome abnormalities
+***** numerical abnormalities
+****** euploidy
+****** aneuploidy
+***** structural chromosome abnormalities
+***** nomenclature
+*** Clinical applications
+**** Constitutional cytogenetics
+***** prenatal
+***** postnatal
+***** childhood and adult
+**** Cancer genetics
+**** Cytogenetic disorders
+***** Chromosomal Aneuploidy Syndromes
+****** Autosomal Aneuploidies
+****** Sex Chromosome Aneuploidies
+***** Other Sex Chromosome Abnormalities
+***** Structural Chromosome Anomalies
+***** Microdeletion Syndromes and Contiguous Gene Syndromes
+**** Other cytogenetic phenomena
+***** Fragile X Syndrome
+***** Breakage Syndromes
+****** See list in table 69-6
+*** Summary
+** 70. Establishing a molecular diagnostics laboratory
+** 71. Molecular diagnosis of genetic diseases
+** 72. Identity analysis: use of DNA analysis in parentage, forensic, and missing persons testing
+** 73. Pharmacogenomics and personalized medicine
+* Part 9: Molecular pathology
+** 74. Diagnosis and management of cancer using serologic and other body fluid markers
+** 75. Oncoproteins and early tumor detection
+** 76. Molecular diagnosis of hematopoietic neoplasms [[file:progress_indicators.org][progress indicators]]
+*** Role of clinical molecular diagnostics in hematologic cancers
+*** Molecular diagnosis of leukemias
+**** Gene fusion concept in leukemia and the basis for reverse-transcription polymerase chain reaction analysis
+**** Acute myeloid leukemias
+***** Acute Promyelocytic Leukemia: t(15;17) (q22;q21)/PML-RARA Abnormality
+***** Core Binding Factor–Related Acute Myeloid Leukemias: t(8;21)(q22;q22)/RUNX1-RUNX1T1 and Inv(16)(p13q22) or t(16;16)(p13;q22)/CBFB-MYH11 Abnormalities
+***** Acute Myeloid Leukemia with Other Translocations
+****** AML with 11q23/MLL
+****** AML with t(6;9)(p23;q34)/DEK-NUP214
+****** AML with inv(3)(q21q26.2) or t(3;3)(q21;q26.2)/RPN1-EVI1
+****** AML (Megakaryoblastic) with t(1;22)(p13;q13)/RBM15-MKL1
+****** Acute Myeloid Leukemias with FLT3, NPM1, and CEBPA Gene Mutations
+***** FLT3 Mutations in Acute Myeloid Leukemia
+***** NPM1 Mutations in Acute Myeloid Leukemia
+***** CEBPA Mutations in Acute Myeloid Leukemia
+***** Other Gene Mutations in Acute Myeloid Leukemias
+****** Mutations involving many other genes, including WT1 (see below), MLL, TET2, JAK2, IDH1/IDH2, EZH2, PLK1, NRAS, and KRAS, have been associated with prognostic or biologic importance in AML.
+**** Acute lymphoblastic leukemia/lymphoma--B and T cell lineage
+***** B Cell Lymphoblastic Leukemia/Lymphoma (Precursor B Cell Acute Lymphoblastic Leukemia, B-ALL)
+***** Major Translocation Fusion Gene Abnormalities in B Cell ALL
+****** t(9;22)(q34;q11.2)/1BCR-ABL1 is found in approximately 3% to 4% of childhood B-lineage ALL, but it occurs in 20% to 25% of adult B-ALL
+***** Prenatal Origins of Childhood Leukemias
+***** BCR-ABL1–Like B-Acute Lymphoblastic Leukemia
+***** T Cell Lymphoblastic Leukemia/Lymphoma
+**** Molecular diagnosis of myeloproliferative neoplasms
+***** Chronic Myelogenous Leukemia with t(9;22) (q34;q11)/BCR-ABL1 Positive
+***** Ph-Negative Myeloproliferative Neoplasms: Polycythemia Vera, Essential Thrombocythemia, and Primary Myelofibrosis—JAK2, MPL Gene, and CALR Mutations
+***** Chronic Neutrophilic Leukemia and Atypical Chronic Myeloid Leukemia with CSF3R Gene Mutation
+***** Mastocytosis and the KIT D816V Gene Mutation
+*** Neoplastic disorders associated with eosinophilia
+*** Molecular diagnosis of non-hodgkin lymphomas
+**** Rationale for molecular genetic analysis in the lymphoid disorders
+**** Antigen receptor gene rearrangements for clonality determination
+***** Mechanism of Antigen Receptor Gene Rearrangements
+***** Techniques to Detect Antigen Receptor Gene Rearrangements: Southern Blot Hybridization
+****** Advantages and Shortcomings of Southern Blot Hybridization and Polymerase Chain Reaction for Lymphoid Clonality Assessment
+**** Molecular detection and significance of common lymphoma-associated chromosomal translocations
+***** t(14;18)/BCL2-IGH Abnormality in Follicular and Diffuse Large B Cell Lymphomas
+***** t(11;14)/CCND1-IGH Abnormality in Mantle Cell Lymphoma
+***** MALT1, BCL10, and FOXP1 Gene Abnormalities in Extranodal Marginal Zone B Cell Lymphomas
+***** Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma: Molecular and Cytogenetic Prognostic Markers
+***** Diffuse Large B Cell Lymphomas: Role of BCL6 and MYC Gene Abnormalities and Classification Based on Gene Expression Profiling
+***** MYC Gene Translocations in Burkitt Lymphomas and “High-Grade” B Cell Lymphomas, Unclassifiable
+***** MYD88 Mutation in Non-Hodgkin B Cell Lymphoma
+***** ALK Gene Abnormalities in Anaplastic Large Cell Lymphomas
+***** TCL1A Gene Abnormalities in T Cell
+Prolymphocytic Leukemia
+***** The Implication of Next Gene Sequencing (NGS) in Hematolymphoid Lesions
+*** Emerging technologies impacting molecular diagnosis and prognosis prediction in hematolymphoid neoplasia
+** 77. Molecular genetic pathology of solid tumors
+** 78. High-throughput genomic and proteomic technologies in the postgenomic era

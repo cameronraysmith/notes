@@ -1,0 +1,15 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: What_are_good_sources_of_news
+#+TITLE: What are good sources of news?
+* [[file:questions.org][questions]], [[file:news.org][news]]
+* Links to sources for sharing
+** * [[https://www.pbs.org/newshour/][PBS NewsHour: News, Analysis, Top Headlines, Live Coverage]]
+* [[https://thecorrespondent.com/][The Correspondent]]
+* [[https://undark.org/stories/][Stories * Undark Magazine]]
+* [[https://www.theatlantic.com/latest/][Latest * The Atlantic]]
+* [[https://www.propublica.org/][ProPublica — Investigative Journalism and News in the Public Interest]]
+* [[https://www.quantamagazine.org/][Quanta Magazine – Illuminating Science | Quanta Magazine]]
+* [[https://www.foreignaffairs.com/][Foreign Affairs Magazine: analysis and debate of foreign policy, geopolitics and global affairs]]
+* [[https://www.project-syndicate.org/][PS * The World's Opinion Page * Project Syndicate]]
+* [[https://www.bloomberg.com/][Bloomberg.com]]
+* [[https://news.ycombinator.com/][Hacker News]]

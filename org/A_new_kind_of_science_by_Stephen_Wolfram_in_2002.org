@@ -1,0 +1,20 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: A_new_kind_of_science_by_Stephen_Wolfram_in_2002
+#+TITLE: A new kind of science by Stephen Wolfram in 2002
+* 9. [[https://www.wolframscience.com/nks/chap-9--fundamental-physics/][Fundamental physics]]
+** 9.1 The problems of physics
+** 9.2 The notion of reversibility
+** 9.3 Irreversibility and the second law of thermodynamics
+** 9.4 Conserved quantities and continuum phenomena
+** 9.5 Ultimate models for the universe
+** 9.6 The nature of space
+** 9.7 Space as a network
+** 9.8 The relationship of space and time
+** 9.9 Time and causal networks
+** 9.10 The sequencing of events in the universe
+** 9.11 Uniqueness and branching in time
+** 9.12 Evolution of networks
+** 9.13 Space, time and relativity
+** 9.14 Elementary particles
+** 9.15 The phenomenon of gravity
+** 9.16 Quantum phenomena

@@ -1,0 +1,57 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: kubernetes
+#+TITLE: kubernetes
+* tutorials
+** [[https://kubernetes.io/docs/tutorials/kubernetes-basics/][Learn Kubernetes Basics | Kubernetes]]
+** [[https://www.youtube.com/watch?v=00r9C8rWsK8][Kubernetes the Hard Way Using Terraform]]
+*** [[https://github.com/kelseyhightower/kubernetes-the-hard-way][kelseyhightower/kubernetes-the-hard-way: Bootstrap Kubernetes the hard way on Google Cloud Platform. No scripts.]]
+*** [[https://github.com/aidanSoles/kubernetes-the-hard-way-terraform][aidanSoles/kubernetes-the-hard-way-terraform: 🐳 Terraform-defined implementation of Kelsey Hightower's "Kubernetes The Hard Way" tutorial.]]
+** [[https://www.linode.com/docs/kubernetes/getting-started-with-kubernetes/][Getting Started with Kubernetes: Use kubeadm to Deploy a Cluster on Linode | Linode]]
+* internal components
+** architecture
+*** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FbcV3qoK7Z-.png?alt=media&token=786cd08e-c1d4-4ca9-b663-a20a5b0b34c9]]
+*** vocabulary
+**** kubectl
+**** cluster
+**** master
+**** node
+**** kubelet
+**** pod
+**** container
+** processes
+*** [[https://i.octopus.com/docs/deployment-examples/kubernetes-deployments/deploy-container/deploy-container.svg]]
+*** vocabulary
+**** ingress
+**** service
+***** [[https://linuxacademy.com/site-content/uploads/2019/05/Screen-Shot-2019-04-17-at-10.58.43-AM-1024x769.png]]
+**** deployment
+**** replicaset
+**** operators
+***** https://github.com/operator-framework/getting-started
+***** [[https://operatorhub.io/static/images/capability-level-diagram.svg]]
+*****  [[https://operatorhub.io/what-is-an-operator][OperatorHub.io | The registry for Kubernetes Operators]]
+****** example:: https://operatorhub.io/operator/elastic-cloud-eck
+***** [[https://www.youtube.com/watch?v=i9V4oCa5f9I&list=PLOspHqNVtKABAVX4azqPIu6UfsPzSu2YN&index=8][Kubernetes Operators Explained]]
+***** workflow
+****** 1. Basic installation
+****** 2. Upgrades
+****** 3. Lifecycle
+****** 4. Insights
+****** 5. Autopilot
+***** Helm
+****** "1. Basic installation"
+****** "2. Upgrades"
+***** Go / ansible
+****** all aspects
+** data persistence
+*** [[https://8gwifi.org/docs/img/kube-arch.png]]
+*** 
+* accessories
+** package management
+*** [[https://helm.sh/docs/][Helm]] is a package manager for Kubernetes.
+*** [[https://www.youtube.com/watch?v=fy8SHvNZGeE&list=PLOspHqNVtKABAVX4azqPIu6UfsPzSu2YN&index=12][What is Helm?]]
+** [[file:service_mesh.org][service mesh]]
+** context switcher
+*** https://github.com/ahmetb/kubectx
+** continuous development
+*** https://skaffold.dev/docs/

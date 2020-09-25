@@ -1,0 +1,69 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Speculative_Empiricism_Revisiting_Whitehead_by_Didier_Debaise_in_2017
+#+TITLE: Speculative Empiricism Revisiting Whitehead by Didier Debaise in 2017
+* [[file:Didier_Debaise.org][Didier Debaise]], [[file:Alfred_North_Whitehead.org][Alfred North Whitehead]], [[file:pragmatism.org][pragmatism]]
+* Preface by [[file:Isabelle_Stengers.org][Isabelle Stengers]]
+** Whitehead had read the ‘great philosophers’ long before becoming a philosopher, of course. But he read them in a way that ‘took them seriously’, that is, without first submitting to their greatness. He asked the question of what they do to us, what they ask us to forget.
+** What the ‘great philosophers’ – and particularly the modern philosophers (Descartes, Locke, Hume, Kant) – ask us to forget finds its clearest expression in his final book, Modes of Thought: ^^‘[t]he question What do we know?, has been transformed into the question, What can we know?’1^^
+** Whitehead ^^responds to this search for ‘pure’ givens with a pragmatic method in William James’s sense^^, a method involving the conscious, processual, experimental exploration of that which is capable of testifying to immediate experience.
+** The flight of an aeroplane, the experimentation with the relation between concepts and immediate experience and with what experience, once renewed, demands from concepts, is inextricable from what Whitehead defines as ultimate: creativity.
+** **Coherence, logic, and necessity** can be understood as methodical constraints for qualification as rational interpretation
+** Debaise calls Whitehead’s wager ‘rationalist trust’. When Whitehead proposes to ‘rescue’ the style of thought of Bergson, James and Dewey ‘from the charge of anti-intellectualism, which rightly or wrongly has been associated with it’ (PR, xii), it should be clear that it hardly matters whether such a charge is justified. What counts is simply the fact that it might be taken in that way, that is, that readers of Bergson, James or Dewey might understand ‘rationalist’ abstraction as in some way separate from ‘reality’.
+** For Whitehead, no definition is effective without the mute appeal to making an imaginative leap (PR, 4). Whitehead’s reasons have as their mission to make this leap felt.
+** What Whitehead calls __res verae__---actual entities connecting existence and actualisation in a mode which discloses them as creatures of creativity---have nothing to do with the kind of truth that would require contemplation or compliance. They are ‘true’ in the pragmatic sense, connecting truth to an experimentation with consequences. To understand them is, first of all, to understand the problem to which they respond, the manner in which they satisfy the method’s constraints.
+** Debaise casts light on the overwhelming importance, for Whitehead, of challenging the false simplicity of perceptual data, the pitfall of the empiricist tradition. This determined and relentless challenge to the empiricist reduction of experience has led many to misread Whitehead’s construction as a phenomenological project. But Debaise emphasizes that the stakes of his fight with Hume, in particular, are to be found on the level of conceptual construction and have little to do with fidelity to human experience.
+** Didier Debaise introduces Whitehead’s work, then, but he also adds to it by producing a path to consequences that solidify Whitehead’s place in the pragmatic tradition.
+* 1. Introduction
+** Proof matters little. What does matter, however, is the capacity to produce self-evidence.
+** It is generally assumed that if something is self-evident then it has no need of explanation, and so can function as an effective point of departure for the justification of a thought.
+** If ideas, habits or thoughts are self-evident, this is because they are the ends, not the causes, of a process. Self-evidence, then, should never be the initial element of a philosophical explanation but rather its goal. This presents a much greater challenge.
+** 
+* I. Speculative philosophy: method and function
+** 2. What is speculative philosophy?
+** 3. Creativity as ultimate principle
+** 4. Actualizing creativity
+* II. The speculative approach to existence: process and individuation
+** 5. What is a process of individuation?
+*** 5.1 The place of the problem of individuation
+*** 5.2 Disjunctive diversity: potential being
+*** 5.3 Individuation as capture [[file:deleuze.org][deleuze]]
+**** The passage from the many to the unity of a new entity operates through what Whitehead terms prehensions
+**** __Prehension__ is the constitutive activity of __actual entities__. Actual entities are nothing but centres of prehension; their entire being is identified with their capture of other actual entities. They express neither essence nor finality, but simply operations of capture.
+**** First, taken by itself, as its own reality, disjunctive diversity is an abstraction. It has meaning and effectiveness only when involved in a new concrescence. Next, the new actual entity – which Deleuze expresses with the wholly appropriate term ‘certain singularity’ – emerges from the many. Finally, this passage presupposes a ‘screen’ [crible].
+**** The question of the ‘screen’ is fundamental. It is precisely what allows the passage from plurality to unity, from chaos to a certain singularity. Without this screen, chaos would remain disjunctive diversity without the slightest possibility: for Whitehead, as for Leibniz, possibility is always the possibility of order or unity.
+**** Deleuze reads Process and Reality as a philosophy of ‘events’. The notion that Process and Reality turns around the question of events is an important idea, one I would not want to contest. And yet, for me, the question is rather to know where to situate events? What are ‘events’ in Process and Reality?
+**** B
+*** 5.4 A different economy of the subject and the object: objectification
+** 6. What is the subject?
+*** 6.1 A new economy of object and subject
+*** 6.2 The subject-superject structure
+*** 6.3 The subjective aim and self-enjoyment [[file:deleuze.org][deleuze]]
+*** 6.4 The two activities of prehension: exclusion and feeling
+** 7. Realization of self and power
+*** 7.1 The end of individuation
+*** 7.2 Power as the direction of potential
+** 8. Pure potentiality and actuality
+*** 8.1 What is an eternal object? [[file:deleuze.org][deleuze]]
+*** 8.2 Transforming platonism: ingression and participation
+*** 8.3 The mode of reality of eternal objects
+** 9. Temporal dimensions of actual entities
+*** 9.1 Becomings and instants
+*** 9.2 The temporal thickness of actual entities
+*** 9.3 The epochal theory of becoming
+*** 9.4 The distinction between two fluxes
+* III. Experiences and societies: thinking nature
+** 10. A universe of societies
+*** 10.1 Actual entities and societies
+*** 10.2 The emergence of societies
+*** 10.3 What is a multiple being?
+*** 10.4 Immanent social identity [[file:deleuze.org][deleuze]]
+** 11. The mode of existence of societies
+*** 11.1 Societies as durations
+*** 11.2 The extensive nature of societies
+** 12. Nature and societies
+*** 12.1 Order and disorder
+*** 12.2 Societies, environments
+*** 12.3 Stability and innovation: life in nature
+** 13. Conclusion: what is speculative empiricism?
+*** 13.1 Selection and speculation
+*** 13.2 The components of a philosophy of experience [[file:deleuze.org][deleuze]]

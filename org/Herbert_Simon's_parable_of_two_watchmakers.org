@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Herbert_Simon's_parable_of_two_watchmakers
+#+TITLE: Herbert Simon's parable of two watchmakers
+* [[file:hierarchical_modularity.org][hierarchical modularity]], [[file:Herbert_Simon.org][Herbert Simon]]
+* https://en.wikipedia.org/wiki/Biological_organisation#Fundamentals
+** There once were two watchmakers, named Hora and Tempus, who made very fine watches. The phones in their workshops rang frequently; new customers were constantly calling them. However, Hora prospered while Tempus became poorer and poorer. In the end, Tempus lost his shop. What was the reason behind this?
+** The watches consisted of about 1000 parts each. The watches that Tempus made were designed such that, when he had to put down a partly assembled watch (for instance, to answer the phone), it immediately fell into pieces and had to be reassembled from the basic elements.
+** Hora had designed his watches so that he could put together subassemblies of about ten components each. Ten of these subassemblies could be put together to make a larger sub-assembly. Finally, ten of the larger subassemblies constituted the whole watch. Each subassembly could be put down without falling apart.

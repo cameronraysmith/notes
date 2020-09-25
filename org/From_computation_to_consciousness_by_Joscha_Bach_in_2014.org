@@ -1,0 +1,14 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: From_computation_to_consciousness_by_Joscha_Bach_in_2014
+#+TITLE: From computation to consciousness by Joscha Bach in 2014
+* [[file:philosophy.org][philosophy]], [[file:Edmund_Husserl.org][Edmund Husserl]], [[file:Husserlian_phenomenology.org][Husserlian phenomenology]]
+* [[https://www.youtube.com/watch?time_continue=17&v=lKQ0yaEJjok&feature=emb_logo][Joscha: From Computation to Consciousness (31c3)]]
+** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2F2_7F47G50-.png?alt=media&token=e473430e-94c4-429b-bef2-15d5b60ec8d0]]
+** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2Fe4ZUjapFwK.png?alt=media&token=80c9a7a3-4f8c-408f-80d3-47b9923190cb]]
+** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FbgG23FU1IC.png?alt=media&token=2ab2fcec-7a8e-40ac-890d-ea617d9527d7]]
+** [[file:noesis.org][noesis]] and [[file:noema.org][noema]]
+** four questions (reminiscent of [[file:Immanuel_Kant's_three_philosophical_questions.org][Immanuel Kant's three philosophical questions]])
+*** what is the nature of reality?
+*** what can we know?
+*** who are we?
+*** what should we do?

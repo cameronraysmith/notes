@@ -1,0 +1,31 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Measuring_Clonal_Evolution_in_Cancer_with_Genomics_by_Williams,_Sottoriva,_and_Graham_in_2019
+#+TITLE: Measuring Clonal Evolution in Cancer with Genomics by Williams, Sottoriva, and Graham in 2019
+* 1. Clonal evolution in cancer
+* 2. Components of the evolutionary system
+** 2.1 Classifying tumor evolution
+** 2.2 Selection
+** 2.3 Mutation
+** 2.4 Neutral drift
+* 3. Quantifying cancer evolution
+* 4. Leveraging cohort-level information to study cancer evolution
+** 4.1 Driver mutations
+** 4.2 Mutational signatures
+** 4.3 dN/dS
+* 5. Intratumor heterogeneity as a window into cancer evolution
+** 5.1 Lineage tracing
+** 5.2 High-throughput experimental lineage tracing
+** 5.3 Deep sequencing
+*** Lineage size is the crucial piece of information that is revealed by deep sequencing studies and enables population dynamics to be inferred
+*** the variant allele frequency distribution in cancer evolution is referred to as the site frequency spectrum in population genetics
+**** 59. Keinan A, Clark AG. 2012. Recent explosive human population growth has resulted in an excess of rare genetic variants. Science 336:740–43
+*** enables the population dynamics to be inferred.
+*** the Wright-Fisher model predicts the number of mutations present at frequency f follows 1/f
+**** 37. Ewens WJ. 2012. Mathematical Population Genetics,Vol.1: Theoretical Introduction. New York: Springer. 2nd ed.
+*** the Luria-Delbruck model assuming exponential growth predicts 1/f^2
+**** 60. Kessler DA, Levine H. 2014. Scaling solution in the large population limit of the general asymmetric stochastic Luria-Delbrück evolution process. J. Stat. Phys. 158:783–805
+**** 142. Zheng Q. 1999. Progress of a half century in the study of the Luria–Delbrück distribution. Math. Biosci. 162:1–32
+** 5.4 Multiregion sequencing
+** 5.5 Single-cell sequencing
+** 5.6 From genotype to phenotype
+* 6. Summary and outlook

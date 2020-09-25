@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_Man_from_UNCLE
+#+TITLE: The Man from UNCLE

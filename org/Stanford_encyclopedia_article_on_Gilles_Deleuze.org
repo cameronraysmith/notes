@@ -1,0 +1,17 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Stanford_encyclopedia_article_on_Gilles_Deleuze
+#+TITLE: Stanford encyclopedia article on Gilles Deleuze
+* 1. Life and works
+* 2. Deleuze's readings of other philosophers
+* 3. The philosophy of difference
+** 3.1 Difference and repetition
+** 3.2 Logic of sense
+* 4. Collaboration with Guattari
+** 4.1 Anti-oedipus
+** 4.2 A thousand plateaus
+** 4.3 What is philosophy?
+* 5. Deleuze and the arts
+* 6. The reception of Deleuze
+** 6.1 The feminist critique
+** 6.2 The Badiouan critique
+** 6.3 The "science wars" critique

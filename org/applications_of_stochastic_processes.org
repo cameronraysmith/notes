@@ -1,0 +1,23 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: applications_of_stochastic_processes
+#+TITLE: applications of stochastic processes
+* [[file:statistical_physics.org][statistical physics]], [[file:stochastic_processes.org][stochastic processes]]
+* [[Bayesian [[file:probabilistic_inference.org][probabilistic inference]] for [[file:stochastic_processes.org][stochastic processes]]
+* [[file:simulation.org][simulation]]
+** [[https://alanderos91.github.io/BioSimulator.jl/stable/][BioSimulator.jl]] in [[file:julia.org][julia]]
+* chemical reaction networks [[file:chemical_reaction_network_theory.org][chemical reaction network theory]]
+** [[file:Large_deviations_and_dynamical_phase_transitions_in_stochastic_chemical_networks_by_Lazarescu_and_Esposito_in_2019.org][Large deviations and dynamical phase transitions in stochastic chemical networks by Lazarescu and Esposito in 2019]]
+** Galstyan, V., & Saakian, D. B. (2012). Dynamics of the chemical master equation, a strip of chains of equations in d-dimensional space. __Physical Review E__, __86__(1), 011125. https://doi.org/10.1103/PhysRevE.86.011125
+** [[file:Approximation_and_inference_methods_for_stochastic_biochemical_kinetics—a_tutorial_review_by_David_Schnoerr,_Guido_Sanguinetti_and_Ramon_Grima_in_2017.org][Approximation and inference methods for stochastic biochemical kinetics—a tutorial review by David Schnoerr, Guido Sanguinetti and Ramon Grima in 2017]]
+** [[file:Inferring_gene_regulatory_networks_from_single-cell_data_a_mechanistic_approach_by_Ulysse_Herbach,_Olivier_Gandrillon,_et_al_in_2017.org][Inferring gene regulatory networks from single-cell data a mechanistic approach by Ulysse Herbach, Olivier Gandrillon, et al in 2017]]
+* [[file:population_dynamics.org][population dynamics]]
+** Saakian, D. B., Yakushkina, T., & Koonin, E. V. (2019). Allele fixation probability in a Moran model with fluctuating fitness landscapes. __Physical Review E__, __99__(2), 022407. https://doi.org/10.1103/PhysRevE.99.022407
+** Sella, G., & Hirsh, A. E. (2005). The application of statistical physics to evolutionary biology. __PNAS__, __102__(27), 9541–9546. https://doi.org/10.1073/pnas.0501865102
+** [[file:Introductory_Lectures_on_Stochastic_Population_Systems_by_Donald_Dawson_in_2017.org][Introductory Lectures on Stochastic Population Systems by Donald Dawson in 2017]]
+** [[file:Population_biology_and_criticality_by_Nico_Stollenwerk_and_Vincent_Johnson_in_2010.org][Population biology and criticality by Nico Stollenwerk and Vincent Johnson in 2010]]
+* [[file:marginal_observations.org][marginal observations]] of biochemical systems [[file:biochemistry.org][biochemistry]]
+** Altaner, B., & Vollmer, J. (2012). Fluctuation-Preserving Coarse Graining for Biochemical Systems. __Physical Review Letters__, __108__(22), 228101. https://doi.org/10.1103/PhysRevLett.108.228101
+** Bravi, B., & Sollich, P. (2017). Statistical physics approaches to subnetwork dynamics in biochemical systems. __Physical Biology__, __14__(4), 045010. https://doi.org/10.1088/1478-3975/aa7363 [[file:Statistical_physics_approaches_to_subnetwork_dynamics_in_biochemical_systems_by_Bravi_and_Sollich_in_2017.org][Statistical physics approaches to subnetwork dynamics in biochemical systems by Bravi and Sollich in 2017]]
+* Computation and [[file:probabilistic_inference.org][probabilistic inference]]
+** Mezard, M., & Montanari, A. (2009). __Information, physics, and computation__. Oxford University Press. [[file:Information,_physics,_and_computation_by_Marc_Mezard_and_Andrea_Montanari_in_2009.org][Information, physics, and computation by Marc Mezard and Andrea Montanari in 2009]]
+** [[file:A_high-bias,_low-variance_introduction_to_Machine_Learning_for_physicists_by_Pankaj_Mehta,_Charles_Fisher,_David_Schwab,_et_al_in_2018.org][A high-bias, low-variance introduction to Machine Learning for physicists by Pankaj Mehta, Charles Fisher, David Schwab, et al in 2018]]

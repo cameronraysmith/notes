@@ -1,0 +1,58 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: A_thorough_introduction_to_the_theory_of_general_relativity_by_Frederic_Schuller_in_2015
+#+TITLE: A thorough introduction to the theory of general relativity by Frederic Schuller in 2015
+- [[https://www.youtube.com/playlist?list=PLFeEvEPtX_0S6vxxiiNPrJbLu9aK1UVC_][YouTube playlist for lectures]]
+- tutorials
+  - [[https://www.youtube.com/playlist?list=PLFeEvEPtX_0RQ1ys-7VIsKlBWz7RX-FaL][YouTube playlist for Tutorials]]
+  - [[http://mathswithphysics.blogspot.com/2016/07/the-we-heraeus-international-winter.html][links to tutorial problems with solutions]] and [[https://gravity-and-light.herokuapp.com/tutorials][direct link to original course website]]
+- [[https://github.com/lazierthanthou/Lecture_Notes_GR][Lecture notes by lazierthanthou]]
+
+* 1. Topology
+* 2. Topological manifolds
+* 3. Multilinear algebra
+* 4. Differentiable manifolds
+* 5. Tangent spaces
+* 6. Fields
+** [[https://en.wikipedia.org/wiki/Serre%E2%80%93Swan_theorem][Serre–Swan theorem - Wikipedia]]
+*** Suppose $$M$$ is a smooth manifold (not necessarily compact), and $$E$$ is a smooth vector bundle over $$M$$. Then $$\Gamma (E)$$, the space of smooth sections of $$E$$, is a module over $$C^{\infty}(M)$$ (the commutative algebra of smooth real-valued functions on $$M$$). Swan's theorem states that this module is finitely generated and projective over $$C^{\infty}(M)$$.
+*** https://math.stackexchange.com/a/3088705/
+* 7. Connections
+* 8. Parallel transport and curvature
+* 9. Newtonian spacetime is curved!
+** Newtonian gravity can be formulated such that gravity is a curvature of Newtonian spacetime
+*** Axiom I: particles under the influence of no other force moves along a straight worldline in spacetime
+* 10. Metric manifolds
+* 11. Symmetry
+* 12. Integration on manifolds
+* 13. Spacetime
+* 14. Matter
+* 15. Einstein gravity
+* 16. Optical geometry I
+* 17. Optical geometry II
+* 18. Canonical formulation of GR I
+* 19. Canonical formulation of GR II
+* 20. Cosmology * the early epoch
+* 21. Cosmology * the late epoch
+* 22. Black holes
+* 23. Penrose diagrams
+* 24. Perturbation theory I
+* 25. Perturbation theory II
+* 26. How quantizable matter gravitates
+** Explain why gravity can be derived from given matter dynamics (4:06)
+** Set --> Topology --> Smooth atlas --> Lorentzian metric --> Spinorial matter (fermions) --> Tensorial matter (bosons) --> Maxwell electromagnetism / Einstein gravity dynamics / Standard model dynamics (5:13)
+** Observations 
+*** Einstein-Minkowski
+**** Maxwell electromagnetism --> Lorentzian metric
+*** Einstein-Kuchar-Teitelboim
+**** Lorentzian metric --> Einstein gravity dynamics
+** Einstein equations relate the Einstein curvature of spacetime to the energy-momentum tensor of matter
+** Refined physical definition of spacetime
+- A spacetime is a triple $$(M, G,S[G,\Phi])$$ with
+  - A smooth manifold $$M$$
+  - A smooth tensor field "the geometry" $$G$$ (Lorentzian metric as a special case)
+  - A test matter action "the matter" $$S[G, \Phi]$$ (Maxwell action)
+  - Such that the principal polynomial $$P$$ and $P^{\sharp}$ are both hyperbolic
+** Gravitational dynamics
+*** 
+* 27. Sources of gravitational waves
+* 28. How to detect gravitational waves

@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Aki_Vehtari
+#+TITLE: Aki Vehtari
+* [[file:probabilistic_inference.org][probabilistic inference]]
+* lectures
+** [[file:Bayesian_data_analysis_by_Andrew_Gelman,_Aki_Vehtari,_et_al_in_2014.org][Bayesian data analysis by Andrew Gelman, Aki Vehtari, et al in 2014]] book and course

@@ -1,0 +1,12 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: scVI
+#+TITLE: scVI
+* [[file:single-cell_transcriptome_analysis.org][single-cell transcriptome analysis]]
+* original paper
+** [[file:Bayesian_Inference_for_a_Generative_Model_of_Transcriptome_Profiles_from_Single-cell_RNA_Sequencing_by_Romain_Lopez,_Michael_Jordan,_Nir_Yosef_et_al_in_2018.org][Bayesian Inference for a Generative Model of Transcriptome Profiles from Single-cell RNA Sequencing by Romain Lopez, Michael Jordan, Nir Yosef et al in 2018]]
+* library for [[file:single-cell_variational_inference.org][single-cell variational inference]]
+* [[https://scvi.readthedocs.io/en/stable/tutorials/basic_tutorial.html#Loading-data][scVI tutorials]] can be run in [[file:google_colab.org][google colab]]
+* [[file:questions.org][questions]]
+** Can [[file:scVI.org][scVI]] be used for flow cytometry analysis?
+* tutorials
+** [[file:Introduction_to_single-cell_Variational_Inference.org][Introduction to single-cell Variational Inference]]

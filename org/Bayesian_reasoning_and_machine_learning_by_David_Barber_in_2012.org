@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Bayesian_reasoning_and_machine_learning_by_David_Barber_in_2012
+#+TITLE: Bayesian reasoning and machine learning by David Barber in 2012
+* [[file:books.org][books]], [[file:probabilistic_inference.org][probabilistic inference]]
+* contents
+** 

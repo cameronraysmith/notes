@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Current_best_practices_in_single‐cell_RNA‐seq_analysis_a_tutorial_by_Malta_Luecken_and_Fabian_Theis_in_2019
+#+TITLE: Current best practices in single‐cell RNA‐seq analysis a tutorial by Malta Luecken and Fabian Theis in 2019
+* [[file:papers.org][papers]], [[file:cloud_computing.org][cloud computing]], [[file:single-cell_transcriptome_analysis.org][single-cell transcriptome analysis]], [[file:computation.org][computation]], [[file:bioinformatics.org][bioinformatics]]
+* Luecken, M. D., & Theis, F. J. (2019). Current best practices in single‐cell RNA‐seq analysis: a tutorial. __Molecular Systems Biology__, __15__(6), e8746. https://doi.org/10.15252/msb.20188746
+* I have an instance in [[file:google_cloud_platform.org][google cloud platform]]'s AI platform notebooks where I installed the data and software for this [[file:SCANPY.org][SCANPY]] tutorial.
+** https://console.cloud.google.com/ai-platform/notebooks/instances?project=core-246800 (pytorch-20191108-155727)

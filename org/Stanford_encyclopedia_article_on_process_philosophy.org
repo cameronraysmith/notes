@@ -1,0 +1,10 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Stanford_encyclopedia_article_on_process_philosophy
+#+TITLE: Stanford encyclopedia article on process philosophy
+* 1. Historical contributions
+* 2. Three tasks of process philosophy
+* 3. Beyond traditional bifurcations: process-philosophical approaches to old questions
+* 4. Tracking science: new topics for process philosophy
+* 5. Current challenges
+* 6. The ultimate question: is reality directed?
+* 7. Institutionalization

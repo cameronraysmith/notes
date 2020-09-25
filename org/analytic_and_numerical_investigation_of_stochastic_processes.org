@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: analytic_and_numerical_investigation_of_stochastic_processes
+#+latex_header: \input{../header.tex}
+#+title: Analytic and numerical investigation of stochastic processes
+#+roam_tags:
+
+- Here we will weave together an analytic and numerical investigation of several simple stochastic processes.
+- For algebraic manipuluation, we will make use of [[file:chaining_maxima_blocks_in_org_mode.org][Chaining maxima blocks in org mode]].

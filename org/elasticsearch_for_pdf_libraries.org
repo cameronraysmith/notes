@@ -1,0 +1,11 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: elasticsearch_for_pdf_libraries
+#+TITLE: elasticsearch for pdf libraries
+* [[file:library.org][library]], [[file:computation.org][computation]], [[file:web_development.org][web development]], [[file:elasticsearch.org][elasticsearch]]
+* links
+** [[https://kb.objectrocket.com/elasticsearch/how-to-index-a-pdf-file-as-an-elasticsearch-index-267][How To Index A PDF File As An Elasticsearch Index | ObjectRocket]]
+** [[https://tika.apache.org/][Apache Tika – Apache Tika]] for batch conversion of many document types to text
+** [[https://www.elastic.co/guide/en/elasticsearch/plugins/current/ingest-attachment.html][Ingest Attachment Processor Plugin | Elasticsearch Plugins and Integrations | Elastic]] for ingesting pdfs to elasticsearch
+** [[https://blog.patricktriest.com/text-search-docker-elasticsearch/][Building a Full-Text Search App Using Docker and Elasticsearch]]
+* deployment
+** https://operatorhub.io/operator/elastic-cloud-eck [[file:kubernetes.org][kubernetes]], [[file:elasticsearch.org][elasticsearch]]

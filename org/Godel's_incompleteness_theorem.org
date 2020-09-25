@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Godel's_incompleteness_theorem
+#+TITLE: Godel's incompleteness theorem
+* [[file:computer_science.org][computer science]], [[file:logic.org][logic]], [[file:mathematics.org][mathematics]]

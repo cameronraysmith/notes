@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: pyprob
+#+TITLE: pyprob
+* [[file:software_library.org][software library]], [[file:computation.org][computation]], [[file:probabilistic_programming.org][probabilistic programming]], [[file:probabilistic_inference.org][probabilistic inference]]
+* examples
+** https://github.com/minhnhdo/probprog-presentation/blob/master/PyProb%20-%20Introduction.ipynb

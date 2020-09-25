@@ -1,0 +1,112 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: A_kinetic_view_of_statistical_physics_by_Krapivsky,_Redner,_and_Ben-Naim_in_2010
+#+TITLE: A kinetic view of statistical physics by Krapivsky, Redner, and Ben-Naim in 2010
+* Lectures
+** Krapivsky, P. L., Redner, S., & Ben-Naim, E. (2010). __A Kinetic View of Statistical Physics__. Retrieved from https://www.youtube.com/playlist?list=PLNFIflbQ6VNv_KKn9eKn32q6f6WstaEwk
+* 1. Aperitifs
+** 1.1 Diffusion
+** 1.2 Single-species annihilation/coalescence
+** 1.3 Two-species
+** 1.4 Notes
+* 2. Diffusion
+** 2.1 The probability distribution
+** 2.2 Central limit theorem
+** 2.3 Walks with broad distributions
+** 2.4 Application to gravity: the Holtsmark distribution
+** 2.5 First-passage properties
+** 2.6 Exit probabilities and exit times
+** 2.7 Reaction rate theory
+** 2.8 The Langevin approach
+** 2.9 Application to surface growth
+** 2.10 Notes
+* 3. Collisions
+** 3.1 Kinetic theory
+** 3.2 The Lorentz gas
+** 3.3 Lorentz gas in an external field
+** 3.4 Collisional impact
+** 3.5 Maxwell molecules and very hard particles
+** 3.6 Inelastic gases
+** 3.7 Ballistic agglomeration
+** 3.8 Single-lane traffic
+** 3.9 Notes
+* 4. Exclusion
+** 4.1 Symmetric exclusion process
+** 4.2 Asymmetric exclusion process
+** 4.3 Hydrodynamic approach
+** 4.4 Microscopic approach
+** 4.5 Open systems
+** 4.6 Notes
+* 5. Aggregation
+** 5.1 The master equations
+** 5.2 Exact solution methods
+** 5.3 Gelation
+** 5.4 Scaling
+** 5.5 Aggregation with input
+** 5.6 Exchange-driven growth
+** 5.7 Notes
+* 6. Fragmentation
+** 6.1 Binary fragmentation
+** 6.2 Planar fragmentation
+** 6.3 Reversible polymerization
+** 6.4 Collisional fragmentation
+** 6.5 Notes
+* 7. Adsorption
+** 7.1 Random sequential adsorption in one dimension
+** 7.2 Phase space structure
+** 7.3 Adsorption in higher dimensions
+** 7.4 Reversible adsorption
+** 7.5 Polymer translocation
+** 7.6 Notes
+* 8. Spin dynamics
+** 8.1 Phenomenology of coarsening
+** 8.2 The voter model
+** 8.3 Ising-Glauber model
+** 8.4 Mean-field approximation
+** 8.5 Glauber dynamics in one dimension
+** 8.6 Glauber dynamics in higher dimensions
+** 8.7 Spin-exchange dynamics
+** 8.8 Cluster dynamics
+** 8.9 Notes
+* 9. Coarsening
+** 9.1 Models
+** 9.2 Free evolution
+** 9.3 Case studies in non-conservative dynamics
+** 9.4 Final states
+** 9.5 Defects
+** 9.6 Conservative dynamics
+** 9.7 Extremal dynamics
+** 9.8 Nucleation and growth
+** 9.9 Notes
+* 10. Disorder
+** 10.1 Disordered spin chain
+** 10.2 Random walk in a random potential
+** 10.3 Random walk in random velocity
+** 10.4 Notes
+* 11. Hysteresis
+** 11.1 Homogeneous ferromagnets
+** 11.2 Perturbation analysis
+** 11.3 Disordered ferromagnets
+** 11.4 Mean-field model
+** 11.5 Hysteresis in the random-field Ising chain
+** 11.6 Notes
+* 12. Population dynamics
+** 12.1 Continuum formulation
+** 12.2 Discrete reactions
+** 12.3 Small-fluctuation expansion
+*** [[file:interacting_particle_systems.org][interacting particle systems]]
+** 12.4 Large fluctuations
+** 12.5 Notes
+* 13. Diffusive reactions
+** 13.1 Role of the spatial dimension
+** 13.2 The trapping reaction
+** 13.3 Two-species annihilation
+** 13.4 Single-species reactions in one dimension
+** 13.5 Reactions in spatial gradients
+** 13.6 Notes
+* 14. Complex networks
+** 14.1 Non-lattice networks
+** 14.2 Evolving random graphs
+** 14.3 Random recursive trees
+** 14.4 Preferential attachment
+** 14.5 Fluctuations in networks
+** 14.6 Notes

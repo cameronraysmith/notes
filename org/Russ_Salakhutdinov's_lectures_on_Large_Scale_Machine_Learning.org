@@ -1,0 +1,17 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Russ_Salakhutdinov's_lectures_on_Large_Scale_Machine_Learning
+#+TITLE: Russ Salakhutdinov's lectures on Large Scale Machine Learning
+* links
+** based on [[file:Pattern_recognition_and_machine_learning_by_Chris_Bishop_in_2006.org][Pattern recognition and machine learning by Chris Bishop in 2006]]
+** original: http://www.fields.utoronto.ca/video-archive/event/323/2014
+** backup: https://photos.google.com/album/AF1QipNaGxG0la-U_iJfp-3uL1XRh3moNY6KjyNBqUA7
+** found via https://qr.ae/pNKF9t
+* Lecture 1: Introduction and some linear models
+** 
+* Lecture 2: Linear models for regression
+* Lecture 3: Linear models for classification
+* Lecture 5: Mixture models
+* Lecture 8: Continuous latent variable models
+* Lecture 9: Sequential models
+** Hidden markov models
+** Linear dynamical systems

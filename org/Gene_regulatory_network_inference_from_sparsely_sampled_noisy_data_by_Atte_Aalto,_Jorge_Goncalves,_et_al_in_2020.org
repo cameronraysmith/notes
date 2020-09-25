@@ -1,0 +1,10 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Gene_regulatory_network_inference_from_sparsely_sampled_noisy_data_by_Atte_Aalto,_Jorge_Goncalves,_et_al_in_2020
+#+TITLE: Gene regulatory network inference from sparsely sampled noisy data by Atte Aalto, Jorge Goncalves, et al in 2020
+* [[file:papers.org][papers]], [[file:network_inference.org][network inference]], [[file:single-cell_transcriptome_analysis.org][single-cell transcriptome analysis]], [[file:time_series.org][time series]]
+* citation
+** Aalto, A., Viitasaari, L., Ilmonen, P., Mombaerts, L., & Gonçalves, J. (2020). Gene regulatory network inference from sparsely sampled noisy data. __Nature Communications__, __11__(1), 3493. https://doi.org/10.1038/s41467-020-17217-1
+* code
+** https://github.com/AtteAalto/BINGO
+* contents
+** 

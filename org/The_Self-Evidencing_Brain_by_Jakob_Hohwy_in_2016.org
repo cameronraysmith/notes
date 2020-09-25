@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_Self-Evidencing_Brain_by_Jakob_Hohwy_in_2016
+#+TITLE: The Self-Evidencing Brain by Jakob Hohwy in 2016
+* [[file:philosophy.org][philosophy]], [[file:Bayesian_brain_hypothesis.org][Bayesian brain hypothesis]], [[file:papers.org][papers]]

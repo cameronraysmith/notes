@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: wine
+#+TITLE: wine
+* France
+** [[https://i.pinimg.com/originals/94/8d/78/948d78fc1feb42bb50ab824ecc46352a.png]]

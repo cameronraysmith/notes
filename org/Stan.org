@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Stan
+#+TITLE: Stan
+* [[file:software_library.org][software library]], [[file:probabilistic_inference.org][probabilistic inference]]
+* tutorials
+** https://github.com/stan-dev/example-models/tree/master/knitr
+** https://mc-stan.org/users/documentation/case-studies.html
+** Predator-Prey Population Dynamics: the Lotka-Volterra model in Stan Bob Carpenter 28 January 2018

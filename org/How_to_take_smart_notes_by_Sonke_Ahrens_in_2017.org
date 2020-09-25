@@ -1,0 +1,20 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: How_to_take_smart_notes_by_Sonke_Ahrens_in_2017
+#+TITLE: How to take smart notes by Sonke Ahrens in 2017
+* I. Introduction
+** 1. Everything you need to know
+** 2. Everything you need to do
+** 3. Everything you need to have
+** 4. A few things to keep in mind
+* II. The four underlying principles
+** 5. Writing is the only thing that matters
+** 6. Simplicity is paramount
+** 7. Nobody ever starts from scratch
+** 8. Let the work carry you forward
+* III. The six steps to successful writing
+** 9. Separate and interlocking tasks
+** 10. Read for understanding
+** 11. Take smart notes
+** 12. Develop ideas
+** 13. Share your insight
+** 14. Make it a habit

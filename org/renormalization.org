@@ -1,0 +1,13 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: renormalization
+#+TITLE: renormalization
+* [[file:Renormalization_methods_a_guide_for_beginners_by_McComb_in_2004.org][Renormalization methods a guide for beginners by McComb in 2004]]
+* [[file:Renormalization_for_Philosophers_by_Butterfield_and_Bouatta_in_2014.org][Renormalization for Philosophers by Butterfield and Bouatta in 2014]]
+* [[file:A_critical_history_of_renormalization_by_Kerson_Huang_in_2013.org][A critical history of renormalization by Kerson Huang in 2013]]
+* [[file:Multiscale_Structure_in_Eco-Evolutionary_Dynamics_by_Blake_Stacey_in_2015.org][Multiscale Structure in Eco-Evolutionary Dynamics by Blake Stacey in 2015]]
+* [[file:Optimal_Renormalization_Group_Transformation_from_Information_Theory_by_Lenggenhager,_Ringel,_Huber,_and_Koch-Janusz_in_2018.org][Optimal Renormalization Group Transformation from Information Theory by Lenggenhager, Ringel, Huber, and Koch-Janusz in 2018]]
+* [[file:Normal_Form_for_Renormalization_Groups_by_Archishman_Raju,_James_Sethna,_et_al_in_2019.org][Normal Form for Renormalization Groups by Archishman Raju, James Sethna, et al in 2019]]
+* [[file:references.org][references]]
+** Koch-Janusz, M., & Ringel, Z. (2018). Mutual information, neural networks and the renormalization group. __Nature Physics__, __14__(6), 578–582. https://doi.org/10.1038/s41567-018-0081-4
+** Lenggenhager, P. M., Gökmen, D. E., Ringel, Z., Huber, S. D., & Koch-Janusz, M. (2018). Optimal Renormalization Group Transformation from Information Theory. Retrieved from http://arxiv.org/abs/1809.09632
+** Koch-Janusz, M., & Ringel, Z. (2017). Mutual Information, Neural Networks and the Renormalization Group. Retrieved from https://arxiv.org/pdf/1704.06279.pdf

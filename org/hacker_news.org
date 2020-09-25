@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: hacker_news
+#+TITLE: hacker news
+* [[file:news.org][news]], [[file:computation.org][computation]]
+* https://news.ycombinator.com/
+* __Julia library for fast machine learning (turing.ml)__ — via [[https://news.ycombinator.com/item?id=23129309][Julia library for fast machine learning | Hacker News]]

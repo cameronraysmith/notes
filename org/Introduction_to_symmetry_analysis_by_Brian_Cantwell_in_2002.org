@@ -1,0 +1,10 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Introduction_to_symmetry_analysis_by_Brian_Cantwell_in_2002
+#+TITLE: Introduction to symmetry analysis by Brian Cantwell in 2002
+* 1. Introduction to symmetry
+** 1.4 The principle of covariance
+*** Definition 1.2 (The principle ofcovariance). The equations thatgovern a phys* ical law must retain the same appearance under certain group transformations of the variables that appear in the equations. This principle incorporates two somewhat distinct ideas.
+**** (i) Coordinate independence – Physical phenomena must be governed by laws that do not depend on the coordinate system used to describe the phenomena.
+**** (ii) Dimensional homogeneity – Physical phenomena must be described by laws that do not depend on the unit ofmeasure applied to the dimensions ofthe variables that describe the phenomena.
+*** (i) Coordinate independence – Physical phenomena must be governed by laws that do not depend on the coordinate system used to describe the phenomena.
+*** (ii) Dimensional homogeneity – Physical phenomena must be described by laws that do not depend on the unit ofmeasure applied to the dimensions ofthe variables that describe the phenomena.

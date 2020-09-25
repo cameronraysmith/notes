@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Inferring_gene_regulatory_networks_from_single-cell_data_a_mechanistic_approach_by_Ulysse_Herbach,_Olivier_Gandrillon,_et_al_in_2017
+#+TITLE: Inferring gene regulatory networks from single-cell data a mechanistic approach by Ulysse Herbach, Olivier Gandrillon, et al in 2017
+* [[file:network_inference.org][network inference]], [[file:stochastic_processes.org][stochastic processes]], [[file:single-cell_transcriptome_analysis.org][single-cell transcriptome analysis]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:Olivier_Gandrillon.org][Olivier Gandrillon]]
+* The authors use piecewise deterministic Markov processes to infer gene regulatory network architecture from 

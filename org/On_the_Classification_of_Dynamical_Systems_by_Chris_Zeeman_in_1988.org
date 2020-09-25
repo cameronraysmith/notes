@@ -1,0 +1,9 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: On_the_Classification_of_Dynamical_Systems_by_Chris_Zeeman_in_1988
+#+TITLE: On the Classification of Dynamical Systems by Chris Zeeman in 1988
+* One is emboldened to **raise the question of classifying all ordinary differential equations**. Of course, such a task is impossible because it is too complicated, so perhaps we should first try and classify the 'generic' ones. Since any higher order equation can be written as a first order equation on a higher dimensional manifold **the problem reduces to the classification of vector fields on a manifold**. So let V denote the space of smooth vector fields on a manifold X. **What should a classification programme consist of?** We suggest four steps:
+** 1. Choose an equivalence relation on V, and define a vector field to be stable if it has a neighbourhood of equivalents in V. 
+** 2. Prove that the stables are dense in V. 
+** 3. Classify the stable classes. 
+** 4. Classify the unstable classes of codimension 1,2,..., etc.
+* [[file:structural_stability.org][structural stability]]

@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: GpABC_a_Julia_package_for_approximate_bayesian_computation_with_Gaussian_process_emulation_by_Evgeny_Tankhilevich,_Michael_P_H_Stumpf_et_al_in_2020
+#+TITLE: GpABC a Julia package for approximate bayesian computation with Gaussian process emulation by Evgeny Tankhilevich, Michael P. H. Stumpf et al in 2020
+* [[file:approximate_bayesian_computation.org][approximate bayesian computation]] with [[file:Gaussian_process.org][Gaussian process]], [[file:Michael_P_H_Stumpf.org][Michael P. H. Stumpf]]
+* citation
+* code
+** https://github.com/tanhevg/GpABC.jl/blob/master/examples/abc-example.ipynb
+* contents

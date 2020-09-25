@@ -1,0 +1,9 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: phylogenetics
+#+TITLE: phylogenetics
+* Frequentist:
+** ☐ Examine data sets from REVOLVER @est(2h) @today
+* Bayesian:
+** ☐ **Collaborative intra-tumor heterogeneity detection**. Khakabimamaghani, S., Malikic, S., (2019). Bioinformatics, 35(14), i379–i388. https://doi.org/10.1093/bioinformatics/btz355 -* see summary of methods so far in Notes section
+** [[file:Phylogenetic_inference_using_RevBayes_by_Hohna,_Landis,_and_Heath_in_2017.org][Phylogenetic inference using RevBayes by Hohna, Landis, and Heath in 2017]]
+** [[file:Evaluating_probabilistic_programming_and_fast_variational_Bayesian_inference_in_phylogenetics_by_Mathieu_Fourment_and_Aaron_Darling_in_2019.org][Evaluating probabilistic programming and fast variational Bayesian inference in phylogenetics by Mathieu Fourment and Aaron Darling in 2019]]

@@ -1,0 +1,13 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: google_cloud_platform_cloud_architect_training
+#+TITLE: google cloud platform cloud architect training
+* [[file:cloud_computing.org][cloud computing]], [[file:google_cloud_platform.org][google cloud platform]], [[file:Courses.org][Courses]]
+* 
+* courses
+** [[https://cloud.google.com/training/hybrid-multi-cloud][Hybrid and multi-cloud  |  Google Cloud Training]]
+** [[file:kubernetes.org][kubernetes]]
+*** [[https://www.coursera.org/specializations/architecting-google-kubernetes-engine][Architecting with Google Kubernetes Engine | Coursera]]
+**** [[https://www.coursera.org/learn/gcp-fundamentals/home/welcome][Google Cloud Platform Fundamentals: Core Infrastructure * Home | Coursera]]
+** [[file:anthos.org][anthos]]
+*** [[https://www.coursera.org/specializations/architecting-hybrid-cloud-infrastructure-anthos][Architecting Hybrid Cloud Infrastructure with Anthos | Coursera]]
+** 

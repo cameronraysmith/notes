@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Lock,_stock,_and_two_smoking_barrels
+#+TITLE: Lock, stock, and two smoking barrels

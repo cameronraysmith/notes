@@ -1,0 +1,50 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Evolution_and_Selection_of_Quantitative_Traits_by_Bruce_Walsh_and_Michael_Lynch_in_2018
+#+TITLE: Evolution and Selection of Quantitative Traits by Bruce Walsh and Michael Lynch in 2018
+* citation
+** Walsh, B., & Lynch, M. (2018). Evolution and Selection of Quantitative Traits. Oxford University Press.
+* contents
+** I. Introduction
+*** 1. Changes in quantitative traits over time
+** II. Evolution at one and two loci
+*** 2. Neutral evolution in one* and two-locus systems
+*** 3. The genetic effective size of a population
+*** 4. The nonadaptive forces of evolution
+*** 5. The population genetics of selection
+*** 6. Theorems of natural selection: results of Price, Fisher, and Robertson
+*** 7. Interaction of selection, mutation, and drift
+*** 8. Hitchhiking and selective sweeps
+*** 9. Using molecular data to detect selection: signatures from recent single events
+*** 10. Using molecular data to detect selection: signatures from multiple historical events
+** III. Drift and quantitative traits
+*** 11. Changes in genetic variance induced by drift
+*** 12. The neutral divergence of quantitative traits
+** IV. Short-term response on a single character
+*** 13. Short-term changes in the mean: 1. The Breeder's equation
+*** 14. Short-term changes in the mean: 2. Truncation and threshold selection
+*** 15. Short-term changes in the mean: 3. Permanent versus transient response
+*** 16. Short-term changes in the variance: 1. Changes in the additive variance
+*** 17. Short-term changes in the variance: 2. Changes in the environmental variance
+*** 18. Analysis of short-term selection experiments: 1. Least-squares approaches
+*** 19. Analysis of short-term selection experiments: 2. Mixed-model and Bayesian approaches
+*** 20. Selection response in natural populations    
+** V. Selection in structured populations
+*** 21. Family-based selection
+*** 22. Associative effects: competition, social interactions, group and kin selection
+*** 23. Selection under inbreeding
+** VI. Population-genetic models of trait response
+*** 24. The infinitesimal model and its extensions
+*** 25. Long-term response: 1. Deterministic aspects
+*** 26. Long-term response: 2. Finite population size and mutation
+*** 27. Long-term response: 3. Adaptive walks
+*** 28. Maintenance of quantitative genetic variation
+** VII. Measuring selection on traits
+*** 29. Individual fitness and the measurement of univariate selection
+*** 30. Measuring multivariate selection
+** VIII. Appendix
+*** A1. Diffusion theory
+*** A2. Introduction to Bayesian analysis
+*** A3. Markov chain Monte Carlo and Gibbs sampling
+*** A4. Multiple comparisons: Bonferroni corrections, False-Discovery rates, and Meta-analysis
+*** A5. The geometry of vectors and matrices: eigenvalues and eigenvectors
+*** A6. Derivatives of vectors and vector-valued functions

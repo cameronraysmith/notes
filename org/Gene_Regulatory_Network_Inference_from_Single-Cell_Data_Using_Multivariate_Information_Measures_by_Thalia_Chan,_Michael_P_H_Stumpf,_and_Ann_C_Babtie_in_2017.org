@@ -1,0 +1,9 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Gene_Regulatory_Network_Inference_from_Single-Cell_Data_Using_Multivariate_Information_Measures_by_Thalia_Chan,_Michael_P_H_Stumpf,_and_Ann_C_Babtie_in_2017
+#+TITLE: Gene Regulatory Network Inference from Single-Cell Data Using Multivariate Information Measures by Thalia Chan, Michael P. H. Stumpf, and Ann C. Babtie in 2017
+* [[file:papers.org][papers]], [[file:network_inference.org][network inference]], [[file:single-cell_transcriptome_analysis.org][single-cell transcriptome analysis]], [[file:Michael_P_H_Stumpf.org][Michael P. H. Stumpf]]
+* citation
+* contents
+** abstract
+*** We develop PIDC, a fast, efficient algorithm that uses [[file:partial_information_decomposition.org][partial information decomposition]] (PID) to identify regulatory relationships between genes.
+** 

@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: How_does_monad-bayes_compare_to_pyro
+#+TITLE: How does monad-bayes compare to pyro?
+* [[file:questions.org][questions]], [[file:computation.org][computation]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:monad-bayes.org][monad-bayes]], [[file:pyro.org][pyro]]

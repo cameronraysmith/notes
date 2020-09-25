@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: mean-field_approximation
+#+TITLE: mean-field approximation
+* 

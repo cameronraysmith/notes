@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Realizing_reason_a_narrative_of_truth_and_knowing_by_Danielle_MacBeth_in_2014
+#+TITLE: Realizing reason a narrative of truth and knowing by Danielle MacBeth in 2014
+* [[file:philosophy.org][philosophy]], [[file:Danielle_MacBeth.org][Danielle MacBeth]]
+* 

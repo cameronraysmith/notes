@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_World_A_brief_introduction_by_Richard_Haass_in_2020
+#+TITLE: The World A brief introduction by Richard Haass in 2020
+* [[https://www.nytimes.com/2020/05/12/books/review/the-world-richard-haass.html][Review: The Challenges of a Threatening World * The New York Times]]

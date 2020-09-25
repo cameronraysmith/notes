@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Francis_Miller
+#+TITLE: Francis Miller
+* [[file:roam.org][roam]], [[file:multi-level_summaries.org][multi-level summaries]]
+* https://www.francismiller.com/
+* http://roambrain.com

@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Joscha_Bach
+#+TITLE: Joscha Bach
+* [[file:twitter.org][twitter]] thread on [[file:Godel's_incompleteness_theorem.org][Godel's incompleteness theorem]]
+** https://threadreaderapp.com/thread/1285716625308745728.html

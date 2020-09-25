@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Gauge_Theories_in_Particle_Physics_A_Practical_Introduction_by_Aitchison_and_Hey_in_2013
+#+TITLE: Gauge Theories in Particle Physics A Practical Introduction by Aitchison and Hey in 2013
+* [[file:Gauge_Theories_in_Particle_Physics_A_Practical_Introduction,_Volume_1_From_Relativistic_Quantum_Mechanics_to_QED_by_Aitchison_and_Hey_in_2013.org][Gauge Theories in Particle Physics A Practical Introduction, Volume 1 From Relativistic Quantum Mechanics to QED by Aitchison and Hey in 2013]]
+* [[file:Gauge_Theories_in_Particle_Physics_A_Practical_Introduction,_Volume_2_Non-Abelian_Gauge_Theories_QCD_and_The_Electroweak_Theory_by_Aitchison_and_Hey_in_2013.org][Gauge Theories in Particle Physics A Practical Introduction, Volume 2 Non-Abelian Gauge Theories QCD and The Electroweak Theory by Aitchison and Hey in 2013]]
+* See the [[https://en.wikipedia.org/wiki/Particle_Data_Group#Past_editions_of_Review_of_Particle_Physics][Particle data group's Review of Particle Physics]] for relevant data and figures featured in Aitchison and Hey
+* 

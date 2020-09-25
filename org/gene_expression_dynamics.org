@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: gene_expression_dynamics
+#+TITLE: gene expression dynamics
+* run scVI tutorials with google ai platform notebooks @est(3h)
+* run Theis lab tutorial on google ai platform notebooks @est(3h)

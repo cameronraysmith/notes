@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_Financial_Times
+#+TITLE: The Financial Times

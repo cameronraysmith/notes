@@ -1,0 +1,18 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Geometric_unity_by_Eric_Weinstein_in_2013
+#+TITLE: Geometric unity by Eric Weinstein in 2013
+* [[https://youtu.be/Z7rd04KzLcg?t=3394][Lecture]]
+* Theories
+** Dirac matter
+*** Most fundamental of all elliptic operators in Euclidean signature generating [[https://en.wikipedia.org/wiki/Atiyah%E2%80%93Singer_index_theorem][Atiyah-Singer theory]]
+** GR
+*** Unique spin-2 massless field capable of communicating gravity
+** YMMAH
+*** Normed square of the curvature and saying whatever the field strength is lets measure that size
+* Intrinsic and auxiliary
+** Intrinsic
+*** Physics: GR
+*** Math: (semi)-Riemannian geometry
+** Auxiliary
+*** Physics: YM
+*** Math: [[file:fiber_bundle.org][fiber bundle]] or modern gauge theory

@@ -1,0 +1,9 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: normalized_exponential_function
+#+TITLE: normalized exponential function
+* also known as the [[file:softmax_function.org][softmax function]]
+** https://en.wikipedia.org/wiki/Softmax_function
+* $$p(\mathcal{C}_k \vert x) = \frac{\exp(a_k)}{\Sigma_j \exp(a_j)}$$
+* where $$a_k = \ln p(\mathbf{x} \vert \mathcal{C}_k) p(\mathcal{C}_k)$$
+* the [[file:softmax_function.org][softmax function]] terminology derives from the fact that if $$a_k > a_j$$ for all $$j \neq k$$ then $$p(\mathcal{C}_k) \approx 1$$ and $$p(\mathcal{C}_j) \approx 0$$
+* 

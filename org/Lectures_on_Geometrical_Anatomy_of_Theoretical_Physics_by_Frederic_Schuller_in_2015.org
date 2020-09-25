@@ -1,0 +1,61 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Lectures_on_Geometrical_Anatomy_of_Theoretical_Physics_by_Frederic_Schuller_in_2015
+#+TITLE: Lectures on Geometrical Anatomy of Theoretical Physics by Frederic Schuller in 2015
+* [[https://www.youtube.com/playlist?list=PLPH7f_7ZlzxTi6kS4vCmv4ZKm9u8g5yic][Playlist of associated lecture videos]]
+* [[https://mathswithphysics.blogspot.com/2016/07/lectures-on-geometric-anatomy-of.html) (see the books library in [[file:mendeley.org][mendeley]]][Notes by Simon Rea]]
+* See also
+** [[file:The_geometry_of_physics_by_Theodore_Frankel_in_2012.org][The geometry of physics by Theodore Frankel in 2012]]
+** [[file:Physics_and_geometry_by_Edward_Witten_in_1986.org][Physics and geometry by Edward Witten in 1986]]
+* L6. Topological manifolds and manifold bundles
+** 3. Topological manifolds and bundles
+*** 3.1 Definition and construction of topological manifolds
+*** 3.2 Bundles
+**** A bundle (of topological manifolds) is a triple $$(E, \pi, M)$$
+***** $$E$$ is a topological manifold called the total space
+***** $$M$$ is a topological manifold called the base space
+***** $$\pi : E \rightarrow M$$ is a continuous surjective map from the total space onto the base space
+**** Let $$p \in M$$, then $$\pi^{-1}(p) = F_p$$ is called the fiber at $$p$$
+**** 
+* L7. Differentiable structures definition and classification
+* L19. Principal fiber bundles
+** left and right Lie group actions; 
+*** example: actions from representations; 
+*** proof: right actions from left actions; 
+** equivariance of smooth maps; 
+** orbits, orbit space and stabilisers; 
+** free and transitive actions; 
+*** examples; 
+** smooth and principal bundles; (~53:00)
+*** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FhNgQjn4HYJ?alt=media&token=57d85883-12b0-45b6-8e57-fe743f0dc376]]
+*** detailed example: the frame bundle; 
+** principal bundle morphisms and isomorphisms (or diffeomorphisms); 
+** trivial bundles; 
+*** proof that a bundle is trivial if and only if it admits a global section.
+* L20. Associated fiber bundles
+** associated fibre bundle to a principal bundle; 
+*** detailed example: the frame bundle; 
+** scalar and tensor densities on a manifold;
+** associated bundle maps and isomorphisms; 
+** trivial associated bundles; 
+** restrictions and extensions of a principal bundle; 
+** examples.
+* L21. Connections and connection 1-forms
+** vertical and horizontal subspaces at a point; 
+** decomposition in vertical and horizontal parts; 
+** connection on a principal bundle; 
+** connection one-form; 
+** properties of connection one-forms with proof. 
+* L22. Local representations of a connection on the base manifold: Yang-Mills fields
+** Topics covered
+*** Yang-Mills field as pull-back of a connection one form along a local section
+*** local trivializations of a [[file:principal_bundle.org][principal bundle]]
+*** local representation of a connection one-form
+*** Maurer-Cartan form
+*** Example: the Yang-Mills fields on the frame bundle, Christoffel symbol
+*** Example: calculation of the Maurer-Cartan form of the general linear group $$GL(n, \mathbb{R})$$
+*** Patching Yang-Mills fields on different domains
+*** the gauge map
+*** Example: the gauge map on the frame bundle
+** 5.5 Local representation of a connection: Yang-Mills fields
+* L28. Kinematical and dynamical symmetries
+** 6.3 Kinematical and dynamical symmetries

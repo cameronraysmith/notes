@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Thinking_with_Whitehead_by_Isabelle_Stengers
+#+TITLE: Thinking with Whitehead by Isabelle Stengers

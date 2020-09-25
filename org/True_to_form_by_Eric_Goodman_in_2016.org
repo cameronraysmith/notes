@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: True_to_form_by_Eric_Goodman_in_2016
+#+TITLE: True to form by Eric Goodman in 2016

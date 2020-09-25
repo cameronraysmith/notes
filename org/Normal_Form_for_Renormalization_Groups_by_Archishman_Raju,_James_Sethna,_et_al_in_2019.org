@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Normal_Form_for_Renormalization_Groups_by_Archishman_Raju,_James_Sethna,_et_al_in_2019
+#+TITLE: Normal Form for Renormalization Groups by Archishman Raju, James Sethna, et al in 2019
+* [[file:renormalization.org][renormalization]], [[file:statistical_physics.org][statistical physics]], [[file:papers.org][papers]], [[file:James_Sethna.org][James Sethna]]
+* 

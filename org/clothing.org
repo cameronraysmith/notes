@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: clothing
+#+TITLE: clothing
+* [[https://www.youtube.com/watch?v=Wh8XCqfBKfo][Elaine Power Smart Closet review]]
+* [[https://www.outfittery.com/][outfittery]]

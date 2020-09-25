@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: audio_editing
+#+TITLE: audio editing
+* background noise reduction with audacity
+** [[https://www.youtube.com/watch?v=rWbxyshpnbQ][How To Remove Background Noise In Video with Audacity]]
+** [[https://wiki.audacityteam.org/wiki/How_Audacity_Noise_Reduction_Works][How Audacity Noise Reduction Works * Audacity Wiki]]

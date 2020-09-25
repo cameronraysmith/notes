@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: fiber_bundle
+#+TITLE: fiber bundle
+* Definition
+** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2F34WL-jh5Ui?alt=media&token=c23ae292-e593-4361-a6d8-2c22715e23f0]]
+* [[file:principal_bundle.org][principal bundle]]
+* [[file:associated_bundle.org][associated bundle]]
+* [[file:spinor_bundle.org][spinor bundle]] ( for defining [[file:spinors.org][spinors]] )

@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: hierarchical_modularity
+#+TITLE: hierarchical modularity
+* "8.2.1 Herbert Simon's arguments that modularity is prerequisite to hierarchical complexity"
+* [[file:Herbert_Simon's_parable_of_two_watchmakers.org][Herbert Simon's parable of two watchmakers]]

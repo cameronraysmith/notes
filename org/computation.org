@@ -1,0 +1,23 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: computation
+#+TITLE: computation
+* concept
+** From [[file:Joscha_Bach.org][Joscha Bach]]
+*** https://youtu.be/K5nJ5l6dl2s?t=443
+*** information:: discernible differences
+*** state:: set of discernible differences
+*** computation:: description of state changes of a system
+*** digital computation:: discrete states, deterministic or probabilistic rules of change
+* [[file:cloud_computing.org][cloud computing]]
+** TODO Use pulumi to deploy odoo
+** TODO Complete next Kubernetes tutorial (0/6) @est(1h) @low 
+** TODO Use Pulumi to deploy zero-to-jupyterhub to gke @est(2h) @low
+** TODO Complete Pulumi crosswalk gke tutorial @est(2h) @low 
+* [[file:bioinformatics.org][bioinformatics]]
+** ☐ See process diagram in (2019). [[https://github.com/omicsCore/SEQprocess/blob/master/vignette/vignettes.pdf][SEQprocess]]: a modularized and customizable pipeline framework for NGS processing in R package. 
+** GATK tutorials:
+*** germline @est(30m)
+*** somatic @est(1h)
+* [[file:computer_algebra.org][computer algebra]]
+* Tools
+** [[https://github.com/webpro/reveal-md][reveal-md]] for converting markdown files to reveal.js / revealjs slideshows

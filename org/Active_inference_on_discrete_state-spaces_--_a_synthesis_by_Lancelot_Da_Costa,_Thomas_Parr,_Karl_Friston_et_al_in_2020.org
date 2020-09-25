@@ -1,0 +1,55 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Active_inference_on_discrete_state-spaces_--_a_synthesis_by_Lancelot_Da_Costa,_Thomas_Parr,_Karl_Friston_et_al_in_2020
+#+TITLE: Active inference on discrete state-spaces - a synthesis by Lancelot Da Costa, Thomas Parr, Karl Friston et al in 2020
+* [[file:free_energy_principle.org][free energy principle]]
+* [[file:lectures.org][lectures]]
+** [[https://www.youtube.com/watch?v=pHOAg9FZYeA&t=355s][Uncertainty and active inference * Thomas Parr keynote at HLAI]]
+* 1. Introduction
+** **Active inference** is a normative principle regarding **cognitive processes**
+*** perception
+*** action
+*** planning
+*** decision-making
+*** learning
+** **Active inference** postulates that **cognitive processes** may all be seen as **optimizing two** complementary **objective functions**
+*** a variational form of ^^free energy^^
+**** measures the fit between an internal model and past sensory observations
+*** an expected ^^free energy^^
+**** scores possible future courses of action in relation to prior preferences
+** An internal forward generative model is used to predict sensory input, which allows for the inference of the causes of that sensory data
+** [[file:references.org][references]]
+*** introduction
+**** [[file:A_tutorial_on_the_free-energy_framework_for_modeling_perception_and_learning_by_Rafal_Bogacz_in_2017.org][A tutorial on the free-energy framework for modeling perception and learning by Rafal Bogacz in 2017]]
+*** review
+**** [[file:The_free_energy_principle_for_action_and_perception_A_mathematical_review_by_Christopher_Buckley,_Anil_Seth,_et_al_in_2017.org][The free energy principle for action and perception A mathematical review by Christopher Buckley, Anil Seth, et al in 2017]]
+* 2. Active inference
+* 3. Discrete state-space generative models
+* 4. Variational Bayesian inference
+** 4.1 Free energy and model evidence
+** 4.2 On the family of approximate posteriors
+** 4.3 Computing the variational free energy
+* 5. Perception
+** 5.1 Plausibility of neuronal dynamics
+* 6. Planning, decision-making and action selection
+** 6.1 Planning and decision-making
+** 6.2 Action selection, policy-independent state-estimation
+** 6.3 Biological plausibility
+** 6.4 Pruning of policy trees
+** 6.5 Discussion of the action-perception cycle
+* 7. Properties of the expected free energy
+* 8. Learning
+* 9. Structure learning
+** 9.1 Bayesian model reduction
+** 9.2 Bayesian model expansion
+* 10. Discussion
+* 11. Conclusion
+* A. More complex generative models
+** A.1 Learning B and D
+** A.2 Complexifying the prior over policies
+** A.3 Multiple state and outcome modalities
+** A.4 Deep temporal models
+* B. Expected free energy
+* C. Computing expected free energy
+** C.1 Ambiguity
+** C.2 Risk
+** C.3 Novelty

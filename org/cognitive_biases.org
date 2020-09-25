@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: cognitive_biases
+#+TITLE: cognitive biases
+* https://upload.wikimedia.org/wikipedia/commons/6/65/Cognitive_bias_codex_en.svg
+** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FZ6_6AxUK9V.png?alt=media&token=3a195d12-bc45-4662-ab16-cae507de80b6]]
+** 

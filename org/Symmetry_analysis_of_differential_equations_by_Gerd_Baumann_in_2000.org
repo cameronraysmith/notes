@@ -1,0 +1,175 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Symmetry_analysis_of_differential_equations_by_Gerd_Baumann_in_2000
+#+TITLE: Symmetry analysis of differential equations by Gerd Baumann in 2000
+* 1. Introduction
+** Symmetry principles ... summarize the regularities of the laws that are independent of the specific details of a particular instantiation of a system's dynamics.
+** So-called __laws of nature__ provide a structure and coherence to the set of events. __Invariance principles__, in turn, provide a structure and coherence to the laws of nature.
+** __Invariance of the laws of nature under space-time translations__ is precisely what is the same about otherwise equivalent experiments performed at different times and places.
+** For every __global continuous symmetry__ there is an associated time-independent quantity which was proved in 1918 by Emmy Noether and is known as __Noether's theorem__.
+** From 1872-1899, Sophus Lie developed the theory that places symmetry at the top of the hierarchy of features of nature that constrain the space of allowable dynamical laws.
+**  Symmetry analysis is a rare theory in that it allows for the derivation of solutions to differential equations in a completely algorithmic way.
+** "The older examinations of ordinary differential equations as found in standard books are not systematic ... the mathematicians did not realize that the special theories for different classes of differential equations are all contained in the theory of infinitesimal transformations" from __Differentialgleichungen__ by Sophus Lie in 1891
+** One of the deficiencies of Lie's theory is the tremendous amount of work necessary to derive a solution of a particular differential equation ... but today we can overcome this problem of rote manual algebraic manipulation via computer algebra systems.
+** The fundamentals are based on invariance of the equations of motion to transformations of independent and dependent variables in a manner that forms a local group of point transformations that correspond to a diffeomorphism on the space of independent and dependent variables that maps solutions to solutions.
+** Outline of the book
+*** Chapter 2: description of Lie groups and Lie algebras
+*** Chapter 3: fundamental aspects of derivatives and their definitions
+*** Chapter 4: application of Lie's integration theory in connection with point symmetries
+*** Chapter 5: point symmetries of partial differential equations
+*** Chapter 6: non-classical symmetries
+*** Chapter 7: potential symmetries
+*** Chapter 8: approximate symmetries
+*** Chapter 9: generalized symmetries
+*** Chapter 10: automatic solution of a system of overdetermined equations
+* 2. Elements of symmetry analysis
+** Outline
+*** Lie groups are connected to their Lie algebras which are closely related to vector fields
+** 2.1 Groups and Lie groups
+*** 2.1.1 Groups
+*** 2.1.2 Isomorphism
+*** 2.1.3 Lie groups
+**** A Lie group is a group that also carries the structure necessary to qualify as a manifold
+**** The global study of a Lie group may be reduced to its local study and the study of the local structure can be reduced to the study of the infinitesimal structure
+** 2.2 Lie algebras
+*** The study of a Lie group, $$\mathfrak{G}$$, may be simplified by considering the tangent space $$V$$ of $$\mathfrak{G}$$ around the identity of the group. The tangent space is called a __Lie algebra__
+*** 2.2.1 Representation of a Lie algebra
+**** A representation of a Lie algebra $$\mathfrak{g}$$ on a vector space $$V$$ is a mapping $$\rho$$ from $$\mathfrak{g}$$ to a linear transformation of $$V$$
+**** The basis elements of a Lie algebra are also called vector fields
+**** the [[https://en.wikipedia.org/wiki/Structure_constants][structure constants]] of an algebra over a field are used to explicitly specify the product of two basis vectors in the algebra as a linear combination.
+*** 2.2.2 Properties of Lie algebras
+**** properties of Lie algebras useful in the classification of the solutions of differential equations
+***** derived algebra
+****** The first derived algebra of Lie algebra $$V$$ is $$V^{(1)} = [V,V]$$, which is an ideal by construction
+****** Higher-order derived algebras $$V^{(n+1)} = [V^{(n)},V^{(n)}], n = 1,2,3, \ldots$$
+***** derivation of an algebra
+****** a derivation $$\mathfrak{D}$$ of a Lie algebra $$V$$ is a linear mapping of $$V$$ into itself satisfying $$\mathfrak{D} ([\vec{v}, \vec{w}]) = [\mathfrak{D}(\vec{v}), \vec{w}] + [\vec{v}, \mathfrak{D}(\vec{w})] $$
+****** the commutator of two distinct derivations is also a derivation
+***** adjoint algebra
+****** Consider the linear map $$\mathrm{ad} \vec{v}$$ of $$V$$ onto itself given by $$\mathrm{ad} \vec{v} (\vec{w}) := [\vec{v}, \vec{w}]$$, which is a derivation of $$V$$
+****** The kernel of the homomorphism $$\phi \colon \vec{v} \rightarrow \mathrm{ad} \vec{v} $$ is the center of $$V$$
+****** the representation of $$\mathrm{ad} \vec{v}$$ called the adjoint representation of the Lie algebra provide a matrix representation of the algebra
+****** if we know the structure constants of a Lie algebra, we also know the matrix representation of the adjoint Lie algebra
+***** Killing form
+****** A symmetric bilinear form $$\langle \vec{v}, \vec{w} \rangle = \mathrm{Tr}(\mathrm{ad} \vec{v} \mathrm{ad} \vec{w})$$
+****** This can be written in terms of the Cartan metric tensor of the Lie algebra $$ g_{lm} = \sum_{i,k=1}^{n} c^{i}_{lk}c^{k}_{mi}$$
+****** 
+***** solvability
+****** Lie algebra $$V$$ is solvable if $$V^{(n)} = 0$$ for some $$n \gt 0$$
+******* simplest examples are just those Lie algebras that are commutative so that $$V^{(1)} = 0$$
+****** If a Lie algebra is solvable, then the related differential equation can be solved
+****** The six-dimensional Lie algebra of the diffusion equation is not solvable because the first derived Lie algebra contains all operators of the six-dimensional Lie algebra
+****** The Lie algebra given by the vector fields for the Korteweg-de Vries (KdV) equation is solvable
+* 3. Derivatives
+** Outline
+*** The basis of the symmetry analysis of differential equations is the prolongation; however this is not implemented in __Mathematica__
+** 3.1 Ordinary and partial derivatives
+** 3.2 Tangent vector
+** 3.3 The total derivative
+** 3.4 Prolongations
+** 3.5 The Frechet derivative
+** 3.6 The Euler derivative
+*** 3.6.1 The problem of variation
+*** 3.6.2 Euler's equation
+*** 3.6.3 Euler operator
+*** 3.6.4 Algorithm used in the calculus of variations
+*** 3.6.5 Euler operator for __q__ dependent variables
+*** 3.6.6 Euler operator for __q+p__ dimensions
+** 3.7 Prolongation of vector fields
+* 4. Symmetries of ordinary differential equations
+** 4.1 Introduction
+** 4.2 Symmetry transformations of functions
+*** 4.2.1 Symmetries
+*** 4.2.2 Infinitesimal transformations
+*** 4.2.3 Group invariants
+*** 4.2.4 Tangent vector
+*** 4.2.5 Prolongation of transformations
+** 4.3 Symmetry transformations of differential equations
+*** 4.3.1 Definition of a symmetry group
+*** 4.3.2 Main properties of symmetry groups
+*** 4.3.3 Calculation of the infinitesimal symmetries
+*** 4.3.4 Canonical variables
+** 4.4 Analysis of ordinary differential equations
+*** 4.4.1 First-order equations
+*** 4.4.2 Second-order ordinary differential equations
+*** 4.4.3 Higher-order ordinary differential equations
+* 5. Point symmetries of partial differential equations
+** 5.1 Introduction
+** 5.2 Lie's theory used in __MathLie__
+** 5.3 Invariance based on Frechet derivatives
+** 5.4 Application of the theory
+*** 5.4.1 Calculation of prolongations
+*** 5.4.2 Derivation of determining equations
+*** 5.4.3 Interactive solution of determining equations
+*** 5.4.4 Data basis of symmetries
+** 5.5 Similarity reduction of partial differential equations
+** 5.6 Working examples
+*** 5.6.1 The diffusion equation
+*** 5.6.2 The earthworm's new year problem
+*** 5.6.3 Single flux line in superconductors
+*** 5.6.4 The Korteweg-de Vries Equation and its generalizations
+*** 5.6.6 Two-dimensional boundary layer flows: group classification
+*** 5.6.7 The plane jet
+*** 5.6.8 Drop formation
+*** 5.6.9 The Rayleigh particle
+*** 5.6.10 Molecular beam epitaxy
+*** 5.6.11 The first atomic explosion
+* 6. Non-classical symmetries of partial differential equations
+** 6.1 Introduction
+** 6.2 Mathematical background of the non-classical method
+** 6.3 Applications of the non-classical method
+*** 6.3.1 The heat equation
+*** 6.3.2 The Boussinesq eqaution
+*** 6.3.3 The Fokker-Planck equation
+* 7. Potential symmetries of partial differential equations
+** 7.1 Introduction
+** 7.2 Basics of potential symmetries
+** 7.3 Calculation of potential symmetries
+** 7.4 Applications of potential symmetries
+*** 7.4.1 A non-linear reaction diffusion equation
+*** 7.4.2 Cylindrical Korteweg-de Vries equation
+*** 7.4.3 The Burgers equation
+* 8. Approximate symmetries of partial differential equations
+** 8.1 Introduction
+** 8.2 Approximations
+** 8.3 One-parameter approximation group
+** 8.4 Approximate group generator
+** 8.5 The determining equations and an algorithm of calculation
+** 8.6 Examples
+*** 8.6.1 Isentropic liquid
+*** 8.6.2 Perturbed Korteweg-de Vries equation
+* 9. Generalized symmetries
+** 9.1 Introduction
+** 9.2 Elements of generalized symmetries
+** 9.3 Algorithm for calculation of generalized symmetries
+** 9.4 Examples
+*** 9.4.1 Diffusion equation
+*** 9.4.2 Potential Burgers equation
+*** 9.4.3 Generalized Korteweg-de Vries equations
+*** 9.4.4 Coupled system of wave equations
+** 9.5 Second-order ODEs and the Euler-Lagrange equation
+*** 9.5.1 Generalized symmetries and second-order ODEs
+*** 9.5.2 Conservation laws
+** 9.6 Algorithm for conservation laws of second-order ODEs
+** 9.7 Examples for second-order ODEs
+*** 9.7.1 The Henon-Heiles model
+*** 9.7.2 Two-dimensional quartic oscillators
+*** 9.7.3 Two ions in a trap
+* 10. Solution of coupled linear partial differential equations
+** 10.1 Introduction
+** 10.2 General canonical form of PDEs
+*** 10.2.1 Application of the general canonical form algorithm
+** 10.3 Solution of linear PDEs
+*** 10.3.1 Integration of monomials
+*** 10.3.2 Integrating ODEs and pseudo-ODEs
+*** 10.3.3 Integrating exact PDEs
+*** 10.3.4 Potential representation
+** 10.4 Simplification of equations
+*** 10.4.1 Direct separation
+*** 10.4.2 Indirect separation
+*** 10.4.3 Reducing the number of dependent variables
+** 10.5 Example
+*** 10.5.1 Liouville-type equation of quantum gravity theory
+* 11. Appendix
+** A. Marius Sophus Lie
+** B. List of key symbols used in __Mathematica__
+** C. Installing __MathLie__

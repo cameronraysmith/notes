@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: scientific_collaboration
+#+TITLE: scientific collaboration
+* [[https://www.mmm.imp.fu-berlin.de/][The MMM project]] is a generic format for storing scientific information. MMM stands for "Moving Mental Map" or "Mutual Mental Map".

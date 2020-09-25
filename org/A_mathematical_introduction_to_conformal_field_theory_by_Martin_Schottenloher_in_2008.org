@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: A_mathematical_introduction_to_conformal_field_theory_by_Martin_Schottenloher_in_2008
+#+TITLE: A mathematical introduction to conformal field theory by Martin Schottenloher in 2008
+* 

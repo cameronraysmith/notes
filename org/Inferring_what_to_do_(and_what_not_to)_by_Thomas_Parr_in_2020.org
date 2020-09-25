@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Inferring_what_to_do_(and_what_not_to)_by_Thomas_Parr_in_2020
+#+TITLE: Inferring what to do (and what not to) by Thomas Parr in 2020
+* [[file:papers.org][papers]]

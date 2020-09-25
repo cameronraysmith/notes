@@ -1,0 +1,18 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Applied_Probabilistic_Modeling_Principled_Bayesian_Inference_for_the_Discerning_Practitioner_by_Michael_Betancourt_in_2020
+#+TITLE: Applied Probabilistic Modeling Principled Bayesian Inference for the Discerning Practitioner by Michael Betancourt in 2020
+* keywords
+- [[file:probabilistic_inference.org][probabilistic inference]], [[file:Applications_of_probabilistic_inference_to_the_interpretation_of_simple_experiments.org][Applications of probabilistic inference to the interpretation of simple experiments]]
+* cover
+** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FiuEgTSp7f6.png?alt=media&token=456b342d-e189-46d9-b9eb-338b4b995583]]
+* contents
+    1. an introduction to the important [[https://betanalpha.github.io/assets/case_studies/probability_theory.html][concepts in probability theory]], 
+    2. [[https://betanalpha.github.io/assets/case_studies/conditional_probability_theory.html][concepts in conditional_probability theory]], 
+    3. [[https://betanalpha.github.io/assets/case_studies/probability_on_product_spaces.html][probabilty theory on product spaces]], 
+    4. [[https://betanalpha.github.io/assets/case_studies/probability_densities.html][useful families of probabilty densities]], 
+    5. [[https://betanalpha.github.io/assets/case_studies/probabilistic_computation.html][probabilistic computation]], and 
+    6. [[https://betanalpha.github.io/assets/case_studies/markov_chain_monte_carlo.html][Markov chain Monte Carlo]]. 
+    7. With this foundation one can tackle [[https://betanalpha.github.io/assets/case_studies/modeling_and_inference.html][modeling and inference]] 
+    8. before moving onto an [[https://betanalpha.github.io/assets/case_studies/stan_intro.html][introduction to Stan]], 
+    9. and then a discretionary concentration on [[https://betanalpha.github.io/assets/case_studies/identifiability.html][model identifiability and degeneracies]]. 
+    10. Finally one can move onto an introduction to [[https://betanalpha.github.io/assets/case_studies/principled_bayesian_workflow.html][principled model building in Stan]].

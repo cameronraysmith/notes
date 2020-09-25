@@ -1,0 +1,37 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_Knowledge_Economy_by_Roberto_Mangabeira_Unger_in_2019
+#+TITLE: The Knowledge Economy by Roberto Mangabeira Unger in 2019
+* [[file:books.org][books]], [[file:Roberto_Mangabeira_Unger.org][Roberto Mangabeira Unger]], [[file:economics.org][economics]]
+* Found while watching [[file:Economic_alternatives_for_the_future_by_Roberto_Mangabeira_Unger_in_2020.org][Economic alternatives for the future by Roberto Mangabeira Unger in 2020]]
+* 1.The Most Advanced Practice of Production
+* 2.The Knowledge Economy: Its Characteristics Described at the Level of Management and Production Engineering
+* 3.The Deep Structure of the Knowledge Economy: Relaxing or Reversing the Constraint of Diminishing Marginal Returns
+* 4.The Deep Structure of the Knowledge Economy: Production, Imagination, and Cooperation
+* 5.The Deep Structure of the Knowledge Economy: Trust, Discretion, and the Moral Culture of Production
+* 6.The Confinement of the Knowledge Economy: The Fact and the Riddle
+* 7.Pseudo-Vanguardism and Hyper-Insularity
+* 8.Precarious Employment
+* 9.The Confinement of the Knowledge Economy: The Consequences for Economic Stagnation and Inequality
+* 10.The Confinement of the Knowledge Economy: The Beginning of an Explanation
+* 11.Making the Knowledge Economy Inclusive: The Cognitive-Educational Requirements
+* 12.Making the Knowledge Economy Inclusive: The Social-Moral Requirements
+* 13.Making the Knowledge Economy Inclusive: The Legal-Institutional Requirements
+* 14.Background Incitements: Generalized Experimentalism and High-Energy Democracy
+* 15.Inclusive Vanguardism and the Dilemma of Economic Development
+* 16.Inclusive Vanguardism and the Political Economy of the Rich Countries
+* 17. Growth, Crisis, and Successive Breakthroughs of the Constraints on Supply and Demand: The Larger Economic Meaning of Inclusive Vanguardism
+** The enigma of supply and demand
+** Contrast to Keynes’s teaching
+** The spectrum of breakthroughs in the constraints on demand
+** The spectrum of breakthroughs in the constraints on supply
+* 18. Economics and the Knowledge Economy
+** The imperative of structural vision
+** The large-scale history of social and economic thought: truncating and evading structural vision
+** Reckoning with post-marginalist economics: the disconnection between theory and empiricism
+** Reckoning with post-marginalist economics: the deficit of institutional imagination
+** Reckoning with post-marginalist economics: the theory of production subordinated to the theory of exchange
+** Reckoning with post-marginalist economics: the lack of an account of the diversity of the material from which competitive selection selects
+** Uses and limits of Keynes’s heresy
+** Uses and limits of the example provided by pre-marginalist economics
+** Two ways to develop the needed ideas: from within the established economics and from outside it
+* 19. The Higher Purpose of the Inclusive Knowledge Economy

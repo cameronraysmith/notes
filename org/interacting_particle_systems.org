@@ -1,0 +1,12 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: interacting_particle_systems
+#+TITLE: interacting particle systems
+* [[file:stochastic_processes.org][stochastic processes]]
+* examples
+** the [[https://en.wikipedia.org/wiki/Voter_model][voter model]], 
+** the [[https://en.wikipedia.org/wiki/Contact_process][contact process]],
+** the [[https://en.wikipedia.org/wiki/Asymmetric_simple_exclusion_process][asymmetric simple exclusion process]],
+** the [[https://en.wikipedia.org/wiki/Glauber_dynamics][Glauber dynamics]] and the stochastic [[https://en.wikipedia.org/wiki/Ising_model][Ising model]].
+* commentary
+** from [[file:Cosma_Shalizi.org][Cosma Shalizi]]
+*** http://bactra.org/notebooks/interacting-particle-systems.html

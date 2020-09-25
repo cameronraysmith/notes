@@ -1,0 +1,45 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Asexual_evolution_waves_fluctuations_and_universality_by_Daniel_Fisher_in_2013
+#+TITLE: Asexual evolution waves fluctuations and universality by Daniel Fisher in 2013
+* Outline
+** Abstract
+*** __In large asexual populations, multiple beneficial mutations arise in the population, compete, interfere with each other, and accumulate on the same genome, before any of them fix__
+*** 
+** Introduction
+*** Outline
+*** Model and fitness distribution
+** Heuristics
+*** Staircase model
+*** Instability and fluctuation of the nose
+*** Predominant mutations with short-tailed mu of s
+** Branching process at fixed speed
+*** Fixation probability
+*** Fixation probability at fixed speed
+*** Sharp shoulder approximation
+*** Fixation probability and determination of N
+*** Comparison with results of Good et al
+** Dynamics and distribution of N(t) at fixed speed
+*** Distribution of N(t)
+*** Typical rho(x) and weighted fixation probability
+** Feedback and coupled dynamics of nose and mean
+*** Dynamics of feedback
+*** Jumps in mean fitness and clustering of fixation probabilities
+*** Average fitness distribution
+** Conditioning on behavior at infinite time
+*** Exactly solvable suppressed-fluctuation model
+*** Distribution of population size
+*** Moments and correlations of rho(chi, t)
+*** Relationship to Hallatschek model
+** Field theoretic approaches
+*** Soft constraints on the population size
+** Summary and extensions
+*** Universality for huge populations with short-tailed mutation distributions
+*** Beyond the universal limit
+*** Extensions
+** Appendix A: Average fitness distribution at fixed speed
+*** Formal steady-state fitness distribution
+** Appendix B: Well-behaved solution in linear region
+*** Moderate speeds, v<<
+*** High speeds, v>>
+** Appendix C: Sharp shoulder approximation
+** Appendix D: Dynamics of phi

@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: A_theory_of_cortical_responses_by_Karl_Friston_in_2005
+#+TITLE: A theory of cortical responses by Karl Friston in 2005

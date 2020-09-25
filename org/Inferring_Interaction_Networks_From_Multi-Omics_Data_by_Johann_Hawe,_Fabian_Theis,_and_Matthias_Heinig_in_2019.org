@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Inferring_Interaction_Networks_From_Multi-Omics_Data_by_Johann_Hawe,_Fabian_Theis,_and_Matthias_Heinig_in_2019
+#+TITLE: Inferring Interaction Networks From Multi-Omics Data by Johann Hawe, Fabian Theis, and Matthias Heinig in 2019
+* [[file:papers.org][papers]], [[file:network_inference.org][network inference]], [[file:Fabian_Theis.org][Fabian Theis]]
+* citation
+* contents
+** 

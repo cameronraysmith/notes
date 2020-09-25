@@ -1,0 +1,22 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_end_of_objectivity_by_Gian-Carlo_Rota_in_1973
+#+TITLE: The end of objectivity by Gian-Carlo Rota in 1973
+* [[file:philosophy.org][philosophy]]
+* Contents
+** 1  Introduction
+** 2  The Two Philosophies
+*** 2.1    The existential attitude:  a critique of physicalist reduction
+*** 2.2    The consequences of the existential view:  a new objectivity  
+** 3  The Reform of Logic
+*** 3.1    The existential critique of knowledge as primary  
+*** 3.3    The reform of logic:  Heidegger  
+*** 3.2    The Cartesian world view has cracked  
+** 4  Heidegger and the Shaking of the Foundations
+*** 4.1    Review
+**** 4.1.1 Acts of withholding  
+*** 4.2    Existentialism’s thesis  
+*** 4.3    Heidegger’s reform of logic
+*** 4.4    Operational logic made primary
+*** 4.5    The structure of operational logic
+*** 4.6    The consequences of operational logic  
+*** 4.7    Truth and angst illustrate the relations of classical logic to operational logic 

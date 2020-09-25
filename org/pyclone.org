@@ -1,0 +1,13 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: pyclone
+#+TITLE: pyclone
+* lectures
+** [[https://www.youtube.com/playlist?list=PLAFFlrzSa6m8PiKPKLBl8Av7RNw4F5-2F][Andrew  Roth’s  lectures]]
+*** L1 Introduction to probabilistic modeling
+*** L2 Inferring clonal population structure from SNV data
+**** 
+*** L3 Copy number variation
+*** L4 Phylogenetics
+*** L5 Advanced inference methods
+* paper
+** [[file:PyClone_Statistical_inference_of_clonal_population_structure_in_cancer_by_Roth_and_Shah_in_2014.org][PyClone Statistical inference of clonal population structure in cancer by Roth and Shah in 2014]]

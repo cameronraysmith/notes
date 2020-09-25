@@ -1,0 +1,47 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Pragmatism,_Objectivity,_and_Experience_by_Steven_Levine_in_2019
+#+TITLE: Pragmatism, Objectivity, and Experience by Steven Levine in 2019
+* [[file:philosophy.org][philosophy]], [[file:pragmatism.org][pragmatism]], [[file:Steven_Levine.org][Steven Levine]]
+* contact:: http://faculty.www.umb.edu/steven.levine/
+* review
+** [[https://ndpr.nd.edu/news/pragmatism-objectivity-and-experience/][Pragmatism, Objectivity, and Experience // Notre Dame Philosophical Reviews]]
+*** pragmatism
+**** More robust versions of pragmatism stress 
+***** doctrinal and/or methodological views about truth and reference
+****** the rejection of truth-as-correspondence-to-reality, 
+****** thoroughgoing deflationism about semantic discourse
+***** the primacy of institutional norms, 
+***** the impossibility of epistemically privileged representation, 
+***** the significance of justificatory holism, 
+***** rejection of the Enlightenment tradition built upon 
+****** the pursuit of objective truth, 
+****** the epistemic credentials of intuitions, 
+****** and/or the folly of seeking to "ground" institutional practices in facts about confrontations with ontological realities which somehow "make normative demands" upon participants.
+**** The pragmatist seeks to understand the human condition by exploring the fabric of inferential connections and institutional practices associated with any given stretch of discourse, rather than by privileging correspondence relations with objects. Speech act theory becomes the dominant paradigm, as opposed to Frege-Tarski-Carnap referential semantic approaches.
+*** objectivity
+**** Pragmatists might wish to switch the question from "What is objectivity?" to the expressivist question "What are we __doing__ when we attribute objectivity?". 
+**** And here there is room to maneuver: perhaps talk of objectivity signals the legitimacy of giving and asking for reasons and justifications as part of an ongoing effort to achieve consensus in the face of diverse perspectives.
+**** At the extreme, one might question -* as Rorty is alleged to have done -* the very legitimacy of the concept of objectivity and/or the utility of its continued deployment. Perhaps we do better with a notion of social solidarity. But perhaps not.
+*** experience
+**** Insofar as 'experience' signals qualitative, phenomenological, sensory-perceptual states, one wishes to know whether __representation__ is essential to their nature, and how -* if at all -* such states figure into the normative space of reasons.
+**** Different notions of experience populate the marketplace: ranging from experience as momentary episodes of lived conscious awareness (itches, pains and sense-impressions of red triangles serve as paradigms), to experience as reflective problem solving: "a temporally extended learning process that involves both conscious and nonconscious states and episodes" (12). This contrast -* often signaled as that between __Erlebnis__ and __Erfahrung__ --
+*** Levine's book foregrounds the concept of objectivity, and in terms of it seeks to articulate various strains of pragmatist thought about experience and justification.
+*** __We wish to say -* in our pre-analytic innocence -* that there is an objective, mind-independent world -* much of which is the way it is regardless of human interests, goals, cognitive/perceptual capacities, and research agendas.__ ... __The pragmatist denies none of this, but fears that the deployed notions of adequacy and correctness are somehow problematic. One way to appreciate Levine's contribution is to retrace the steps that lead to this fear.__
+*** other highlights
+**** background
+***** More robust versions stress doctrinal and/or methodological views about truth and reference (e.g., the rejection of truth-as-correspondence-to-reality, or a more thoroughgoing deflationism about semantic discourse); other versions foreground the primacy of institutional norms, the impossibility of epistemically privileged representation, the significance of justificatory holism, rejection of the Enlightenment tradition built upon the pursuit of objective truth, the epistemic credentials of intuitions, and/or the folly of seeking to "ground" institutional practices in facts about confrontations with ontological realities which somehow "make normative demands" upon participants.
+***** The pragmatist seeks to understand the human condition by exploring the fabric of inferential connections and institutional practices associated with any given stretch of discourse, rather than by privileging correspondence relations with objects. Speech act theory becomes the dominant paradigm, as opposed to Frege-Tarski-Carnap referential semantic approaches.
+***** Pragmatists might wish to switch the question from "What is objectivity?" to the expressivist question "What are we doing when we attribute objectivity?". And here there is room to maneuver: perhaps talk of objectivity signals the legitimacy of giving and asking for reasons and justifications as part of an ongoing effort to achieve consensus in the face of diverse perspectives. Or perhaps such talk plays a quite different role.
+***** Insofar as 'experience' signals qualitative, phenomenological, sensory-perceptual states, one wishes to know whether representation is essential to their nature, and how -* if at all -* such states figure into the normative space of reasons.
+***** Levine's book foregrounds the concept of objectivity, and in terms of it seeks to articulate various strains of pragmatist thought about experience and justification.
+***** His basic strategy is to diagnose pragmatist concerns by showing that they rest upon an impoverished conception of sensory experience, and then recommend a richer notion of experience relative to which the problems disappear
+***** The strategy is analogous to arguing that Hume's skepticism about causation is grounded in too thin a notion of experience and its contents, and countering the skepticism by advocating that conscious experience delivers verdicts not only about succession and regularity, but about causal necessity as well. Armed with such experiential enrichment, the Humean projectivist machinery loses its motivational appeal.
+**** primary argument of the book
+***** We wish to say -* in our pre-analytic innocence -* that there is an objective, mind-independent world -* much of which is the way it is regardless of human interests, goals, cognitive/perceptual capacities, and research agendas.
+***** The pragmatist denies none of this, but fears that the deployed notions of adequacy and correctness are somehow problematic. One way to appreciate Levine's contribution is to retrace the steps that lead to this fear.
+***** But if "adequate to" is an empty notion in the domain of sensations, then so is the notion of a description or theory being adequate to the external world. It is not clear what it would be for a theory to capture the way the world is, because the very notion of capture, and the idea of the world being a certain way -* so as to warrant certain descriptions and delegitimize others -* has been shown to be vacuous.
+***** Against this backdrop Levine carefully reviews and assesses Brandom's contributions in the area, arguing that Brandom's and Davidson's communicative-theoretic accounts of objectivity, which rest upon norms instituted in conversational practice, provide insufficient resources for a sufficiently rich notion of objectivity. In its place -* or as an adjunct -* Levine advocates an experiential theoretic account, which he claims to provide a better foothold for the idea that we are, in some sense, normatively constrained by, and thus answerable to, the world.
+***** The key idea -* which Levine traces to Dewey and James -* is that experience itself already contains elements of rationality, habits, coping and problem-solving, thereby furnishing materials for a notion of objective constraint: a world that pushes back on our problem-solving efforts. That is: normativity, regarded by recent neo-pragmatists as an artifact of social-institutional coordination, is found within experience itself. Normativity, one might say, is implicit in experience, thereby providing basis for solving the problems.
+***** Like Rorty before him, he need only claim that his preferred, richer notion of experience better serves purposes of prediction, control and explanation of the human condition.
+***** The overarching pragmatist goal is not revision of discursive and/or conceptual practice; it is, in Sellars' words, demonstration of "how things in the broadest possible sense of the term hang together in the broadest possible sense of the term."
+***** Levine's strategy is counter-revolutionary: for Rorty tells us that pragmatism is the doctrine that there are no constraints on inquiry save conversational ones -* no wholesale constraints derived from the nature of the objects, or of the mind, or of language, but only those retail constraints provided by the remarks of our fellow inquirers.[6] If Levine's strategy is successful, then this tenet of neo-pragmatism must be rejected.

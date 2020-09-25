@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Statistical_inference_for_stochastic_simulation_models_-_theory_and_application_by_Florian_Hartig,_Andreas_Huth,_et_al_in_2011
+#+TITLE: Statistical inference for stochastic simulation models theory and application by Florian Hartig, Andreas Huth, et al in 2011
+* [[file:approximate_bayesian_computation.org][approximate bayesian computation]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:ecology.org][ecology]], [[file:biology.org][biology]]
+* citation
+** Hartig, F., Calabrese, J. M., Reineking, B., Wiegand, T., & Huth, A. (2011). Statistical inference for stochastic simulation models * theory and application. __Ecology Letters__, __14__(8), 816–827. https://doi.org/10.1111/j.1461-0248.2011.01640.x
+* contents
+** 

@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: How_is_digital_physics_related_to_the_free_energy_principle
+#+TITLE: How is digital physics related to the free energy principle?
+* [[file:digital_physics.org][digital physics]], [[file:free_energy_principle.org][free energy principle]], [[file:questions.org][questions]]
+* [[file:Information,_physics,_and_computation_by_Marc_Mezard_and_Andrea_Montanari_in_2009.org][Information, physics, and computation by Marc Mezard and Andrea Montanari in 2009]]
+* [[file:Covariant_Loop_Quantum_Gravity_An_Elementary_Introduction_to_Quantum_Gravity_and_Spinfoam_Theory_by_Rovelli_and_Vidotto_in_2014.org][Covariant Loop Quantum Gravity An Elementary Introduction to Quantum Gravity and Spinfoam Theory by Rovelli and Vidotto in 2014]]
+* [[file:Wolfram_physics_project.org][Wolfram physics project]]

@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Rivka_Weinberg
+#+TITLE: Rivka Weinberg
+* Interview on the Dissenter: [[https://youtu.be/XnEGgDDtkEw][32 Rivka Weinberg: The Ethics of Procreation]]

@@ -1,0 +1,9 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: manim
+#+TITLE: manim
+* [[file:mathematics.org][mathematics]], [[file:animation.org][animation]], [[file:videography.org][videography]]
+* [[https://github.com/vivek3141/videos][vivek3141/videos: Source code for all the animations in my videos. Uses @3b1b's manim library]]
+* [[https://elteoremadebeethoven.github.io/manim_3feb_docs.github.io/html/index.html][Welcome to Feb/03/2019 Manim's documentation! — Manim Feb/03/2019 documentation]]
+* [[https://talkingphysics.wordpress.com/2018/06/11/learning-how-to-animate-videos-using-manim-series-a-journey/][Learning How To Animate Videos Using manim Series – A Journey | Talking Physics]]
+* [[https://github.com/Elteoremadebeethoven/AnimationsWithManim][Elteoremadebeethoven/AnimationsWithManim: Animation course with Manim]]
+* 

@@ -1,0 +1,19 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Joachim_Krug_ICTS_Lectures_June_2019
+#+TITLE: Joachim Krug ICTS Lectures June 2019
+* [[file:Joachim_Krug.org][Joachim Krug]]
+* [[https://www.youtube.com/playlist?list=PLNFIflbQ6VNufDz-eQmHy5-G3EzCfS6NR][Playlist]] from ICTS June 2019
+* Screenshots from lectures on [[https://photos.google.com/album/AF1QipOXo1A7RyYeDP_54w_iwRUceFeBBc9Q1fWMptbv][google photos]]
+* **Course 1 :** Statistical physics of biological evolution by **Joachim Krug (Cologne, Germany)**
+** Lecture 1 : Stochastic models of population dynamics: Wright-Fisher and Moran models; fixation; diffusion theory.
+*** https://en.wikipedia.org/wiki/Patrick_Matthew developed a theory of evolution that did not become known
+*** Lenski 12 populations of __E. coli__ evolved under constant nutrient-poor conditions since 1988
+**** Some populations turned into hypermutators with higher relative fitness
+*** Compare fitness by combining strain 1 and strain 2 in 50% proportions and observe the population dynamics that arise in a given environment. The slope of the ratio of population sizes is a reasonable proxy for __fitness__.
+*** 
+*** $$\mathbb{E}(H'|n) = H(l-\frac{l}{m}) \lt H$$
+*** 
+** Lecture 2 : Fitness landscapes I: Epistasis and sign epistasis; sequence spaces; measures of fitness landscape ruggedness.
+** Lecture 3 : Fitness landscapes II: Random field models; accessibility percolation
+** Lecture 4 : Dynamics on fitness landscapes I: Origin-fixation models; mutational landscape model and adaptive walks.
+** Lecture 5 : Dynamics on fitness landscapes II: Rank order processes; extreme value theory in evolutionary biology.

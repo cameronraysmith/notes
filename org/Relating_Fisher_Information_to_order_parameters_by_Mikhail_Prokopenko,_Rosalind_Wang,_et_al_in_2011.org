@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Relating_Fisher_Information_to_order_parameters_by_Mikhail_Prokopenko,_Rosalind_Wang,_et_al_in_2011
+#+TITLE: Relating Fisher Information to order parameters by Mikhail Prokopenko, Rosalind Wang, et al in 2011
+* [[file:papers.org][papers]], [[file:information_geometry.org][information geometry]], [[file:phase_transition.org][phase transition]], [[file:renormalization.org][renormalization]]
+* contents

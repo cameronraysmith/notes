@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Relations_and_dependencies_between_morphological_characters_Jurgen_Jost_in_2017
+#+TITLE: Relations and dependencies between morphological characters Jürgen Jost in 2017
+* [[file:biology.org][biology]] [[file:differential_geometry.org][differential geometry]] [[file:fiber_bundle.org][fiber bundle]] [[file:papers.org][papers]] [[file:Jurgen_Jost.org][Jurgen Jost]]
+* contents
+** 

@@ -1,0 +1,41 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: PyClone_Statistical_inference_of_clonal_population_structure_in_cancer_by_Roth_and_Shah_in_2014
+#+TITLE: PyClone Statistical inference of clonal population structure in cancer by Roth and Shah in 2014
+* Lectures
+** "[[https://www.youtube.com/playlist?list=PLAFFlrzSa6m8PiKPKLBl8Av7RNw4F5-2F][Andrew  Roth’s  lectures]]"
+* Paper
+** [[file:pyclone.org][pyclone]] is a bayesian clustering method for grouping sets of deeply sequenced somatic mutations into **putative clonal clusters** while estimating their cellular prevalences and **accounting for allelic imbalances** introduced by **segmental copy-number changes** and **normal-cell contamination**
+** Online Methods
+*** [[file:pyclone.org][pyclone]] model and implementation
+*** Running [[file:pyclone.org][pyclone]] and MCMC analysis
+*** Evaluation and benchmarks
+*** Alternative methods
+*** Normal-tissue mixture experiments
+*** Copy-number analysis
+*** HIgh-grade serous ovarian cancer
+*** Single-cell genotyping of frozen high-grade serous ovarian cancers
+** Supplementary results
+*** 1. Simulated data results
+*** 2. High grade serous ovarian cancer results
+*** 3. Stability of predictions using different copy number predictions
+** Supplementary discussion
+*** 1. Incorporating external sources of copy number information
+**** See [[file:Interfaces_of_Malignant_and_Immunologic_Clonal_Dynamics_in_Ovarian_Cancer_by_Zhang_and_Shah_in_2018.org][Interfaces of Malignant and Immunologic Clonal Dynamics in Ovarian Cancer by Zhang and Shah in 2018]] for integration with [[file:ReMixT_Clone-specific_genomic_structure_estimation_in_cancer_by_McPherson_and_Shah_2017.org][ReMixT Clone-specific genomic structure estimation in cancer by McPherson and Shah 2017]] 
+*** 2. Limitations
+**** pyclone clusters mutations that appear at similar cellular frequencies as opposed to clustering cells by mutational composition
+***** if any pair of two subclones exists at similar cellular frequencies the model will falsely cluster the mutations associated to each subclone together as if there were only one...so there could be merging of subclones
+**** A key assumption of our model is that all cells within each populations have the same genotype.
+**** We note that our assumptions are predicated on the notion of a ’perfect’ and ’persistent phylogeny whereby mutations accrue over time and persist in clones and their descendants and mutations occur exactly once.
+**** We have shown that our model can accommodate multi-sample data in a principled way by using hierarchical Bayesian modelling where statistical strength is borrowed across datasets, dramatically decreasing uncertainty while increasing accuracy.
+*** 3. Alternative applications
+** Supplementary note: statistical inference of clonal population structure in cancer
+*** 1 The [[file:pyclone.org][pyclone]] model description
+**** 
+*** 2 Multiple samples modeling
+**** 
+*** 3 Addressing overdispersion
+**** 
+*** 4 Methods for eliciting [[file:pyclone.org][pyclone]] priors over mutational genotypes
+**** 
+*** 5 Generation of synthetic data
+**** 

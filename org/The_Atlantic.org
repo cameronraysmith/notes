@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_Atlantic
+#+TITLE: The Atlantic
+* [[file:news.org][news]]
+* https://www.theatlantic.com/
+* stories
+** 

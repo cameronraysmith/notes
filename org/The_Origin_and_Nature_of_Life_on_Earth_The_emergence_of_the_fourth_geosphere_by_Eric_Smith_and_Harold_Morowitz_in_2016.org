@@ -1,0 +1,80 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_Origin_and_Nature_of_Life_on_Earth_The_emergence_of_the_fourth_geosphere_by_Eric_Smith_and_Harold_Morowitz_in_2016
+#+TITLE: The Origin and Nature of Life on Earth The emergence of the fourth geosphere by Eric Smith and Harold Morowitz in 2016
+* [[file:origin_of_life.org][origin of life]], [[file:geochemistry.org][geochemistry]], [[file:biochemistry.org][biochemistry]], [[file:physics.org][physics]], [[file:quantum_field_theory.org][quantum field theory]]
+* 1. The planetary scope of biogenesis: the biosphere is the fourth geosphere
+* 2. The organization of life on Earth today
+* 3. The geochemical context and embedding of the biosphere
+* 4. The architecture and evolution of the metabolic substrate
+* 5. Higher-level structures and the recapitulation of metabolic order
+* 6. The emergence of a biosphere from geochemistry
+* 7. The phase transition paradigm for emergence
+** 7.1 Theory in the origin of life
+*** 7.1.1 What does a phase transition framing add to the search for relevant environments and relevant chemistry
+** 7.2 Arriving at the need for a phase transition paradigm
+*** 7.2.1 Why there is something instead of nothing
+*** 7.2.2 Selecting pattern from chaos in organosynthesis
+*** 7.2.3 The phase transition paradigm
+*** 7.2.4 Developing the stability perspective
+*** 7.2.5 A chapter of primers
+** 7.3 Large deviations and the nature of thermodynamic limits
+*** 7.3.1 The combinatorics of large numbers and simplified fluctuation-probability distributions
+*** 7.3.2 Interacting systems and classical thermodynamics
+*** 7.3.3 Statistical roles of state variables
+*** 7.3.4 Phase transitions and order parameters
+** 7.4 Phase transitions in equilibrium systems
+*** 7.4.1 Worked example: the Curie-Weiss phase transition
+*** 7.4.2 Reduction, emergence, and prediction
+*** 7.4.3 Unpredictability and long-range order
+*** 7.4.4 Oil and water
+** 7.5 The theory of asymptotically reliable error correction (in terms of large-deviations)
+*** 7.5.1 Information theory as a mirror on thermodynamics
+*** 7.5.2 The large-deviations theory of optimal error correction
+*** 7.5.3 Transmission channel models
+*** 7.5.4 Capacity and error probability
+*** 7.5.5 Error correction and molecular recognition in an energetic system
+*** 7.5.6 The theory of optimal error correction is thermodynamic
+*** 7.5.7 One signal or many?
+** 7.6 Phase transitions in non-equilibrium systems
+*** 7.6.1 On the equilibrium entropy and living systems
+*** 7.6.2 Ensembles of processes and of histories
+*** 7.6.3 Phase transfer catalysis
+*** 7.6.4 A first-order, non-equilibrium, phase transition in the context of autocatalysis
+*** 7.6.5 The lightning strike analogy
+*** 7.6.6 Conclusion: the frontier in the study of collective and cooperative effects
+** 7.7 Technical appendix: non-equilibrium large deviations formulae
+*** 7.7.1 Master equation for the one-variable model of autocatalysis
+*** 7.7.2 Ordinary power-series generating function and Liouville equation
+*** 7.7.3 Escape trajectories and effective potential for non-equilibrium phases
+*** 7.7.4 Gaussian fluctuations about stationary-path backgrounds
+* 8. Reconceptualizing the nature of the living state
+** 8.1 Bringing the phase transition paradigm to life
+*** 8.1.1 Necessary order in the face of pervasive disturbance
+*** 8.1.2 The role of phase transitions in hierarchical complex systems
+*** 8.1.3 How uniqueness becomes a foundation for diversity
+*** 8.1.4 Beyond origins to the nature of the living state
+** 8.2 Metabolic layering as a form of modular architecture
+*** 8.2.1 Herbert Simon's arguments that modularity is prerequisite to hierarchical complexity
+*** 8.2.2 The modularity argument in a dynamical setting
+*** 8.2.3 Error correction from regression to ordered thermal states
+*** 8.2.4 The universal metabolic chart as an order parameter
+*** 8.2.5 The use of order parameters in induction
+*** 8.2.6 Control systems and requisite variety
+*** 8.2.7 Biology designs using order parameters
+** 8.3 The emergence of individuality
+*** 8.3.1 Darwinian evolution is predicated on individuality
+*** 8.3.2 How unique solutions give rise to conditions that support diversity
+*** 8.3.3 The nature of individual identity
+*** 8.3.4 Individuality within the structure of evolutionary theory
+*** 8.3.5 The ecosystem as community and as entity
+*** 8.3.6 Why material simplicity precedes complexity in the phase transition paradigm
+** 8.4 The nature of the living state
+*** 8.4.1 Replicators: a distinction but not a definition
+*** 8.4.2 Life is defined by participation in the biosphere
+*** 8.4.3 Covalent chemistry flux and other order parameters
+*** 8.4.4 The importance of being chemical
+** 8.5 The error-correcting hierarchy of the biosphere
+*** 8.5.1 The main relation: a general trade-off among stability, complexity and correlation length
+*** 8.5.2 Simple and complex phase transitions
+*** 8.5.3 Living matter as active data
+*** 8.5.4 Patterns and entities in the biosphere

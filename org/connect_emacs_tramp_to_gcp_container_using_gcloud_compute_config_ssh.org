@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: connect_emacs_tramp_to_gcp_container_using_gcloud_compute_config_ssh
+#+latex_header: \input{../header.tex}
+#+title: Connect emacs TRAMP to gcp container using gcloud compute config-ssh
+#+roam_tags: computing
+
+* Set up container on gcp
+* Connect to container with TRAMP

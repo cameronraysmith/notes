@@ -1,0 +1,16 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_evolutionary_dynamics_and_fitness_landscape_of_clonal_hematopoiesis_by_Caroline_Watson,_Daniel_Fisher,_Jamie_Blundell,_et_al_in_2020
+#+TITLE: The evolutionary dynamics and fitness landscape of clonal hematopoiesis by Caroline Watson, Daniel Fisher, Jamie Blundell, et al in 2020
+* citation
+** Watson, C. J., Papula, A. L., Poon, G. Y. P., Wong, W. H., Young, A. L., Druley, T. E., … Blundell, J. R. (2020). The evolutionary dynamics and fitness landscape of clonal hematopoiesis. __Science__, __367__(6485), 1449–1454. https://doi.org/10.1126/science.aay9333
+* code
+** https://github.com/blundelllab/ClonalHematopoiesis
+* contents
+** Results
+*** The VAF distribution from 50,000 individuals
+*** A branching model of stem cell dynamics
+*** HSC numbers and division times
+*** The fitness landscape of clonal hematopoiesis
+*** Highly fit variants confer an increased risk of AML
+*** Age dependence of clonal hematopoiesis
+** Discussion

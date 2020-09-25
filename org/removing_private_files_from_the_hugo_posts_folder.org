@@ -1,0 +1,168 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: removing_private_files_from_the_hugo_posts_folder
+#+latex_header: \input{../header.tex}
+#+title: Removing private files from the hugo posts folder
+#+roam_tags: org-roam
+#+header-args: :exports both
+
+* Removing private files from public directory
+
+The objective is to generate a script =move-private-md.sh= that can be run to temporarily move the markdown files in your hugo posts directory that you intend to keep private so that you can commit them to your git repository for public consumption. Another approach would be to add this list to a private =.gitignore= listing; however, this would not give you the ability to /toggle/ the private files in and out of your local hugo server so that you can view all of the org-roam files integrated prior to removing the private ones.
+
+=org-babel-tangle= is used to write the code blocks script to be used whenever some private files need to be removed from the hugo posts folder which needs to be cleaned out prior to a git commit. After running =org-babel-tangle= with this file open from your =notes/org/private= directory, you can look at, review, and if comfortable with the content execute the script =move-private-md.sh=. It will print out the name of the temporary directory to which it has moved the copies of the md files with equivalent names to the org files in your =notes/org/private= directory.
+
+* Write out a file containing the file listing
+:PROPERTIES:
+:ID:       9bb63426-00de-408d-84d6-5f6402ed9eae
+:END:
+
+Here we need to list the files in a directory, and remove the files from another directory with the same root filename and a different extension.
+
+#+BEGIN_SRC shell :results output verbatim replace :tangle move-private-md.sh
+ls *.org | wc -l
+ls *.org > private-notes.txt
+printf "\nListing of files intended to become private\n"
+head -5 private-notes.txt
+cat private-notes.txt | wc -l
+#+END_SRC
+
+#+RESULTS:
+:      385
+:
+: Listing of files intended to become private
+: 2-hour_work_cycle.org
+: 2020-09-21.org
+: 2020-09-22.org
+: Amazon_delivery_instructions.org
+: Amazon_sales_account.org
+:      385
+
+* Transform the file extensions
+:PROPERTIES:
+:ID:       576852c4-8169-4fb1-b607-8be42848fb6a
+:END:
+
+We will use =xargs -a filename.txt rm= to remove finally remove the files. This command expects the filenames to be exact. Since the target files are =md= rather than =org= files, we will use the python program =massedit= to replace the extension with a regular expression.
+
+#+BEGIN_SRC shell :results output verbatim replace :tangle move-private-md.sh
+python -m massedit -e "re.sub(r'\.org', r'.md', line)" private-notes.txt > private-md.diff
+head -8 private-md.diff
+tail -5 private-md.diff
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+--- /Users/crs58/projects/notes/org/private/private-notes.txt
++++ <new>
+@@ -1,385 +1,385 @@
+-2-hour_work_cycle.org
+-2020-09-21.org
+-2020-09-22.org
+-Amazon_delivery_instructions.org
+-Amazon_sales_account.org
++waiting_tasks.md
++weekly_goals.md
++work_tasks.md
++working_papers.md
++working_presentations.md
+#+end_example
+
+This demonstrates the transformation from =org= to =md= filenames with the same root name. Now we write the changes.
+
+#+BEGIN_SRC shell :results output verbatim replace :tangle move-private-md.sh
+python -m massedit -e "re.sub(r'\.org', r'.md', line)" -w private-notes.txt
+printf "\nListing of files intended to become private after substitution of org with md\n"
+head -8 private-notes.txt
+cat private-notes.txt | wc -l
+#+END_SRC
+
+#+RESULTS:
+: 2-hour_work_cycle.md
+: 2020-09-21.md
+: 2020-09-22.md
+: Amazon_delivery_instructions.md
+: Amazon_sales_account.md
+: April_10th,_2020.md
+: April_12th,_2020.md
+: April_13th,_2020.md
+:      385
+
+* Moving the files that match the transformed listing
+:PROPERTIES:
+:ID:       2c2ed305-8314-4c4c-aa28-905ee2c9b6f3
+:END:
+
+We are now ready to use =xargs -a private-notes.txt rm= to remove remove the specified files.
+
+#+BEGIN_SRC shell :results output verbatim replace :exports code :tangle move-private-md.sh
+tail -5 private-notes.txt
+pwd
+cp private-notes.txt ~/projects/notes/content/posts
+cd ~/projects/notes/content/posts
+pwd
+printf "\nNumber of md files in posts directory prior to removal\n"
+ls *.md | wc -l
+
+# create temporary directory
+tmp_dir=$(mktemp -d -t org-roam-private-$(date +%Y-%m-%d-%H-%M-%S)-XXXXXXXXXX)
+# xargs -a private-notes.txt -I{} rm {} # this would work with GNU xargs
+tr '\n' '\0' < private-notes.txt | xargs -0 -I _ mv _ $tmp_dir # this works with BSD xargs
+
+printf "\nNumber of md files in posts directory after to removal\n"
+ls *.md | wc -l
+printf "\nprivate markdown files moved to:
+$tmp_dir\n
+recover with:
+mv $tmp_dir/*.md ~/projects/notes/content/posts
+rm -fr $tmp_dir"
+#+END_SRC
+
+#+RESULTS:
+
+Now we check the number of remaining files in the directory. This should equal the number of files in the =org= directory.
+
+#+BEGIN_SRC shell :results output verbatim replace
+pwd
+ls ../*.org | wc -l
+cd ~/projects/notes/content/posts
+pwd
+ls *.md | wc -l
+#+END_SRC
+
+#+RESULTS:
+: /Users/crs58/projects/notes/org/private
+:      765
+: /Users/crs58/projects/notes/content/posts
+:      767
+
+Let's compare the files in the two directories.
+
+#+BEGIN_SRC shell :results output verbatim replace :exports code
+pwd
+ls ../*.org | wc -l
+find ../ -name "*.org" -maxdepth "1"  -exec basename {} .po \; | sort > org-files.txt
+ls ~/projects/notes/content/posts/*.md | wc -l
+find ~/projects/notes/content/posts/ -name "*.md" -maxdepth "1"  -exec basename {} .po \; | sort > md-files.txt
+python -m massedit -e "re.sub(r'\.org', r'', line)" -w org-files.txt
+python -m massedit -e "re.sub(r'\.md, r'', line)" -w md-files.txt
+head -5 org-files.txt
+head -5 md-files.txt
+# icdiff org-files.txt md-files.txt
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+/Users/crs58/projects/notes/org/private
+     765
+     766
+60_minutes
+AISC_Harvard_genetics_course
+A_Class_of_Models_with_the_Potential_to_Represent_Fundamental_Physics_by_Stephen_Wolfram_in_2020
+A_General_Relativity_Workbook_by_Thomas_Moore_in_2010
+A_Hidden_Life
+60_minutes.md
+AISC_Harvard_genetics_course.md
+A_Class_of_Models_with_the_Potential_to_Represent_Fundamental_Physics_by_Stephen_Wolfram_in_2020.md
+A_General_Relativity_Workbook_by_Thomas_Moore_in_2010.md
+A_Hidden_Life.md
+#+end_example

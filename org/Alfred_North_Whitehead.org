@@ -1,0 +1,16 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Alfred_North_Whitehead
+#+TITLE: Alfred North Whitehead
+* Resources
+** [[file:Process_and_reality_by_Alfred_North_Whitehead_in_1929.org][Process and reality by Alfred North Whitehead in 1929]]
+** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2Fc9h-4YI_eC?alt=media&token=6249cce4-5672-4cfc-89d6-dc6113ac17ac]]
+** [[file:Quantum_Processes_A_Whiteheadian_Interpretation_of_Quantum_Field_Theory_by_Frank_Hattich.org][Quantum Processes A Whiteheadian Interpretation of Quantum Field Theory by Frank Hattich]]
+** [[file:Thinking_with_Whitehead_by_Isabelle_Stengers.org][Thinking with Whitehead by Isabelle Stengers]]
+** [[file:Speculative_Empiricism_Revisiting_Whitehead_by_Didier_Debaise_in_2017.org][Speculative Empiricism Revisiting Whitehead by Didier Debaise in 2017]]
+** [[file:Whitehead's_philosophy_points_of_connection_edited_by_Polanowski_and_Sherburne_in_2004.org][Whitehead's philosophy points of connection edited by Polanowski and Sherburne in 2004]]
+** [[file:Process-relational_philosophy_by_C_Robert_Mesle_in_2008.org][Process-relational philosophy by C. Robert Mesle in 2008]]
+** [[file:Stanford_encyclopedia_article_on_process_philosophy.org][Stanford encyclopedia article on process philosophy]]
+** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2Fm-EnWJIwqg?alt=media&token=bc37a455-3deb-42d7-be5d-8196fa62bcfa]]
+* Quotes
+** Some philosophers fail to distinguish propositions from judgments; … But in the real world it is more important that a proposition be interesting than that it be true. The importance of truth is that it adds to interest. ~ Alfred North Whitehead
+* [[file:Whitehead's_conceptual_vocabulary_for_process_philosophy.org][Whitehead's conceptual vocabulary for process philosophy]]

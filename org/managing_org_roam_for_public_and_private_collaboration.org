@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: managing_org_roam_for_public_and_private_collaboration
+#+latex_header: \input{../header.tex}
+#+title: Managing org-roam for public and private collaboration
+#+roam_tags:
+
+- [[file:removing_private_files_from_the_hugo_posts_folder.org][Removing private files from the hugo posts folder]]

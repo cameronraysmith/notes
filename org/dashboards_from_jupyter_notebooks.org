@@ -1,0 +1,9 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: dashboards_from_jupyter_notebooks
+#+TITLE: dashboards from jupyter notebooks
+* [[file:jupyter_notebooks.org][jupyter notebooks]]
+* reviews
+** https://medium.com/informatics-lab/jupyter-dashboarding-some-thoughts-on-voila-panel-and-dash-b84df9c9482f#
+* [[https://github.com/voila-dashboards/voila][voila-dashboards/voila]]
+* [[https://github.com/holoviz/panel][holoviz/panel]]
+* dash

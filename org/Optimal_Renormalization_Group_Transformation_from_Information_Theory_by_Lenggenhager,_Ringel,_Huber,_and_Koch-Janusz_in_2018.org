@@ -1,0 +1,24 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Optimal_Renormalization_Group_Transformation_from_Information_Theory_by_Lenggenhager,_Ringel,_Huber,_and_Koch-Janusz_in_2018
+#+TITLE: Optimal Renormalization Group Transformation from Information Theory by Lenggenhager, Ringel, Huber, and Koch-Janusz in 2018
+* I. Introduction
+* II. The RSMI algorithm
+* III. Optimality: the measure and the effective Hamiltonian
+* IV. The cumulant expansion
+* V. Example: The 1D Ising model
+* VI. The "shape" of the coarse-grained variables
+* VII. Conclusions and outlook
+* Appendix A: Mutual information
+* Appendix B: RSMI does not increase rangeness
+* Appendix C: The effective Hamiltonian
+** 1. Factorization of quenched averages
+** 2. Parametrization of the RG rule using RBM ansatz
+* Appendix D: The 1D Ising model
+** 1. Exact decimation
+** 2. The effective Hamiltonian
+** 3. The case of $$L_{\Nu} = 2$$ blocks: discussion of the numerical results
+** 4. Mutual Information
+** 5. The case of larger blocks
+* Appendix E: Toy models
+** 1. 1D system
+** 2. 2D system

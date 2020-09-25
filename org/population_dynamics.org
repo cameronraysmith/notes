@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: population_dynamics
+#+TITLE: population dynamics
+* [[file:An_introduction_to_the_mathematical_structure_of_the_Wright-Fisher_model_of_population_genetics_by_Julian_Hofrichter,_Jurgen_Jost,_and_Tat_Dat_Tran_in_2013.org][An introduction to the mathematical structure of the Wright-Fisher model of population genetics by Julian Hofrichter, Jurgen Jost, and Tat Dat Tran in 2013]]
+* [[file:The_frequency-dependent_Wright–Fisher_model_diffusive_and_non-diffusive_approximations_by_Fabio_Chalub_and_Max_Souza_in_2014.org][The frequency-dependent Wright–Fisher model diffusive and non-diffusive approximations by Fabio Chalub and Max Souza in 2014]]

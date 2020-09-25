@@ -1,0 +1,10 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Multi-Omics_Factor_Analysis_v2_MOFA+_a_statistical_framework_for_comprehensive_integration_of_multi-modal_single-cell_data_by_Ricard_Argelaguet,_Oliver_Stegle,_et_al_in_2020
+#+TITLE: Multi-Omics Factor Analysis v2 MOFA+ a statistical framework for comprehensive integration of multi-modal single-cell data by Ricard Argelaguet, Oliver Stegle, et al in 2020
+* [[file:papers.org][papers]], [[file:network_inference.org][network inference]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:multiomics.org][multiomics]]
+* citation
+** Argelaguet, R., Arnol, D., Bredikhin, D., Deloro, Y., Velten, B., Marioni, J. C., & Stegle, O. (2020). MOFA+: a statistical framework for comprehensive integration of multi-modal single-cell data. __Genome Biology__, __21__(1), 111. https://doi.org/10.1186/s13059-020-02015-1
+* code
+** https://github.com/bioFAM/MOFA2
+* contents
+** 

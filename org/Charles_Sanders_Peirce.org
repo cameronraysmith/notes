@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Charles_Sanders_Peirce
+#+TITLE: Charles Sanders Peirce

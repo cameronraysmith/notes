@@ -1,0 +1,146 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Model_reduction_methods_for_classical_stochastic_systems_with_fast-switching_environments_reduced_master_equations,_stochastic_differential_equations,_and_applications_by_Hufton,_Lin,_and_Galla_in_2018
+#+TITLE: Model reduction methods for classical stochastic systems with fast-switching environments reduced master equations, stochastic differential equations, and applications by Hufton, Lin, and Galla in 2018
+* arXiv version
+** I. Introduction
+** II. General definitions
+*** A. Model
+*** B. Simplification in the adiabatic limit
+** III. Analysis for fast but finite environments
+*** A. General formalism
+*** B. Switching dynamics independent of state of the system with two environmental states
+*** C. Basic example
+** IV. Several species and reduced master equations with negative transition rates
+*** A. Model
+*** B. Positive correlation between the species
+*** C. Anti-correlations and negative transition rates
+*** D. Lack of positivity in initial transients
+** V. Numerical approaches to a master equation with negative rates
+*** A. Distribution-level simulation
+*** B. 'Path-level' simulation
+** VI. An intuition to our expansion on the level of sample paths
+*** A. Effective time-averaged reaction rates
+*** B. Averaging out the environmental process
+*** C. Resulting event statistics
+*** D. Simulation procedure for discrete-time sample paths
+** VII. Expansion in system size
+*** A. Overview
+**** 1. Expansion in environmental time scale
+**** 2. Expansion in powers of inverse system size
+**** 3. Combined expansion
+**** 4. Piecewise-deterministic process
+*** B. Example
+*** C. Linear-noise approximation
+*** D. Analytical approximation for power spectra
+** VIII. Further applications
+*** A. Model of protein production
+**** 1. Motivation and model definitions
+**** 2. Comparison of different approximation schemes
+*** B. Bimodal genetic switch
+**** 1. Model
+**** 2. Comparison of the different approximation schemes
+**** 3. Efficient simulations and required computing time
+*** C. Genetic network with multiple genes
+*** D. Genetic circuit with exclusive binding
+*** E. Staged switching of the environment
+*** F. Reliability analysis and crack propagation
+** IX. Summary and conclusions
+** Appendix A: State-dependent environmental process
+*** 1. Adiabatic limit
+*** 2. Next-order contribution
+** Appendix B: Further remarks relating to power spectra in Sec. V B
+*** 1. Cross spectra in adiabatic limit
+*** 2. Independence of $$S_{AA} (\omega)$$ from $$\Delta \beta$$
+** Appendix C: Kramers-Moyal expansion
+*** 1. Kramers-Moyal expansion of reduced master equation
+*** 2. Reduced Liouville equation
+*** 3. Kramers-Moyal expansion for two-species model
+** Appendix D: Applications--Further details
+*** 1. Reduced master equation for bi-stable genetic circuit
+*** 2. Gene circuit with exclusive binding
+* Classical stochastic systems with fast-switching environments: Reduced master equations, their interpretation, and limits of validity (published March 2019)
+** I. Introduction
+** II. General definitions and reduced master equation
+*** A. Model
+**** Definitions
+***** the system and environment are represented by sets of discrete-states evolving in continuous time
+***** $$\ell$$ states of classical system
+***** $$\sigma$$ states of the environment
+***** $$p(\ell, \sigma, t)$$ joint probability of finding the system in state $$\ell$$ and the environment in state $$\sigma$$ at time $$t$$
+***** $$R^{(\sigma)}_{\ell' \rightarrow \ell}$$ is the rate at which the system transitions from state $$\ell'$$ to state $$\ell$$ when the environment is in state $$\sigma$$
+***** $$\mathcal{M}_{\sigma}$$ operator that determines changes of the system relative to the environment in state $$\sigma$$ given by 
+****** $$\mathcal{M}_{\sigma} p(\ell, \sigma, t) \equiv \sum_{\ell'} R^{(\sigma)}_{\ell' \rightarrow \ell} p(\ell, \sigma, t)$$
+***** $$\lambda A_{\sigma' \rightarrow \sigma}(\ell)$$ is the rate at which the environment transitions from state $$\sigma'$$ to $$\sigma$$
+****** Note that in general these rates are considered to be functions that are dependent upon the state of the system $$\ell$$
+****** $$\lambda$$ is nothing more than a scaling parameter that allows for the tuning of the rate of environmental switching relative to the rate of switching of the system
+***** $$\Pi (\ell, t) = \sum_{\sigma} p(\ell, \sigma, t)$$ the marginal probability over states of the system that results from integrating over states of the environment
+***** The transition operators $$R$$ and $$A$$ are chosen so that their diagonal elements are constrained by
+****** $$ R^{(\sigma)}_{\ell \rightarrow \ell} = * \sum_{\ell' \neq \ell} R^{(\sigma)}_{\ell \rightarrow \ell'} $$
+****** $$ A_{\sigma \rightarrow \sigma}(\ell) = -\sum_{\sigma' \neq \sigma} A_{\sigma \rightarrow \sigma'}(\ell) $$
+**** Dynamics
+***** $$\frac{d}{dt} p(\ell, \sigma, t) = \mathcal{M}_{\sigma} p(\ell, \sigma, t) + \lambda \sum_{\sigma'} A_{\sigma' \rightarrow \sigma}(\ell) p(\ell, \sigma', t)$$
+**** Notes on the regime of interest
+***** This paper focuses on the situation where $$\lambda \gg 1$$ which corresponds to a characteristic timescale of environmental dynamics that is much shorter (or, equivalently, that the environmental dynamics are much faster) than that of the system under study
+*** B. Simplification in the adiabatic limit
+**** The adiabatic limit in this case is associated with that of infinitely fast environmental switching encoded by $$\lambda \rightarrow \infty$$
+**** 
+*** C. Reduced master equation for large but finite separation of timescales
+** III. Two envrionmental states: reduced master equation and basic example
+*** A. Environmental dynamics independent of the state of the system
+*** B. Example: population with two species
+**** 1. Reduced dynamics
+**** 2. Positive correlation between the species
+**** 3. Anticorrelations and negative transition rates
+** IV. Interpretation of negative rates: continuous time
+*** A. Flow of probability and renormalized reaction rates\
+*** B. Lack of positivity in initial transients
+** V. Interpretation in discrete time
+*** A. Effective time-averaged reaction rates
+*** B. Averaging out the environmental process
+*** C. Resulting event statistics
+*** D. Simulation procedure for discrete-time sample paths
+** VI. Criterion for the emergence of negative rates
+*** A. Model and notation
+*** B. Reduced master equation
+** VII. Summary and conclusions
+** Appendix A: State-dependent environmental process
+*** 1. Adiabatic limit
+*** 2. Next-order contribution
+** Appendix B: Continuous-time simulation algorithms for reduced master equations with negative rates
+*** 1. Path-level simulation
+**** a. Description of the simulation algorithm
+**** b. Test of the algorithm
+*** 2. Distribution-level simulation
+* Model reduction methods for population dynamics with fast-switching environments: Reduced master equations, stochastic differential equations, and applications (published March 2019)
+** I. Introduction
+** II. Model definitions and background
+*** A. Model
+*** B. Reduced master equation
+*** C. Objective of the present work
+** III. Expansion in system size
+*** A. Overview
+**** 1. Expansion in environmental
+**** 2. Expansion in powers of inverse system size
+**** 3. Combined expansion
+**** 4. Piecewise-deterministic process
+*** B. Simple examples
+**** 1. Population with one species
+**** 2. Population dynamics with two species
+** IV. Applications
+*** A. Bimodal genetic switch
+**** 1. Model
+**** 2. Comparison of the different approximation schemes
+**** 3. Efficient simulations and required computing time
+*** B. Genetic circuit with exclusive binding
+*** C. Reliability analysis and crack propagation
+** V. Summary and conclusions
+** Appendix A: Further details of the analysis of the model in Section III. B. 1.
+*** 1. Kramers-Moyal expansion of the reduced master equation
+*** 2. Reduced Liouville equation
+** Appendix B: Kramers-Moyal expansion for the two-species model in Section III. B. 2.
+** Appendix C: Applications: Further Details
+*** 1. Reduced master equation for the bistable genetic circuit
+*** 2. Gene circuit with exclusive binding
+** Appendix D: Further applications
+*** 1. Genetic network with multiple genes
+*** 2. Staged switching of the environment

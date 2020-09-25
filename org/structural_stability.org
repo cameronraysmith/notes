@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: structural_stability
+#+TITLE: structural stability
+* [[file:Structural_stability_and_morphogenesis_by_Rene_Thom_in_1972.org][Structural stability and morphogenesis by Rene Thom in 1972]]

@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: game_theory
+#+TITLE: game theory
+* [[file:Finite_and_infinite_games_A_vision_of_life_as_play_and_possibility_by_James_Carse_in_1986.org][Finite and infinite games A vision of life as play and possibility by James Carse in 1986]]

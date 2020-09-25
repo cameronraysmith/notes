@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Naftali_Tishby
+#+TITLE: Naftali Tishby
+* [[file:information_bottleneck_method.org][information bottleneck method]]

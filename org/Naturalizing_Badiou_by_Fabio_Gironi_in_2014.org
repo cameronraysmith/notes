@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Naturalizing_Badiou_by_Fabio_Gironi_in_2014
+#+TITLE: Naturalizing Badiou by Fabio Gironi in 2014
+* [[file:philosophy.org][philosophy]], [[file:Fabio_Gironi.org][Fabio Gironi]], [[file:Alain_Badiou.org][Alain Badiou]]
+* lectures
+** [[https://www.youtube.com/watch?v=0H6xChat8j0][Introduction: Analytic and Continental Kantianism * Fabio Gironi]]
+*** Introduction: Analytic and Continental Kantianism * Fabio Gironi https://youtu.be/0H6xChat8j0?t=928
+**** "pp. 535-536 note III.2" in [[file:Logic_of_Worlds_Being_and_Event_by_Alain_Badiou_in_2009.org][Logic of Worlds Being and Event by Alain Badiou in 2009]]

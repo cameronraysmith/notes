@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: pragmatism_in_philosophical_inquiry_by_Nicholas_Rescher_in_2016
+#+TITLE: pragmatism in philosophical inquiry by Nicholas Rescher in 2016
+* [[file:pragmatism.org][pragmatism]], [[file:Nicholas_Rescher.org][Nicholas Rescher]], [[file:philosophy.org][philosophy]]
+* 

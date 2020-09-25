@@ -1,0 +1,153 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Self-organization_in_nonequilibrium_systems_from_dissipative_structures_to_order_through_fluctuations_by_Nicolis_and_Prigogine_in_1977
+#+TITLE: Self-organization in nonequilibrium systems from dissipative structures to order through fluctuations by Nicolis and Prigogine in 1977
+* Part I. The thermodynamic background
+** 1. Introduction
+*** 1.1 General comments
+*** 1.2 Open systems
+** 2. Conservation equations'
+*** 2.1 Open systems at mechanical equilibrium
+*** 2.2 The mass-balance equations
+** 3. Thermodynamics of irreversible processes: the linear region
+*** 3.1 Gibbs's formula: entropy production
+*** 3.2 Phenomenological relations: The linear range of irreversible processes
+*** 3.3 Symmetry properties of the phenomenological coefficients
+*** 3.4 Stationary nonequilibrium states
+*** 3.5 Theorem of minimum entropy production
+*** 3.6 Impossibility of ordered behavior in the linear range of irreversible processes
+*** 3.7 Diffusion
+** 4. Nonlinear thermodynamics
+*** 4.1 Introduction
+*** 4.2 The general evolution criterion
+*** 4.3 Evolution criterion and kinetic potential
+*** 4.4 Stability of nonequilibrium states. Dissipative structures.
+* Part II. Mathematical aspects of self-organization: deterministic methods
+** 5. Systems involving chemical reactions and diffusion-stability
+*** 5.1 General formulation
+*** 5.2 Lyapunov stability
+*** 5.3 Orbital stability
+*** 5.4 [[file:structural_stability.org][structural stability]]
+** 6. Mathematical tools
+*** 6.1 Introduction
+*** 6.2 Theory of bifurcations
+*** 6.3 Stability theory
+*** 6.4 Theory of catastrophes
+*** 6.5 Homogeneous systems involving two variables
+*** 6.6 Branchings, bifurcations, and limit cycles
+** 7. Simple autocatalytic models
+*** 7.1 Two intermediates
+*** 7.2 The trimolecular model (the "Brusselator")
+*** 7.3 Scaling, steady states, and boundary conditions
+*** 7.4 Linear stability analysis
+*** 7.5 Bifurcation of steady-state dissipative structures: general scheme
+*** 7.6 Bifurcation: fixed boundary conditions
+*** 7.7 Bifurcation: no-flux boundary conditions
+*** 7.8 Qualitative properties of dissipative structures in vicinity of first bifurcation
+*** 7.9 Successive instabilities and secondary bifurcations
+*** 7.10 Comparison with computer simulations
+*** 7.11 Localized steady-state dissipative structures
+*** 7.12 Bifurcation of time-periodic dissipative structures
+*** 7.13 Qualitative properties of time-periodic dissipative structures
+*** 7.14 Traveling waves in periodic geometries
+*** 7.15 The Brusselator as a closed system
+*** 7.16 Concluding remarks
+** 8. Some further aspects of dissipative structures and self-organization phenomena
+*** 8.1 Introduction
+*** 8.2 Conservative oscillations
+*** 8.3 Simple models giving rise to limit cycles
+*** 8.4 Multiple steady states and all-or-none transitions
+*** 8.5 Two-dimensional problems
+*** 8.6 Systems involving more than two chemical variables
+*** 8.7 Coupled oscillators
+*** 8.8 Heterogeneous catalysis and localized transitions
+*** 8.9 Systems involving photochemical steps
+*** 8.10 Some further methods of analysis of reaction-diffusion equations
+*** 8.11 Thermodynamic aspects of dissipative structures
+* Part III. Stochastic methods
+** 9. General comments
+*** 9.1 Introduction
+*** 9.2 Stochastic formulation
+*** 9.3 Markovian processes
+*** 9.4 Equilibrium limit
+*** 9.5 Fluctuations in nonequilibrium systems: an historical survey
+** 10. Birth-and-death description of fluctuations
+*** 10.1 Master equation for birth-and-death processes
+*** 10.2 Limitations of birth-and-death formalism
+*** 10.3 Some methods of analysis of birth-and-death master equations
+*** 10.4 Moment equations
+*** 10.5 Simple examples
+*** 10.6 Systems involving two stochastic variables: The Lotka-Volterra model
+*** 10.7 Concluding remarks
+** 11. Effect of diffusion: phase-space description and multivariate master equation
+*** 11.1 Necessity for a local description of fluctuations
+*** 11.2 Phase-space description of fluctuations
+*** 11.3 A simple model
+*** 11.4 Approximate solution of master equation
+*** 11.5 Molecular dynamics studies of fluctuations
+*** 11.6 Discussion
+*** 11.7 Reduction to a multivariate master equation in concentration space
+*** 11.8 The multivariate master equation in a model system
+*** 11.9 Spatial correlation in the trimolecular model
+*** 11.10 Critical behavior
+*** 11.11 Concluding remarks
+** 12. A "mean-field" description of fluctuations: nonlinear master equation
+*** 12.1 Introduction
+*** 12.2 Derivation of nonlinear master equation
+*** 12.3 Further properties and moment equations
+*** 12.4 Onset of a limit cycle
+*** 12.5 Onset of a spatial dissipative structure
+*** 12.6 Multiple steady-state transitions and metastability
+*** 12.7 Asymptotic solutions of nonlinear master equation
+*** 12.8 Concluding remarks
+* Part IV. Control mechanisms in chemical and biological systems
+** 13. Self-organization in chemical reactions
+*** 13.1 Introduction
+*** 13.2 Belousov-Zhabotinski reaction: experimental facts
+*** 13.3 Mechanism
+*** 13.4 The "oregonator"
+*** 13.5 Oscillatory behavior
+*** 13.6 Spatial patterns
+*** 13.7 Briggs-Rauscher reaction
+** 14. Regulatory processes at the subcellular level
+*** 14.1 Metabolic oscillations
+*** 14.2 The glycolytic cycle
+*** 14.3 Allosteric model for glycolytic oscillations
+*** 14.4 Limit-cycle oscillations
+*** 14.5 Effect of external disturbances on limit-cycle oscillation
+*** 14.6 Patterns of spatiotemporal organization in allosteric enzyme model
+*** 14.7 Periodic synthesis of cAMP
+*** 14.8 Reactions involving membrane-bound enzymes
+*** 14.9 Physiological significance of metabolic oscillations
+** 15. Regulatory processes at cellular level
+*** 15.1 Introduction
+*** 15.2 Lac operon
+*** 15.3 Mathematical model for induction of beta-galactosidase
+*** 15.4 All-or-none transitions
+*** 15.5 Catabolite repression: sustained oscillations and threshold phenomena
+*** 15.6 Control of cellular division
+*** 15.7 Quantitative model
+** 16. Cellular differentiation and pattern formation
+*** 16.1 Introductory remarks
+*** 16.2 Positional information
+*** 16.3 Mechanisms involved in positional information
+*** 16.4 Dissipative structures and onset of polarity
+*** 16.5 A quantitative model
+*** 16.6 Positional differentiation
+*** 16.7 Applications
+* Part V. Evolution and population dynamics
+** 17. Thermodynamics of evolution
+*** 17.1 The notion of competition
+*** 17.2 Prebiotic evolution: general presentation
+*** 17.3 Prebiotic polymer formation
+*** 17.4 Biopolymer competition and hypercycles
+*** 17.5 Evolution viewed as a problem of stability
+*** 17.6 Evolutionary feedback
+*** 17.7 Energy dissipation in simple reaction networks
+*** 17.8 A biochemical illustration
+** 18. Thermodynamics of ecosystems
+*** 18.1 Introduction
+*** 18.2 basic equations
+*** 18.3 Example of ordered behavior: organization in insect societies
+*** 18.4 Evolution in ecosystems
+*** 18.5 Structural instabilities and increase of complexity
+*** 18.6 Stability and complexity

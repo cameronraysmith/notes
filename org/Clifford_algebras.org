@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Clifford_algebras
+#+TITLE: Clifford algebras

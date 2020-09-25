@@ -1,0 +1,14 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Georg_Hegel
+#+TITLE: Georg Hegel
+* From [[file:The_Rise_of_Modern_Philosophy_A_New_History_of_Western_Philosophy,_Vol_III.org][The Rise of Modern Philosophy A New History of Western Philosophy, Vol. III]]
+** First book compared Fichte and Schelling
+** Greatest contribution to thought was his introduction of a historical element to philosophy
+** Only the philosopher really understands that reason is the sovereign of the world, and that the history of the world is a rational process.
+** The motive force of history is spirit’s drive to actualize its potential. Universal history is ‘the exhibition of Spirit in the process of working out the knowledge of that which it is potentially.’
+** Two stages of dialectic to reach spirit
+*** Thesis: The absolute or totality of reality is pure Being
+*** But pure being without any qualities is nothing
+*** Antithesis: The absolute is nothing
+*** Synthesis: the union of being and unbeing is becoming and therefore the absolute or totality of reality is becoming
+* [[file:A_Spirit_of_Trust_by_Robert_Brandom_in_2019.org][A Spirit of Trust by Robert Brandom in 2019]]

@@ -1,0 +1,30 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: service_mesh
+#+TITLE: service mesh
+* [[file:kubernetes.org][kubernetes]], [[file:cloud_computing.org][cloud computing]]
+* a [service mesh](https://en.wikipedia.org/wiki/Service_mesh) is a dedicated infrastructure layer for facilitating service-to-service communications between [microservices](https://en.wikipedia.org/wiki/Microservices), often using a [sidecar](https://en.wikipedia.org/w/index.php?title=Sidecar_software_architecture) [[https://en.wikipedia.org/wiki/Proxy_pattern][proxy]].
+* [[https://servicemesh.es/][servicemesh.es | Service Mesh Comparison]]
+** istio and linkerd are most popular. it appears that istio is more configurable while linkerd is potentially easier to get up and running.
+* example:: https://istio.io/latest/docs/concepts/what-is-istio/
+** [[https://istio.io/latest/docs/ops/deployment/architecture/arch.svg]]
+** [[https://www.youtube.com/watch?v=6zDrLvpfCK4][Istio Service Mesh Explained]]
+*** resources for installation and configuration
+**** gateway
+**** virtual service
+**** destination rules
+*** asdf
+**** pilot
+**** citadel
+**** galley
+**** being moved to proxy plane
+***** telemetry
+***** policy
+** course:: [[https://www.youtube.com/playlist?list=PLNFIflbQ6VNtTBQEgIbgH0-oQ8NIBkMiJ][istio service mesh for kubernetes]]
+*** tools demonstrated
+**** kiali
+***** [[https://www.youtube.com/watch?v=0Ho1twJ9Udg][Installing Istio and Kiali on Minikube (in a few minutes)]]
+**** jaeger ui
+**** grafana
+** install as standalone "operators"
+*** https://istio.io/latest/docs/setup/install/standalone-operator/#prerequisites
+*** can use [[file:terraform.org][terraform]] "helm"

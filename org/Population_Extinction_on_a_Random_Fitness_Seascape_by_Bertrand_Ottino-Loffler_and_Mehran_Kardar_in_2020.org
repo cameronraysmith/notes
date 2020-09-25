@@ -1,0 +1,9 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Population_Extinction_on_a_Random_Fitness_Seascape_by_Bertrand_Ottino-Loffler_and_Mehran_Kardar_in_2020
+#+TITLE: Population Extinction on a Random Fitness Seascape by Bertrand Ottino-Loffler and Mehran Kardar in 2020
+* keyworks
+- [[file:papers.org][papers]], [[file:population_dynamics.org][population dynamics]], [[file:evolutionary_timescale.org][evolutionary timescale]], [[file:asexual_evolution.org][asexual evolution]], [[file:statistical_physics.org][statistical physics]], [[file:Mehran_Kardar.org][Mehran Kardar]]
+* citation
+** Ottino-Löffler, B., & Kardar, M. (2020). Population Extinction on a Random Fitness Seascape, 1–17. Retrieved from http://arxiv.org/abs/2007.11749
+* contents
+** 

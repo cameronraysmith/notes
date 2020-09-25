@@ -1,0 +1,9 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Planning_as_Inference_in_Epidemiological_Dynamics_Models_by_Andrew_Warrington,_Saeid_Naderiparizi,_and_Frank_Wood_in_2020
+#+TITLE: Planning as Inference in Epidemiological Dynamics Models by Andrew Warrington, Saeid Naderiparizi, and Frank Wood in 2020
+* [[file:approximate_bayesian_computation.org][approximate bayesian computation]], [[file:model_construction.org][model construction]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:probabilistic_programming.org][probabilistic programming]]
+* code
+** https://github.com/plai-group/covid
+* citation
+* contents
+* references

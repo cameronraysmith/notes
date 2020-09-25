@@ -1,0 +1,11 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: terraform
+#+TITLE: terraform
+* links
+** https://www.linode.com/docs/applications/configuration-management/terraform/beginners-guide-to-terraform/
+** [[https://www.hashicorp.com/blog/using-the-kubernetes-and-helm-providers-with-terraform-0-12/][Using the Kubernetes and Helm Providers with Terraform 0.12]]
+* vocabulary
+** providers: Terraform is a general orchestration tool that can interface with a number of different cloud platforms. These integrations are referred to as __providers__.
+* kubernetes
+** helm
+*** https://github.com/hashicorp/terraform-provider-helm

@@ -1,0 +1,12 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: representation_theory
+#+TITLE: representation theory
+* references
+** [[file:Notes_on_representation_theory_and_quantum_mechanics_by_Noah_Miller_in_2018.org][Notes on representation theory and quantum mechanics by Noah Miller in 2018]]
+** [[file:The_unitary_representations_of_the_Poincare_group_in_any_spacetime_dimension_by_Xavier_Bekaert_and_Nicolas_Boulanger_in_2006.org][The unitary representations of the Poincare group in any spacetime dimension by Xavier Bekaert and Nicolas Boulanger in 2006]]
+* The development of the representation theory [[https://en.wikipedia.org/wiki/Representation_theory_of_the_Lorentz_group#Development][of the Lorentz group] has historically followed the development of the more general theory of representation theory of semisimple groups, largely due to Élie Cartan and Hermann Weyl, but the Lorentz group has also received special attention due to its importance in physics. Notable contributors are physicist E. P. Wigner and mathematician Valentine Bargmann with their Bargmann–Wigner program,[1] one conclusion of which is, roughly, ^^a classification of all unitary representations of the inhomogeneous Lorentz group amounts to a classification of all possible relativistic wave equations^^.[2] The classification of the irreducible infinite-dimensional representations of the Lorentz group was established by Paul Dirac's doctoral student in theoretical physics, Harish-Chandra, later turned mathematician,[nb 3] in 1947. The corresponding classification for $$ \mathrm {SL} (2,\mathbb {C} )$$ was published independently by Bargmann and Israel Gelfand together with Mark Naimark in the same year. — via [Representation theory of the Lorentz group * Wikipedia]]
+** Reference 2 is
+*** [[file:The_unitary_representations_of_the_Poincare_group_in_any_spacetime_dimension_by_Xavier_Bekaert_and_Nicolas_Boulanger_in_2006.org][The unitary representations of the Poincare group in any spacetime dimension by Xavier Bekaert and Nicolas Boulanger in 2006]]
+*** Bekaert, X., & Boulanger, N. (2006). The unitary representations of the Poincare group in any spacetime dimension, 1–50. Retrieved from http://arxiv.org/abs/hep-th/0611263
+**** page 6 contains the referenced quote
+***** "A classification of all unitary representations of the inhomogeneous Lorentz group, i.e. of all solutions of (6), amounts, therefore, to a classification of all possible relativistic wave equations."

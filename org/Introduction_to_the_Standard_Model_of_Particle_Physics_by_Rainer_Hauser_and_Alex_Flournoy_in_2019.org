@@ -1,0 +1,12 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Introduction_to_the_Standard_Model_of_Particle_Physics_by_Rainer_Hauser_and_Alex_Flournoy_in_2019
+#+TITLE: Introduction to the Standard Model of Particle Physics by Rainer Hauser and Alex Flournoy in 2019
+* I. Theory 
+** standard model, symmetries, gauge fields, Higgs mechanism
+** 1. Introduction
+*** 1.2 The framework for particle physics
+*** 
+* II. Calculations
+** decays and scattering amplitudes
+** 1. Introduction
+*** 1.1 A short review of the standard model

@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Visualizing_probabilistic_models_in_Minkowski_space_with_intensive_symmetrized_Kullback-Leibler_embedding_by_Han_Teoh,_Katherine_Quinn,_James_Sethna_et_al_in_2020
+#+TITLE: Visualizing probabilistic models in Minkowski space with intensive symmetrized Kullback-Leibler embedding by Han Teoh, Katherine Quinn, James Sethna et al in 2020
+* [[file:probabilistic_inference.org][probabilistic inference]], [[file:information_geometry.org][information geometry]], [[file:James_Sethna.org][James Sethna]]
+* 

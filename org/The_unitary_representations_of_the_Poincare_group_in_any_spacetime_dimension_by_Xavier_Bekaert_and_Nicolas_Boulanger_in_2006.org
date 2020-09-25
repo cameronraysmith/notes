@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_unitary_representations_of_the_Poincare_group_in_any_spacetime_dimension_by_Xavier_Bekaert_and_Nicolas_Boulanger_in_2006
+#+TITLE: The unitary representations of the Poincare group in any spacetime dimension by Xavier Bekaert and Nicolas Boulanger in 2006
+* [[file:representation_theory.org][representation theory]], [[file:symmetry.org][symmetry]], [[file:symmetry_analysis_of_dynamical_systems.org][symmetry analysis of dynamical systems]], [[file:theoretical_physics.org][theoretical physics]], [[file:quantum_field_theory.org][quantum field theory]]

@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Stephen_Wolfram
+#+TITLE: Stephen Wolfram
+* [[file:A_new_kind_of_science_by_Stephen_Wolfram_in_2002.org][A new kind of science by Stephen Wolfram in 2002]]
+* [[file:A_Class_of_Models_with_the_Potential_to_Represent_Fundamental_Physics_by_Stephen_Wolfram_in_2020.org][A Class of Models with the Potential to Represent Fundamental Physics by Stephen Wolfram in 2020]]

@@ -1,0 +1,10 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Growth_dynamics_in_naturally_progressing_chronic_lymphocytic_leukaemia_by_Michaela_Gruber,_Gad_Getz,_and_Catherine_Wu_in_2020
+#+TITLE: Growth dynamics in naturally progressing chronic lymphocytic leukaemia by Michaela Gruber, Gad Getz, and Catherine Wu in 2020
+* keywords
+- [[file:papers.org][papers]], [[file:cancer_evolution.org][cancer evolution]]
+* citation
+* code
+** PhylogicNDT
+* outline
+** 

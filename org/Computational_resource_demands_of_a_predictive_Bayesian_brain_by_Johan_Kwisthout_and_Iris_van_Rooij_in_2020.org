@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Computational_resource_demands_of_a_predictive_Bayesian_brain_by_Johan_Kwisthout_and_Iris_van_Rooij_in_2020
+#+TITLE: Computational resource demands of a predictive Bayesian brain by Johan Kwisthout and Iris van Rooij in 2020
+* [[file:Bayesian_brain_hypothesis.org][Bayesian brain hypothesis]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:computational_complexity.org][computational complexity]]
+* 

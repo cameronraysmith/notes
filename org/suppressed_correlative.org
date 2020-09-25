@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: suppressed_correlative
+#+TITLE: suppressed correlative
+* A simple example based on one by [[https://en.wikipedia.org/wiki/Alexander_Bain): (https://en.wikipedia.org/wiki/Suppressed_correlative#cite_note-4][Alexander Bain]]
+** Person 1: "Things are either mysterious or not mysterious. Exactly when an earthquake will strike is still a mystery, but how blood circulates in the body is not."
+** Person 2: "__Everything__ is mysterious. There are still things to be learned about how blood circulates."
+** Regardless of whether Person 2's statement about blood circulation is true or not, the redefinition of "mysterious" is so broad that it omits significant contrast in the level of scientific understanding between earthquakes and blood circulation. Bain argues that if we hold the origin of the universe as equally mysterious against simple equations such as 3×4=12, it seems unimaginable what kind of concepts would be described as __non__-mysterious. Through redefinition, the word "mysterious" has lost any useful meaning, he says.
+** 

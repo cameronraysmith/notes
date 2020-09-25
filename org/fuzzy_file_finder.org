@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: fuzzy_file_finder
+#+TITLE: fuzzy file finder
+* [[file:computation.org][computation]]
+* show preview of files while searching
+** `fzf --preview "bat --color always {}"`
+*** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2F6hP-XC8wXv.png?alt=media&token=a4ab4433-57dc-4901-a377-17b9ea86df9a]]

@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Edmund_Husserl
+#+TITLE: Edmund Husserl
+* [[file:Husserlian_phenomenology.org][Husserlian phenomenology]]

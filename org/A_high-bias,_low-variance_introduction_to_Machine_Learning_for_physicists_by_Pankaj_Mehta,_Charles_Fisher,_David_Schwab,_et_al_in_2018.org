@@ -1,0 +1,48 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: A_high-bias,_low-variance_introduction_to_Machine_Learning_for_physicists_by_Pankaj_Mehta,_Charles_Fisher,_David_Schwab,_et_al_in_2018
+#+TITLE: A high-bias, low-variance introduction to Machine Learning for physicists by Pankaj Mehta, Charles Fisher, David Schwab, et al in 2018
+* [[file:probabilistic_inference.org][probabilistic inference]], [[file:statistical_physics.org][statistical physics]], [[file:variational_inference.org][variational inference]], [[file:information_geometry.org][information geometry]], [[file:renormalization.org][renormalization]]  [[file:Non-equilibrium_statistical_physics.org][Non-equilibrium statistical physics]]
+* code
+** "✔ Containerize the notebooks for High-bias low-variance introduction to ML paper (see https://github.com/cameronraysmith/mlreview_notebooks ) @est(1h) @done(19-10-14 21:56) @project(Computation.Machine learning)"
+** https://physics.bu.edu/~pankajm/MLnotebooks.html
+** notebooks
+*** NB01 CII polynomial regression
+*** NB02 CIV gradient descent
+*** NB03 CVI linear regression for diabetes data
+*** NB04 CVI linear regression for the Ising model
+*** NB05 CVII logistic regression SUSY
+*** NB06 CVII logistic regression Ising
+*** NB07 CVII logistic regression MNIST
+*** NB08 CVIII bagging perceptron
+*** NB09 CVIII random forests Ising
+*** NB10 CVIII XGboost SUSY
+*** NB11 CIX DNN MNIST keras
+*** NB12 CIX DNN SUSY tensorflow
+*** NB13 CIX DNN Ising pytorch
+*** NB14 CX CNN Ising pytorch
+*** NB15 CXIII clustering
+*** NB16 CXIV EM coin toss
+*** NB17 CXVI Restricted Boltzmann Machine MNIST
+*** NB18 CXVI Restricted Boltzmann Machine Ising
+*** NB19 CXVII Keras Variational Autoencoder MNIST
+*** NB20 CXVII Keras Variational Autoencoder Ising
+* citation
+** Mehta, P., Bukov, M., Wang, C.-H., Day, A. G. R., Richardson, C., Fisher, C. K., & Schwab, D. J. (2018). A high-bias, low-variance introduction to Machine Learning for physicists. Retrieved from https://arxiv.org/pdf/1803.08823.pdf 
+* list of topics
+** polynomial regression
+** linear regression
+** logistic regression
+** combining models
+** feed-forward deep neural networks
+** convolutional neural networks
+** clustering
+** expectation maximization
+** restricted boltzmann machines
+** variational autoencoders
+* contents
+** XVI. DEEP GENERATIVE MODELS: LATENT VARIABLES AND RESTRICTED BOLTZMANN MACHINES (RBMS)
+*** A. Why hidden (latent) variables? 
+**** Latent or hidden variables are a powerful yet elegant
+way to encode sophisticated correlations between observ* able features. The underlying reason for this is that marginalizing over a subset of variables – “integrating out” degrees of freedom in the language of physics – in* duces complex interactions between the remaining vari* ables. The idea that integrating out variables can lead to complex correlations is a familiar component of many physical theories. For example, when considering free electrons living on a lattice, integrating out phonons gives rise to higher-order electron-electron interactions (e.g. su* perconducting or magnetic correlations). More generally, in the Wilsonian renormalization group paradigm, all ef* fective field theories can be thought of as arising from integrating out high-energy degrees of freedom (Wilson and Kogut, 1974).
+**** Generative models with latent variables run this logic
+in reverse – encode complex interactions between visible variables by introducing additional, hidden variables that interact with visible degrees of freedom in a simple man* ner, yet still reproduce the complex correlations between visible degrees in the data once marginalized over (integrated out). This allows us to encode complex higher* order interactions between the visible variables using sim* pler interactions at the cost of introducing new latent variables/degrees of freedom. This trick is also widely exploited in physics (e.g. in the Hubbard-Stratonovich transformation (Hubbard, 1959; Stratonovich, 1957) or the introduction of ghost fields in gauge theory (Faddeev and Popov, 1967)).

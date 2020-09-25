@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Mean_field_variational_inference
+#+TITLE: Mean field variational inference
+* [[file:variational_inference.org][variational inference]], [[file:probabilistic_inference.org][probabilistic inference]]

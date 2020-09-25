@@ -1,0 +1,16 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Experiential_learning_by_David_Kolb_in_2015
+#+TITLE: Experiential learning by David Kolb in 2015
+* [[file:pedagogy.org][pedagogy]]
+* [[https://en.wikipedia.org/wiki/David_A._Kolb][David A. Kolb]] developed a theory of[[https://en.wikipedia.org/wiki/Experiential_learning][experiential learning]] in the 1970s. He wrote a book in 1984 that was updated in 2014: [[https://en.wikipedia.org/wiki/Special:BookSources?isbn=978-0133892406][Experiential Learning: Experience as the Source of Learning and Development]].
+** lectures
+*** [[https://www.youtube.com/watch?v=v74nRbWSNqk][8 Things To Know About the Experiential Learning Cycle]]
+*** https://learningfromexperience.com/
+*** [[https://www.youtube.com/watch?v=G9p23tS8sEU][Chemistry of the Brain * Neuroscientific Perspective on Education]]
+*** [[https://www.youtube.com/watch?v=5_6fezBz9IA][The Neuroscience of Learning * Bruce McCandliss]]
+** experiential learning cycle:
+*** concrete experience
+*** reflective observation
+*** abstract conceptualization
+*** active experimentation
+*** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FZp5Tn5TPj1.png?alt=media&token=6b29e8f1-ce7f-4e32-a2b9-7d1ec967b286]]

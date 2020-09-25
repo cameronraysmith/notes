@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: intrinsic_motivation
+#+TITLE: intrinsic motivation
+* [[file:free_energy_principle.org][free energy principle]], [[file:probabilistic_inference.org][probabilistic inference]]
+* [[file:intrinsic_motivation.org][intrinsic motivation]] is a unifying term for concepts like the [[file:free_energy_principle.org][free energy principle]]. This is discussed in [[file:Expanding_the_Active_Inference_Landscape_More_Intrinsic_Motivations_in_the_Perception-Action_Loop_by_Martin_Biehl,_Daniel_Polani,_et_al_in_2018.org][Expanding the Active Inference Landscape More Intrinsic Motivations in the Perception-Action Loop by Martin Biehl, Daniel Polani, et al in 2018]] and associated lectures.
+* https://en.wikipedia.org/wiki/Intrinsic_motivation_(artificial_intelligence)

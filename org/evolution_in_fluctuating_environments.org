@@ -1,0 +1,13 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: evolution_in_fluctuating_environments
+#+TITLE: evolution in fluctuating environments
+* keywords: [[file:research.org][research]]
+goals: 
+due date:: <2020-06-12 Fri>
+* [[file:The_causes_of_molecular_evolution_by_John_Gillespie_in_1994.org][The causes of molecular evolution by John Gillespie in 1994]]
+** Citation: Gillespie, J. H. (1994). __The Causes of Molecular Evolution__. __Evolution__. Oxford University Press. https://doi.org/0195092716 \cite{Gillespie1994a}
+* [[file:The_Value_of_Information_for_Populations_in_Varying_Environments_by_Rivoire_and_Leibler_in_2011.org][The Value of Information for Populations in Varying Environments by Rivoire and Leibler in 2011]] 
+* [[file:Fate_of_a_mutation_in_a_fluctuating_environment_by_Cvijovic,_Good,_and_Desai_in_2015.org][Fate of a mutation in a fluctuating environment by Cvijovic, Good, and Desai in 2015]]
+* [[file:Evolutionary_Phase_Transitions_in_Random_Environments_by_Skanata_and_Kussell_in_2016.org][Evolutionary Phase Transitions in Random Environments by Skanata and Kussell in 2016]]
+* See all of the [[file:stochastic_processes.org][stochastic processes]] page but especially [[file:Model_reduction_methods_for_classical_stochastic_systems_with_fast-switching_environments_reduced_master_equations,_stochastic_differential_equations,_and_applications_by_Hufton,_Lin,_and_Galla_in_2018.org][Model reduction methods for classical stochastic systems with fast-switching environments reduced master equations, stochastic differential equations, and applications by Hufton, Lin, and Galla in 2018]]
+* Meyer, I., & Shnerb, N. M. (2020). Evolutionary dynamics in fluctuating environment. __Physical Review Research__, __2__(2), 023308. https://doi.org/10.1103/PhysRevResearch.2.023308

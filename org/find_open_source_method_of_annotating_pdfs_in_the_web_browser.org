@@ -1,0 +1,9 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: find_open_source_method_of_annotating_pdfs_in_the_web_browser
+#+TITLE: find open source method of annotating pdfs in the web browser
+* [[file:library.org][library]], [[file:reading_list.org][reading list]]
+* closed source methods that are inexpensive or free
+* open source methods that require desktop applications
+** [[file:skim_pdf_reader.org][skim pdf reader]]
+* open source methods that can be used on the web
+** https://github.com/openannotation/annotator/

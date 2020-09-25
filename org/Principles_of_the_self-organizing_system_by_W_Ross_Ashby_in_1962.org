@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Principles_of_the_self-organizing_system_by_W_Ross_Ashby_in_1962
+#+TITLE: Principles of the self-organizing system by W. Ross Ashby in 1962
+* [[file:systems_science.org][systems science]], [[file:free_energy_principle.org][free energy principle]]
+* 

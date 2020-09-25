@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: quantum_field_theory
+#+TITLE: quantum field theory

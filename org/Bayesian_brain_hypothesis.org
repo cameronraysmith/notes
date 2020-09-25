@@ -1,0 +1,10 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Bayesian_brain_hypothesis
+#+TITLE: Bayesian brain hypothesis
+* [[file:probabilistic_inference.org][probabilistic inference]], [[file:philosophy.org][philosophy]], [[file:free_energy_principle.org][free energy principle]], [[file:Andy_Clark.org][Andy Clark]], [[file:Karl_Friston.org][Karl Friston]]
+* __Bayesian approaches to brain function investigate the capacity of the nervous system to operate in situations of uncertainty in a fashion that is close to the optimal prescribed by Bayesian statistics.__ — via [[https://en.wikipedia.org/wiki/Bayesian_approaches_to_brain_function][Bayesian approaches to brain function * Wikipedia]]
+* [[file:The_Helmholtz_Machine_by_Peter_Dayan,_Geoffrey_Hinton,_Radford_Neal,_and_Richard_Zemel_in_1995.org][The Helmholtz Machine by Peter Dayan, Geoffrey Hinton, Radford Neal, and Richard Zemel in 1995]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:variational_inference.org][variational inference]]
+* [[file:Whatever_next_Predictive_brains,_situated_agents,_and_the_future_of_cognitive_science_by_Andy_Clark_in_2013.org][Whatever next? Predictive brains, situated agents, and the future of cognitive science by Andy Clark in 2013]] , [[file:philosophy.org][philosophy]]
+* [[file:The_Bayesian_brain_the_role_of_uncertainty_in_neural_coding_and_computation_by_David_C_Knill_and_Alexandre_Pouget_in_2004.org][The Bayesian brain the role of uncertainty in neural coding and computation by David C.Knill and Alexandre Pouget in 2004]]
+* [[file:The_Self-Evidencing_Brain_by_Jakob_Hohwy_in_2016.org][The Self-Evidencing Brain by Jakob Hohwy in 2016]]
+* [[file:Computational_resource_demands_of_a_predictive_Bayesian_brain_by_Johan_Kwisthout_and_Iris_van_Rooij_in_2020.org][Computational resource demands of a predictive Bayesian brain by Johan Kwisthout and Iris van Rooij in 2020]]

@@ -1,0 +1,12 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Easy_and_hard_in_the_origin_of_life_by_Eric_Smith_in_2019
+#+TITLE: Easy and hard in the origin of life by Eric Smith in 2019
+* keyworkds
+- [[file:dynamics_of_biological_systems.org][dynamics of biological systems]], [[file:physics.org][physics]], [[file:origin_of_life.org][origin of life]], [[file:lectures.org][lectures]]
+* [[file:progress_indicators.org][progress indicators]] 26% <2020-05-08 Fri>
+* [[file:questions.org][questions]] at 6:05
+- [[file:What_does_biology_tell_us_about_the_kinds_of_information_essential_to_the_living_state.org][What does biology tell us about the kinds of information essential to the living state?]]
+- [[file:What_kind_of_explanation_qualifies_as_a_causal_theory_of_the_origin_of_a_biosphere.org][What kind of explanation qualifies as a causal theory of the origin of a biosphere?]]
+* Molecular complexity arises because reduction is favored and because C>1 forms are more stable
+- [[file:Universality_in_intermediary_metabolism_by_Eric_Smith_and_Harold_Morowitz_in_2004.org][Universality in intermediary metabolism by Eric Smith and Harold Morowitz in 2004]]
+- Miller, S. L., & Smith‐Magowan, D. (1990). The Thermodynamics of the Krebs Cycle and Related Compounds. __Journal of Physical and Chemical Reference Data__, __19__(4), 1049–1073. https://doi.org/10.1063/1.555878

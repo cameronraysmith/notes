@@ -1,0 +1,34 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Introduction_to_dynamical_large_deviations_of_Markov_processes_by_Hugo_Touchette_in_2018
+#+TITLE: Introduction to dynamical large deviations of Markov processes by Hugo Touchette in 2018
+* Video lectures
+** Large deviation theory in statistical physics: Recent advances and future challenges * https://www.youtube.com/playlist?list=PL04QVxpjcnjjs7dEO4LY_GZ48peTG1drT
+*** Large deviations of Markov processes (Part * 1) by Hugo Touchette * https://youtu.be/I1PRP14QXVE
+*** Large deviations of Markov processes (Part * 2) by Hugo Touchette * https://www.youtube.com/watch?v=VLSQ7gt4dwY&list=PL04QVxpjcnjjs7dEO4LY_GZ48peTG1drT&index=37
+* I. Introduction
+* II. Markov processes
+** A. Stochastic differential equations
+** B. State distribution and generator
+*** Fokker-Planck equation
+*** Fokker-Planck generator
+** C. Examples
+*** Kramers or underdamped Langevin equation
+*** Overdamped Langevin equation
+*** Gradient SDEs
+*** Linear diffusions
+*** Ornstein-Uhlenbeck process
+** D. Equilibrium versus nonequilibrium processes
+*** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FWkT6t4K3Is?alt=media&token=efe4ae6a-476e-40cc-9719-58ace0e724bb]]
+** E. Comparison with quantum mechanics
+*** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FptuMh7Wq1s?alt=media&token=76a3390e-14ee-4493-8b5f-599575ca6357]]
+** F. Further reading
+* III. Dynamical observables
+* IV. Large deviations
+** A. Large deviation principle
+** B. Spectral problem
+** C. Symmetrization
+** D. Example: Ornstein-Uhlenbeck process
+** E. Further reading
+* Appendix A: Dual spaces for Markov processes
+* Appendix B: Non-Hermitian operators
+* Appendix C: Feynman-Kac formula
