@@ -1,0 +1,9 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Evaluating_probabilistic_programming_and_fast_variational_Bayesian_inference_in_phylogenetics_by_Mathieu_Fourment_and_Aaron_Darling_in_2019
+#+TITLE: Evaluating probabilistic programming and fast variational Bayesian inference in phylogenetics by Mathieu Fourment and Aaron Darling in 2019
+* [[file:probabilistic_programming.org][probabilistic programming]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:phylogenetics.org][phylogenetics]]
+* citation
+** Fourment, M., & Darling, A. E. (2019). Evaluating probabilistic programming and fast variational Bayesian inference in phylogenetics. PeerJ, 7, e8272. https://doi.org/10.7717/peerj.8272
+* code
+** https://github.com/4ment/phylostan
+* contents

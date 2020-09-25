@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: high_energy_physics
+#+TITLE: high energy physics
+* [[file:physics.org][physics]], [[file:theoretical_physics.org][theoretical physics]]
+* references
+** https://arxiv.org/list/hep-ph/new
+** https://arxiv.org/list/hep-th/new

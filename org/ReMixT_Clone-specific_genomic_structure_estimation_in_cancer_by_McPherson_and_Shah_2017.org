@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: ReMixT_Clone-specific_genomic_structure_estimation_in_cancer_by_McPherson_and_Shah_2017
+#+TITLE: ReMixT Clone-specific genomic structure estimation in cancer by McPherson and Shah 2017

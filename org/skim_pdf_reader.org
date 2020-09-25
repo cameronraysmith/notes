@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: skim_pdf_reader
+#+TITLE: skim pdf reader

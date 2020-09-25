@@ -1,0 +1,13 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Consciousness_and_intentionality_in_the_Stanford_Encyclopedia_of_Philosophy
+#+TITLE: Consciousness and intentionality in the Stanford Encyclopedia of Philosophy
+* https://plato.stanford.edu/entries/consciousness-intentionality/
+* [[file:What_It_Is_Like_to_Perceive_Direct_Realism_and_the_Phenomenal_Character_of_Perception_by_J_Christopher_Maloney_in_2018.org][What It Is Like to Perceive Direct Realism and the Phenomenal Character of Perception by J Christopher Maloney in 2018]]
+* references
+** Clark, A. and David J. Chalmers, 1998, “The Extended Mind”, __Analysis__, 58: 10–23. doi: 10.1093/analys/58.1.7
+** Davidson, D., 1982, “Empirical Content”, __Grazer Philosophische Studien__, 16–17: 471–489.
+** Husserl, Edmund, [1900] 1970, __Logical Investigations__, J. Findlay (trans.), Abingdon, UK: Routledge.
+** Nagel, Thomas, 1976, “What Is It Like To Be a Bat?”, __Philosophical Review__, 4(83): 435–450.
+** Putnam, Hilary, 1975, “The Meaning of ‘Meaning,’” __Minnesota Studies in the Philosophy of Science__, 7: 131–193
+** Rorty, Richard, 1979, __Philosophy and the Mirror of Nature__, Princeton: Princeton University Press.
+** Wittgenstein, Ludwig, 1953, __Philosophical Investigations__, G.E.M. Anscombe (trans.), New York: Macmillan.

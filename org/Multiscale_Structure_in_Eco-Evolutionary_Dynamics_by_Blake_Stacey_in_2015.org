@@ -1,0 +1,36 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Multiscale_Structure_in_Eco-Evolutionary_Dynamics_by_Blake_Stacey_in_2015
+#+TITLE: Multiscale Structure in Eco-Evolutionary Dynamics by Blake Stacey in 2015
+* [[file:stochastic_processes.org][stochastic processes]], [[file:renormalization.org][renormalization]], [[file:papers.org][papers]]
+* this is the PhD thesis of [[file:Blake_Stacey.org][Blake Stacey]]. it is tagged as a [[file:papers.org][papers]] because it is in the mendeley papers library as opposed to the book even though, as a thesis, it really is better classified as a book
+* 1. Abstract
+* 2. Multiscale structure
+* 3. Host-consumer evolution by simulation
+* 4. A volunteer's dilemma
+* 5. Techniques of probability
+** 5.5 Moments and cumulants
+** 5.6 Generating functions
+** 5.7 Central limit theorem
+** 5.8 Variations on diffusion
+* 6. Stochastic adaptive dynamics
+** 6.1 Justifying the Fokker-Planck equation
+** 6.2 The deterministic limit
+** 6.3 A Fokker-Planck equation for adaptive dynamics
+** 6.4 Concurrent mutations, discreteness and multi-strategy games
+** 6.5 Interspecies interactions
+* 7. Spatial stochastic mechanics [[file:key_subsection.org][key subsection]], [[file:renormalization.org][renormalization]], [[file:example.org][example]]
+** 7.1 The central limit theorem by RG transformations
+** 7.2 Isotropic percolation
+** 7.3 Doi formalism
+** 7.4 Examples
+** 7.5 Coherent-state path integrals
+** 7.6 Spatial dependence
+** 7.7 Rate equations from tree-level calculations
+** 7.8 Directed percolation
+** 7.9 Prior relevant results and difficulties
+** 7.10 Carrying capacity
+** 7.11 A common denominator
+* 8. Invasion fitness by moment closure approximations
+* 9. The varieties of multilevel selection
+* 10. Speculations for new mathematics
+* 11. Conclusions

@@ -1,0 +1,31 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Notes_on_representation_theory_and_quantum_mechanics_by_Noah_Miller_in_2018
+#+TITLE: Notes on representation theory and quantum mechanics by Noah Miller in 2018
+* [[file:representation_theory.org][representation theory]], [[file:physics.org][physics]] 
+* https://scholar.harvard.edu/files/noahmiller/files/representation-theory-quantum.pdf
+* https://en.wikipedia.org/wiki/Spherical_harmonics
+* https://en.wikipedia.org/wiki/Symmetry_in_quantum_mechanics
+* 1 Group representations
+** A representation of a group $$G$$ on a vector space $$V$$ is a group homomorphism $$ \pi \colon G \rightarrow GL(V)$$ 
+* 2 Schur's lemma
+* 3 Spherical Harmonics as Representations of SO(3) [[file:progress_indicators.org][progress indicators]]
+* 4 Unitary Representations
+* 5 All Representations Break Up Into a Direct Sum of Irreducible Representations
+* 6 A Brief Safari of The Hydrogen Atom
+* 7 Lie Algebras
+* 8 The Lie Algebras of U(n), SL(n,C), and SU(n) 
+* 9 Lie Algebra Representations
+* 10 Classifying the Irreducible Representations of U(1)
+* 11 Lie Algebra Complexifications
+* 12 Classifying the Irreducible Representations of SU(2)
+* 13 The Spin 1 Representation of SU(2)
+* 14 An Explicit Construction of Unitary SU(2) Representations 
+* 15 The Odd Couple: SU(2) and SO(3) 
+* 16 What’s The Deal With Spin?
+* 17 The Adjoint Representation And The Power Of Magical Thinking
+* 18 Operators That Generate Representations of U(1) Have Quantized Eigenvalues
+* 19 Functions on Phase Space Comprise a Lie Algebra 
+* 20 The Moment Map: Lie Algebra → Conserved Quantities 
+* 21 Quantization is a Lie Algebra Representation 
+* 22 Quantizing a Group Action
+* 23 Symplectomorphisms and Degree 2 Polynomials

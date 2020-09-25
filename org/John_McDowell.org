@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: John_McDowell
+#+TITLE: John McDowell
+* I got interested in John McDowell by hearing about him in [[file:The_pragmatic_turn_by_Richard_Bernstein_in_2010.org][The pragmatic turn by Richard Bernstein in 2010]]. It sounded there like he may have some views related to [[file:pragmatism.org][pragmatism]] that I would be sympathetic to in my interest in connection the concepts from that domain to the [[file:process_philosophy.org][process philosophy]] of [[file:Alfred_North_Whitehead.org][Alfred North Whitehead]]. Of course, the best reference I know of so far for the latter is in "2. Whitehead and pragmatism by Robert Neville"

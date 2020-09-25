@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Dynamical_Systems_Examples_of_Complex_Behavior_by_Jurgen_Jost_in_2005
+#+TITLE: Dynamical Systems Examples of Complex Behavior by Jurgen Jost in 2005
+* [[file:mathematics.org][mathematics]], [[file:dynamical_systems.org][dynamical systems]], [[file:books.org][books]], [[file:Jurgen_Jost.org][Jurgen Jost]]
+* contents

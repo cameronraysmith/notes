@@ -1,0 +1,38 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: philosophy
+#+TITLE: philosophy
+* Philosophers
+** [[file:Alfred_North_Whitehead.org][Alfred North Whitehead]]
+** [[file:Nicholas_Rescher.org][Nicholas Rescher]]
+** [[file:Wilfrid_Sellars.org][Wilfrid Sellars]]
+** [[file:Charles_Sanders_Peirce.org][Charles Sanders Peirce]]
+** [[file:William_James.org][William James]]
+** [[file:Robert_Brandom.org][Robert Brandom]]
+** [[file:John_McDowell.org][John McDowell]]
+** [[file:Georg_Hegel.org][Georg Hegel]]
+** [[file:Edmund_Husserl.org][Edmund Husserl]]
+** [[file:Baruch_Spinoza.org][Baruch Spinoza]]
+** [[file:Jurgen_Habermas.org][Jurgen Habermas]]
+** [[file:Gilles_Deleuze.org][Gilles Deleuze]]
+*** [[file:Gilles_Deleuze_An_Introduction_by_Todd_May_in_2015.org][Gilles Deleuze An Introduction by Todd May in 2015]]
+*** [[file:Stanford_encyclopedia_article_on_Gilles_Deleuze.org][Stanford encyclopedia article on Gilles Deleuze]]
+** [[file:Richard_Rorty.org][Richard Rorty]]
+* Topics
+** History of philosophy
+*** [[file:History_of_Western_Philosophy_by_Anthony_Kenny.org][History of Western Philosophy by Anthony Kenny]]
+*** A Global Theory of Intellectual Change by Randall Collins
+** Pragmatism
+*** [[file:The_pragmatic_turn_by_Richard_Bernstein_in_2010.org][The pragmatic turn by Richard Bernstein in 2010]]
+*** [[file:Pragmatism,_Objectivity,_and_Experience_by_Steven_Levine_in_2019.org][Pragmatism, Objectivity, and Experience by Steven Levine in 2019]]
+*** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FU0Kg3EYNu_?alt=media&token=6ad79612-655b-4f3e-86f3-916492055f0b]]
+** Science
+*** [[file:physics.org][physics]]
+**** [[file:Order_out_of_chaos_by_Prigogine_and_Stengers_in_1984.org][Order out of chaos by Prigogine and Stengers in 1984]]
+**** [[file:String_Theory_and_the_Scientific_Method_by_Richard_Dawid_in_2013.org][String Theory and the Scientific Method by Richard Dawid in 2013]]
+** Society
+*** [[file:Speed_Limits_by_Mark_C_Taylor_in_2014.org][Speed Limits by Mark C Taylor in 2014]]
+** Mind
+*** [[file:Bayesian_brain_hypothesis.org][Bayesian brain hypothesis]]
+*** [[file:Consciousness_and_intentionality_in_the_Stanford_Encyclopedia_of_Philosophy.org][Consciousness and intentionality in the Stanford Encyclopedia of Philosophy]]
+* [[file:references.org][references]]
+** [[https://www.denizcemonduygu.com/philo/browse/][History of philosophy network visualization]]

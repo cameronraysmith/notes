@@ -1,0 +1,15 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: hiking_routes
+#+TITLE: hiking routes
+* Middlesex fells reservoir Created on <2020-05-11 Mon>
+** 6.13mi Distance
+** 559ft Elevation Gain
+** Est. Moving Time 1:01:23__ — via [[https://www.strava.com/routes/27015653][6.1 mi Road Running Route on Strava]]
+* Middlesex fells figure 8 Created on <2020-05-11 Mon>
+** 9.79mi Distance
+** 915ft Elevation Gain
+** Est. Moving Time 1:38:02__ — via [[https://www.strava.com/routes/27015693][9.7 mi Road Running Route on Strava]]
+* Spot pond Created on <2020-05-17 Sun>
+** 6.49mi Distance
+** 412ft Elevation Gain
+** Est. Moving Time 1:54:21__ — via [[https://www.strava.com/routes/27365146][6.4 mi Trail Running Route on Strava]]

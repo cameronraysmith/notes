@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Efficient_exact_inference_for_dynamical_systems_with_noisy_measurements_using_sequential_approximate_bayesian_computation_by_Yannik_Schalte_and_Jan_Hasenauer_in_2020
+#+TITLE: Efficient exact inference for dynamical systems with noisy measurements using sequential approximate bayesian computation by Yannik Schalte and Jan Hasenauer in 2020
+* [[file:papers.org][papers]], [[file:approximate_bayesian_computation.org][approximate bayesian computation]], [[file:Jan_Hasenauer.org][Jan Hasenauer]]
+* 

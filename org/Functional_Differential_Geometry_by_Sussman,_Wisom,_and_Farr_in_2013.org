@@ -1,0 +1,17 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Functional_Differential_Geometry_by_Sussman,_Wisom,_and_Farr_in_2013
+#+TITLE: Functional Differential Geometry by Sussman, Wisom, and Farr in 2013
+* 1. Introduction
+* 2. Manifolds
+* 3. Vector fields and one-form fields
+* 4. Basis fields
+* 5. Integration
+* 6. Over a map
+* 7. Directional derivatives
+* 8. Curvature
+* 9. Metrics
+* 10. Hodge star and electrodynamics
+* 11. Special relativity
+* A. Scheme
+* B. Our notation
+* C. Tensors

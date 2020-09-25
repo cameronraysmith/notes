@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: pragmatism_The_Restoration_of_Its_Scientific_Roots_by_Nicholas_Rescher_in_2012
+#+TITLE: pragmatism The Restoration of Its Scientific Roots by Nicholas Rescher in 2012
+* [[file:philosophy.org][philosophy]], [[file:pragmatism.org][pragmatism]], [[file:Nicholas_Rescher.org][Nicholas Rescher]]
+* 

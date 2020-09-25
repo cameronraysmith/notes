@@ -1,0 +1,27 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Statistical_rethinking_by_Richard_McElreath_in_2020
+#+TITLE: Statistical rethinking by Richard McElreath in 2020
+* [[file:books.org][books]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:pyro.org][pyro]], [[file:computation.org][computation]] 
+* Code
+** [[file:Du_Phan's_implementation_of_Statistical_rethinking_in_pyro.org][Du Phan's implementation of Statistical rethinking in pyro]]
+** https://github.com/pymc-devs/resources/tree/master/Rethinking
+* Outline
+** [[https://fehiepsi.github.io/rethinking-numpyro/00-preface.html][Preface]]
+** [[https://fehiepsi.github.io/rethinking-numpyro/01-the-golem-of-prague.html][Chapter 1. The Golem of Prague]]
+** [[https://fehiepsi.github.io/rethinking-numpyro/02-small-worlds-and-large-worlds.html][Chapter 2. Small Worlds and Large Worlds]]
+*** 
+** [[https://fehiepsi.github.io/rethinking-numpyro/03-sampling-the-imaginary.html][Chapter 3. Sampling the Imaginary]]
+** [[https://fehiepsi.github.io/rethinking-numpyro/04-geocentric-models.html][Chapter 4. Geocentric Models]]
+** [[https://fehiepsi.github.io/rethinking-numpyro/05-the-many-variables-and-the-spurious-waffles.html][Chapter 5. The Many Variables & The Spurious Waffles]]
+** [[https://fehiepsi.github.io/rethinking-numpyro/06-the-haunted-dag-and-the-causal-terror.html][Chapter 6. The Haunted DAG & The Causal Terror]]
+** [[https://fehiepsi.github.io/rethinking-numpyro/07-ulysses-compass.html][Chapter 7. Ulysses’ Compass]]
+** [[https://fehiepsi.github.io/rethinking-numpyro/08-conditional-manatees.html][Chapter 8. Conditional Manatees]]
+** [[https://fehiepsi.github.io/rethinking-numpyro/09-markov-chain-monte-carlo.html][Chapter 9. Markov Chain Monte Carlo]]
+** [[https://fehiepsi.github.io/rethinking-numpyro/10-big-entropy-and-the-generalized-linear-model.html][Chapter 10. Big Entropy and the Generalized Linear Model]]
+** [[https://fehiepsi.github.io/rethinking-numpyro/11-god-spiked-the-integers.html][Chapter 11. God Spiked the Integers]]
+** [[https://fehiepsi.github.io/rethinking-numpyro/12-monsters-and-mixtures.html][Chapter 12. Monsters and Mixtures]]
+** [[https://fehiepsi.github.io/rethinking-numpyro/13-models-with-memory.html][Chapter 13. Models With Memory]]
+** [[https://fehiepsi.github.io/rethinking-numpyro/14-adventures-in-covariance.html][Chapter 14. Adventures in Covariance]]
+** [[https://fehiepsi.github.io/rethinking-numpyro/15-missing-data-and-other-opportunities.html][Chapter 15. Missing Data and Other Opportunities]]
+** [[https://fehiepsi.github.io/rethinking-numpyro/16-generalized-linear-madness.html][Chapter 16. Generalized Linear Madness]]
+** [[https://fehiepsi.github.io/rethinking-numpyro/17-horoscopes.html][Chapter 17. Horoscopes]]

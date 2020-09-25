@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: A_Simulated_Annealing_Approach_to_Bayesian_Inference_by_Carlo_Albert_in_2018
+#+TITLE: A Simulated Annealing Approach to Bayesian Inference by Carlo Albert in 2018
+* [[file:papers.org][papers]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:path_integral.org][path integral]], [[file:stochastic_processes.org][stochastic processes]], [[file:approximate_bayesian_computation.org][approximate bayesian computation]]
+* citation
+** Albert, C. (2015). A Simulated Annealing Approach to Bayesian Inference, (1), 1–12. Retrieved from http://arxiv.org/abs/1509.05315
+* contents
+** 

@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: collectors_fallacy
+#+TITLE: collectors fallacy
+* __There’s a tendency in all of us to gather useful stuff and feel good about it. To collect is a reward in itself. As knowledge workers, we’re inclined to look for the next groundbreaking thought, for intellectual stimulation: we pile up promising books and articles, and we store half the internet as bookmarks, just so we get the feeling of being on the cutting edge. Let’s call this “The Collector’s Fallacy”. Why fallacy? Because ‘to know about something’ isn’t the same as ‘knowing something’. Just knowing about a thing is less than superficial since knowing about is merely to be certain of its existence, nothing more.__ — via [[https://zettelkasten.de/posts/collectors-fallacy/][The Collector’s Fallacy • Zettelkasten Method]]
+* __In this video, we talk about the collector's fallacy. This describes how we store up books, articles, podcasts, and other forms of knowledge or information and never actually do anything with it. We collect it, then it sits.__ — via [[https://www.youtube.com/watch?v=ZCy0ZfqL09g][What You're Doing Wrong With the Information You Read]]
+* 

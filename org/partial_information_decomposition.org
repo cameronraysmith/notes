@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: partial_information_decomposition
+#+TITLE: partial information decomposition
+* [[file:mutual_information.org][mutual information]], [[file:information_geometry.org][information geometry]], [[file:network_inference.org][network inference]]
+* [[file:Nonnegative_Decomposition_of_Multivariate_Information_by_Paul_Williams_and_Randall_Beer_in_2010.org][Nonnegative Decomposition of Multivariate Information by Paul Williams and Randall Beer in 2010]]
+* 

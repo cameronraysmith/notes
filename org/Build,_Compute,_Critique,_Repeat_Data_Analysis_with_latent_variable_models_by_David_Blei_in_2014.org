@@ -1,0 +1,18 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Build,_Compute,_Critique,_Repeat_Data_Analysis_with_latent_variable_models_by_David_Blei_in_2014
+#+TITLE: Build, Compute, Critique, Repeat Data Analysis with latent variable models by David Blei in 2014
+* [[file:model_construction.org][model construction]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:latent_variable_models.org][latent variable models]], [[file:David_Blei.org][David Blei]]
+* citation
+** Blei, D. M. (2014). Build, Compute, Critique, Repeat: Data Analysis with Latent Variable Models by David Blei in 2014. Annual Review of Statistics and Its Application, 1(1), 203–232. 
+** https://doi.org/10.1146/annurev-statistics-022513-115657
+** http://www.cs.columbia.edu/~blei/papers/Blei2014b.pdf
+* references
+** [[https://www.youtube.com/watch?v=tQaq9XEcgyw][George Box * Rethinking Statistics for Quality Control]] [[file:George_Box.org][George Box]]
+* contents
+** 3.4 Time-series models
+*** 3.4.1 Hidden Markov models
+*** 3.4.2 The Kalman filter
+** 3.5 The craft of latent variable modeling [[file:latent_variable_models.org][latent variable models]]
+** 4.2 [[file:Mean_field_variational_inference.org][Mean field variational inference]]
+** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FFDPVkjnt_4.png?alt=media&token=b6d50ff4-2728-454d-897f-8f60c88ad335]]
+** 

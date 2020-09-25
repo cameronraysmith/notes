@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_frequency-dependent_Wright–Fisher_model_diffusive_and_non-diffusive_approximations_by_Fabio_Chalub_and_Max_Souza_in_2014
+#+TITLE: The frequency-dependent Wright–Fisher model diffusive and non-diffusive approximations by Fabio Chalub and Max Souza in 2014
+* [[file:population_dynamics.org][population dynamics]], [[file:evolutionary_timescale.org][evolutionary timescale]]
+* citation
+** Chalub, F. A. C. C., & Souza, M. O. (2014). The frequency-dependent Wright–Fisher model: diffusive and non-diffusive approximations. Journal of Mathematical Biology, 68(5), 1089–1133. https://doi.org/10.1007/s00285-013-0657-7
+* contents
+** 

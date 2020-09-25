@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: mathematics
+#+TITLE: mathematics
+* References
+** [[file:differential_geometry.org][differential geometry]]

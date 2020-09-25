@@ -1,0 +1,62 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Probabilistic_Modeling_and_Statistical_Inference_by_Michael_Betancourt_in_2019
+#+TITLE: Probabilistic Modeling and Statistical Inference by Michael Betancourt in 2019
+* keywords
+- [[file:probabilistic_inference.org][probabilistic inference]], [[file:probabilistic_programming.org][probabilistic programming]], [[file:model_construction.org][model construction]]
+* contents
+** 1. Probabilistic modeling
+*** 1.1 The observational process
+**** Distinct interfaces between measurement devices, the phenomenon of interest, and their environment lead to distinct observational processes that may each require careful tailoring within the model-construction process.
+*** 1.2 The true data generating process
+**** observation space: $$Y$$
+**** data generating process: probability distribution over the observation space
+**** space of all data generating processes: $$\mathcal{P}$$
+**** true data generating process, $$\pi^{\dagger}$$: probability distribution that exactly captures the observational process in a given application
+**** explicitly realized observations from the observational process: $$\tilde{y}$$
+**** arbitrary points in the observation space: $$y$$
+*** 1.3 The observational model
+**** observational model vs model configuration space: the subspace, $$\mathcal{S} \subset \mathcal{P}$$, of data generating processes considered in any particular application
+**** parametrization: a map from a model configuration space $$\mathcal{S}$$ to a parameter space $$\mathcal{\Theta}$$ assigning to each model configuration $$s \in \mathcal{S}$$ a parameter $$\theta \in \mathcal{\Theta}$$
+**** probability density for an observational model: $$\pi_{\mathcal{S}}(y; s)$$ in general using the parametrization to assign $$\pi_{\mathcal{S}}(y; \theta)$$
+**** 1.3.1 The generative structure of an observational model
+**** 1.3.2 Limitation of observational models
+**** 1.3.3 Model-based calibration
+*** 1.4 Model-based inferences
+** 2. Frequentist inference
+*** 2.1 Point estimators
+*** 2.2 Set estimators
+*** 2.3 Frequentist inference in practice
+** 3. Bayesian inference
+*** 3.1 Probabilistic scholarship
+**** 3.1.1 The prior distribution
+**** 3.1.2 The likelihood function
+**** 3.1.3 The posterior distribution
+**** 3.1.4 The complete Bayesian model
+*** 3.2 Employing our education
+**** 3.2.1 Making inferences
+**** 3.2.2 Making decisions
+**** 3.2.3 Making predictions
+*** 3.3 Bayesian calibration
+**** 3.3.1 Calibrating predictions
+***** Good’s “device of imaginary results” [[https://betanalpha.github.io/assets/case_studies/modeling_and_inference.html#ref-Good:1950][[12]]].
+**** 3.3.2 Calibrating posterior behaviors
+**** 3.3.3 Calibrating posterior computation
+** 4. Comparing asymptotic apples to preasymptotic oranges
+** 5. Conclusion
+* references
+** frequentist perspective
+*** [1] Casella, G. and Berger, R. L. (2002). __Statistical inference__. Duxbury Thomson Learning.
+*** [2] Lehmann, E. L. and Casella, G. (2006). __Theory of point estimation__. Springer Science &amp; Business Media.
+*** [3] Keener, R. W. (2011). __Theoretical statistics: Topics for a core course__. Springer.
+** Bayesian perspective
+*** [4] Bernardo, J.-M. and Smith, A. F. M. (2009). __Bayesian theory__. John Wiley &amp; Sons, Ltd., Chichester.
+*** [5] Lindley, D. V. (2014). __Understanding uncertainty__. John Wiley &amp; Sons, Inc., Hoboken, NJ.
+*** [6] MacKay, D. J. C. (2003). __Information theory, inference and learning algorithms__. Cambridge University Press, New York.
+** [7] Sivia, D. S. (2006). __Data analysis__. Oxford University Press, Oxford.
+** [8] McElreath, R. (2016). __Statistical rethinking: A bayesian course with examples in r and stan__. CRC Press.
+** [9] Box, G. E. P. and Draper, N. R. (1987). __Empirical model-building and response surfaces__. John Wiley &amp; Sons, Inc., New York.
+** [10] Diaconis, P. and Skyrms, B. (2017). __Ten great ideas about chance__. Princeton University Press.
+** [11] Betancourt, M. (2015). A unified treatment of predictive model comparison.
+** [12] Good, I. (1950). __Probability and the weighing of evidence__. Hafners, New York.
+** [13] Talts, S., Betancourt, M., Simpson, D., Vehtari, A. and Gelman, A. (2018). Validating bayesian inference algorithms with simulation-based calibration.
+** [14] Stan Development Team. (2018). Stan: A C++ library for probability and sampling, version 2.17.1.

@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Hierarchical_Bayesian_modelling_of_gene_expression_time_series_across_irregularly_sampled_replicates_and_clusters_by_James_Hensman,_Neil_Lawrence,_and_Magnus_Rattray_in_2013
+#+TITLE: Hierarchical Bayesian modelling of gene expression time series across irregularly sampled replicates and clusters by James Hensman, Neil Lawrence, and Magnus Rattray in 2013
+* [[file:Gaussian_process.org][Gaussian process]], [[file:gene_expression_dynamics.org][gene expression dynamics]], [[file:probabilistic_inference.org][probabilistic inference]] 
+* citation
+** Hensman, J., Lawrence, N. D., & Rattray, M. (2013). Hierarchical Bayesian modelling of gene expression time series across irregularly sampled replicates and clusters by James Hensman, Neil Lawrence, and Magnus Rattry in 2013. __BMC Bioinformatics__, __14__(1), 252. https://doi.org/10.1186/1471-2105-14-252
+* 

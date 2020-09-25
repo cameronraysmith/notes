@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Network_motifs_in_the_transcriptional_regulation_network_of_Escherichia_coli_by_Shen-Orr_and_Alon_in_2002
+#+TITLE: Network motifs in the transcriptional regulation network of Escherichia coli by Shen-Orr and Alon in 2002

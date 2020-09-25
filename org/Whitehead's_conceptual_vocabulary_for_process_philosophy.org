@@ -1,0 +1,37 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Whitehead's_conceptual_vocabulary_for_process_philosophy
+#+TITLE: Whitehead's conceptual vocabulary for process philosophy
+* [[file:references.org][references]]
+** http://www.philosopher.eu/a-n-whitehead-summary/
+** https://philosophynow.org/issues/114/The_Philosophy_of_Organism
+* Concepts
+** panpsychism
+** panentheism
+** actual occasions
+** actual entities
+*** perspectives on the world analogous to Leibnizian monads
+** nexus
+*** aggregates of actual entities
+** societies
+*** a nexus whose actual entities share a common characteristic
+** organisms
+*** complex societies that transmute a plurality of incoming prehensions into an abstract unity for the purpose of minimizing description length and thereby easing comprehension
+** concrescence
+** prehension
+*** positive or negative
+*** physical or conceptual
+*** pure and impure
+** vectoring
+** dual-aspect theory
+*** external appearance correlates to internal experience
+** perceptual mode
+*** causal efficacy
+**** internal experience of the actions and experiences of the past and concurrent surroundings flowing into the present
+*** presentational immediacy
+**** sensory impressions
+** The nature of God
+*** primordial
+**** eternal objects
+*** consequent
+**** pantheistic unity of all experience drawn into a higher consciousness
+*** God conditions creativity but it is beyond his control

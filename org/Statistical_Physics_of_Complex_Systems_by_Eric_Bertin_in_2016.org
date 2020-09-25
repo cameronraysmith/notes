@@ -1,0 +1,102 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Statistical_Physics_of_Complex_Systems_by_Eric_Bertin_in_2016
+#+TITLE: Statistical Physics of Complex Systems by Eric Bertin in 2016
+* [[https://lh3.googleusercontent.com/NPD-AC-VHH0-jO60g7jnD8GcJ8Mv1A3qpysaGLq_hcxMJFtieo9j5Ih_JpfISf8Otencv1s8XKb324-AqRYasebJHXPaJ9E_BdKskNz_jOtgNZc1bTrHGjxVVn-fUhMAMQKje9Uk2Bw=w353-h535-no]]
+* [[file:books.org][books]], [[file:statistical_physics.org][statistical physics]], [[file:Non-equilibrium_statistical_physics.org][Non-equilibrium statistical physics]], [[file:stochastic_processes.org][stochastic processes]]
+* Author: Eric Bertin
+* 1. Equilibrium statistical physics
+* 2. Non-stationary dynamics and stochastic formalism
+** 2.1 Markovian stochastic processes and master equation
+*** 2.1.1 Definition of Markovian Stochastic Processes
+*** 2.1.2 Master equation and detailed balance
+*** 2.1.3 A simple example: the one-dimensional random walk
+** 2.2 Langevin equation
+*** 2.2.1 Phenomenological approach
+*** 2.2.2 Basic properties of the linear Langevin equation
+*** 2.2.3 More general forms of the Langevin equation
+*** 2.2.4 Relation to random walks
+** 2.3 Fokker-Planck equation
+*** 2.3.1 Continuous limit of a discrete master equation
+*** 2.3.2 Kramers-Moyal expansion
+*** 2.3.3 More general forms of the Fokker-Planck equation
+** 2.4 Anomalous diffusion: scaling arguments
+*** Importance of the largest events
+*** Superdiffusive random walks
+*** Subdiffusive random walks
+** 2.5 Fast and slow relaxation to equilibrium
+*** 2.5.1 Relaxation to canonical equilibrium
+*** 2.5.2 Dynamical increase of the entropy
+*** 2.5.3 Slow relaxation and physical aging
+* 3. Statistical physics of interacting macroscopic units
+** 3.1 Dynamics of residential moves
+*** 3.1.1 A simplified version of the Schelling model
+*** 3.1.2 Condition for phase separation
+*** 3.1.3 The true Schelling model: two types of agents
+** 3.2 Driven particles on a lattice: zero-range process
+*** 3.2.1 Definition and exact steady-state solution
+*** 3.2.2 Maximal density and condensation phenomenon
+*** 3.2.3 Dissipative zero-range process
+** 3.3 Collective motion of active particles
+*** 3.3.1 Derivation of continuous equations
+*** 3.3.2 Phase diagram and instabilities
+*** 3.3.3 Varying the symmetries of particles
+* 4. Beyond assemblies of stable units
+** 4.1 Non-conserved particles: reaction-diffusion processes
+*** 4.1.1 Mean-field approach of absorbing phase transitions
+**** Determine an evolution equation for the density field $$\rho(\mathbf{r},t)$$
+***** Parameters
+****** for each particle already present in the system, a new particle is created with probability $$\kappa$$ per unit time
+***** Reactions
+****** $$A \longrightarrow 2A$$ at rate $$\kappa$$
+****** $$A \longrightarrow 0$$ at rate $$\nu$$
+****** $$2A \longrightarrow A$$ at rate $$\lambda$$
+***** Terms
+****** Linear
+******* the rate of change of the density resulting from the reaction $$A \longrightarrow 2A$$ is $$\kappa \rho$$
+******* the rate of change of the density resulting from the reaction $$A \longrightarrow 0$$ is $$-\nu \rho$$
+******* the rate of change of the density resulting from diffusion of particles $$A$$ in space with a diffusion coefficient $$D$$ is $$D \Delta \rho$$ where $$\Delta$$ is the Laplacian operator $$\Delta = \nabla^2$$
+****** Nonlinear
+******* an approximation to the rate of change of the density resulting from the reaction $$2A \longrightarrow A$$ is $$-\lambda \rho^2$$
+***** Dynamics
+****** $$\frac{\partial \rho}{\partial t} = (\kappa * \nu)\rho * \lambda \rho^2 + D \Delta \rho$$
+****** 
+*** 4.1.2 Fluctuations in a fully connected model
+** 4.2 Evolutionary dynamics
+*** 4.2.1 Statistical physics modeling of evolution in biology
+*** 4.2.2 Selection dynamics without mutation
+*** 4.2.3 Quasistatic evolution under mutation
+** 4.3 Dynamics of networks
+*** 4.3.1 Random networks
+*** 4.3.2 Small-world networks
+*** 4.3.3 Preferential attachment
+* 5. Statistical description of deterministic systems
+** 5.1 Basic notions on deterministic systems
+*** 5.1.1 Fixed points and simple attractors
+*** 5.1.2 Bifurcations
+*** 5.1.3 Chaotic dynamics
+** 5.2 Deterministic versus stochastic dynamics [[file:key_subsection.org][key subsection]]
+*** 5.2.1 Qualitative differences and similarities
+*** 5.2.2 Stochastic coarse-grained description of a chaotic map
+*** 5.2.3 Statistical description of chaotic systems
+** 5.3 Globally coupled dynamical systems
+*** 5.3.1 Coupling low-dimensional dynamical systems
+*** 5.3.2 Description in terms of global order parameters
+*** 5.3.3  Stability of the fixed point of the global system
+** 5.4 Synchronization transition
+*** 5.4.1 The Kuramoto model of coupled oscillators
+*** 5.4.2 Synchronized steady state
+* 6. A probabilistic viewpoint on fluctuations and rare events
+** 6.1 Global fluctuations as a random sum problem
+*** 6.1.1 Law of large numbers and central limit theorem
+*** 6.1.2 Generalization to variable with infinite variances
+*** 6.1.3 Case of non-identically distributed variables
+*** 6.1.4 Case of correlated variables
+*** 6.1.5 Coarse-graining procedures and law of large numbers
+** 6.2 Rare and extreme events
+*** 6.2.1 Different types of rare events
+*** 6.2.2 Extreme value statistics
+*** 6.2.3 Statistics of records
+** 6.3 Large deviation functions [[file:key_subsection.org][key subsection]]
+*** 6.3.1 A simple example: The Ising Model in a magnetic field
+*** 6.3.2 Explicit computations of large deviation functions
+*** 6.3.3 A natural framework to formulate statistical physics

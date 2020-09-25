@@ -1,0 +1,87 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Order_out_of_chaos_by_Prigogine_and_Stengers_in_1984
+#+TITLE: Order out of chaos by Prigogine and Stengers in 1984
+* Introduction: The Challenge to Science
+** 
+* Book One: The delusion of the universal (a critique of the history of science)
+** I. The triumph of reason
+*** 1. The new Moses
+*** 2. A dehumanized world
+*** 3. The Newtonian synthesis
+*** 4. The experimental dialogue
+*** 5. The myth at the origin of science
+*** 6. The limits of classical science
+** II. The identification of the real
+*** 1. Newton's laws
+*** 2. Motion and change
+*** 3. The language of dynamics
+*** 4. Laplace's demon
+** III. The two cultures
+*** 1. Diderot and the discourse of the living
+*** 2. Kant's critical ratification
+*** 3. A philosophy of nature? Hegel and Bergson
+*** 4. Process and reality: Whitehead
+*** 5. "Ignoramus, Ignoramibus": the positivist's strain
+*** 6. A new start
+* Book Two: The science of complexity (the history of thermodynamics)
+** IV. Energy and the industrial age
+*** 1. Heat, the rival of gravitation
+*** 2. The principle of the conservation of energy
+*** 3. Heat engines and the arrow of time
+*** 4. From technology to cosmology
+*** 5. The birth of entropy
+*** 6. Boltzmann's order principle
+*** 7. Carnot and Darwin
+** V. The three stages of thermodynamics
+*** 1. Flux and force
+*** 2. Linear thermodynamics
+*** 3. Far from equilibrium
+*** 4. Beyond the threshold of chemical instability
+*** 5. The encounter with molecular biology
+*** 6. Bifurcations and symmetry-breaking
+*** 7. Cascading bifurcations and the transitions to chaos
+*** 8. From Euclid to Aristotle
+** VI. Order through fluctuations
+*** 1. Fluctuations and chemistry
+*** 2. Fluctuations and correlations
+*** 3. The amplification of fluctuations
+*** 4. [[file:structural_stability.org][structural stability]]
+*** 5. Logistic evolution
+*** 6. Evolutionary feedback
+*** 7. Modelizations of complexity
+*** 8. An open world
+* Book Three: From being to becoming (nonequilibrium dynamics)
+** VII: Rediscovering time
+*** 1. A change of emphasis
+*** 2. The end of universality
+*** 3. The rise of quantum mechanics
+*** 4. Heisenberg's uncertainty relation
+*** 5. The temporal evolution of quantum systems
+*** 6. A nonequilibrium universe
+** VIII: The clash of doctrines
+*** 1. Probability and irreversibility
+*** 2. Boltzmann's breakthrough
+*** 3. Questioning Boltzmann's interpretation
+*** 4. Dynamics and thermodynamics: two separate worlds
+*** 5. Boltzmann and the arrow of time
+** IX: Irreversibility--the entropy barrier
+*** 1. Entropy and the arrow of time
+*** 2. Irreversibility as a symmetry-breaking process
+*** 3. The limits of classical concepts
+*** 4. The renewal of dynamics
+*** 5. From randomness to irreversibility
+*** 6. The entropy barrier
+*** 7. The dynamics of correlations
+*** 8. Entropy as a selection principle
+*** 9. Active matter
+* Conclusions: From earth to heaven--the reenchantment of nature 
+** 1. An open science
+** 2. Time and times
+** 3. The entropy barrier
+** 4. The evolutionary paradigm
+** 5. Actors and spectators
+** 6. A whirlwind in a turbulent nature
+** 7. Beyond tautology
+** 8. The creative course of time
+** 9. The human condition
+** 10. The renewal of nature

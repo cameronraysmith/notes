@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: tiling_window_managers
+#+TITLE: tiling window managers
+* https://news.ycombinator.com/item?id=20795189
+** I have enjoyed using Contexts [[https://contexts.co/]] for switching between applications.
+** There are a couple of automatic tiling window managers for MacOS, the most notable being Yabai (https://github.com/koekeishiya/yabai) and Amethyst (https://github.com/ianyh/Amethyst).
+** Yabai doesn't handle window switching on its own but it can use SKHD (https://github.com/koekeishiya/skhd) or any other application that can bind terminal commands to keyboard shortcuts such as Hammerspoon ([https://www.hammerspoon.org](https://www.hammerspoon.org/)) or BetterTouchTool ([[https://folivora.ai/)][https://folivora.ai]] or even Keyboard Maestro. The commands are context-aware of spaces and the placement of windows on the x-y plane so you can move between windows relative to their position on the screen.

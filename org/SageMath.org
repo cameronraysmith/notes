@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: SageMath
+#+TITLE: SageMath
+* definition:: computer algebra system [[file:python.org][python]]
+* [[https://stackoverflow.com/a/57229292/446907][install sage kernel in jupyter]]
+* [[file:SageManifolds.org][SageManifolds]]

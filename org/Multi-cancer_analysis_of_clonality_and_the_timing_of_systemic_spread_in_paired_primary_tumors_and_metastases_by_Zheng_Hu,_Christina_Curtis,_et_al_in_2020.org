@@ -1,0 +1,9 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Multi-cancer_analysis_of_clonality_and_the_timing_of_systemic_spread_in_paired_primary_tumors_and_metastases_by_Zheng_Hu,_Christina_Curtis,_et_al_in_2020
+#+TITLE: Multi-cancer analysis of clonality and the timing of systemic spread in paired primary tumors and metastases by Zheng Hu, Christina Curtis, et al in 2020
+* [[file:papers.org][papers]], [[file:cancer_evolution.org][cancer evolution]]
+* contents
+** Results
+*** Genomic landscapes of paired primary tumors and metastases
+*** Clonality of metastatic seeding
+*** Chronology of metastatic seeding

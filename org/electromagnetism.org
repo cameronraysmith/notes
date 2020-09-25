@@ -1,0 +1,26 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: electromagnetism
+#+TITLE: electromagnetism
+* [[https://ncatlab.org/nlab/show/electromagnetic+field][nlab article on the electromagnetic field]]
+** Mathematical model from physical input
+*** The electromagnetic field is a circle bundle with connection
+*** Experimental input
+**** Maxwell's equations imply the fields strength of electromagnetism is a closed differential 2-form on spacetime
+**** The __Dirac charge quantization argument__ shows that in order for the electromagnetic field to serve as the background gauge field to which a charged quantum mechanical particle couples, it must be the curvature 2-form of a circle bundle with connection
+*** Maxwell's equations
+**** The electromagnetic field strength is a closed differential 2-form on spacetime named the Faraday tensor in $$\Omega^2 (U)$$
+***** $$F = E \wedge dt + B$$
+***** Where $$ E \wedge dt = E_1 dx^1 \wedge dt + E_2 dx^2 \wedge dt + E_3 dx^3 \wedge dt$$
+***** and $$B = B_1 dx^2 \wedge dx^3 + B_2 dx^3 \wedge dx^1 + B_3 dx^1 \wedge dx^2 $$
+**** The electric charge density and current density combine to a differential 3-form in $$\Omega^3(U)$$
+***** $$j_{el} = j \wedge dt * \rho dx^1 \wedge dx^2 \wedge dx^3$$
+***** where $$j \wedge dt = j_1 dx^2 \wedge dx^3 \wedge dt + j_2 dx^1 \wedge dx^1 \wedge dt + j_3 dx^1 \wedge dx^2 \wedge dt $$
+**** Such that 
+***** $$ dF = 0$$
+****** the magnetic Gauss law $$\nabla \cdot B = 0$$
+****** Faraday's law $$d_t B + \nabla \times E = 0$$
+***** $$d \star F = j_{el}$$
+****** Gauss' law $$\nabla \cdot D = \rho$$
+****** Ampere's law $$-d_t D + \nabla \times H = j_{el}$$
+****** 
+**** where $$d$$ is the de Rham differential operator and $$\star$$ the Hodge star operator

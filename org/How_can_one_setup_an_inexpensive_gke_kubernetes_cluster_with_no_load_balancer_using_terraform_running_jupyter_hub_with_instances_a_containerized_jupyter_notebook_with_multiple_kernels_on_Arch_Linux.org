@@ -1,0 +1,17 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: How_can_one_setup_an_inexpensive_gke_kubernetes_cluster_with_no_load_balancer_using_terraform_running_jupyter_hub_with_instances_a_containerized_jupyter_notebook_with_multiple_kernels_on_Arch_Linux
+#+TITLE: How can one setup an inexpensive gke kubernetes cluster with no load balancer using terraform running jupyter hub with instances a containerized jupyter notebook with multiple kernels on Arch Linux?
+* [[file:setup_an_inexpensive_gke_kubernetes_cluster_with_no_load_balancer_using_terraform.org][setup an inexpensive gke kubernetes cluster with no load balancer using terraform]] running [[file:jupyter_hub.org][jupyter hub]] with instances [[file:a_containerized_jupyter_notebook_with_multiple_kernels_on_Arch_Linux.org][a containerized jupyter notebook with multiple kernels on Arch Linux]]?
+* An example of a single instance of jupyter lab is in [[file:a_containerized_jupyter_notebook_with_multiple_kernels_on_Arch_Linux.org][a containerized jupyter notebook with multiple kernels on Arch Linux]]. I would like multiple users to be able to launch this container with scalable underlying computational infrastructure. An example of this is in [[file:probcomp_hosted_jupyter_hub.org][probcomp hosted jupyter hub]]
+* steps
+**
+** DONE Create [[file:a_containerized_jupyter_notebook_with_multiple_kernels_on_Arch_Linux.org][a containerized jupyter notebook with multiple kernels on Arch Linux]]
+** DONE Run [[file:setup_an_inexpensive_gke_kubernetes_cluster_with_no_load_balancer_using_terraform.org][setup an inexpensive gke kubernetes cluster with no load balancer using terraform]]
+** DONE Get [[file:jupyter_hub.org][jupyter hub]] running on the [[file:kubernetes.org][kubernetes]] cluster via integration of [[file:use_kubernetes_on_gke_with_terraform_to_deploy_jupyter_hub.org][use kubernetes on gke with terraform to deploy jupyter hub]] with  [[file:setup_an_inexpensive_gke_kubernetes_cluster_with_no_load_balancer_using_terraform.org][setup an inexpensive gke kubernetes cluster with no load balancer using terraform]]
+** DONE setup https certificates
+** DONE setup github group-based oauth authentication on [[file:use_kubernetes_on_gke_with_terraform_to_deploy_jupyter_hub.org][use kubernetes on gke with terraform to deploy jupyter hub]]
+** DONE setup [[https://zero-to-jupyterhub.readthedocs.io/en/latest/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment][multiple profiles to let users select their environment]]
+** DONE Specify [[file:a_containerized_jupyter_notebook_with_multiple_kernels_on_Arch_Linux.org][a containerized jupyter notebook with multiple kernels on Arch Linux]] as the default image on this [[file:jupyter_hub.org][jupyter hub]] cluster
+** TODO Control the ability to scale the CPU-based backend
+*** setup a [[https://zero-to-jupyterhub.readthedocs.io/en/latest/administrator/optimization.html#using-a-dedicated-node-pool-for-users][dedicated node pool for jupyterhub users]]
+** TODO Investigate the potential for supporting GPU-based backends

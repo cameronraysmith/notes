@@ -1,0 +1,553 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Physics_from_Symmetry_by_Jakob_Schwichtenberg_in_2015
+#+TITLE: Physics from Symmetry by Jakob Schwichtenberg in 2015
+* [[https://lh3.googleusercontent.com/Pv7ch_xOw-qgh7yJbWRGmkjAUp0fGyQtJrvG26NK4RW0JdX8ZtnwZqL8KEdCRyd8CMlQHTt9SXhui-iMJy3ynQsn39cKOUwJLT3mCEN_CVY0RfCxPwXSIToY4to2uTV5Z3LV8Ibgl7I=w603-h802-no]]
+* [[file:books.org][books]], [[file:physics.org][physics]], [[file:symmetry.org][symmetry]]
+* Part I: Foundations
+** 1. Introduction (8)
+*** 1.1 What we cannot derive
+*** 1.2 Book overview
+*** 1.3 Elementary particles and fundamental forces
+** 2. Special relativity (14)
+*** 2.1 The invariant of special relativity
+*** 2.2 Proper time
+*** 2.3 Upper speed limit
+*** 2.4 The Minkowski Notation
+*** 2.5 Lorentz transformations
+*** 2.6 Invariance, symmetry, and covariance
+* Part II: Symmetry tools
+** 3. Lie Group Theory (66)
+*** Overview
+**** The goal is to derive the (fundamental representations) of the (double cover) of the (Poincare group)
+***** What is the Poincare group?
+****** Rotations plus boosts plus translations = Lorentz group plus translations = Poincare group
+***** What is a double cover?
+***** What are fundamental representations?
+**** We will always start with some known transformations, derive the Lie algebra and use this Lie algebra to get different representations of the symmetry transformations.
+*** 3.1 Groups
+*** 3.2 Rotations in two dimensions
+**** $U(1)$ and $SO(2)$ are isomorphic descriptions of 2-dimensional rotations
+**** 3.2.1 Rotations with unit complex numbers
+*** 3.3 Rotations in three dimensions
+**** The group $SO(3)$ is described by 3-dimensional rotation matrices analogous to those for 2-dimensions. The corresponding second description requires a generalization of the complex numbers from 2 to higher dimensions. There are no 3-dimensional complex numbers but there are 4-dimensional ones called quaternions.
+**** 3.3.1 Quaternions
+***** Three complex units $i,j,k$ such that $i^2 = j^2 = k^2 = -1$ and $ijk=-1$
+***** Unit quaternions can be written as $2 \times 2$ matrices with complex elements. For $q = a\mathbf{1} + b \mathbf{i} + c \mathbf{j} + d \mathbf{k}$ the corresponding matrix is $( (a + d i, -b * c i), (b * c i, a -d i))$ (interpreted as a list of rows)
+***** A unit quaternion $u$ does not induce a rotation on $v$ by simple multiplication but rather the transformation $v' = q^{-1} v q$ for a quaternion $q$ is the correct means of encoding 3-dimensional rotations as quaternions.
+***** $SU(2)$ is the __double-cover__ of $SO(3)$ . It is always possible to map elements of $SU(2)$ to a single element of $SO(3)$ unambiguously but the map in the other direction does not produce a unique element of $SU(2)$ from each element of $SO(3)$
+***** There is a means of using two copies of $SU(2)$ to describe rotations in four dimensions
+*** 3.4 Lie Algebras
+**** Overview
+***** In contrast to discrete groups, continuous groups have elements that are arbitrarily close to the identity
+****** For group identity $I$, generator $X$, and small parameter $\epsilon$, $g(\epsilon) = I + \epsilon X$ where $g(\epsilon)$ is within $\epsilon X$ of the identity element of the group $I$
+****** $h(\theta) = (I+\epsilon X)^k = \lim_{N \rightarrow \infty} (I+ \frac{\theta}{N} X)^N = e^{\theta X}$
+****** The form of the generator $X$ is given via a Taylor series expansion about the identity, $I$, of an arbitrary continuously parameterized group element $h(\theta)$
+******* $h(\theta) = \sum_n \frac{d^n h}{d \theta^n} \vert_{\theta=0} \theta^n = e^{\frac{dh}{d \theta} \vert_{\theta=0} \theta}$
+******* $X = \frac{dh}{d \theta}\vert_{\theta=0}$
+***** For matrix Lie groups, such as $G$, the corresponding Lie algebra, $\mathfrak{g}$, is the collection of objects that give an element of the group when exponentiated
+****** $X \in \mathfrak{g} \Leftrightarrow e^{tX} \in G$
+***** The composition rule of the Lie algebra is given by the Baker-Campbell-Hausdorff formula
+****** $e^X \circ e^Y = e^{X+Y+\frac{1}{2}[X,Y] +\frac{1}{12}[X,[X,Y]]-\frac{1}{12}[Y,[X,Y]]+\cdots}$
+****** This is where the __Lie bracket__ enters: the operation defined by $[ , ]$ is given, for matrix Lie groups, by $[X,Y] = XY * YX$
+****** Thus the group operation under which the Lie algebra is closed is the Lie bracket $[ , ]$ as opposed to matrix multiplication or some other operation
+***** The modern definition of a Lie algebra depends upon the behavior of the generators under the Lie bracket. Different groups may have the same Lie algebra. There is, however, exactly one distinguished Lie group for each Lie algebra. This is followed up in section 3.4.2.
+**** 3.4.1 The generators and Lie algebra of $SO(3)$
+***** Example of how one can derive the Lie algebra of a given group
+***** Defining constraints of $SO(3)$ are $O^T O = I$ and $\det(O) = 1$
+***** The group elements, $O$, can be written in terms of a generator $J$ as $ O = e^{\Phi J}$
+***** In terms of the constraints this is $O^T O = I \Rightarrow J^T + J =0$ and $\det(O) = 1 \Rightarrow \mathrm{tr}(J) = 0$ (using the fact that $\det (e^A) = e^{\mathrm{tr} (A)}$)
+***** This leaves $(J_i)_{jk} = -\epsilon_{ijk}$ in terms of the Levi-Civita symbol
+***** We can refer to the Lie bracket relation of the basis generators as the Lie algebra
+****** $[J_i , J_j] = \epsilon_{ijk} J_k$ (for anti-Hermitian generators with complex eigenvalues)
+****** $[J_i , J_j] = i \epsilon_{ijk} J_k$ (for Hermitian generators with real eigenvalues)
+**** 3.4.2 The abstract definition of a Lie algebra
+***** Recall bilinearity, anticommutativity and the Jacobi identity
+***** The definition of a Lie algebra requires no reference to any Lie group
+**** 3.4.3 The generators and Lie Algebra of $SU(2)$
+***** $SU(2)$ is the group of unitary $2 \times 2$ matrices with unit determinant
+****** Unitarity: $U^{\dagger} U = U U^{\dagger} = 1$
+****** Unit determinant: $\det(U) = 1$
+***** Imposing the conditions on the generatiors $J_1, J_2, \ldots$
+****** Unitarity implies Hermitian: $J_i^{\dagger} = J_i $
+****** Unit determinant implies tracelss: $\mathrm{tr} (J_i) = 0$
+****** The generators are thus traceless, Hermitian $2 \times 2$ matrices called the Pauli matrices (usually written as $\sigma_1, \sigma_2, \sigma_3$)
+***** For $J_i = \frac{1}{2} \sigma_i$ the Lie algebra as given by the Lie bracket relation of the basis generators
+****** $[J_i, J_j] = i \epsilon_{ijk} J_k$
+***** 
+**** 3.4.4 The abstract definition of a Lie group
+***** A Lie group is a group that is also a differentiable manifold and whose group operation induces a differentiable map of the manifold into itself
+***** There is precisely one simply-connected Lie group corresponding to each Lie algebra. Furthermore this simply-connected group is distinguished by the fact that there are structure-preserving maps **to** all other groups that share its Lie algebra but not in the opposite direction
+***** The distinguished simply-connected Lie group for a given Lie algebra is called the **covering group**
+***** Example: There is a two-to-one map from $SU(2)$ to $SO(3)$ that identifies two points of $SU(2)$ which is the 3-sphere with one point of $SO(3)$ which is the hemi-3-sphere
+***** To describe elementary particles one uses the representations of the covering group of the Poincare group instead of just the usual representation one uses to transform four-vectors.
+***** We are able to derive the representations of the most fundamental group belonging to a given Lie algebra by deriving representations of the Lie algebra and then placing the generators into the exponential function to get matrices representing group elements
+*** 3.5 Representation theory
+**** A representation is a map between any group element $g$ of a group $G$ and a linear transformation $R(g)$ of some vector-space $V$ in such a way that the group properties are perserved
+**** Similarity transformation
+***** $R \rightarrow R' = S^{-1} R S$
+**** Invariant subspace
+***** $V' \subseteq V$ is an invariant subspace if for $v \in V'$ we have $R(g) v \in V'$ for all $g \in G$
+**** A subrepresentation of $R$, $R'$, of $G$ on $V'$ is given by $R'(g) v = R(g) v$ for all $v \in V'$
+**** An irreducible representation is a representation of a group $G$ on a vector space $V$ that has no invariant subspaces besides $0$ and $V$. These representations are fundamental in the sense that they are not made up of smaller subrepresentations. Moreover all other representations are constructed from irreducible representations.
+**** A Casimir element $C$ is built from generators of the Lie algebra such that it commutes with every generator $X$ of the group (i.e. $[C,X]=0$)
+***** Schur's lemma says that for an irreducible representation $R \colon \mathfrak{g} \rightarrow \mathrm{GL}(V)$ any linear operator $T \colon V \rightarrow V$ that commutes with all operators $R(X)$ must be a scalar multiple of the identity operator.
+***** Casimir elements thus give linear operators with constant values for each representation, which provides a natural way of labelling representations.
+**** For any Lie group, one or more of the generators can be diagonalized using similarity transformations. These diagonalized generators have eigenvectors that form the basis for the vector space associated to the representation. The set of diagonal generators is called the Cartan subalgebra and the corresponding generators Cartan generators.
+***** The eigenvalues of Cartan generators are used to give charge labels to elementary particles
+***** For $SU(3)$ there are two Cartan generators associated to the strong interactions
+***** For $SU(2)$ there is one Cartan generator associated to weak interactions
+*** 3.6 SU(2)
+**** 3.6.1 The finite-dimensional irreducible representations of SU(2)
+***** It is convenient to define **ladder operators** as linear combinations of $J_1$ and $J_2$
+****** $J_+ = \frac{1}{\sqrt{2}} (J_1 + i J_2)$
+****** $J_* = \frac{1}{\sqrt{2}} (J_1 * i J_2)$
+***** The set of generators of $SU(2)$ given by $\{J_+, J_-, J_3 \}$ satisfies
+****** $[J_3, J_{\pm}] = \pm J_{\pm}$
+****** $[J_+, J_-] = J_3$
+***** The maximum eigenvalue of $J_3$ is $j := b + N$
+***** The minimum eigenvalue is $j * M$
+***** In general there are $2j + 1$ eigenstates with eigenvalues $\{-j, -j+1, \ldots, j-1, j\}$ which is only possible if $j$ is an integer or half-integer
+***** Representations of $SU(2)$ on a $2 j + 1$-dimensional vector space $V_j$ with eigenvectors $v_k$ of $J_3$ contain all irreducible representations of $SU(2)$
+**** 3.6.2 The Casimir operator of SU(2)
+***** Recall that a Casimir operator $C$ is a function of the group generators and for all generators $X$, $[C,X] = 0$
+***** $SU(2)$ has one Casimir operator $J^2 := (J_1)^2 + (J_2)^2 + (J_3)^2$ which satisfies the condition $[J^2, J_i] = 0$
+***** In terms of the ladder operators $J_{\pm}$, $J^2 = J_+ J_* + J_* J_+ +(J_3)^2$
+***** $J^2 v_k = j(j+1)v_k$
+**** 3.6.3 The representation of SU(2) in one dimension
+***** The representation is trivial for the case $j=0$ which corresponds to a 1-dimensional vector space and the $1 \times 1$ matrices satisfying the commutations relations are trivially $0$.
+**** 3.6.4 The representation of SU(2) in two dimensions
+***** For $j=\frac{1}{2}$ the representation is 2-dimensional and the generator $J_3$ has eigenvalues $\frac{1}{2}$ and $-\frac{1}{2}$
+***** The corresponding eigenvectors are $v_{\frac{1}{2}} = (1 \; 0)^T$ and $v_{-\frac{1}{2}} = (0 \; 1)^T$
+***** 
+**** 3.6.5 The representation of SU(2) in three dimensions
+***** For three dimensions the eigenvalues of $J_3$ must be $\{1, 0, -1\}$
+*** 3.7 The Lorentz Group O(1,3)
+**** Overview
+***** The well-known vector representation of the Lorentz group by 4x4 matrices acting on four vectors is unable to describe physical systems that nevertheless can be described by alternative representations
+***** The previous fact ultimately justifies the introduction and use of Lie theory. Lie theory enables the identification of the hidden abstract structure of a symmetry and using the language revealed there we are able to describe fundamental phenomena that we observe in nature
+***** The Lorentz group is the set of all transformations that preserve the inner product of Minkowski space.
+****** For example, the group $O(4)$ preserves $(x^0)^2 + (x^1)^2 + (x^2)^2 + (x^3)^2$
+****** The inner product of Minkowski space is $x^{\mu} x_{\mu} = x^{\mu} \eta_{\mu \nu} x^{\nu} = (x^0)^2 * (x^1)^2 * (x^2)^2 * (x^3)^2$
+******* recall that $\eta_{\mu \nu}$ is the metric of Minkowski space given by $\mathrm{diag} (1, -1, -1 , -1)$
+****** The Lorentz group is thus referred to as $O(1,3)$ to denote that it provides symmetries for Minkowski space whose metric has 1 positive and 3 negatives along the diagonal
+******* Lorentz transformations are conventionally referred to as $\Lambda$
+****** The Lorentz transformations are defined by their preservation of the Minkowski metric
+******* $\Lambda^{\sigma}_{\mu} \eta_{\sigma \rho} \Lambda^{\rho}_{\nu} = \eta_{\mu \nu}$ in index notation
+******* $\Lambda^T \eta \Lambda = \eta$ in matrix notation
+******* $\det(\Lambda)^2 = 1 \Rightarrow \det(\Lambda) = \pm 1$
+****** The proper orthochronous Lorentz group, $SO(1,3)^\uparrow $ preserves the orientation of the coordinate system and the direction of time
+****** The parity operator $\Lambda_P$ provides reflections and the time-reversal operator $\Lambda_T$ reverses time
+****** The complete Lorentz group $O(1,3)$ is given by
+******* $O(1,3) = \{ SO(1,3)^\uparrow, \Lambda_P SO(1,3)^\uparrow, \Lambda_T SO(1,3)^\uparrow, \Lambda_P \Lambda_T SO(1,3)^\uparrow \} $
+******* This is to say that beginning with the proper orthochronous subgroup of the Lorentz group, we can access the other components via reflection, time-reversal, and the combination of reflection with time-reversal respectively comprising the four components
+****** Any representation of the Lorentz group can be found via representations of the proper orthochronous Lorentz group, $SO(1,3)^\uparrow $, the parity operator, and the time-reversal operator.
+**** 3.7.1 One representation of the Lorentz group
+***** A 4x4 matrix has 16 parameters
+***** The defining condition of the Lorentz group contains 10 constraints restricting the number of free parameters of a 4x4 representation of the Lorentz group to 6
+****** Put a generic 4x4 matrix $\Lambda$ into the equations given by $\Lambda^T \eta \Lambda = \eta$
+***** If we find 6 linearly independent generators, that specifically satisfy the conditions then we have a complete Lie algebra for the Lorentz group
+***** Example: solve for the generators of boosts along the $x, y$, and $z$ axes and then exponentiate to produce representations of the corresponding Lorentz transformations
+***** The $J_i$ generators of spatial rotations only are equivalent for $O(3)$ and $SO(1,3)^\uparrow $ . The $K_i$ provide generators for the transformations that simultaneously involve space and time called **boosts**
+**** 3.7.2 Generators of the other components of the Lorentz group
+***** In the previous section we completed the description of the first component of the set $O(1,3) = \{ SO(1,3)^\uparrow, \Lambda_P SO(1,3)^\uparrow, \Lambda_T SO(1,3)^\uparrow, \Lambda_P \Lambda_T SO(1,3)^\uparrow \} $ by combining the generators of spatial rotations $J_i$ with the boosts $K_i$
+***** The generators of the remaining components of the Lorentz group only require acting on these with the parity operation $\Lambda_P$ and $\Lambda_T$ on the matrices $J_i$ and $K_i$
+***** Under parity transformation $J_i \rightarrow J_i$ and $K_i \rightarrow -K_i$
+***** Under time-reversal transformation we arrive at the same result $J_i \rightarrow J_i$ and $K_i \rightarrow -K_i$
+**** 3.7.3 The Lie Algebra of the proper orthochronous Lorentz group
+***** The Lie algebra is given by the commutators of the generators derived in the previous sections
+****** $[J_i, J_j] = i \epsilon_{ijk} J_k$
+****** $[J_i, K_j] = i \epsilon_{ijk} K_k$
+****** $[K_i, K_j] = -i \epsilon_{ijk} J_k$
+***** A general Lorentz transformation is given by $\Lambda = e^{i J \theta + iK \Phi}$
+***** Note that the two generator types, $J_i$ and $K_i$ of rotations and boosts respectively, do not commute with each other. The rotation generators are closed under commutation. The boost generators are not closed under commutation.
+***** New operators that are both closed under commutation and commute with each other are
+****** $N_i^{\pm} = \frac{1}{2} (J_i \pm i K_i)$
+****** The following are the commutation relations associated with the operators $N_i$
+******* $[N_i^+, N_j^+] = i \epsilon_{ijk} N_k^+$
+******* $[N_i^-, N_j^-] = i \epsilon_{ijk} N_k^-$
+******* $[N_i^+, N_j^-] = 0$
+****** These correspond to two copies of the Lie algebra of $SU(2)$: one for each of $N_i^+$ and $N_i^-$
+***** The Lie algebra of $SO(1,3)_+^{\uparrow}$ thus consists of two copies of the Lie algebra of $SU(2)$
+***** Deriving irreducible representations of the Lie algebra of the Lorentz group gives irreducible representations of the covering group of the Lorentz group
+***** The covering group of the Lorentz group is $SL(2,C)$ which is the set of 2x2 matrices with unit determinant and complex entries
+***** Since each irreducible representation of the Lie algebra of $SU(2)$ can be labelled by the scalar value $j$ of the Casimir operator of $SU(2)$ and since the Lie algebra of the covering group of the Lorentz group consists of two copies of $SU(2)$ then we can label representations of the latter by $(j_1, j_2)$.
+***** The Lorentz algebra can be written compactly in terms of $M_{\mu \nu}$
+****** $J_i = \frac{1}{2} \epsilon_{ijk} M_{jk}$
+****** $K_i = M_{0i}$
+****** $[M_{\mu \nu}, M_{\rho \sigma}] = i(\eta_{\mu \rho} M_{\nu \sigma} * \eta_{\mu \sigma} M_{\nu \rho} * \eta_{\nu \rho} M_{\mu \sigma} + \eta_{\nu \sigma} M_{\mu \rho})$
+**** 3.7.4 The (0,0) representation
+***** $N_i^+ = N_i^* =0 \rightarrow e^{N_i^+} = e^{N_i^-} = e^0 = 1$
+***** The $(0,0)$ representation of the Lorentz group acts on objects that do not change under Lorentz transformations and this representation is called the **Lorentz scalar representation**
+**** 3.7.5 The (1/2, 0) representation
+***** Generators
+****** $N_i^+ = \frac{\sigma_i}{2} = iK_i$
+****** $N_i^* = \frac{1}{2}(J_i-iK_i) = 0 \Longrightarrow J_i = iK_i$
+****** $K_i = \frac{-i}{2} \sigma_i$
+***** Group elements
+****** Rotations
+******* $R_{\theta} = e^{i \vec{\theta} \vec{J}} = e^{i \vec{\theta} \frac{\vec{\sigma}}{2}}$
+****** Boosts
+******* $B_{\theta} = e^{i \vec{\phi} \vec{K}} = e^{\vec{\phi} \frac{\vec{\sigma}}{2}}$
+***** Writing the exponential function as a series expansion and substituting the explicit matrix forms of the Pauli matrices gives **explicit representations of the group elements** in terms of **2x2 complex matrices**. Note the fact that the **2x2 complex** nature of this representation also implies that it acts on two-component objects called **left-chiral [[file:spinors.org][spinors]]** which can be shown to correspond to **spin-up** and **spin-down** states
+***** The fact that they are the objects that transform under the $(\frac{1}{2}, 0)$ representation of the Lorentz group can be taken as defining the left-chiral [[file:spinors.org][spinors]]
+****** $\chi_L = ( (\chi_L)_1 , (\chi_L)_2 )^T$
+****** Note the distinguishing feature that arises from the presence of the $\frac{1}{2}$ factor in the exponent stretches the usual $2 \pi$ rotation into one of angle $4 \pi$ which diverges from the usual period of rotation of a vector returning to its original position after a $2 \pi$ rotation leading to the identification of $0$ and $2 \pi$.
+**** 3.7.6 The (0, 1/2) representation
+***** This is precisely analogous to the previous section
+***** Group elements
+****** Rotations
+******* $R_{\theta} = e^{i \vec{\theta} \vec{J}} = e^{i \vec{\theta} \frac{\vec{\sigma}}{2}}$
+****** Boosts
+******* $B_{\theta} = e^{i \vec{\phi} \vec{K}} = e^{* \vec{\phi} \frac{\vec{\sigma}}{2}}$
+***** Note that rotations are equivalent but boosts contain a minus sign in the exponent leading to the definition of the **right-chiral [[file:spinors.org][spinors]]**
+****** $\chi_R = ( (\chi_R)_1 , (\chi_R)_2 )^T$
+***** Together the objects that transform under the $(0, \frac{1}{2})$ and $(\frac{1}{2}, 0)$ representations of the Lorentz group are called **Weyl [[file:spinors.org][spinors]]**
+**** 3.7.7 Van der Waerden notation
+***** $\chi_L = \chi_a$
+***** $\chi_R = \chi^{\dot{a}}$
+***** The so-called __spinor metric__ enables the transformation of a right-chiral spinor into a left-chiral one and vice versa
+****** $\epsilon^{ab}  = ( (0, \; 1), \; (-1, \; 0))$
+****** $\chi_L^C \equiv \epsilon \chi_L^{\star}$ where $\star$ denotes complex conjugation and $C$ denotes __charge conjugation__
+******* It can be shown that, beginning with a left-chiral spinor $\chi_L$, a right chiral spinor can be generated by acting with the spinor metric and the resulting spinor is named $\chi_L^C$
+***** $\epsilon \chi_L = \epsilon \chi_a = \epsilon^{ac} \chi_c = \chi^a$
+***** $\epsilon \chi_R = \epsilon \chi^{\dot{a}} = \epsilon_{\dot{a} \dot{c}} \chi^{\dot{c}} = \chi_{\dot{a}}$
+***** $\chi_R = \epsilon \chi_L^\star$
+***** $\chi_L = \epsilon \chi_R^\star$
+***** The transformation behavior of a transposed spinor with lower, undotted index is exactly the opposite of a spinor with upper, undotted index
+****** Terms of the form $(\chi^a)^T \chi_a$ and $(\chi^{\dot{a}})^T \chi_{\dot{a}}$ are invariant under Lorentz transformations
+****** Terms combining left-chiral and right-chiral [[file:spinors.org][spinors]] are not Lorentz invariant
+****** Terms involving the complex conjugate of a right-chiral spinor with a left-chiral spinor or terms involving the complex conjugate of a left-chiral spinor with right-chiral [[file:spinors.org][spinors]] are Lorentz invariant
+***** We can write the two transformation operators as one object $\Lambda$
+****** $\chi_R \rightarrow \chi'_R = \Lambda{^{\dot{a}}}{_{\dot{b}}} \chi^{\dot{b}} = \left( e^{i \vec{\theta} \frac{\vec{\sigma}}{2} * \vec{\phi} \frac{\vec{\sigma}}{2} } \right)^{\dot{a}}_{\;\,\dot{b}} \chi^{\dot{b}} $
+****** $\chi_L \rightarrow \chi'_L = \Lambda{_{a}}{^{b}} \chi_{b} = \left( e^{i \vec{\theta} \frac{\vec{\sigma}}{2} + \vec{\phi} \frac{\vec{\sigma}}{2} } \right)_{a}^{\;\,b} \chi_{b} $
+****** $\Lambda_{(\frac{1}{2},0)} = \Lambda{_{a}}{^{b}}$
+****** $\Lambda_{(0,\frac{1}{2})} = \Lambda{^{\dot{a}}}{_{\dot{b}}}$
+**** 3.7.8 The (1/2, 1/2) representation
+***** This is the vector representation
+***** A 4-vector is a rank-2 spinor
+***** A spinor with 2 indices that transforms according to this representation
+***** A rank-2 tensor has two vector indices and a vector has two spinor indices. Therefore, the most basic object that can be Lorentz transformed is a spinor
+**** 3.7.9 [[file:spinors.org][spinors]] and parity
+***** Nature isn't always symmetric under parity transformations
+***** the $(0,\frac{1}{2})$ representation becomes the $(\frac{1}{2}, 0)$ representation and vice versa under parity transformations
+***** A Dirac spinor combines two Weyl [[file:spinors.org][spinors]], a left-chiral ($\chi_L$) and a right-chiral ($\xi_R$) spinor, into a single object
+****** $\Psi = ( \chi_L, \xi_R)^T = (\chi_a, \xi^{\dot{a}})^T$
+****** There is a special case called a Majorana spinor
+******* $\Psi_M = ( \chi_L, \chi_R)^T$
+***** The Dirac and Majorana [[file:spinors.org][spinors]] are not 4-vectors because they transform according to the $(\frac{1}{2}, 0) \oplus (0, \frac{1}{2})$ whereas 4-vectors transform according to the $(\frac{1}{2}, 0) \otimes (0, \frac{1}{2}) = (\frac{1}{2}, \frac{1}{2})$ representation
+***** Parity transformations convert $(\frac{1}{2}, 0) \oplus (0, \frac{1}{2})$ represented objects into $(0, \frac{1}{2}) \oplus (\frac{1}{2}, 0)$
+***** $\Psi \rightarrow \Psi^P \Rightarrow ( \chi_L, \xi_R)^T \rightarrow ( \xi_R, \chi_L)^T$
+**** 3.7.10 [[file:spinors.org][spinors]] and charge conjugation
+***** The transformations that yield $\chi_L \rightarrow \chi_R$ and $\xi_R \rightarrow \xi_L$ are not part of the Lorentz group
+***** $\Psi \rightarrow \Psi^C \Rightarrow ( \chi_L, \xi_R)^T \rightarrow ( \xi_L, \chi_R)^T$
+***** This operator simultaneously flips all labels / properties we use to describe fundamental particles
+**** 3.7.11 Infinite-dimensional representations
+***** Infinite-dimensional representations of the Lorentz group are required for the purpose of transforming physical fields
+***** Finite-dimensional representations were shown to act on **constant** one, two, and four-component objects; however, since the fundamental objects in physics are changing in time, we need to understand how those dynamic objects transform
+****** These fall into the class
+******* $\Phi_a \rightarrow \Phi'_a = M_{ab}(\Lambda) \Phi_b$
+***** When the object $\Phi$ changes in space and time and is thus considered as a function of coordinates $\Phi(x)$ (where $x$ represents the four traditional spacetime coordinates) the impact of any given transformation on the coordinates, $x^\mu \rightarrow \Lambda^\mu_\nu x^\nu$, must be taken into account
+****** $\Phi_a(x) \rightarrow M_{ab}(\Lambda) \Phi_b (\Lambda x)$
+****** Wigner convention: $\Phi_a(x) \rightarrow M_{ab}(\Lambda) \Phi_b (\Lambda^{-1} x)$
+***** The transformation will thus be separated into two parts
+****** One part, given by one of the finite-dimensional representations, will act on the field in question itself, $\Phi_a$
+****** The other part will act on the coordinates as given by an infinite-dimensional vector space and thus this second part will require an infinite-dimensional representation
+***** Infinite-dimensional representations of the Lorentz group are given by differential operators
+****** $M^{\mathrm{inf}}_{\mu \nu} = i(x^\mu \partial^\nu * x^\nu \partial^\mu)$
+****** $\Phi(\Lambda x) = e^{-i \frac{\omega^{\mu \nu}}{2} M^{\mathrm{inf}}_{\mu \nu}} \Phi(x)$
+***** The representation that combines the finite* and infinite-dimensional representation of the generators $M_{\mu \nu} = M^{\mathrm{fin}}_{\mu \nu} + M^{\mathrm{inf}}_{\mu \nu}$ is called the __field representation__
+***** 
+*** 3.8 The Poincare Group
+**** Rotations plus boosts plus translations = Lorentz group plus translations = Poincare group
+**** Generators of the Poincare group are the generators of the Lorentz group ()$J_i$, $K_i$) plus the generators of translations in Minkowski space $P_μ$.
+**** It is useful to **label** the representations by using the **fixed scalar values** of the **Casimir operators**. Recall that a Casimir operator is, of course, an operator that is constructed from generators such that it commutes with all other generators.
+*** 3.9 Elementary particles
+**** The labels for the irreps of the Poincare group in mathematics correspond to the means by which elementary particles are labelled in physics
+***** mass (m)
+***** spin (j)
+**** Other labels, called charges, follow from the __internal symmetries__
+**** Taken together all of these labels constitute what is considered to be a necessary and sufficient set to determine all information about all particles to describe their behaviors in all known conducted and presently conceivable experiments
+***** mass and spin derive from the global invariance of physical laws to Poincare transformations
+***** electric, weak, and strong charge derive from the internal symmetries of interactions
+**** spin $0$: described by a __scalar__ $\Phi$ that transforms according to the $(0,0)$ spin $0$ representation
+***** Higgs particle
+**** spin $\frac{1}{2}$: described by __spinor__ $\Psi$ that transforms according to the $(\frac{1}{2}, 0) \oplus (0, \frac{1}{2})$ spin $\frac{1}{2}$ representation
+***** electrons and quarks
+**** spin $1$: described by __vector__ $A$ that transforms according to the $(\frac{1}{2}, \frac{1}{2})$ spin 1 representation or vector representation
+***** photons
+**** spin $2$: graviton?
+*** 3.10 Appendix: Rotations in a complex vector space
+**** $a \cdot a = (Ua) \cdot (Ua)$ is the condition for a transformation of a complex vector space containing the arbitrary element $a$ to preserve the inner product
+**** Because of the fact that $a \cdot a = a^\dagger a$ this implies that $(Ua) \cdot (Ua) = a^\dagger U^\dagger U a = a^\dagger a$ and for the last equality to hold then $U^\dagger U = 1$. The $U$ that satisfy the last statement of the criterion are called __unitary__. This is the origin of the use of the word unitary in __unitary groups__.
+**** The __special__ unitary groups $SU(n)$ additionally satisfy the criterion that $\mathrm{det}(U) = 1$.
+*** 3.11 Appendix: Manifolds
+**** A manifold is a set that can be given $n$ independent coordinates in some neighborhood of any point
+**** For spherical coordinates of the 2-sphere, we need at least two coordinate systems to cover the pole at $\phi=0$ and the semicircle at $\theta = 0$ or $2\pi$.
+** 4. The Framework (15)
+*** Overview
+**** We imagine we can get the correct equations of nature by extremizing (minimizing) something. What are the fundamental representations of a view of physical dynamics through the lens of optimization?
+**** We don't attempt to answer such a broad question directly, but we can begin to work on ruling out candidates via the statement of justifiable constraints. 
+***** The statement of the optimization problem must yield __equivalent laws of nature__ in __different reference frames__. This can be imposed via requiring invariance to Lorentz transformations.
+****** This implies the object must be a scalar that transforms according to the $(0,0)$ representation of the Lorentz group
+***** Given several equivalent statements of the optimization problem, we would prefer to select among the simplest
+**** We find that the name of the optimization problem is the __action__, which is the integral of the __Lagrangian__. The Lagrangian assigns numbers to the various realizations of the temporal evolution of a system. The dynamical equations that emerge from extremization (minimization) of the Lagrangian are called the __Euler-Lagrange equations__.
+*** 4.1 Lagrangian formalism
+**** 4.1.1 Fermat's principle
+***** Light always chooses the path between two points in space that minimizes the time it takes to travel between them
+****** let us refer to a general path as $q(t)$
+***** Pierre de Maupertius
+****** Whenever any action occurs in nature, the quantity of action employed by this change is the least possible
+***** The (functional) action of path $q(t)$
+****** $S_{\mathrm{light}} [\mathbf{q}(t)] = \int dt$
+****** Note that $S$ is a function of a function, $\mathbf{q}(t)$. This makes $S$ a __functional__
+****** In order to extremize the functional, $S$, we need to use the __variational calculus__
+**** 4.1.2 Variational calculus * the Basic idea
+***** Extrema are characterized by the structure of their neighborhoods
+***** Example extremum neighborhood of a function
+****** $f(x) = 3x^2 + x$
+****** Consider a point $x = a$ and the neighborhood swept out by a small deviation from $a$, $\epsilon$, $f(a + \epsilon) = 3(a + \epsilon)^2 + (a + \epsilon)$
+****** If $a$ is a minimum, first order variations in $\epsilon$ must vanish. Otherwise, $\epsilon < 0$ would make $f(a+\epsilon) < f(a)$ and then $a$ would not be a true minimum
+****** Collecting the terms that are linear in $\epsilon$ and enforcing the constraint that they be equal to zero
+******* $6a\epsilon + \epsilon = 0 \Rightarrow a = * \frac{1}{6} = x_{\mathrm{min}}$
+***** $S[q(t)] = \int \mathcal{L} \, dt$
+****** $\mathcal{L}$ is the Lagrangian and it is generally a function of position and velocity, which may be written $\mathcal{L}(q(t), \partial_t q(t))$
+*** 4.2 Restrictions
+**** The lowest possible, non-trivial order derivative of a given theory is determined by the condition that the Lagrangian must be Lorentz invariant, because otherwise we would get different equations of motions for different frames of reference
+**** Theories containing higher-order derivatives produce [[https://en.wikipedia.org/wiki/Ostrogradsky_instability][Ostrogradsky instabilities]]
+**** Locality alone only rules out an infinite number of derivatives. A non-local interaction is of the form $\Phi(x-h)\Phi(x)$. The Taylor expansion of $\Phi(x-h)$ contains an infinite series of derivatives of $\Phi$ with respect to its coordinates, which demonstrates the first claim that locality rules out infinite derivation.
+**** Lagrangians for particle theories involve solving for particle paths
+**** Lagrangians for field theories involve solving for field configurations
+**** For theories describing free non-interacting fields or particles, we must truncate non-linear terms at second order (i.e. we allow for the inclusion of $\Phi^0, \Phi^1, \Phi^2$ but not higher order terms such as $\Phi^2 \partial_\mu \Phi$)
+*** 4.3 Particle theories vs field theories
+**** Note that $\mathcal{L}$ is used to refer to a particle theory Lagrangian and that $\mathscr{L}$ is used to refer to a field theory Lagrangian
+**** Particle theories
+***** describe physical systems in terms of positions of particles depending on time $\vec{q} = \vec{q}(t)$
+***** $\mathcal{L} = \mathcal{L} (\vec{q}, \partial_t \vec{q}, t)$
+***** Example: $\mathcal{L} = \frac{1}{2} m \dot{\vec{q}}^2$
+**** Field theories
+***** Instead of describing the locations of individual particles, field theories involve the action of fields $\Phi(\vec{x}, t)$ on space and time
+***** $\mathscr{L} = \mathscr{L}(\Phi(\vec{x}, t), \partial_\mu \Phi(\vec{x},t), \vec{x})$
+***** Example: $\mathscr{L} = \frac{1}{2} (\partial_\mu \Phi \partial^\mu \Phi * m^2 \Phi^2)$ is the Lagrangian that leads to the Klein-Gordon equation
+***** Field theories place space and time into a representation that does not distinguish between the two
+***** For particle theories, the solutions of the equations of motion provide the correct paths of the particles that minimize the action functional from which they are derived.
+***** For field theories, the solutions of the equations of motion provide the correct field configurations that minimize the action functional from which they are derived.
+*** 4.4 Euler-lagrange equation
+**** Consider fixing the function $q(t) = a(t)$ and varying it by a small amount $\epsilon(t)$ at each point in time. We assume that $0 = \epsilon(t_1) = \epsilon(t_2)$ as a means of fixing the boundaries $q(t_1) = a(t_1)$ and $q(t_2) = a(t_2)$
+**** For a particle theory, the Euler-Lagrange equation is $\frac{\partial \mathcal{L(q,\dot{q},t)}}{\partial q} * \frac{d}{dt} \left( \frac{\partial \mathcal{L(q,\dot{q},t)}}{\partial \dot{q}} \right) = 0$
+**** For a field theory we consider the Lagrangian density $\mathscr{L}$ from which we derive the Lagrangian by integrating over all coordinates except for time
+***** $\mathcal{L} = \int d^3 x \mathscr{L}(\Phi^i, \partial_\mu \Phi^i)$
+***** $S = \int dt \mathcal{L} = \int d^4 x \mathscr{L}(\Phi^i, \partial_\mu \Phi^i)$
+***** $\frac{\partial \mathscr{L}}{\partial \Phi^i} * \partial_\mu \left( \frac{\partial \mathscr{L}}{\partial (\partial_\mu \Phi^i)} \right) = 0$
+*** 4.5 Noether's theorem
+**** Overview
+***** Each symmetry of the Lagrangian is directly related to one conserved quantity
+***** Each of the natural quantities one might use to describe the physical world because they are invariant in time and thus one measurement is valid indefinitely are directly related to symmetries of the Lagrangian.
+**** 4.5.1 Noether's theorem for particle theories
+***** The action is what needs to be invariant in order for the dynamics to stay the same
+***** We can always add the total time derivative of an arbitrary function $G$ to the Lagrangian without changing the action
+****** $\delta S \rightarrow \delta S' = \delta S + \int_{t_1}^{t_2} dt \frac{d}{dt} \delta G = \delta S + \frac{\partial G}{\partial q} \delta q \vert_{t_1}^{t_2} = \delta S$
+******* because we assume that $q$ does not vary at the boundary implying $\delta q (t_1) = \delta q(t_2)=0$
+****** This leads to the condition
+******* $\delta \mathcal{L} = \frac{d G}{dt}$ as opposed to $\delta \mathcal{L}=0$
+***** It is possible to show using the preceding condition with the Euler-Lagrange equation there is a quantity conserved in time
+****** $\frac{d}{dt} \left( \frac{\partial \mathcal{L}}{\partial \dot{q}} \delta q + G    \right) = 0$
+****** so that if we define the term under the temporal derivative as $J$ then $J$ must be constant, thus conserved, since its derivative is zero
+***** It is possible to show, for example, that conservation of momentum $\vec{p} = m \dot{\vec{q}} $ derives from the invariance to spatial translations $ \vec{q} \rightarrow \vec{q}' = \vec{q} + \vec{a}$ of the Lagrangian $\mathcal{L} = \frac{1}{2} m \dot{\vec{q}}^2$
+***** Invariance under rotations can be shown from the same Lagrangian to lead to conservation of angular momentum.
+***** Invariance under time translations yields a conserved quantity called the Hamiltonian and corresponds to the conservation of total energy.
+***** Invariance to boosts (momentum translation) corresponds to conservation of a lesser known quantity $J_{\mathrm{boost}} = pt * \frac{1}{2} mvt * mq$
+****** $ q \rightarrow q + vt \Rightarrow m \dot{q} \rightarrow m(\dot{q} + v)$
+**** 4.5.2 Noether's theorem for field theories * spacetime symmetries
+***** Overview
+****** There are two kinds of symmetries
+******* The Lagrangian can be invariant under spacetime transformations such as rotations
+******* The field itself can be invariant to transformations. These are called __internal symmetries__.
+***** Observer $S'$ sees field $\Psi'(x')$ whereas observer $S$ sees field $\Psi(x)$.
+***** Only the sum of the two conserved quantities that result from $x \rightarrow x'$ and $\Psi \rightarrow \Psi'$ is conserved
+***** Symmetry for a field Lagrangian density implies
+****** $\mathscr{L}(\Phi(x_\mu), \partial_\mu \Phi(x_\mu), x_\mu) = \mathscr{L}(\Phi'(x'_\mu), \partial_\mu \Phi'(x'_\mu), x'_\mu)$
+****** $\delta \Phi = \epsilon_{\mu \nu} S^{\mu \nu} \Phi(x) * \frac{\partial \Phi(x)}{\partial x_\mu} \delta x_\mu$
+***** Consideration of spacetime translations leads to the definition of the energy-momentum tensor
+****** $T^{\nu}_{\mu} = \frac{\partial \mathscr{L}}{\partial (\partial_\nu \Phi)} \frac{\partial(\Phi)}{\partial x_\mu} * \delta^{\nu}_{\mu} \mathscr{L}$
+****** Application of the Euler-Lagrange equations for the Lagrangian density to its variation yields the continuity equation $\partial_\nu T^{\nu}_{\mu} = 0$
+****** The invariance under spacetime translations ultimately yields both the conservation of total energy (for invariance to translations in the time component) and conservation of the total momentum (for invariance to translations in the spatial components)
+******* $E = \int d^3 x T^0_0$
+******* $P_i = \int d^3 x T^0_i$
+**** 4.5.3 Rotations and boosts
+***** Defining the Noether current in terms of the energy-momentum tensor $(J^\nu)^{\sigma \mu} = T^{\mu \nu} x^\sigma * T^{\sigma \nu} x^\mu$ we have
+****** $\partial (J^\nu)^{\sigma \mu} = 0$
+***** These conditions lead to the conserved quantities of orbital angular momentum of the field
+****** $L^i_{\mathrm{orbit}} = \frac{1}{2} \epsilon^{ijk} Q^{jk} = \frac{1}{2} \epsilon^{ijk} \int d^3 x (T^{k0} x^j * T^{j0} x^k)$
+***** and another quantity
+****** $Q^{0i} = \int d^3 x (T^{i0}x^0 * T^{00}x^i)$
+**** 4.5.4 Spin
+***** $\delta \Phi = \epsilon_{\mu \nu} S^{\mu \nu} \Phi(x)$
+***** recall that the finite-dimensional representations are responsible for mixing of the field components
+***** The complete conserved quantity is
+****** $L^i = \frac{1}{2} \epsilon^{ijk} Q^{jk} = \frac{1}{2} \epsilon^{ijk} \int d^3 x \left( \frac{\partial \mathscr{L}}{\partial (\partial_0 \Phi)} S^{jk} \Phi(x) + (T^{k0} x^j * T^{j0} x^k) \right)$
+****** where $L_i = L^i_{\mathrm{spin}} + L^i_{\mathrm{orbit}}$
+****** The first part $L^i_{\mathrm{spin}}$ is thought of as form of __internal__ angular momentum
+****** The orbital angular momentum describes how two or more particles revolve around each other whereas the internal angular momentum describes the __spin__ of a single particle
+**** 4.5.5 Noether's theorem for field theories * internal symmetries
+***** Internal symmetries are incredibly important for interacting field theories
+***** $\Phi_i \rightarrow \Phi'_i = \Phi_i + \delta \Phi_i$
+***** We get another quantity called Noether current $\partial_\mu J^\mu = 0$
+****** $J^\mu = \frac{\partial \mathscr{L}}{\partial (\partial_\mu \Phi_i)} \delta \Phi_i$
+****** The conserved quantity is $\partial_t \int d^3 x J^0 = 0$
+***** Invariance to displacements of the field itself given by $\Phi_i \rightarrow \Phi'_i = \Phi_i * i \epsilon_i$ with generators $-i\epsilon \frac{\partial}{\partial \Phi}$ leads to the conservation of conjugate momentum $\Pi$ with conjugate momentum density $\pi = J_0 = \frac{\partial \mathscr{L}}{\partial (\partial_0 \Phi)}$ which is different from the physical momentum whose conservation derives from invariance under spatial translations
+*****  
+*** 4.6 Appendix: conserved quantity from boost invariance for particle theories
+*** 4.7 Appendix: conserved quantity from boost invariance for field theories
+* Part III: The equations of nature
+** 5. Measuring nature
+*** Overview
+**** Conserved quantities are what physicists commonly use to describe physical systems, because no matter how complicated the system changes, the conserved quantities stay the same.
+*** 5.1 The operators of quantum mechanics
+**** $[\hat{p_i}, \hat{x_j}] = i \delta_{ij}$
+**** 5.1.1 Spin and angular momentum
+***** orbital angular momentum is identified with the infinite dimensional representation of the generator
+***** spin is identified with the finite dimensional representation of the generators
+*** 5.2 The operators of quantum field theory
+**** Conjugate momentum density $\pi(x)$ is identified with the generator of displacements of the field $-i \frac{\partial}{\partial \Phi(x)}$
+**** $[\Phi_i(x), \pi_j(y)] = i \delta(x-y) \delta_{ij}$
+** 6. Free Theory
+*** Overview
+**** Derive the equations for a physical theory of free __(non-interacting) fields__ __from symmetry__
+***** Derive the Klein-Gordon equation from the $(0,0)$ representation of the Lorentz group
+***** Derive the Dirac equation using the $(\frac{1}{2},0) \oplus (0, \frac{1}{2})$ representation of the Lorentz group
+***** Derive the Proca equation from the vector $(\frac{1}{2}, \frac{1}{2})$ representation of the Lorentz group (in the massless limit this reduces to Maxwell's equations)
+*** 6.1 Lorentz covariance and invariance
+**** We require the equations of motion we derive for the standard model of particle physics to look the same in all inertial frames, because if this was not the case we would have a different equation for each possible frame of reference.
+**** $A_\mu \rightarrow A'_\mu$ is Lorentz covariant but $A_1 + A_3$ is not
+**** To make sure we only end up with Lorentz covariant equations, we require the action $S$ to be Lorentz invariant.
+*** 6.2 Klein-Gordon equation
+**** The simples case is that of scalars that transform according to the $(0,0)$ representation of the Lorentz group
+**** A  general Lagrangian density compatible with the given restrictions of Lorentz invariance is
+***** $\mathscr{L} = A \Phi^0 + B\Phi + C\Phi^2 + D \partial_\mu \Phi + E \partial_\mu \Phi \partial^\mu \Phi + F \Phi \partial_\mu \Phi$
+***** $S = \int d^Dx \,\, \mathscr{L}$ where $d^D x$ refers to integration over all $D$ dimensions of spacetime. This is also written sometimes as $S = \int d^\mu x \,\, \mathscr{L}$ or implicitly as $S = \int d x \,\, \mathscr{L}$
+***** Lorentz invariance restricts the Lagrangian to be a scalar and therefore all odd powers in $\partial_\mu$ are forbidden (i.e. D=F=0).
+***** Constants in the Lagrangian do not have an effect on the equations of motion derived from the Euler-Lagrange equations therefore A=0.
+***** The impact of the linear term in the Lagrangian on the equations of motion derived from the Euler-Lagrange equations can be absorbed into a constant and so $B=0$.
+***** Taken together these constraints on the general Lagrangian density leaves
+****** $\mathscr{L} = C \Phi^2 + E \partial_\mu \Phi \partial^\mu \Phi$
+****** In a free theory there are no non-linear terms involving distinct fields. The latter are taken to arise in the context of interactions leading to terms such as $\Phi_1 \Phi_2$
+***** $C$ and $E$ are able to be combined into one constant. It is conventional to include a factor of $\frac{1}{2}$ leading to the Lagrangian density
+****** $\mathscr{L} = \frac{1}{2} (\partial_\mu \Phi \partial^\mu \Phi * m^2 \Phi^2)$
+***** Placing this Lagrangian density into the Euler-Lagrange equation yields the equation of motion named the **Klein-Gordon equation**
+****** $(\partial_\mu \partial^\mu + m^2) \Phi = 0$
+*****  This equation describes free spin $0$ fields or particles
+**** 6.2.1 Complex Klein-Gordon field
+***** For spin $0$ fields, we are able to construct a Lorentz-invariant Lagrangian without using the complex conjugate field. This does not work in the case of spin $\frac{1}{2}$ fields $\Psi$, which leads to the introduction of an antiparticle for each spin $\frac{1}{2}$ particle that corresponds to a given field and its complex conjugate.
+***** Including the complex conjugate of the spin $0$ field in the Lagrangian is the same as considering two non-interacting scalar fields of equal mass.
+***** The only known, experimentally-verified, spin $0$ field is the Higgs field
+**** The Klein-Gordon Lagrangian does not model any known physical field and therefore it is only used as a mathematical toy example
+*** 6.3 Dirac equation
+**** We will use the $(\frac{1}{2},0) \oplus (0, \frac{1}{2})$ representation of the Lorentz group to find the equation of motion for free spin $\frac{1}{2}$ fields or particles.
+**** The objects transforming under this representation are called Dirac [[file:spinors.org][spinors]], which combine right-chiral and left-chiral [[file:spinors.org][spinors]] into one object
+***** $\Psi = (\chi_L, \xi_R)^T = (\chi_a, \xi^{\dot{a}})^T$
+**** A general Lorentz-invariant Lagrangian density for Dirac [[file:spinors.org][spinors]]
+***** $\mathscr{L} = A \Psi^\dagger \gamma_0 \Psi + B \Psi^\dagger \gamma_0 \gamma^\mu \partial_\mu \Psi$
+***** It is common to see the introduction of a notation $\bar{\Psi} = \Psi^\dagger \gamma_0$ in which case $\mathscr{L} = A \bar{\Psi} \Psi + B \bar{\Psi} \gamma^\mu \partial_\mu \Psi$
+**** If we s set the constants $A = -m$ and $B=i$ we get the Dirac Lagrangian
+***** $\mathscr{L} = -m \bar{\Psi} \Psi + i \bar{\Psi} \gamma^\mu \partial_\mu \Psi = \bar{\Psi} (i \gamma^\mu \partial_\mu -m)\Psi$
+***** Note that there are two distinct fields. Though it could be written in terms of two real fields, $\Psi = \Psi_1 + i\Psi_2$, it is more common to use two complex fields $\Psi$ and $\bar{\Psi}$
+**** Substituting into the Euler-Lagrange equation we get the equation of motion for each complex spinor field $\Psi$ and $\bar{\Psi}$
+***** $(i \partial^\mu \bar{\Psi} \gamma_\mu + m \bar{\Psi}) = 0$
+***** $(i \gamma_\mu \partial^\mu -m) \Psi = 0$
+*** 6.4 Proca equation
+**** We will use the vector $(\frac{1}{2}, \frac{1}{2})$ representation of the Lorentz group to find the equation of motion for spin 1 particles (both massive and massless)
+**** $\mathscr{L}_{\mathrm{Proca}} = C_1 \partial^\mu A^\nu \partial_\mu A_\nu + C_2 \partial^\mu A^\nu \partial_\nu A_\mu + C_3 A^\mu A_\mu + C_4 \partial^\mu A_\mu$
+**** This yields the equations of motion
+***** For massive spin 1: $m^2 A^\rho = \frac{1}{2} \partial_\sigma(\partial^\sigma A^\rho * \partial^\rho A^\sigma)$
+***** For massless spin 1: $0 = \frac{1}{2} \partial_\sigma(\partial^\sigma A^\rho * \partial^\rho A^\sigma)$
+***** These are the inhomogeneous Maxwell equations in the absence of electric currents
+**** It is common to define the electromagnetic tensor
+***** $F^{\sigma \rho} = \partial^\sigma A^\rho * \partial^\rho A^\sigma$
+**** In terms of this electromagnetic tensor the inhomogeneous Maxwell equations read
+***** $\partial_\rho F^{\sigma \rho} = 0$
+**** Lagrangian for massless spin 1: $\mathscr{L}_{\mathrm{Maxwell}} = \frac{1}{2} (\partial^\mu A^\nu \partial_\mu A_\nu * \partial^\mu A^\nu \partial_\nu A_\mu) = \frac{1}{4} F^{\mu \nu} F_{\mu \nu}$
+**** Lagrangian for massive spin 1: $\mathscr{L}_{\mathrm{Proca}} = \frac{1}{4} F^{\mu \nu} F_{\mu \nu} + m^2 A_\mu A^\mu$
+** 7. Interaction theory
+*** Summary
+**** Local $U(1)$ symmetry
+***** $\mathscr{L} = m \bar{\Psi}\Psi + i \bar{\Psi} \gamma_\mu \partial^\mu \Psi + A_\mu \bar{\Psi} \gamma^\mu \Psi + \partial^\mu A^\nu \partial_\mu A_\nu * \partial^\mu A^\nu \partial_\nu A_\mu$
+**** Local $SU(2)$ symmetry
+***** Doublet $\bar{\Psi} = (\bar{\psi}_1 \; \bar{\psi}_2)$ containing two spin $\frac{1}{2}$ fields and three spin $1$ fields $W^\mu_j$
+***** $\mathscr{L} = i \bar{\Psi} \gamma_\mu \partial^\mu \Psi + \bar{\Psi} \gamma_\mu \sigma_j W^\mu_j \Psi * \frac{1}{4} (W_{\mu \nu})_i (W^{\mu \nu})_i$
+****** requires massless spin 1 and spin $\frac{1}{2}$ fields
+***** Experiments show the the spin 1 fields are not massless and that the electron mass is much bigger than the electron neutrino mass. The Higgs mechanism allows for the introduction of a locally $SU(2)$ invariant Lagrangian that includes the necessary mass terms to match the theory to experiments.
+**** Local $SU(3)$ symmetry
+***** Triplet $Q = (q_1, \; q_2 \; q_3)^T$ containing 3 spin $\frac{1}{2}$ fields interpreted as quarks carrying color charge
+***** The eight corresponding gluons are indeed massless which fits the theory
+***** $\mathscr{L} = * \frac{1}{4} F^A_{\alpha \beta} F^{\alpha \beta}_A + \bar{Q}(i D_\mu \gamma^\mu * m)Q$
+*** 7.1 U(1) interactions
+**** 7.1.1 internal symmetry of free spin \frac{1}{2} fields
+**** The Lagrangian for a free spin $\frac{1}{2}$ particle is
+***** $\mathscr{L}_{\mathrm{Dirac}} = -m \bar{\Psi} \Psi + i \bar{\Psi} \gamma^\mu \partial_\mu \Psi = \bar{\Psi} (i \gamma^\mu \partial_\mu -m)\Psi$
+**** The Lagrangian is Lorentz invariant as required in the process of its derivation. However there is also a symmetry to field transformations
+***** $\Psi \rightarrow \Psi' = e^{ia} \Psi$
+***** $\bar{\Psi} \rightarrow \bar{\Psi}' = e^{-ia} \bar{\Psi}$
+**** This forms the global internal $U(1)$ symmetry. In its current form the Dirac Lagrangian is not locally $U(1)$ invariant
+***** $\mathscr{L'}_{\mathrm{Dirac}} = -m \bar{\Psi} \Psi + i \bar{\Psi} \gamma_\mu \partial^\mu \Psi + i^2 (\partial^\mu a(x)) \bar{\Psi} \gamma_\mu \partial^\mu \Psi $
+***** 
+*** 7.2 SU(2) interactions [[file:progress_indicators.org][progress indicators]]
+*** 7.3 Mass terms and unification of SU(2) and U(1)
+*** 7.4 Parity violation
+*** 7.5 Lepton mass terms
+*** 7.6 Quark mass terms
+*** 7.7 Isospin
+**** 7.7.1 Labelling states
+*** 7.8 SU(3) interactions
+*** 7.9 The interplay between fermions and bosons
+* Part IV: Applications
+** 8. Quantum Mechanics
+*** 8.1 Particle theory identifications
+*** 8.2 Relativistic energy-momentum relation
+*** 8.3 The quantum formalism
+*** 8.4 The Schrodinger equation
+**** Schrodinger equation with external field
+*** 8.5 From wave equations to particle motion
+**** 8.5.1 Example: free particle
+**** 8.5.2 Example: particle in a box
+**** 8.5.3 Dirac notation
+**** 8.5.4 Example: particle in a box, again
+**** 8.5.5 Spin
+*** 8.6 Heisenberg's uncertainy principle
+*** 8.7 Comments on interpretations
+*** 8.8 Appendix: Interpretation of the Dirac Spinor components
+*** 8.9 Appendix: Solving the Dirac equation
+*** 8.10 Appendix: Dirac [[file:spinors.org][spinors]] in different bases
+**** 8.10.1 Solutions of the Dirac equation in the mass basis
+** 9. Quantum field theory
+*** 9.1 Field theory identifications
+*** 9.2 Free spin 0 field theory
+*** 9.3 Free spin $\frac{1}{2}$ theory
+*** 9.4 Free spin $1$ theory
+*** 9.5 Interacting field theory
+**** 9.5.1 Scatter amplitudes
+**** 9.5.2 Time evolution of states
+**** 9.5.3 Dyson series
+**** 9.5.4 Evaluating the series
+*** 9.6 Appendix: most general solution of the Klein-Gordon equation
+** 10. Classical mechanics
+*** 10.1 Relativistic mechanics
+*** 10.2 The Lagrangian of non-relativistic mechanics
+** 11. Electrodynamics
+*** 11.1 The homogeneous Maxwell equations
+*** 11.2 The Lorentz force
+*** 11.3 Coulomb potential
+** 12. Gravity
+** 13. Closing words
+* Part V: Appendices
+** A. Vector calculus
+** B. Calculus
+*** B.5 Index notation
+**** B.5.5 Important symbols
+***** The Levi-Civita symbol is totally anti-symmetric
+****** In four dimensions
+******* $\epsilon_{ijkl} = 1$ if $(i,j,k,l)$ is an even permutation
+******* $\epsilon_{ijkl} = -1$ if $(i,j,k,l)$ is an uneven permutation
+******* $\epsilon_{ijkl} = 0$ otherwise
+**** 
+** C. Linear algebra
+** D. Additional mathematical notions

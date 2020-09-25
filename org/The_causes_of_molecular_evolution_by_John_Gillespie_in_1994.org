@@ -1,0 +1,9 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_causes_of_molecular_evolution_by_John_Gillespie_in_1994
+#+TITLE: The causes of molecular evolution by John Gillespie in 1994
+* Chapter 4: __Selection in a fluctuating environment__
+** The c-haploid model
+** SAS-CFF models
+** Drift and mutation
+** Sticky boundaries
+** Historical notes

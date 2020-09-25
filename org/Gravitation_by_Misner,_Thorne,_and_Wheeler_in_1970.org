@@ -1,0 +1,20 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Gravitation_by_Misner,_Thorne,_and_Wheeler_in_1970
+#+TITLE: Gravitation by Misner, Thorne, and Wheeler in 1970
+* I. Spacetime physics
+* II. Physics in flat spacetime
+* III. The mathematics of curved spacetime
+* IV. Einstein's geometric theory of gravity
+* V. Relativistic stars
+* VI. The universe
+* VII. Gravitational collapse and black holes
+* VIII. Gravitational waves
+* IX. Experimental tests of general relativity
+* X. Frontiers
+** 41. [[file:spinors.org][spinors]]
+** 42. Regge calculus
+** 43. Superspace: Arena for the Dynamics of Geometry
+** 44. Beyond the end of time
+*** 44.4 Not Geometry, but pregeometry, as the magic building material
+*** 44.5 Pregeometry as the calculus of propositions
+*** 44.6 The black box: the reprocessing of the universe

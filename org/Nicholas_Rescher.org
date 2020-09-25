@@ -1,0 +1,23 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Nicholas_Rescher
+#+TITLE: Nicholas Rescher
+* [[file:process_philosophy.org][process philosophy]], [[file:Alfred_North_Whitehead.org][Alfred North Whitehead]], [[file:pragmatism.org][pragmatism]]
+* biographical
+** [[https://www.iep.utm.edu/rescher/][Rescher, Nicholas | Internet Encyclopedia of Philosophy]]
+        1. [[https://www.iep.utm.edu/rescher/#H1][Life]]
+        2. [[https://www.iep.utm.edu/rescher/#H2][Main Topics of Rescher’s Work]]
+        3. [[https://www.iep.utm.edu/rescher/#H3][Pragmatism]]
+        4. [[https://www.iep.utm.edu/rescher/#H4][Objectivity and Rationality]]
+        5. [[https://www.iep.utm.edu/rescher/#H5][Truth]]
+        6. [[https://www.iep.utm.edu/rescher/#H6][Evolutionary Epistemology]]
+        7. [[https://www.iep.utm.edu/rescher/#H7][Pragmatic Idealism]]
+        8. [[https://www.iep.utm.edu/rescher/#H8][Philosophy of Science]]
+        9. [[https://www.iep.utm.edu/rescher/#H9][Logic and Conceptual Schemes]]
+        10. [[https://www.iep.utm.edu/rescher/#H10][Social Philosophy]]
+        11. [[https://www.iep.utm.edu/rescher/#H11][Ethical Issues]]
+/In his system of pragmatic idealism, the activity of the human mind plays a key role and makes a fundamental contribution to knowledge, while “valid” knowledge contributes to practical success. Rescher also defends a coherence theory of truth in a manner differing in a significant way from that endorsed by classical idealism. He draws an original distinction between a pragmatism of the left and a pragmatism of the right. The first is a flexible type of pragmatism that endorses a greatly enhanced cognitive relativism. The second envisions the pragmatist enterprise as a source of cognitive security. Rescher sees Charles S. Peirce, Clarence I. Lewis and himself as adherents to the pragmatism of the right, and William James, F. S. C. Schiller and Richard Rorty as representatives of the pragmatism of the left, with John Dewey standing in a middle of the road position./ — via [[https://www.iep.utm.edu/rescher/][Rescher, Nicholas | Internet Encyclopedia of Philosophy]]
+* [[file:Process_Metaphysics_An_introduction_to_process_philosophy_by_Nicholas_Rescher_in_1996.org][Process Metaphysics An introduction to process philosophy by Nicholas Rescher in 1996]]
+* [[file:process_philosophy_a_survey_of_basic_issues_by_Nicholas_Rescher_in_2000.org][process philosophy a survey of basic issues by Nicholas Rescher in 2000]]
+* [[file:Epistemology_An_introduction_to_the_theory_of_knowledge_by_Nicholas_Rescher_in_2003.org][Epistemology An introduction to the theory of knowledge by Nicholas Rescher in 2003]]
+* [[file:pragmatism_The_Restoration_of_Its_Scientific_Roots_by_Nicholas_Rescher_in_2012.org][pragmatism The Restoration of Its Scientific Roots by Nicholas Rescher in 2012]]
+* [[file:pragmatism_in_philosophical_inquiry_by_Nicholas_Rescher_in_2016.org][pragmatism in philosophical inquiry by Nicholas Rescher in 2016]]

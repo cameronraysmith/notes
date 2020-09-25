@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Sellars_and_his_legacy_by_James_O'Shea_in_2017
+#+TITLE: Sellars and his legacy by James O'Shea in 2017
+* [[file:books.org][books]], [[file:philosophy.org][philosophy]], [[file:Wilfrid_Sellars.org][Wilfrid Sellars]]

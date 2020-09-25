@@ -1,0 +1,34 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: A_Spirit_of_Trust_by_Robert_Brandom_in_2019
+#+TITLE: A Spirit of Trust by Robert Brandom in 2019
+* [[file:Robert_Brandom.org][Robert Brandom]], [[file:Georg_Hegel.org][Georg Hegel]], [[file:philosophy.org][philosophy]], [[file:books.org][books]]
+* reviews
+** [[https://ndpr.nd.edu/news/a-spirit-of-trust-a-reading-of-hegels-phenomenology/][A Spirit of Trust: A Reading of Hegel's Phenomenology // Notre Dame Philosophical Reviews]]
+* Introduction: A Pragmatist Semantic Reading of Hegel's __Phenomenology__
+** I. The focal topic: the content and use of concepts
+** II. The strategy of semantic descent
+** III. The social dimension of discursiveness: normativity and recognition
+** IV. The historical dimension of discursiveness: recollective rationality
+** V. Cognition, recognition, and recollection: semantics and epistemology, normative pragmatics, and the historicity of __Geist__
+* Part One: Semantics and Epistemology: Knowing and Representing the Objective World
+** 1. Conceptual realism and the semantic possibility of knowledge
+** 2. Representation and the experience of error: A functionalist approach to the distinction between appearance and reality
+** 3. Following the Path of Despair to a Bacchanalian Revel: The emergence of the new, true object
+** 4. Immediacy, generality, and recollection: first lessons on the structure of epistemic authority
+** 5. Understanding the object/property structure in terms of negation: an introduction to Hegelian logic and metaphysics in the __Perception__ chapter
+** 6. "Force" and understanding--from object to concept: the ontological status of theoretical entities and the laws that implicitly define them
+** 7. Objective Idealism and Modal Expressivism
+* Part Two: Normative Pragmatics: Recognition and the Expressive Metaphysics of Agency
+** 8. The structure of desire and recognition: self-consciousness and self-constitution
+** 9. The fine structure of autonomy and recognition: the institution of normative statuses by normative attitudes
+** 10. Allegories of mastery: The pragmatic and semantic basis of the metaphysical incoherence of authority without responsibility
+** 11. Hegel's expressive metaphysics of agency: the determination, identity, and development of what is done
+** 12. Recollection, representation, and agency
+* Part Three: Recollecting the ages of spirit: From Irony to Trust
+** 13. The history of normative structures: on beyond immediate __Sittlichkeit__
+** 14. Alienation and language
+** 15. Edelmutigkeit and Nidertrachtigkeit: The Kammerdiener
+** 16. Confession and Forgiveness, Recollection and Trust
+* Conclusion: Semantics with an Edifying Intent: Recognition and Recollection on the Way to the Age of Trust
+** VIII. Dimensions of Holism: Identity through Difference
+*** At the extremes, British Absolute Idealists thought of all relations as internal (Russell’s “world as a bowl of jelly”) and atomists thought of all relations as external (Russell’s “world as a bucket of shot”). Whitehead cited both as united in committing the “[[https://en.wikipedia.org/wiki/Suppressed_correlative][fallacy of lost contrast]].” The fallacy of lost contrast is also known as the [[file:suppressed_correlative.org][suppressed correlative]]

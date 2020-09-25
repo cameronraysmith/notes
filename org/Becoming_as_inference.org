@@ -1,0 +1,42 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Becoming_as_inference
+#+TITLE: Becoming as inference
+* [[file:philosophy.org][philosophy]], [[file:dynamical_systems.org][dynamical systems]], [[file:process_philosophy.org][process philosophy]], [[file:pragmatism.org][pragmatism]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:physics.org][physics]], [[file:statistical_physics.org][statistical physics]]
+* historical note
+** I originally connected these ideas on <2020-07-13 Mon> and decided to continue this line of thinking under the title of this page [[file:Becoming_as_inference.org][Becoming as inference]] on <2020-07-20 Mon>.
+* brief description
+** If we just try to describe what scientists do without examining the internal experience they have, then we think of them as constructing models and performing Bayesian model selection and parametric inference. In addition to this explicit application of [[file:probabilistic_inference.org][probabilistic inference]], we also have a model of the implicit functioning of the brain that considers it as a device that performs [[file:probabilistic_inference.org][probabilistic inference]], which has been associated with several different names including the [[file:predictive_coding_model.org][predictive coding model]], [[file:Bayesian_brain_hypothesis.org][Bayesian brain hypothesis]], [[file:prediction_error_minimization.org][prediction error minimization]] framework, or the [[file:free_energy_principle.org][free energy principle]]. If we consider the functioning of simple organisms in this same context, we can construct an analogy to the [[file:Bayesian_brain_hypothesis.org][Bayesian brain hypothesis]] that results in various additional Bayesian `X` hypotheses such as the [[file:Bayesian_biology_hypothesis.org][Bayesian biology hypothesis]], the [[file:Bayesian_chemistry_hypothesis.org][Bayesian chemistry hypothesis]], [[file:Quantum_Bayesianism.org][Quantum Bayesianism]], and so on.
+
+On one hand this suggests that developing a sufficiently flexible framework for describing the processes within which [[file:probabilistic_inference.org][probabilistic inference]] occurs is potentially fundamental. On another, it may be that at this level of abstraction doing so would eventually appear vacuous.
+** pan-inferentialism, the notion that [[file:probabilistic_inference.org][probabilistic inference]] is embodied by [[file:dynamical_systems.org][dynamical systems]] and unifies the curiosity of humans as manifest in the experience of scientists with the models they create of the functioning of physical and biological systems
+* key references
+** [[file:philosophy.org][philosophy]]
+*** [[file:process_philosophy_a_survey_of_basic_issues_by_Nicholas_Rescher_in_2000.org][process philosophy a survey of basic issues by Nicholas Rescher in 2000]]
+*** [[file:Articulating_reasons_An_introduction_to_inferentialism_by_Robert_Brandom_in_2000.org][Articulating reasons An introduction to inferentialism by Robert Brandom in 2000]]
+*** [[file:pragmatism_in_philosophical_inquiry_by_Nicholas_Rescher_in_2016.org][pragmatism in philosophical inquiry by Nicholas Rescher in 2016]]
+*** [[file:Pragmatism,_Objectivity,_and_Experience_by_Steven_Levine_in_2019.org][Pragmatism, Objectivity, and Experience by Steven Levine in 2019]]
+** [[file:stochastic_processes.org][stochastic processes]] and [[file:statistical_physics.org][statistical physics]]
+*** [[file:Information,_physics,_and_computation_by_Marc_Mezard_and_Andrea_Montanari_in_2009.org][Information, physics, and computation by Marc Mezard and Andrea Montanari in 2009]]
+*** [[file:Master_equations_and_the_theory_of_stochastic_path_integrals_by_Markus_Weber_and_Erwin_Frey_in_2017.org][Master equations and the theory of stochastic path integrals by Markus Weber and Erwin Frey in 2017]]
+*** [[file:The_information_geometry_of_2-field_functional_integrals_by_Eric_Smith_in_2019.org][The information geometry of 2-field functional integrals by Eric Smith in 2019]]
+** [[file:probabilistic_inference.org][probabilistic inference]]
+*** [[file:The_Helmholtz_Machine_by_Peter_Dayan,_Geoffrey_Hinton,_Radford_Neal,_and_Richard_Zemel_in_1995.org][The Helmholtz Machine by Peter Dayan, Geoffrey Hinton, Radford Neal, and Richard Zemel in 1995]]
+*** [[file:Regression_and_Other_Stories_by_Andrew_Gelman,_Jennifer_Hill,_and_Aki_Vehtari_in_2020.org][Regression and Other Stories by Andrew Gelman, Jennifer Hill, and Aki Vehtari in 2020]]
+*** [[file:Pattern_recognition_and_machine_learning_by_Chris_Bishop_in_2006.org][Pattern recognition and machine learning by Chris Bishop in 2006]]
+*** [[file:A_tutorial_on_the_free-energy_framework_for_modeling_perception_and_learning_by_Rafal_Bogacz_in_2017.org][A tutorial on the free-energy framework for modeling perception and learning by Rafal Bogacz in 2017]]
+*** [[file:The_free_energy_principle_for_action_and_perception_A_mathematical_review_by_Christopher_Buckley,_Anil_Seth,_et_al_in_2017.org][The free energy principle for action and perception A mathematical review by Christopher Buckley, Anil Seth, et al in 2017]]
+*** [[file:A_free_energy_principle_for_a_particular_physics_by_Karl_Friston_in_2019.org][A free energy principle for a particular physics by Karl Friston in 2019]]
+** [[file:Bayesian_brain_hypothesis.org][Bayesian brain hypothesis]]
+*** [[file:The_Helmholtz_Machine_by_Peter_Dayan,_Geoffrey_Hinton,_Radford_Neal,_and_Richard_Zemel_in_1995.org][The Helmholtz Machine by Peter Dayan, Geoffrey Hinton, Radford Neal, and Richard Zemel in 1995]]
+*** [[file:The_predictive_mind_by_Jakob_Hohwy_in_2013.org][The predictive mind by Jakob Hohwy in 2013]]
+*** [[file:Expanding_the_Active_Inference_Landscape_More_Intrinsic_Motivations_in_the_Perception-Action_Loop_by_Martin_Biehl,_Daniel_Polani,_et_al_in_2018.org][Expanding the Active Inference Landscape More Intrinsic Motivations in the Perception-Action Loop by Martin Biehl, Daniel Polani, et al in 2018]]
+*** [[file:Geometry_of_Friston's_active_inference_by_Martin_Biehl_in_2018.org][Geometry of Friston's active inference by Martin Biehl in 2018]]
+** [[file:systems_biology.org][systems biology]]
+*** [[file:An_Introduction_to_Systems_Biology_by_Uri_Alon_in_2020.org][An Introduction to Systems Biology by Uri Alon in 2020]]
+* outline
+** I. The fundamental role of dynamics in our understanding of the world
+*** pragmatic [[file:process_philosophy.org][process philosophy]] derived from [[file:Nicholas_Rescher.org][Nicholas Rescher]]
+** II. Modeling phenomena within the framework of probabilistic inference
+** III. The scientist's experience of inference and the scientist's experience as inference
+*** [[file:Martin_Biehl.org][Martin Biehl]]'s [[file:active_inference.org][active inference]] synthesizes the [[file:predictive_coding_model.org][predictive coding model]] of [[file:The_Helmholtz_Machine_by_Peter_Dayan,_Geoffrey_Hinton,_Radford_Neal,_and_Richard_Zemel_in_1995.org][The Helmholtz Machine by Peter Dayan, Geoffrey Hinton, Radford Neal, and Richard Zemel in 1995]], [[file:Karl_Friston.org][Karl Friston]]'s [[file:free_energy_principle.org][free energy principle]], [[file:Jakob_Hohwy.org][Jakob Hohwy]]'s [[file:prediction_error_minimization.org][prediction error minimization]] framework all of which have previously been associated with the [[file:Bayesian_brain_hypothesis.org][Bayesian brain hypothesis]].
+** IV. The unfolding of phenomena manifests embodied inference

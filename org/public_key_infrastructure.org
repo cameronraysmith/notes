@@ -1,0 +1,11 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: public_key_infrastructure
+#+TITLE: public key infrastructure
+* diagram (from [[https://en.wikipedia.org/wiki/Public_key_infrastructure)][wikipedia]]
+** [[https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Public-Key-Infrastructure.svg/1024px-Public-Key-Infrastructure.svg.png]]
+* vocabulary
+** registration authority
+** certificate
+** certificate authority
+** validation authority
+** 

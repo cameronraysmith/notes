@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: multi-level_summaries
+#+TITLE: multi-level summaries
+* https://www.francismiller.com/mls-paper/
+* https://www.francismiller.com/organising_knowledge_paper.pdf
+* 

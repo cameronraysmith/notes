@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Geometry_and_Physics_by_Jurgen_Jost_in_2009
+#+TITLE: Geometry and Physics by Jurgen Jost in 2009
+* [[file:differential_geometry.org][differential geometry]], [[file:physics.org][physics]], [[file:mathematics.org][mathematics]], [[file:theoretical_physics.org][theoretical physics]], [[file:Jurgen_Jost.org][Jurgen Jost]]
+* contents
+* 

@@ -1,0 +1,25 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_Rise_of_Modern_Philosophy_A_New_History_of_Western_Philosophy,_Vol_III
+#+TITLE: The Rise of Modern Philosophy A New History of Western Philosophy, Vol. III
+* Outline
+** Sixteenth-century philosophy
+** Descartes to Berkeley
+** Hume to Hegel
+*** David Hume
+*** Adam Smith
+*** Thomas Reid
+*** The Enlightenment
+*** Jean-Jacques Rousseau
+*** Christian Wolff
+*** Gotthold Lessing
+*** [[file:Immanuel_Kant.org][Immanuel Kant]]
+*** Johann Fichte
+*** Friedrich Schelling
+*** [[file:Georg_Hegel.org][Georg Hegel]]
+** Knowledge
+** Physics
+** Metaphysics
+** Mind and soul
+** Ethics
+** Political philosophy
+** God

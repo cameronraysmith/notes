@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: kops
+#+TITLE: kops
+* source:: https://github.com/kubernetes/kops

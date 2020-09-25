@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Programming_Language_Foundations_in_Agda_by_Philip_Wadler_in_2018
+#+TITLE: Programming Language Foundations in Agda by Philip Wadler in 2018
+* [[file:programming_languages.org][programming languages]], [[file:computation.org][computation]]
+* links
+** https://plfa.github.io/
+** [[https://nextjournal.com/plfa/ToC][Programming Language Foundations in Agda Philip Wadler – Nextjournal]]

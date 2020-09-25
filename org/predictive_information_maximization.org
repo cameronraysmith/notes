@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: predictive_information_maximization
+#+TITLE: predictive information maximization
+* 

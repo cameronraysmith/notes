@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: A_Hidden_Life
+#+TITLE: A Hidden Life

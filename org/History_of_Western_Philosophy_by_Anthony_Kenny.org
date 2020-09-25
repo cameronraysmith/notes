@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: History_of_Western_Philosophy_by_Anthony_Kenny
+#+TITLE: History of Western Philosophy by Anthony Kenny
+* [[file:The_Rise_of_Modern_Philosophy_A_New_History_of_Western_Philosophy,_Vol_III.org][The Rise of Modern Philosophy A New History of Western Philosophy, Vol. III]]
+* [[file:A_brief_history_of_Western_Philosophy_by_Anthony_Kenny_in_2019.org][A brief history of Western Philosophy by Anthony Kenny in 2019]]

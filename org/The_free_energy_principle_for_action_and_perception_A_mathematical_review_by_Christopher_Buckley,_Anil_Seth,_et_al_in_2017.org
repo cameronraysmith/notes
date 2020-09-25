@@ -1,0 +1,50 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_free_energy_principle_for_action_and_perception_A_mathematical_review_by_Christopher_Buckley,_Anil_Seth,_et_al_in_2017
+#+TITLE: The free energy principle for action and perception A mathematical review by Christopher Buckley, Anil Seth, et al in 2017
+* [[file:free_energy_principle.org][free energy principle]], [[file:dynamic_causal_modeling.org][dynamic causal modeling]], [[file:Bayesian_brain_hypothesis.org][Bayesian brain hypothesis]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:model_construction.org][model construction]], [[file:dynamical_systems.org][dynamical systems]]
+* contents image
+** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FikPqTCE7Vf.png?alt=media&token=148e3a7b-f816-40bb-851b-aa4ecf1c4644]]
+* 0. Abstract
+** (i) to describe within a single article the mathematical structure of this implementation of the FEP; 
+** (ii) provide a simple but complete agent-based model utilising the FEP and 
+** (iii) to disclose the assumption structure of this implementation of the FEP to help elucidate its significance for the brain sciences.
+* 1. Introduction
+** The FEP has an extensive historical pedigree. Some see its origins starting with Helmholtz’ proposal that perceptions are extracted from sensory data by probabilistic modelling of their causes (Von Helmholtz & Southall, 2005).
+** 
+* 2. An overview of the FEP
+** 2.1 R* and G-densities
+** 2.2 Minimizing free energy
+** 2.3 The action-perception cycle
+** 2.4 Predictive coding
+** 2.5 A technical guide
+*** We show how minimising VFE has two consequences.
+**** First, it makes the R-density a better estimate of posterior beliefs about environmental state given sensory data, thus implementing approximate Bayesian inference. 
+**** Second, it makes the VFE itself an upper-bound on sensory surprisal.
+*** 
+* 3. Variational free energy
+* 4. The R-density: how the brain encodes environmental states
+* 5. The G-density: encoding the brains beliefs about environmental causes
+** 5.1 The simplest generative model
+** 5.2 A dynamical generative model
+* 6. VFE minimization: how organisms infer environmental states
+* 7. Active inference
+* 8. Hierarchical inference and learning
+** 8.1 Hierarchical generative model
+** 8.2 Combining hierarchical and dynamical models: the full construct
+** 8.3 The full-construct recognition dynamics and neuronal activity
+** 8.4 Parameters and hyperparameters: synaptic efficacy and gain
+** 8.5 Active inference on the full construct
+* 9. Discussion
+** 
+* Appendices
+** A. Variational Bayes: ensemble learning
+** B. Dynamic Bayesian thermostat
+* Related [[file:references.org][references]]
+** [[file:A_tutorial_on_the_free-energy_framework_for_modeling_perception_and_learning_by_Rafal_Bogacz_in_2017.org][A tutorial on the free-energy framework for modeling perception and learning by Rafal Bogacz in 2017]]
+** [[file:Expanding_the_Active_Inference_Landscape_More_Intrinsic_Motivations_in_the_Perception-Action_Loop_by_Martin_Biehl,_Daniel_Polani,_et_al_in_2018.org][Expanding the Active Inference Landscape More Intrinsic Motivations in the Perception-Action Loop by Martin Biehl, Daniel Polani, et al in 2018]]
+** [[file:Variational_inference_a_review_for_statisticians_by_David_Blei_et_al_in_2017.org][Variational inference a review for statisticians by David Blei et al in 2017]]
+** [[file:Bayesian_informal_logic_and_fallacy_by_Kevin_Korb_in_2003.org][Bayesian informal logic and fallacy by Kevin Korb in 2003]]
+** [[file:Geometry_of_Friston's_active_inference_by_Martin_Biehl_in_2018.org][Geometry of Friston's active inference by Martin Biehl in 2018]]
+** [[file:DEM_A_variational_treatment_of_dynamic_systems_by_Karl_Friston_and_J_Daunizeau_in_2008.org][DEM A variational treatment of dynamic systems by Karl Friston and J Daunizeau in 2008]]
+** [[file:Dynamic_causal_modelling_of_COVID-19_by_Karl_Friston,_Thomas_Parr,_Jean_Daunizeau,_Rosalyn_Moran,_et_al_in_2020.org][Dynamic causal modelling of COVID-19 by Karl Friston, Thomas Parr, Jean Daunizeau, Rosalyn Moran, et al in 2020]]
+** [[file:Active_inference_on_discrete_state-spaces_--_a_synthesis_by_Lancelot_Da_Costa,_Thomas_Parr,_Karl_Friston_et_al_in_2020.org][Active inference on discrete state-spaces - a synthesis by Lancelot Da Costa, Thomas Parr, Karl Friston et al in 2020]]

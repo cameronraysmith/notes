@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: evolutionary_timescale
+#+TITLE: evolutionary timescale
+* [[file:mathematical_models_of_evolution.org][mathematical models of evolution]]
+* [[file:evolution_in_fluctuating_environments.org][evolution in fluctuating environments]]
+* [[file:cancer_evolution.org][cancer evolution]]

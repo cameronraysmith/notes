@@ -1,0 +1,41 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: cancer_evolution
+#+TITLE: cancer evolution
+* See [[https://www.overleaf.com/project/5df6860b04ffec00016e465b][cevo notes on overleaf]]
+* Todo regarding analysis of [[file:stochastic_processes.org][stochastic processes]]
+** Read review [[file:Resolving_genetic_heterogeneity_in_cancer_by_Turajlic,_Graham,_and_Swanton_et_al_2019.org][Resolving genetic heterogeneity in cancer by Turajlic, Graham, and Swanton et al 2019]]
+** Read [[file:Tug-of-war_between_driver_and_passenger_mutations_in_cancer_and_other_adaptive_processes_by_McFarland_Mirny_and_Korolev_in_2014.org][Tug-of-war between driver and passenger mutations in cancer and other adaptive processes by McFarland Mirny and Korolev in 2014]] @est(2h) @high
+** Read review [[file:Measuring_Clonal_Evolution_in_Cancer_with_Genomics_by_Williams,_Sottoriva,_and_Graham_in_2019.org][Measuring Clonal Evolution in Cancer with Genomics by Williams, Sottoriva, and Graham in 2019]]. @est(2h) @high
+** Compare models from [[file:Quantification_of_subclonal_selection_in_cancer_from_bulk_sequencing_data_by_Williams_and_Graham_in_2018.org][Quantification of subclonal selection in cancer from bulk sequencing data by Williams and Graham in 2018]] and [[file:Tug-of-war_between_driver_and_passenger_mutations_in_cancer_and_other_adaptive_processes_by_McFarland_Mirny_and_Korolev_in_2014.org][Tug-of-war between driver and passenger mutations in cancer and other adaptive processes by McFarland Mirny and Korolev in 2014]], and Attolini Michor to those in Durrett book @est(6h) @low
+** Run julia code from Williams/Graham papers @est(2h) @high 
+** Read [[file:Branching_process_models_of_cancer_by_Durrett_in_2015.org][Branching process models of cancer by Durrett in 2015]]
+** Read [[file:Exact_solution_of_a_two-type_branching_process_clone_size_distribution_in_cell_division_kinetics_by_Antal_and_Krapivsky_in_2010.org][Exact solution of a two-type branching process clone size distribution in cell division kinetics by Antal and Krapivsky in 2010]]
+** Read review [[file:Tumour_heterogeneity_and_the_evolutionary_trade-offs_of_cancer_by_Hausser_and_Alon_in_2020.org][Tumour heterogeneity and the evolutionary trade-offs of cancer by Hausser and Alon in 2020]]
+* Todo regarding (cancer) [[file:phylogenetics.org][phylogenetics]]
+** Watch Luay Nakhleh lecture on SiCloneFit 
+** [[file:SiCloneFit_Bayesian_inference_of_population_structure,_genotype,_and_phylogeny_of_tumor_clones_from_single-cell_genome_sequencing_data_by_Zafar_and_Nakhleh_in_2019.org][SiCloneFit Bayesian inference of population structure, genotype, and phylogeny of tumor clones from single-cell genome sequencing data by Zafar and Nakhleh in 2019]]
+** Todo with Ximo
+*** Run [[file:pyclone.org][pyclone]] https://github.com/aroth85/pyclone
+*** Study  [[file:pyclone.org][pyclone]]  graphical  model  including  Andrew  Roth’s  lectures https://www.youtube.com/playlist?list=PLAFFlrzSa6m8PiKPKLBl8Av7RNw4F5-2F
+*** Run [[file:pyro.org][pyro]] examples http://[[file:pyro.org][pyro]].ai/examples/•Implement some component of [[file:pyclone.org][pyclone]] in [[file:pyro.org][pyro]] and/or pymc3
+*** Study integration of ReMixT with [[file:pyclone.org][pyclone]] in Interfaces of Malignant and Immunologic ClonalDynamics in Ovarian Cancer by  Zhang and Shah in 2018 including  Shah’s  lecture https://youtu.be/8cwFV7bWawc
+*** Run ReMixT for CNV quantification https://bitbucket.org/dranew/remixt/•Integrate ReMixT with [[file:pyclone.org][pyclone]]
+*** Integrate ReMixT output with our own [[file:pyro.org][pyro]]/pymc3 implementation of [[file:pyclone.org][pyclone]]
+*** Complete our own implement of ReMixT and [[file:pyclone.org][pyclone]] in [[file:pyro.org][pyro]]/pymc3
+** [[file:references.org][references]]
+*** Clonal inference with phylogeny
+**** Vavoulis, D. V., Cutts, A., Taylor, J. C., & Schuh, A. (2020). A statistical approach for tracking clonal dynamics in cancer using longitudinal next-generation sequencing data. __BioRxiv__, 2020.01.20.913236. https://doi.org/10.1101/2020.01.20.913236
+**** **Review** Miura, S., Vu, T., Deng, J., Buturla, T., Oladeinde, O., Choi, J., & Kumar, S. (2020). Power and pitfalls of computational methods for inferring clone phylogenies and mutation orders from bulk sequencing
+**** Myers, M. A., Satas, G., & Raphael, B. J. (2019). CALDER: Inferring Phylogenetic Trees from Longitudinal Tumor Samples. __Cell Systems__, __8__(6), 514-522.e5. https://doi.org/10.1016/j.cels.2019.0
+**** El-Kebir, M., Satas, G., & Raphael, B. J. (2018). Inferring parsimonious migration histories for metastatic cancers. __Nature Genetics__, __50__(5), 718–726. https://doi.org/10.1038/s41588-018-0106-z
+**** **Review** Schwartz, R., & Schäffer, A. A. (2017, April 1). The evolution of tumour phylogenetics: Principles and practice. __Nature Reviews Genetics__. Nature Publishing Group. https://doi.org/10.1038/nrg.2016.170
+**** Satas, G., & Raphael, B. J. (2017). Tumor phylogeny inference using tree-constrained importance sampling. __Bioinformatics__, __33__(14), i152–i160. https://doi.org/10.1093/bioinformatics/btx270
+**** Deshwar, A. G., Vembu, S., Yung, C. K., Jang, G. H., Stein, L., & Morris, Q. (2015). PhyloWGS: Reconstructing subclonal composition and evolution from whole-genome sequencing of tumors. __Genome Biology__, __16__(1), 1–20. https://doi.org/10.1186/s13059-015-0602-8
+**** Jiao, W., Vembu, S., Deshwar, A. G., Stein, L., & Morris, Q. (2014). Inferring clonal evolution of tumors from single nucleotide somatic mutations. __BMC Bioinformatics__, __15__(1), 35. https://doi.org/10.1186/1471-2105-15-35
+**** Roth, A., Khattra, J., Yap, D., Wan, A., Laks, E., Biele, J., … Shah, S. P. (2014). PyClone: Statistical inference of clonal population structure in cancer. __Nature Methods__, __11__(4), 396–398. https://doi.org/10.1038/nmeth.2883
+*** Clonal inference without phylogeny
+**** [[file:PyClone_Statistical_inference_of_clonal_population_structure_in_cancer_by_Roth_and_Shah_in_2014.org][PyClone Statistical inference of clonal population structure in cancer by Roth and Shah in 2014]] for inference of clonal population structure in cancer
+*** Phylogenetics proper
+**** [[file:Phylogenetic_inference_using_RevBayes_by_Hohna,_Landis,_and_Heath_in_2017.org][Phylogenetic inference using RevBayes by Hohna, Landis, and Heath in 2017]]
+*** Copy number variation
+**** [[file:ReMixT_Clone-specific_genomic_structure_estimation_in_cancer_by_McPherson_and_Shah_2017.org][ReMixT Clone-specific genomic structure estimation in cancer by McPherson and Shah 2017]] for prediction of clone-specific segment copy number and clone specificity of breakpoints

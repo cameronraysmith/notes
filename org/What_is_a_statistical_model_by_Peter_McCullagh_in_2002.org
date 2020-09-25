@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: What_is_a_statistical_model_by_Peter_McCullagh_in_2002
+#+TITLE: What is a statistical model by Peter McCullagh in 2002
+* [[file:papers.org][papers]], [[file:mathematics.org][mathematics]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:category_theory.org][category theory]]
+* 

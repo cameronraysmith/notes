@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: physiological_timescale
+#+TITLE: physiological timescale
+* [[file:gene_expression_dynamics.org][gene expression dynamics]]
+* metabolic dynamics

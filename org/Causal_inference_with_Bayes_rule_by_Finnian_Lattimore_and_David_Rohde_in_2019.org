@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Causal_inference_with_Bayes_rule_by_Finnian_Lattimore_and_David_Rohde_in_2019
+#+TITLE: Causal inference with Bayes rule by Finnian Lattimore and David Rohde in 2019
+* [[file:papers.org][papers]], [[file:causal_inference.org][causal inference]], [[file:probabilistic_inference.org][probabilistic inference]]
+* quotes
+** "The paper shows that it is possible to arrive at the same solution for causal problems using both the do-calculus and Bayesian theory. The key insight required for the Bayesian formulation is that the probabilistic graphical model must jointly model both the pre-intervention and post intervention worlds"

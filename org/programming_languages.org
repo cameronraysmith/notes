@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: programming_languages
+#+TITLE: programming languages
+* [[file:python.org][python]]
+* [[file:julia.org][julia]]
+* [[file:haskell.org][haskell]]
+* [[file:ocaml.org][ocaml]]
+* [[file:coq.org][coq]], the [[file:calculus_of_inductive_constructions.org][calculus of inductive constructions]], and the [[file:Curry-Howard_isomorphism.org][Curry-Howard isomorphism]]

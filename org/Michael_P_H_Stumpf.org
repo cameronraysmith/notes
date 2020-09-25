@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Michael_P_H_Stumpf
+#+TITLE: Michael P. H. Stumpf
+* [[file:systems_biology.org][systems biology]], [[file:approximate_bayesian_computation.org][approximate bayesian computation]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:dynamical_systems.org][dynamical systems]]
+* lab website: https://www.theosysbio.com/publications
+* [[file:approximate_bayesian_computation_scheme_for_parameter_inference_and_model_selection_in_dynamical_systems_by_Tina_Toni,_Michael_P_H_Stumpf_et_al_in_2009.org][approximate bayesian computation scheme for parameter inference and model selection in dynamical systems by Tina Toni, Michael P. H. Stumpf et al in 2009]]
+* [[file:GpABC_a_Julia_package_for_approximate_bayesian_computation_with_Gaussian_process_emulation_by_Evgeny_Tankhilevich,_Michael_P_H_Stumpf_et_al_in_2020.org][GpABC a Julia package for approximate bayesian computation with Gaussian process emulation by Evgeny Tankhilevich, Michael P. H. Stumpf et al in 2020]]
+* [[file:Gene_Regulatory_Network_Inference_from_Single-Cell_Data_Using_Multivariate_Information_Measures_by_Thalia_Chan,_Michael_P_H_Stumpf,_and_Ann_C_Babtie_in_2017.org][Gene Regulatory Network Inference from Single-Cell Data Using Multivariate Information Measures by Thalia Chan, Michael P. H. Stumpf, and Ann C. Babtie in 2017]]

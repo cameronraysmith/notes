@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: metacademy
+#+TITLE: metacademy
+* [[file:probabilistic_inference.org][probabilistic inference]], [[file:learning.org][learning]]

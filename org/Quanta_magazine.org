@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Quanta_magazine
+#+TITLE: Quanta magazine
+* [[file:news.org][news]], [[file:science.org][science]], [[file:physics.org][physics]], [[file:mathematics.org][mathematics]], [[file:computer_science.org][computer science]], [[file:biology.org][biology]]
+* articles
+** 

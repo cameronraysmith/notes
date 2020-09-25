@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Cosma_Shalizi
+#+TITLE: Cosma Shalizi
+* [[file:stochastic_processes.org][stochastic processes]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:statistical_physics.org][statistical physics]]
+* blog:: http://bactra.org/notebooks/

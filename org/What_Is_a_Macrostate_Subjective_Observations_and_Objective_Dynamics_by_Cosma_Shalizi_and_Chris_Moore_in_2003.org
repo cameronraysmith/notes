@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: What_Is_a_Macrostate_Subjective_Observations_and_Objective_Dynamics_by_Cosma_Shalizi_and_Chris_Moore_in_2003
+#+TITLE: What Is a Macrostate? Subjective Observations and Objective Dynamics by Cosma Shalizi and Chris Moore in 2003
+* [[file:statistical_physics.org][statistical physics]], [[file:renormalization.org][renormalization]], [[file:computational_complexity.org][computational complexity]], [[file:Santa_Fe_Institute.org][Santa Fe Institute]], [[file:stochastic_processes.org][stochastic processes]], [[file:Cosma_Shalizi.org][Cosma Shalizi]]
+* 

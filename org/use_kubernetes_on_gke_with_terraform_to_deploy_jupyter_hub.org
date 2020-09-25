@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: use_kubernetes_on_gke_with_terraform_to_deploy_jupyter_hub
+#+TITLE: use kubernetes on gke with terraform to deploy jupyter hub
+* [[file:kubernetes_on_gke_with_terraform.org][kubernetes on gke with terraform]] to deploy [[file:jupyter_hub.org][jupyter hub]]
+* This is the inspiration: [[https://www.youtube.com/watch?v=i0W0DBJoiFc][Jupyterhub on Kubernetes with Terraform]]. However it is outdated and a bit to specialized to a particular organization for reuse.
+** source:: https://github.com/brockpalen/tf-jupyterhub/
+* [[file:kubernetes_on_gke_with_terraform.org][kubernetes on gke with terraform]]
+* [[file:jupyter_hub.org][jupyter hub]]

@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: DW_documentary
+#+TITLE: DW documentary
+* __Coal is dividing Greece | DW Documentary__ — via [[https://www.youtube.com/watch?v=idYkObkb9C8][Coal is dividing Greece | DW Documentary]]  <2020-05-15 Fri> 15:59

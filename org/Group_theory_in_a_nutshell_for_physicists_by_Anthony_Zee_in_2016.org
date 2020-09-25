@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Group_theory_in_a_nutshell_for_physicists_by_Anthony_Zee_in_2016
+#+TITLE: Group theory in a nutshell for physicists by Anthony Zee in 2016
+* [[file:representation_theory.org][representation theory]]
+* copy relevant sections from table of contents [[file:progress_indicators.org][progress indicators]]

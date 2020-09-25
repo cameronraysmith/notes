@@ -1,0 +1,9 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: julia
+#+TITLE: julia
+* [[file:computation.org][computation]], [[file:programming_languages.org][programming languages]]
+* libraries
+** https://github.com/korsbo/Latexify.jl
+** https://github.com/SciML/Catalyst.jl
+*** using Catalyst, Plots, StochasticDiffEq, DiffEqJump
+** https://github.com/AlgebraicJulia/Catlab.jl/

@@ -1,0 +1,18 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: probcomp_hosted_jupyter_hub
+#+TITLE: probcomp hosted jupyter hub
+* [[file:jupyter_hub.org][jupyter hub]]
+* https://github.com/probcomp/developer#hosted-service
+* Vikash Mansingkha
+* Hosted Service
+
+In addition to running the software locally as detailed below, you also have the option of using the hosted service:
+
+[[https://notebook.gcloud.probcomp.net][Probcomp Notebook]]
+* Access is controlled by membership in the [[https://github.com/probcomp][probcomp GitHub org]].
+* 96 CPU cores, 360GB of RAM
+* 10GB persistent disk
+* One hour browser-based inactivity timeout
+* 10 max concurrent instances
+
+A [[https://jupyterlab.readthedocs.io/en/stable/index.html][JupyterLab]] mode is also available which supports additional functionality like [[https://jupyterlab.readthedocs.io/en/stable/user/terminal.html][system shell terminals]]. To use lab, change the `tree` in the URL to `lab` after your notebook starts. ex: `https://notebook.gcloud.probcomp.net/user/avinson/tree` -> `https://notebook.gcloud.probcomp.net/user/avinson/lab`.

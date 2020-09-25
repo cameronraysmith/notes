@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: What_is_a_manifold_by_XylyXylyX
+#+TITLE: What is a manifold? by XylyXylyX
+* 

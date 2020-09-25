@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: information_geometry
+#+TITLE: information geometry
+* [[file:Information,_physics,_and_computation_by_Marc_Mezard_and_Andrea_Montanari_in_2009.org][Information, physics, and computation by Marc Mezard and Andrea Montanari in 2009]]
+* [[file:Information_geometry_by_Nihat_Ay,_Jurgen_Jost,_et_al_in_2017.org][Information geometry by Nihat Ay, Jurgen Jost, et al in 2017]]
+* [[file:Information_Geometry_and_Population_Genetics_by_Julian_Hofrichter,_Jurgen_Jost,_and_Tat_Dat_Tran_in_2017.org][Information Geometry and Population Genetics by Julian Hofrichter, Jurgen Jost, and Tat Dat Tran in 2017]]
+* [[file:A_high-bias,_low-variance_introduction_to_Machine_Learning_for_physicists_by_Pankaj_Mehta,_Charles_Fisher,_David_Schwab,_et_al_in_2018.org][A high-bias, low-variance introduction to Machine Learning for physicists by Pankaj Mehta, Charles Fisher, David Schwab, et al in 2018]]
+* [[file:The_information_geometry_of_2-field_functional_integrals_by_Eric_Smith_in_2019.org][The information geometry of 2-field functional integrals by Eric Smith in 2019]]

@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: If_a_cell_was_performing_probabilistic_inference_how_could_this_be_measured_experimentally
+#+TITLE: If a cell was performing probabilistic inference how could this be measured experimentally?
+* [[file:questions.org][questions]], [[file:probabilistic_inference.org][probabilistic inference]]

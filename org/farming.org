@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: farming
+#+TITLE: farming
+* __How to Start a Farm From Scratch (Beginner's Guide to Growing Vegetables for Profit)__ — via [[https://www.youtube.com/watch?v=fRlUhUWS0Hk][How to Start a Farm From Scratch (Beginner's Guide to Growing Vegetables for Profit)]]

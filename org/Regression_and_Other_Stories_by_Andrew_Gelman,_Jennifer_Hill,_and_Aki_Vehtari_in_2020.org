@@ -1,0 +1,191 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Regression_and_Other_Stories_by_Andrew_Gelman,_Jennifer_Hill,_and_Aki_Vehtari_in_2020
+#+TITLE: Regression and Other Stories by Andrew Gelman, Jennifer Hill, and Aki Vehtari in 2020
+* keywords: [[file:books.org][books]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:Andrew_Gelman.org][Andrew Gelman]], [[file:Jennifer_Hill.org][Jennifer Hill]], [[file:Aki_Vehtari.org][Aki Vehtari]]
+goals: 
+* references
+** url:: https://avehtari.github.io/ROS-Examples/
+** [[file:Aki_Vehtari.org][Aki Vehtari]] on [[file:Bayesian_data_analysis_by_Andrew_Gelman,_Aki_Vehtari,_et_al_in_2014.org][Bayesian data analysis by Andrew Gelman, Aki Vehtari, et al in 2014]] book
+*** https://aalto.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22f0ec3a25-9e23-4935-873b-a9f401646812%22
+* examples
+** Compare to those of [[file:Data_analysis_using_regression_and_multilevel_hierarchical_models_by_Andrew_Gelman_and_Jennifer_Hill_in_2006.org][Data analysis using regression and multilevel hierarchical models by Andrew Gelman and Jennifer Hill in 2006]]
+** https://github.com/avehtari/ROS-Examples
+** alphabetical order
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/AcademyAwards/][AcademyAwards/]]
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/AgePeriodCohort/][AgePeriodCohort/]]
+**** [[https://avehtari.github.io/ROS-Examples/AgePeriodCohort/births.html][births.html]] * Age adjustment
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Arsenic/][Arsenic/]]
+**** [[https://avehtari.github.io/ROS-Examples/Arsenic/arsenic_logistic_building.html][arsenic_logistic_building.html]] * Building a logistic regression model: wells in Bangladesh
+**** [[https://avehtari.github.io/ROS-Examples/Arsenic/arsenic_logistic_residuals.html][arsenic_logistic_residuals.html]] * Residual plots for a logistic regression model: wells in Bangladesh
+**** [[https://avehtari.github.io/ROS-Examples/Arsenic/arsenic_logistic_apc.html][arsenic_logistic_apc.html]] * Average predictice comparisons for a logistic regression model: wells in Bangladesh
+**** [[https://avehtari.github.io/ROS-Examples/Arsenic/arsenic_logistic_building_optimizing.html][arsenic_logistic_building_optimizing.html]] * Building a logistic regression model: wells in Bangladesh. A version with normal approximation at the mode.
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Balance/][Balance/]]
+**** [[https://avehtari.github.io/ROS-Examples/Balance/treatcontrol.html][treatcontrol.html]]
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Beauty/][Beauty/]]
+**** [[https://avehtari.github.io/ROS-Examples/Beauty/beauty.html][beauty.html]] * Student evaluations of instructors’ beauty and teaching quality
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Bypass/][Bypass/]]
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/CausalDiagram/][CausalDiagram/]]
+**** [[https://avehtari.github.io/ROS-Examples/CausalDiagram/diagrams.html][diagrams.html]] * Plot causal diagram
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/CentralLimitTheorem/][CentralLimitTheorem/]]
+**** [[https://avehtari.github.io/ROS-Examples/CentralLimitTheorem/heightweight.html][heightweight.html]] * Illustrate central limit theorem and normal distribution
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Childcare/][Childcare/]]
+**** [[https://avehtari.github.io/ROS-Examples/Childcare/childcare.html) * Infant Health and Development Program (IHDP][childcare.html]] example.
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/ChileSchools/][ChileSchools/]]
+**** [[https://avehtari.github.io/ROS-Examples/ChileSchools/chile_schools.html][chile_schools.html]] * ChileSchools example.
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Coins/][Coins/]]
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Congress/][Congress/]]
+**** [[https://avehtari.github.io/ROS-Examples/Congress/congress.html][congress.html]] * Predictive uncertainty for congressional elections
+**** [[https://avehtari.github.io/ROS-Examples/Congress/congress_plots.html][congress_plots.html]] * Predictive uncertainty for congressional elections
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Coop/][Coop/]]
+**** [[https://avehtari.github.io/ROS-Examples/Coop/riverbay.html][riverbay.html]] * Example of hypothesis testing
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Coverage/][Coverage/]]
+**** [[https://avehtari.github.io/ROS-Examples/Coverage/coverage.html][coverage.html]] * Example of coverage
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Cows/][Cows/]]
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/CrossValidation/][CrossValidation/]]
+**** [[https://avehtari.github.io/ROS-Examples/CrossValidation/crossvalidation.html][crossvalidation.html]] * Demonstration of cross validation
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/SampleSize/][SampleSize/]]
+**** [[https://avehtari.github.io/ROS-Examples/DataCollection/simulation.html][simulation.html]] * Sample size simulation
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Death/][Death/]]
+**** [[https://avehtari.github.io/ROS-Examples/Death/polls.html][polls.html]] * Proportion of American adults supporting the death penalty
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/DifferentSoftware/][DifferentSoftware/]]
+**** [[https://avehtari.github.io/ROS-Examples/DifferentSoftware/linear.html][linear.html]] * Linear regression using different software options
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Earnings/][Earnings/]]
+**** [[https://avehtari.github.io/ROS-Examples/Earnings/earnings_regression.html][earnings_regression.html]] * Predict respondents’ yearly earnings using survey data from 1990.
+**** [[https://avehtari.github.io/ROS-Examples/Earnings/earnings_bootstrap.html][earnings_bootstrap.html]] * Bootstrapping to simulate the sampling distribution
+**** [[https://avehtari.github.io/ROS-Examples/Earnings/earnings_compound.html][earnings_compound.html]] * Compound discrete-continuos model
+**** [[https://avehtari.github.io/ROS-Examples/Earnings/height_and_weight.html][height_and_weight.html]] * Predict weight
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/ElectionsEconomy/][ElectionsEconomy/]]
+**** [[https://avehtari.github.io/ROS-Examples/ElectionsEconomy/bayes.html][bayes.html]] * Demonstration of Bayesian information aggregation
+**** [[https://avehtari.github.io/ROS-Examples/ElectionsEconomy/hibbs.html][hibbs.html]] * Predicting presidential vote share from the economy
+**** [[https://avehtari.github.io/ROS-Examples/ElectionsEconomy/hills.html][hills.html]] * Present uncertainty in parameter estimates
+**** [[https://avehtari.github.io/ROS-Examples/ElectionsEconomy/hibbs_coverage.html][hibbs_coverage.html]] * Checking the model-fitting procedure using fake-data simulation.
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/ElectricCompany/][ElectricCompany/]]
+**** [[https://avehtari.github.io/ROS-Examples/ElectricCompany/electric.html][electric.html]] * Analysis of “Electric company” data
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/FakeKCV/][FakeKCV/]]
+**** [[https://avehtari.github.io/ROS-Examples/FakeKCV/fake_kcv.html][fake_kcv.html]] * Demonstration of KK-fold cross-validation using simulated data
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/FakeMidtermFinal/][FakeMidtermFinal/]]
+**** [[https://avehtari.github.io/ROS-Examples/FakeMidtermFinal/simulation.html][simulation.html]] * Fake dataset of 1000 students’ scores on a midterm and final exam
+**** [[https://avehtari.github.io/ROS-Examples/FakeMidtermFinal/simulation_based_design.html][simulation_based_design.html]] * Fake dataset of a randomized experiment on student grades
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/FrenchElection/][FrenchElection/]]
+**** [[https://avehtari.github.io/ROS-Examples/FrenchElection/ps_primaire.html][ps_primaire.html]] * French Election data
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Gay/][Gay/]]
+**** [[https://avehtari.github.io/ROS-Examples/Gay/gay_simple.html) * Simple models (linear and discretized age][gay_simple.html]] and political attitudes as a function of age
+**** [[https://avehtari.github.io/ROS-Examples/Gay/gay.html) * Nonlinear models (Loess, B-spline, GP-spline, and BART][gay.html]] and political attitudes as a function of age
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Girls/][Girls/]]
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Golf/][Golf/]]
+**** [[https://avehtari.github.io/ROS-Examples/Golf/golf.html][golf.html]] * Gold putting accuracy: Fitting a nonlinear model using Stan
+*** [[https://github.com/avehtari/ROS-Examples/HDI/][HDI/]]
+**** [[https://avehtari.github.io/ROS-Examples/HDI/hdi.html][hdi.html]] * Human Development Index * Looking at data in different ways
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/HealthExpenditure/][HealthExpenditure/]]
+**** [[https://avehtari.github.io/ROS-Examples/HealthExpenditure/healthexpenditure.html][healthexpenditure.html]] * Discovery through graphs of data and models
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Helicopters/][Helicopters/]]
+**** [[https://avehtari.github.io/ROS-Examples/Helicopters/helicopters.html][helicopters.html]] * Example data file for helicopter flying time exercise
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Imputation/][Imputation/]]
+**** [[https://avehtari.github.io/ROS-Examples/Imputation/imputation.html][imputation.html]] * Regression-based imputation for the Social Indicators Survey
+**** [[https://avehtari.github.io/ROS-Examples/Imputation/imputation_gg.html][imputation_gg.html]] * Regression-based imputation for the Social Indicators Survey, dplyr/ggplot version
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Incentives/][Incentives/]]
+**** [[https://avehtari.github.io/ROS-Examples/Incentives/incentives.html][incentives.html]] * Simple analysis of incentives data
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Influence/][Influence/]]
+**** [[https://avehtari.github.io/ROS-Examples/Influence/influence.html][influence.html]] * Influence of individual points in a fitted regression
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Interactions/][Interactions/]]
+**** [[https://avehtari.github.io/ROS-Examples/Interactions/interactions.html][interactions.html]] * Plot interaction example figure
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Introclass/][Introclass/]]
+**** [[https://avehtari.github.io/ROS-Examples/Introclass/residual_plots.html][residual_plots.html]] * Plot residuals vs. predicted values, or residuals vs. observed values?
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/KidIQ/][KidIQ/]]
+**** [[https://avehtari.github.io/ROS-Examples/KidIQ/kidiq.html][kidiq.html]] * Linear regression with multiple predictors
+**** [[https://avehtari.github.io/ROS-Examples/KidIQ/kidiq_loo.html][kidiq_loo.html]] * Linear regression and leave-one-out cross-validation
+**** [[https://avehtari.github.io/ROS-Examples/KidIQ/kidiq_R2.html][kidiq_R2.html]] * Linear regression and Bayes-R2 and LOO-R2
+**** [[https://avehtari.github.io/ROS-Examples/KidIQ/kidiq_kcv.html][kidiq_kcv.html]] * Linear regression and K-fold cross-validation
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Lalonde/][Lalonde/]]
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/LogisticPriors/][LogisticPriors/]]
+**** [[https://avehtari.github.io/ROS-Examples/LogisticPriors/logistic_priors.html][logistic_priors.html]] * Effect of priors in logistic regression
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Mesquite/][Mesquite/]]
+**** [[https://avehtari.github.io/ROS-Examples/Mesquite/mesquite.html][mesquite.html]] * Predicting the yields of mesquite bushes
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Metabolic/][Metabolic/]]
+**** [[https://avehtari.github.io/ROS-Examples/Metabolic/metabolic.html][metabolic.html]] * How to interpret a power law or log-log regression
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Mile/][Mile/]]
+**** [[https://avehtari.github.io/ROS-Examples/Mile/mile.html][mile.html]] * Trend of record times in the mile run
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Names/][Names/]]
+**** [[https://avehtari.github.io/ROS-Examples/Names/names.html][names.html]] * Names * Distributions of names of American babies
+**** [[https://avehtari.github.io/ROS-Examples/Names/lastletters.html][lastletters.html]] * Last letters * Distributions of last letters of names of American babies
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/NES/][NES/]]
+**** [[https://avehtari.github.io/ROS-Examples/NES/nes_linear.html][nes_linear.html]] * Fitting the same regression to many datasets
+**** [[https://avehtari.github.io/ROS-Examples/NES/nes_logistic.html][nes_logistic.html]] * Logistic regression, identifiability, and separation
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Newcomb/][Newcomb/]]
+**** [[https://avehtari.github.io/ROS-Examples/Newcomb/newcomb.html][newcomb.html]] * Posterior predictive checking of Normal model for Newcomb’s speed of light data
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Parabola/][Parabola/]]
+**** [[https://avehtari.github.io/ROS-Examples/Parabola/parabola.html][parabola.html]] * Demonstration of using Stan for optimization
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Peacekeeping/][Peacekeeping/]]
+**** [[https://avehtari.github.io/ROS-Examples/Peacekeeping/peace.html][peace.html]] * Outcomes after civil war in countries with and without United Nations peacekeeping
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/PearsonLee/][PearsonLee/]]
+**** [[https://avehtari.github.io/ROS-Examples/PearsonLee/heights.html][heights.html]] * The heredity of height. Published in 1903 by Karl Pearson and Alice Lee.
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Pew/][Pew/]]
+**** [[https://avehtari.github.io/ROS-Examples/Pew/pew.html][pew.html]] * Miscellaneous analyses using raw Pew data
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/PoissonExample/][PoissonExample/]]
+**** [[https://avehtari.github.io/ROS-Examples/PoissonExample/poissonexample.html][poissonexample.html]] * Demonstrate Poisson regression with simulated data.
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Pollution/][Pollution/]]
+**** [[https://avehtari.github.io/ROS-Examples/Pollution/pollution.html][pollution.html]] * Pollution data.
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Poststrat/][Poststrat/]]
+**** [[https://avehtari.github.io/ROS-Examples/Poststrat/poststrat.html][poststrat.html]] * Poststratification after estimation
+**** [[https://avehtari.github.io/ROS-Examples/Poststrat/poststrat2.html][poststrat2.html]] * Poststratification after estimation
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/ProbabilitySimulation/][ProbabilitySimulation/]]
+**** [[https://avehtari.github.io/ROS-Examples/ProbabilitySimulation/probsim.html][probsim.html]] * Simulation of probability models
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Pyth/][Pyth/]]
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Redistricting/][Redistricting/]]
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Residuals/][Residuals/]]
+**** [[https://avehtari.github.io/ROS-Examples/Residuals/residuals.html][residuals.html]] * Plotting the data and fitted model
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Restaurant/][Restaurant/]]
+**** [[https://avehtari.github.io/ROS-Examples/Restaurant/restaurant.html][restaurant.html]] * Demonstration of using Stan for optimization
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/RiskyBehavior/][RiskyBehavior/]]
+**** [[https://avehtari.github.io/ROS-Examples/RiskyBehavior/risky.html][risky.html]] Risky behavior data.
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Roaches/][Roaches/]]
+**** [[https://avehtari.github.io/ROS-Examples/Roaches/roaches.html][roaches.html]] * Analyse the effect of integrated pest management on reducing cockroach levels in urban apartments
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Rodents/][Rodents/]]
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Rsquared/][Rsquared/]]
+**** [[https://avehtari.github.io/ROS-Examples/Rsquared/rsquared.html][rsquared.html]] * Bayesian R^2
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Sesame/][Sesame/]]
+**** [[https://avehtari.github.io/ROS-Examples/Sesame/sesame.html][sesame.html]] * Causal analysis of Sesame Street experiment
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/SexRatio/][SexRatio/]]
+**** [[https://avehtari.github.io/ROS-Examples/SexRatio/sexratio.html][sexratio.html]] * Example where an informative prior makes a difference
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/SimpleCausal/][SimpleCausal/]]
+**** [[https://avehtari.github.io/ROS-Examples/SimpleCausal/causal.html][causal.html]] * Simple graphs illustrating regression for causal inference
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Simplest/][Simplest/]]
+**** [[https://avehtari.github.io/ROS-Examples/Simplest/simplest.html][simplest.html]] * Linear regression with a single predictor
+**** [[https://avehtari.github.io/ROS-Examples/Simplest/simplest_lm.html][simplest_lm.html]] * Linear least squares regression with a single predictor
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Stents/][Stents/]]
+**** [[https://avehtari.github.io/ROS-Examples/Stents/stents.html][stents.html]] * Stents * comparing distributions
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Storable/][Storable/]]
+**** [[https://avehtari.github.io/ROS-Examples/Storable/storable.html][storable.html]] * Ordered categorical data analysis with a study from experimental economics, on the topic of ``storable votes.’’
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Student/][Student/]]
+**** [[https://avehtari.github.io/ROS-Examples/Student/student.html][student.html]] * Models for regression coefficients
+*** [[https://github.com/avehtari/ROS-Examples/tree/master/Unemployment/][Unemployment/]]
+**** [[https://avehtari.github.io/ROS-Examples/Unemployment/unemployment.html][unemployment.html]] * Time series fit and posterior predictive model checking for unemployment series
+* contents
+** Part 1: Fundamentals : Review key tools and concepts in mathematics, statistics and computing
+*** 1. Goals and challenges of regression : Prediction as a unifying theme in statistics and causal inference
+*** 2. Measurement and adjustment : Data collection and visualization are important
+*** 3. Graph a line, mathematical tools, and probability distributions
+*** 4. Statistical estimation, uncertainty assessment, and problems of hypothesis testing 
+*** 5. Simulate probability models and uncertainty about inferences and predictions : You don't understand your model until you can simulate from it
+** Part 2: Linear regression : Build linear regression models, use them in real problems, and evaluate their assumptions and fit to data
+*** 6. Distinguish descriptive and causal interpretations of regression, understanding these in historical context : Let's think deeply about regression
+*** 7. Understand and work with simple linear regression with one predictor : You can't just __do__ regression you have to __understand__ regression
+*** 8. Gain a conceptual understanding of least squares fitting
+*** 9. Perform and understand probabilistic prediction and simple Bayesian information aggregation : Let's be clear about our uncertainty and prior knowledge
+*** 10. Build, fit, and understand linear models with multiple predictors : You don't just __fit__ models, you __build__ models
+*** 11. Understand the relative importance of different assumptions of regression models and be able to check models and evaluate their fit to data : Can you convince yourself to trust your model?
+*** 12. Apply linear regression more effectively by transforming and combining predictors : Only fools work on the raw data scale
+** Part 3: Generalized linear models : Build and work with logistic regression and generalized linear models
+*** 13. Fit, understand and display logistic regression models for binary data : Modeling probabilities themselves
+*** 14. Build, understand, and evaluate logistic regressions with interactions and other complexities : More advanced logistic regression
+*** 15. Fit, understand, and display generalized linear models, including the Poisson and negative binomial regression, ordered logistic regression, and other models : Building models from the inside out
+** Part 4: Before and after fitting a regression : Design studies and use data more effectively in applied settings
+*** 16. Use probability theory and simulation to guide data-collection decisions, without falling into the trap of demanding unrealistic levels of certainty : To understand the past, you must first know the future
+*** 17. Use poststratification to generalize from sample to population and use regression models to impute missing data : Enough about your data. Tell me about the population.
+** Part 5: Causal inference : Implement and understand basic statistical designs and analyses for causal inference
+*** 18. Understand assumptions underlying causal inference with a focus on randomized experiments : How can flipping a coin help you estimate causal effects?
+*** 19. Perform causal inference in simple settings using regressions to estimate treatment effects and interactions : Using correlation and assumptions to infer causation
+*** 20. Understand the challenges of causal inference from observational data and statistical tools for adjusting for differences between treatment and control groups : Causal inference is just a kind of prediction
+*** 21. Understand the assumptions underlying more advanced methods that use auxiliary variables or particular data structures to identify causal effects, and be able to fit these models to data : More assumptions, more problems
+** Part 6: Multilevel, nonlinear, and nonparametric models : Become aware of more advanced regression models
+*** 22. Advanced regression and multilevel models : Get a sense of the directions in which linear and generalized linear models can be extended to attack various classes of applied problems

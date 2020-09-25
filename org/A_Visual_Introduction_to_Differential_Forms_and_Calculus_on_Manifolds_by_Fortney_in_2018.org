@@ -1,0 +1,122 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: A_Visual_Introduction_to_Differential_Forms_and_Calculus_on_Manifolds_by_Fortney_in_2018
+#+TITLE: A Visual Introduction to Differential Forms and Calculus on Manifolds by Fortney in 2018
+* Book review
+- Darrin Rasberry https://math.iastate.edu/directory/darrin-rasberry/
+  - https://www.amazon.com/gp/customer-reviews/R3WMPAM8ILUUZ/
+  - As another comparison, this does what
+    *Shashahani's recent graduate text
+    does for advanced material * it shows pictures of the ideas mostly as illustrations of surfaces in R^3 for you to generalize from, without falling into the temptation to turn the text entirely in that direction like Thorpe did, gradient normals and all.
+
+    Does it fill the need to go beyond recent texts like
+    *Vector Calculus vs. Vector Analysis or
+    *A Geometric Approach to Differential Forms
+    to become the badly needed link to graduate and research-level material in
+    *Conlon?
+    No. There is still a hole here, one that
+    *O'Neill or
+    *Weintraub tried to bridge from the beginner's side and one that
+    *Janich and Loring Tu's
+    near-perfect standard try to bridge over from the *advanced* side.
+
+    Instead, this is more on the level * and, with hopefully upcoming edits, quality * of
+    *Walchap or
+    *O'Neill or
+    *Grinfeld's Tensor Calculus,
+    all three of which should absolutely be purchased by the beginner along with this volume for a short library that gets started with the topic. The suggested reading index of this book, by the way, is a great place to start building a large list!
+    - Added [[file:An_introduction_to_manifolds_by_Loring_Tu_in_2010.org][An introduction to manifolds by Loring Tu in 2010]] based on this review
+* 1. Background material
+** 1.1 Review of vector spaces
+** 1.2 Volume and determinants
+** 1.3 Derivatives of multivariable functions
+** 1.4 Summary, references, and problems
+* 2. An introduction to Differential forms
+** 2.1 Coordinate functions
+** 2.2 Tangent spaces and vector fields
+** 2.3 Directional derivatives
+- page 52
+- Let $\{e_i | i=1, \ldots, n \}$ denote an orthonormal basis for $T_p \mathbb{R}^n$
+- $v_p[f] = \sum_{i=1}^n v_i \cdot \partial_{x_i} f \vert_{p}$
+- Viewing a vector in the tangent space as acting on a function via the directional derivative leads to the equation of vectors with partial differential operators. That is to say, for example, $e_i = \partial_{x_i}$ in the sense that, given an arbitrary real-valued function $f \colon \mathbb{R}^n \rightarrow \mathbb{R}$ on the manifold $\mathbb{R}^n$, $e_i[f]= \partial_{x_i} (f)$.
+- [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FCIQZX9ADEH.png?alt=media&token=475c415d-7871-45da-8f59-897282e41d10]]
+* 2.4 Differential one-forms
+** 54
+*** The basis of $T^*(\mathbb{R}^3)$ is $\{ dx_1, dx_2, dx_3 \}$ which is dual to the basis of $T(\mathbb{R}^3)$ written as $\{ \partial_{x_1}, \partial_{x_2}, \partial_{x_3} \}$
+** 2.5 Summary, references, and problems
+* 3. The Wedge product
+** 3.1 Area and volume with the wedge product
+** 3.2 General two-forms and three-forms
+** 3.3 The wedge product of n-forms
+** 3.4 The interior product
+** 3.5 Summary, references, and problems
+* 4. Exterior differetiation
+** 4.1 An overview of the exterior derivative
+** 4.2 The local formula
+** 4.3 The axioms of exterior differentiation
+** 4.4 The global formula
+** 4.5 Another geometric viewpoint
+** 4.6 Exterior differentiation examples
+** 4.7 Summary, references, and problems
+* 5. Visualizing one, two, and three forms
+** 5.1 One* and two-forms in $$\mathbb{R}^2$$
+** 5.2 One-forms in $$\mathbb{R}^3$$
+** 5.3 Two-forms in $$\mathbb{R}^3$$
+** 5.4 Three-forms in $$\mathbb{R}^3$$
+** 5.5 Pictures of forms on manifolds
+** 5.6 A visual introduction to the Hodge Star Operator
+* 6. Push-forwards and pull-backs
+** 6.1 Coordinate change: a linear example
+** 6.2 Push-forwards of vectors
+** 6.3 Pull-backs of volume forms
+** 6.4 Polar coordinates
+** 6.5 Cylindrical and spherical coordinates
+** 6.6 Pull-backs of differential forms
+** 6.7 Some useful identities
+* 7. Change of variables and integration of forms
+** 7.1 Integration of differential forms
+** 7.2 A simple example
+** 7.3 Polar, cylindrical, and spherical coordinates
+** 7.4 Integration of differential forms on parametrized surfaces
+* 8. Poincare lemma
+** 8.1 Introduction to the poincare lemma
+** 8.2 The base case and a simple example case
+** 8.3 The general case
+* 9. Vector calculus and differential forms
+** 9.1 Divergence
+** 9.2 Curl
+** 9.3 Gradient
+** 9.4 Upper and lower indices, sharps, and flats
+** 9.5 Relationship to differential forms
+* 10. Manifolds and forms on manifolds
+** 10.1 Definition of a manifold
+** 10.2 Tangent space of a manifold
+** 10.3 Push-forwards and pull-backs on manifolds
+** 10.4 Calculus on manifolds
+* 11. Generalized Stokes' theorem
+** 11.1 The unit cube $$I^k$$
+** 11.2 The base case: Stokes' theorem on $$I^k$$
+** 11.3 Manifolds parametrized by $$I^k$$
+** 11.4 Stokes' theorem on chains
+** 11.5 Extending the parametrizations
+** 11.6 Visualizing Stokes' theorem
+* 12. An example: Electromagnetism
+** 12.1 Gauss's Laws for electric and magnetic fields
+** 12.2 Faraday's law and the Ampere-Maxwell law
+** 12.3 Special relativity and Hodge duals
+** 12.4 Differential forms formulation
+* Appendices
+** A. Introduction to tensors
+*** A.1 An overview of tensors
+*** A.2 Rank one tensors
+*** A.3 Rank-two tensors
+*** A.4 General tensors
+*** A.5 Differential forms as skew-symmetric tensors
+*** A.6 The metric tensor
+*** A.7 Lie derivatives of tensor fields
+** B. Some applications of Differential forms
+*** B.1 Introduction to de Rham cohomology
+*** B.2 de Rham cohomology: a few simple examples
+*** B.3 Symplectic manifolds and the canonical symplectic form
+*** B.4 The Darboux theorem
+*** B.5 A taste of geometric mechanics
+*** B.6 Summary and references

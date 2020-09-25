@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Three_Billboards_outside_Ebbing,_Missouri
+#+TITLE: Three Billboards outside Ebbing, Missouri

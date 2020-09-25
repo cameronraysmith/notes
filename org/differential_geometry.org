@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: differential_geometry
+#+TITLE: differential geometry
+* [[file:An_introduction_to_manifolds_by_Loring_Tu_in_2010.org][An introduction to manifolds by Loring Tu in 2010]]
+* [[file:A_Visual_Introduction_to_Differential_Forms_and_Calculus_on_Manifolds_by_Fortney_in_2018.org][A Visual Introduction to Differential Forms and Calculus on Manifolds by Fortney in 2018]]

@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: random_dynamical_systems
+#+TITLE: random dynamical systems
+* See the books by Ludwig Arnold and his references to Christopher Zeeman's work therein
+* [[file:invariant_measures_of_random_dynamical_systems_as_analogs_to_attractors_in_deterministic_dynamical_systems.org][invariant measures of random dynamical systems as analogs to attractors in deterministic dynamical systems]]

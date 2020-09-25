@@ -1,0 +1,35 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Renormalization_for_Philosophers_by_Butterfield_and_Bouatta_in_2014
+#+TITLE: Renormalization for Philosophers by Butterfield and Bouatta in 2014
+* [[file:renormalization.org][renormalization]], [[file:philosophy.org][philosophy]], [[file:physics.org][physics]], [[file:papers.org][papers]]
+* 1. Introduction
+** 
+* 2. Renormalization: the traditional approach
+** 2.1 Prospectus: corrections needed
+** 2.2 Renormalizing a coupling constant
+*** 2.2.1 Virtual particles and perturbation theory
+*** 2.2.2 Energy scales
+*** 2.2.3 Some details
+** 2.3 The cut-off introduced
+** 2.4 Letting the cut-off $$d$$ go to zero
+** 2.5 The need for extra terms
+*** 2.5.1 The physical rationale
+*** 2.5.2 A refined definition of renormalizability
+** 2.6 Which theories are renormalizable?
+*** 2.6.1 Dyson's criterion
+*** 2.6.2 Our good fortune
+* 3. The modern approach to renormalization
+** 3.1 Good fortune explained: non-renormalizable terms dwindle at longer distances
+*** 3.1.1 Decoupling high-energy behaviour
+*** 3.1.2 Spacetime need not be a continuum
+*** 3.1.3 Effective theories only?
+*** 3.1.4 The renormalization group flow
+** 3.2 Short-distance behaviour: the beta-function and asymptotic freedom
+** 3.3 The perspective from the theory of condensed matter
+*** 3.3.1 Continuous phase transitions: scale-invariance
+*** 3.3.2 Critical exponents: the correlation length
+*** 3.3.3 Short distances: a natural lower limit
+* 4. Nagelian reflections
+** 4.1 Nagel endorsed
+** 4.2 Renormalizability deduced at low energies as a family of Nagelian reductions
+** 4.3 Universality as multiple realizability

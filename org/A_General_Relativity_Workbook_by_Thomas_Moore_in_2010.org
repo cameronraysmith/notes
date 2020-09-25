@@ -1,0 +1,16 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: A_General_Relativity_Workbook_by_Thomas_Moore_in_2010
+#+TITLE: A General Relativity Workbook by Thomas Moore in 2010
+* 1. Introduction
+* 2. Review of special relativity
+* 29. CMB Fluctuations
+* 30. Gauge freedom
+* 31. Detecting gravitational waves
+* 32. Gravitational wave energy
+* 33. Generating gravitational waves
+* 34. Gravitational wave astronomy
+* 35. Gravitomagnetism
+* 36. The Kerr Metric
+* 37. Particle orbits in Kerr spacetime
+* 38. Ergoregion and horizon
+* 39. Negative-energy orbits

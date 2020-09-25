@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Universality_in_intermediary_metabolism_by_Eric_Smith_and_Harold_Morowitz_in_2004
+#+TITLE: Universality in intermediary metabolism by Eric Smith and Harold Morowitz in 2004
+* [[file:origin_of_life.org][origin of life]], [[file:biochemistry.org][biochemistry]]
+* Smith, E., & Morowitz, H. J. (2004). Universality in intermediary metabolism. __Proceedings of the National Academy of Sciences of the United States of America__, __101__(36), 13168–13173. https://doi.org/10.1073/pnas.0404922101
+* Molecular complexity arises because reduction is favored and because C>1 forms are more stable

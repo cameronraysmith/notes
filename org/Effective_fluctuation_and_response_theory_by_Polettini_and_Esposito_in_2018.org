@@ -1,0 +1,101 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Effective_fluctuation_and_response_theory_by_Polettini_and_Esposito_in_2018
+#+TITLE: Effective fluctuation and response theory by Polettini and Esposito in 2018
+* I. Prologue
+** The FR states that the rate at which a system delivers entropy to the environment is a measure of the arrow of time, viz. of the asymmetry between the probability of microscopic paths and their time-reversed.
+** The purpose of this paper is to present a general theory of the thermodynamics of a **marginal set of currents** and of the effective forces that drive them, under the assumption that somewhere in the belly of these coarser observables there lurk fundamental currents and forces that abide by the principles of Markovian stochastic thermodynamics.
+** in the marginal theory the analog of an equilibrium state is a stalling state in which the marginal currents vanish, while the hidden currents might still be flowing, as if the observer was in the eye of a hurricane.
+** as the observer adds more and more currents and forces to his accounting, a “hierarchy” of marginal theories is explored: a cross-hierarchical FR holds, that is the ultimate core result of the whole construction
+** The validity of FRs under coarse-graining and of FDRs far from equilibrium, in particular at stalling, are two questions that have been frequently addressed.
+** In the formalism of chaotic dynamical systems, Gallavotti heuristically defined a local entropy production rate associated to a microscopic region of space that satisfies a FR.
+** The validity of FRs for coarse-grained observables has been considered in Refs. [16] and [17], where the IFR is studied when the observer has incomplete information.
+** Biological applications
+*** The coarse-graining of the statistics of the currents for biochemical systems has been considered in Ref. [18].
+*** For chemical networks where only some molecular species can be monitored experimentally, Bravi and Sollich [21] derived systematic models for subsystem dynamics that can help with the inference problem of estimating properties of the environment from observed sub-network dynamics.
+** All these approaches differ from ours as we assess properties of marginal observables **without resorting to ad hoc redefinitions of the stochastic observable** under consideration (the currents).
+** authors of Ref. [29] comment that “in order to re-establish the laws of thermodynamics, one not only has to look at the local marginal systems, but also [at] the correlations between them”, and this can be achieved by some effective description. Effective thermodynamic potentials also play a role in systems strongly coupled to their surroundings [30]
+* II. Parode: Enunciation of the main results
+** Introduction
+*** here is a less technical, yet self-contained discussion of the main results, which can be considered to be independent but less detailed
+** A. Strophe: "Complete" fluctuations and response
+*** **Macroscopic thermodynamics** describes systems through which a number $$\vert \alpha \vert$$ of steady currents $$\phi_{\alpha}$$ flow
+*** **Affinities** are conjugate (to?) thermodynamic forces $$ \mathcal{A}_{\alpha}$$
+*** One interpretation of this framework is as a model of interfaces between reservoirs
+*** Together, the currents and affinities are considered as the irreducible observables of the theory where all conservation laws have been implemented via __gauging out__ reference reservoirs
+*** The **macroscopic entropy production rate** (EPR) is a bilinear form
+**** $$\sigma \equiv \sum_{\alpha} \phi_{\alpha} \mathcal{A}_{\alpha}$$
+**** The second law of thermodynamics states that $$\sigma \geq 0$$ (this is stated later in Eq. 6)
+*** At the **microscopic** scale, currents must become random variables to account for fluctuations. These may be due, for example, to thermal noise.
+*** A single realization = path = trajectory in a timeframe $$[0, t]$$ is (a function?) denoted $$\omega^t$$
+*** **Stochastic time-integrated currents** $$\Phi_{\alpha}^{t} \equiv \Phi_{\alpha} [\omega^t]$$ are functionals of these trajectories $$\omega^t$$
+*** The **expectation** of the stochastic time-integrated currents is given by a functional integral with respect to a measure on trajectories $$P(\omega^t) \mathcal{D} \omega^t$$ to be described in more detail later
+**** $$\langle  \Phi_{\alpha}^{t}  \rangle = \int \mathcal{D} \omega^t P(\omega^t) \Phi_{\alpha} [\omega^t]$$
+*** **Temporal mean steady currents** are then given in terms of the expectation of the stochastic time-integrated currents
+**** $$\phi_{\alpha} \equiv \lim_{t \rightarrow \infty} \frac{1}{t} \int \mathcal{D} \omega^t P(\omega^t) \Phi_{\alpha} [\omega^t]$$
+**** $$ \phi_{\alpha} \equiv \lim_{t \rightarrow \infty} \frac{\langle  \Phi_{\alpha}^{t}  \rangle}{t} $$
+*** The **entropy production** along a single realization of a given process is
+**** $$\sum \Phi_{\alpha}^t \mathcal{A}_{\alpha} + O(1)$$
+*** The exponential of the entropy production is equal to the relative probability of time-integrated currents in the forward and reverse directions
+**** $$ \frac{ P( \{ \Phi_{\alpha} \} ) }{ P( \{ -\Phi_{\alpha} \} ) } = \exp \sum \Phi_{\alpha} \mathcal{A}_{\alpha}$$
+*** Finite-time fluctuation relations can be dealt with on the same footing as asymptotic ones whereby exact equality holds at all times rather than only in the limit of long times provided that the initial configuration associated with any given trajectory has an appropriate probability distribution
+*** The integral fluctuation relation states
+**** $$ \langle \exp * \sum \Phi_{\alpha} \mathcal{A}_{\alpha} \rangle = 1$$
+**** ^^Question^^: is this $$\int \mathcal{D} \omega^t P(\omega^t)   \exp \left( * \sum \Phi_{\alpha} [\omega^t] \mathcal{A}_{\alpha} \right) $$ ?
+*** **Detailed balance** is attained when all affinities $$\mathcal{A}_{\alpha}$$ are zero, which implies all mean steady currents $$\phi_{\alpha}$$ are also zero and vice versa
+*** Introduce an explicit dependence of the structural properties of the system on parameters
+**** $$ \mathbf{x} = \{  x_{\kappa}  \}^{|\kappa|}_{\kappa = 1}, \; | \kappa | \geq | \alpha | $$
+**** such that $$|\alpha|$$ of them are __thermodynamic__ meaning that they have well defined equilibrium values with respect to which the affinities take non-zero values when the $$x_{\alpha}$$ are perturbed away from those equilibrium values
+***** $$\mathcal{A}_{\alpha} (\mathbf{x}) = x_{\alpha} * x^{\mathrm{eq}}_{\alpha}$$
+**** and that the remaining $$x_{\alpha}$$ on which the affinities do not depend are considered __kinetic__
+*** For systems slightly out of equilibrium
+**** define 
+***** affinities and currents evaluated at equilibrium values of the parameters $$\mathbf{x}$$
+****** $$\mathcal{A}^{\mathrm{eq}}_{\alpha} \equiv \mathcal{A}_{\alpha}(\mathbf{x}^{\mathrm{eq}}) = 0$$
+****** $$\phi^{\mathrm{eq}}_{\alpha} \equiv \phi_{\alpha}(\mathbf{x}^{\mathrm{eq}})=0$$
+***** response coefficients
+****** $$\phi_{\alpha ; \kappa} \equiv \frac{\partial \phi_{\alpha}}{\partial x_{\kappa}}$$
+***** the time-scaled steady-state variance of the currents
+****** $$\phi_{\alpha \alpha'} \equiv \lim_{t \rightarrow \infty} \frac{1}{t} \langle \left( \Phi^t_{\alpha} * \langle \Phi^t_{\alpha} \rangle  \right)  \left( \Phi^t_{\alpha'} * \langle \Phi^t_{\alpha'} \rangle  \right) \rangle$$
+**** two near-equilibrium relations hold
+***** the symmetrized fluctuation-dissipation relations (S-FDR) 
+****** $$\phi^{\mathrm{eq}}_{\alpha ; \alpha'} + \phi^{\mathrm{eq}}_{\alpha' ; \alpha} = \phi^{\mathrm{eq}}_{\alpha \alpha'}$$
+***** the reciprocal relations (RR)
+****** $$\phi^{\mathrm{eq}}_{\alpha ; \alpha'} * \phi^{\mathrm{eq}}_{\alpha' ; \alpha} = 0$$
+*** 
+** B. Antistrophe: marginal fluctuations and response
+** C. Epode: discussion and perspectives
+* III. Episode 1: Setup
+** A. Algebraic graph theory in a pistachio-shell
+** B. Master equation dynamics
+** C. Master equation thermodynamics
+** D. Cycle analysis
+** E. Stochastic thermodynamics
+* IV. Episode 2: Single edge current
+** A. Main result
+** B. Dynamics: marginal and hidden
+** C. Thermodynamics: the effective affinity
+** D. Graphical representation
+** E. Marginal entropy production rate
+** F. Stalling
+** G. Response at stalling
+** H. Fluctuation relations for marginal currents
+** I. Fluctuation relations for marginal cycle currents
+** J. The case of multiple edges
+* V. Episode 3: Several edge currents
+** A. Main result
+** B. Graphical representation
+** C. Fluctuation relations
+** D. The hierarchy of marginal theories
+** E. Stalling and response at stalling
+** F. Inequalities between effective affinities
+** G. Gauge invariance
+** H. Marginally thermodynamic parametrizations
+** I. Disconnecting the configuration space
+* VI. Episode 4: Phenomenological currents
+** A. Marginal phenomenological currents
+** B. Marginal consistency
+** C. Internal stalling
+** D. Response
+** E. Complete vs. marginal consistency
+* VII. Stasimon: a negative result
+* VIII. Exode: conclusions

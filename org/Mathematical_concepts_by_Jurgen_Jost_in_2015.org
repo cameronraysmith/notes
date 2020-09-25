@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Mathematical_concepts_by_Jurgen_Jost_in_2015
+#+TITLE: Mathematical concepts by Jurgen Jost in 2015
+* [[file:mathematics.org][mathematics]], [[file:category_theory.org][category theory]], [[file:logic.org][logic]], [[file:books.org][books]], [[file:Jurgen_Jost.org][Jurgen Jost]]
+* contents

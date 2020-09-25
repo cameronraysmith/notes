@@ -1,0 +1,10 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: stochastic_processes
+#+TITLE: stochastic processes
+* [[file:references.org][references]]
+** [[file:Approximation_and_solution_methods_for_master_equations.org][Approximation and solution methods for master equations]]
+** [[file:Non-equilibrium_statistical_physics.org][Non-equilibrium statistical physics]]
+** [[file:applications_of_stochastic_processes.org][applications of stochastic processes]]
+** [[file:branching_processes.org][branching processes]]
+** [[file:Markov_processes.org][Markov processes]]
+** [[file:random_dynamical_systems.org][random dynamical systems]]

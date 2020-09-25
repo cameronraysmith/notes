@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: LaTeX_fonts
+#+TITLE: LaTeX fonts
+* [[https://www.arj.no/2012/02/07/latex-fonts/][LaTeX fonts in mac OSX | Alexander Refsum Jensenius]]

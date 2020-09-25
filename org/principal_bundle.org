@@ -1,0 +1,10 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: principal_bundle
+#+TITLE: principal bundle
+* See [[file:Lectures_on_Geometrical_Anatomy_of_Theoretical_Physics_by_Frederic_Schuller_in_2015.org][Lectures on Geometrical Anatomy of Theoretical Physics by Frederic Schuller in 2015]]
+** Very roughly speaking, a principal fibre bundle is a bundle whose typical fibre is a Lie group. Principal fibre bundles are so immensely important because they allow us to understand any fibre bundle with fibre $$F$$ on which a Lie group $$G$$ acts. These are then called [[file:associated_bundle.org][associated bundle]], and will be discussed later on.
+** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FzRmqBjYyuO?alt=media&token=13c584ee-07df-4306-8647-807e9eea42d3]]
+** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FhNgQjn4HYJ?alt=media&token=57d85883-12b0-45b6-8e57-fe743f0dc376]]
+** [[file:frame_bundle.org][frame bundle]]
+*** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2F2Uy335Y1Ws?alt=media&token=aa8f6d4f-bfe1-4647-81f9-d9f1421cf472]]
+*** 

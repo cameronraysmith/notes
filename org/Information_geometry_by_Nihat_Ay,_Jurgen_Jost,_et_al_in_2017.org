@@ -1,0 +1,15 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Information_geometry_by_Nihat_Ay,_Jurgen_Jost,_et_al_in_2017
+#+TITLE: Information geometry by Nihat Ay, Jurgen Jost, et al in 2017
+* [[file:books.org][books]], [[file:information_geometry.org][information geometry]], [[file:differential_geometry.org][differential geometry]], [[file:stochastic_processes.org][stochastic processes]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:Jurgen_Jost.org][Jurgen Jost]]
+* contents
+** 1. Introduction
+** 2. Finite information geometry
+*** 2.9 Hierarchical models
+** 3. Parametrized measure models
+** 4. The intrinsic geometry of statistical models
+** 5. Information geometry and statistics
+** 6. Fields of application of information geometry
+** A. Measure theory
+** B. Riemannian geometry
+** C. Banach manifolds

@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: fibration
+#+TITLE: fibration
+* [[file:differential_geometry.org][differential geometry]]
+* definition
+- A fibration is like a [[file:fiber_bundle.org][fiber bundle]], except that the fibers need not be the same space, nor even homeomorphic; rather, they are just homotopy equivalent. Weak fibrations discard even this equivalence for a more technical property.

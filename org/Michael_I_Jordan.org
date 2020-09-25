@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Michael_I_Jordan
+#+TITLE: Michael I. Jordan

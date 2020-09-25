@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Andy_Clark
+#+TITLE: Andy Clark
+* [[file:philosophy.org][philosophy]], [[file:free_energy_principle.org][free energy principle]], [[file:Bayesian_brain_hypothesis.org][Bayesian brain hypothesis]]
+* [[file:Whatever_next_Predictive_brains,_situated_agents,_and_the_future_of_cognitive_science_by_Andy_Clark_in_2013.org][Whatever next? Predictive brains, situated agents, and the future of cognitive science by Andy Clark in 2013]]

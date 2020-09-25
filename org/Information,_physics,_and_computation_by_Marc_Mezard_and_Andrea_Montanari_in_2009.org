@@ -1,0 +1,21 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Information,_physics,_and_computation_by_Marc_Mezard_and_Andrea_Montanari_in_2009
+#+TITLE: Information, physics, and computation by Marc Mezard and Andrea Montanari in 2009
+* [[file:computer_science.org][computer science]], [[file:physics.org][physics]], [[file:algorithms.org][algorithms]], [[file:information_geometry.org][information geometry]]
+* "At the core of the background necessary to understand the [[file:free_energy_principle.org][free energy principle]] is the relationship between free energy as it is used in [[file:statistical_physics.org][statistical physics]] versus its use in [[file:probabilistic_inference.org][probabilistic inference]] which is encapsulated in the notion of [[file:variational_inference.org][variational inference]]. The best explanation I know of this relationship is in the formulation of Gibbs free energy via a variational principle in [[file:Information,_physics,_and_computation_by_Marc_Mezard_and_Andrea_Montanari_in_2009.org][Information, physics, and computation by Marc Mezard and Andrea Montanari in 2009]]."
+* I. Background
+** 1. Introduction to information theory
+** 2. Statistical physics and probability theory
+** 3. Introduction to combinatorial optimization
+** 4. A probabilistic toolbox
+*** 4.1 Many random variables: a qualitative preview
+*** 4.2 Large deviations for independent variables
+*** 4.3 Correlated variables
+*** 4.4 The Gibbs free energy
+*** 4.5 The Monte Carlo method
+*** 4.6 Simulated annealing
+*** 4.7 Appendix: A physicists's approach to Sanov's theorem
+* II. Independence
+* III. Models on graphs
+* IV. Short-range correlations
+* V. Long-range correlations

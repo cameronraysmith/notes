@@ -1,0 +1,15 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Gaussian_process
+#+TITLE: Gaussian process
+* software
+** [[file:Sthenojl.org][Stheno.jl]]
+*** [[https://www.youtube.com/watch?v=OO3BBkGEMV8][JuliaCon 2019 | Gaussian Process Probabilistic Programming with Stheno.jl | Will Tebbutt]]
+*** [[https://www.youtube.com/watch?v=dysmEpX1QoE][JuliaCon 2020 | Fast Gaussian processes for time series | Will Tebbutt]]
+*** https://discourse.julialang.org/t/gaussian-process-model-with-turing/42453/13
+* references
+** [[file:Gaussian_processes_for_time-series_modelling_by_Roberts,_Osborne,_Aigrain,_et_al_in_2013.org][Gaussian processes for time-series modelling by Roberts, Osborne, Aigrain, et al in 2013]]
+** [[file:Clustering_gene_expression_time_series_data_using_an_infinite_Gaussian_process_mixture_model_by_Ian_McDowell,_Timothy_Reddy,_Barbara_Engelhardt,_et_al_in_2018.org][Clustering gene expression time series data using an infinite Gaussian process mixture model by Ian McDowell, Timothy Reddy, Barbara Engelhardt, et al in 2018]]
+** Campbell, K., & Yau, C. (2015). Bayesian Gaussian Process Latent Variable Models for pseudotime inference in single-cell RNA-seq data. https://doi.org/10.1101/026872
+** [[file:Bayesian_non-parametrics_and_the_probabilistic_approach_to_modelling_by_Zoubin_Ghahramani_in_2013.org][Bayesian non-parametrics and the probabilistic approach to modelling by Zoubin Ghahramani in 2013]]
+** [[file:Hierarchical_Bayesian_modelling_of_gene_expression_time_series_across_irregularly_sampled_replicates_and_clusters_by_James_Hensman,_Neil_Lawrence,_and_Magnus_Rattray_in_2013.org][Hierarchical Bayesian modelling of gene expression time series across irregularly sampled replicates and clusters by James Hensman, Neil Lawrence, and Magnus Rattray in 2013]]
+* 

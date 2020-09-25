@@ -1,0 +1,10 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: maxima
+#+TITLE: maxima
+* [[http://maxima.sourceforge.net/docs/manual/maxima.html][Maxima manual]]
+* [[file:Tensor_manipulation_in_GPL_Maxima_by_Viktor_Toth_in_2007.org][Tensor manipulation in GPL Maxima by Viktor Toth in 2007]]
+** [[https://www.vttoth.com/CMS/projects/61-the-maxima-computer-algebra-system][Viktor Toth's up-to-date implementations of atensor, ctensor, itensor]]
+* [[http://web.csulb.edu/~woollett/][Edwin Woollett's Maxima by Example]]
+* [[file:Catalogue_of_Spacetimes_by_Mueller_and_Grave_in_2009.org][Catalogue of Spacetimes by Mueller and Grave in 2009]]
+* Test conversion of [[https://github.com/ernestyalumni/mathphysics/blob/master/playground/GR.ipynb][mathphysics/GR.ipynb at master · ernestyalumni/mathphysics]] into [[file:maxima.org][maxima]] via [[file:Tensor_manipulation_in_GPL_Maxima_by_Viktor_Toth_in_2007.org][Tensor manipulation in GPL Maxima by Viktor Toth in 2007]].
+* 

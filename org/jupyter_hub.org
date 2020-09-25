@@ -1,0 +1,32 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: jupyter_hub
+#+TITLE: jupyter hub
+* technical overview
+** https://jupyterhub.readthedocs.io/en/stable/reference/technical-overview.html
+** [[https://jupyterhub.readthedocs.io/en/stable/_images/jhub-parts.png]]
+* install jupyterhub
+** example:: https://github.com/parente/z2jh-aws
+*** [[https://www.terraform.io/][Terraform]] for AWS infrastructure config management
+*** Swap these for GCE vs GKE and GCR
+**** [[https://aws.amazon.com/ecr/) (ECR][AWS Elastic Container Registry]] for storing custom JupyterHub and user images
+*** [[https://github.com/jupyterhub/helm-chart]]
+- [[https://helm.sh][Helm]]
+- [[https://github.com/roboll/helmfile][Helmfile]] for deploying applications to Kubernetes including
+  - [[https://github.com/kubernetes-incubator/external-dns][external-dns]],
+  - [[https://github.com/kubernetes/ingress-nginx][nginx-ingress]],
+  - [[https://github.com/jetstack/cert-manager][jetstack/cert-manager]]
+*** [[https://cloudflare.com/][Cloudflare]] for DNS
+*** [[https://letsencrypt.org/][Let's Encrypt]] for TLS certificates
+*** [[https://brew.sh/][Homebrew]] for installing client tools on macOS
+*** [[https://www.gnu.org/software/make/][Make]] for simplifying local commands
+** https://zero-to-jupyterhub.readthedocs.io/en/latest/setup-jupyterhub/setup-jupyterhub.html
+** the zero-to-jupyterhub instructions use helm to install jupyterhub; however, we want to manage the installation with terraform. the terraform helm provider does this.
+*** https://github.com/hashicorp/terraform-provider-helm
+* configure jupyterhub
+** List of all configurable values for jupyterhub
+*** https://github.com/jupyterhub/zero-to-jupyterhub-k8s/blob/master/jupyterhub/values.yaml
+** Configure the login to use the account that makes sense to you (Google, GitHub, etc.).
+*** https://github.com/jupyterhub/oauthenticator
+** Use a suitable pre-built image for the user container or build your own:
+*** [[file:a_containerized_jupyter_notebook_with_multiple_kernels_on_Arch_Linux.org][a containerized jupyter notebook with multiple kernels on Arch Linux]]
+** Host it on [[https://your-domain.com/][https://your-domain.com]].

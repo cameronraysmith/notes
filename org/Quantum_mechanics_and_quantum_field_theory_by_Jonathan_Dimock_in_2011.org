@@ -1,0 +1,83 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Quantum_mechanics_and_quantum_field_theory_by_Jonathan_Dimock_in_2011
+#+TITLE: Quantum mechanics and quantum field theory by Jonathan Dimock in 2011
+* I. Non-relativistic
+** 1. Mathematical prelude
+*** 1.1 Bounded operators
+*** 1.2 Unbounded operators
+*** 1.3 Self-adjoint operators
+*** 1.4 Compact operators
+** 2. Classical mechanics
+*** 2.1 Hamiltonian mechanics
+*** 2.2 Examples
+*** 2.3 Canonical transformations
+*** 2.4 Symmetries
+** 3. Quantum mechanics
+*** 3.1 Principles of quantum mechanics
+*** 3.2 Canonical quantization
+*** 3.3 Symmetries
+*** 3.4 Perspectives and problems
+** 4. Single particle
+*** 4.1 Free particle
+*** 4.2 Particle in a potential
+*** 4.3 Spectrum
+*** 4.4 The harmonic oscillator
+*** 4.5 Scattering
+*** 4.6 Spin
+** 5. Many particles
+*** 5.1 Two particles
+*** 5.2 Identical particles
+*** 5.3 n-particles
+*** 5.4 Fock space
+** 6. Statistical mechanics
+*** 6.1 Mixed states
+*** 6.2 Equilibrium states
+*** 6.3 Free boson gas
+*** 6.4 Free fermion gas
+*** 6.5 Interacting bosons
+*** 6.6 Further developments
+* II. Relativistic
+** 7. Relativity
+*** 7.1 Principles of relativity
+*** 7.2 Minkowski space
+*** 7.3 Classical free fields
+*** 7.4 Interacting classical fields
+*** 7.5 Fundamental solutions
+** 8. Scalar particles and fields
+*** 8.1 Scalar particles
+*** 8.2 Scalar fields
+*** 8.3 Charged scalar field
+** 9. Electrons and photons
+*** 9.1 [[file:spinors.org][spinors]]
+*** 9.2 Electrons
+*** 9.3 Dirac fields
+*** 9.4 Photons
+*** 9.5 Electromagnetic field
+** 10. Field theory on a manifold
+*** 10.1 Lorentzian manifolds
+*** 10.2 Classical fields on a manifold
+*** 10.3 Quantum fields on a manifold
+* III. Probabilistic methods
+** 11. Path integrals
+*** 11.1 Probability
+*** 11.2 Gaussian processes
+*** 11.3 Brownian motion
+*** 11.4 The Feynman-Kac formula
+*** 11.5 Oscillator process
+*** 11.6 Application: ground states
+** 12. Fields as random variables
+*** 12.1 More on Gaussian processes
+*** 12.2 The Schrodinger representation
+*** 12.3 Path integrals * free fields
+*** 12.4 Vacuum correlation functions
+*** 12.5 Thermal correlation functions
+** 13. A nonlinear field theory
+*** 13.1 The model
+*** 13.2 Regularization
+*** 13.3 Infinite volume
+*** 13.4 Path integrals * interacting fields
+*** 13.5 A reformulation
+* Appendices
+** A. Normed spaces
+** B. Tensor product
+** C. Distributions

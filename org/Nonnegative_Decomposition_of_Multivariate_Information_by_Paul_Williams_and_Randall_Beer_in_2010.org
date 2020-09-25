@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Nonnegative_Decomposition_of_Multivariate_Information_by_Paul_Williams_and_Randall_Beer_in_2010
+#+TITLE: Nonnegative Decomposition of Multivariate Information by Paul Williams and Randall Beer in 2010
+* [[file:papers.org][papers]], [[file:partial_information_decomposition.org][partial information decomposition]], [[file:mutual_information.org][mutual information]]
+* citation
+** Williams, P. L., & Beer, R. D. (2010). Nonnegative Decomposition of Multivariate Information, 14. Information Theory; Mathematical Physics; Information Theory; Mathematical Physics; Biological Physics; Data Analysis, Statistics and Probability; Neurons and Cognition; Quantitative Methods. Retrieved from http://arxiv.org/abs/1004.2515
+* contents
+** 

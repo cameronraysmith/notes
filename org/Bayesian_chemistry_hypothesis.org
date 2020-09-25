@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Bayesian_chemistry_hypothesis
+#+TITLE: Bayesian chemistry hypothesis

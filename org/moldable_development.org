@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: moldable_development
+#+TITLE: moldable development
+* [[file:software_library.org][software library]], [[file:code_repository.org][code repository]], [[file:Tudor_Girba.org][Tudor Girba]]
+* [[https://www.youtube.com/watch?v=GicPLfsfXGA&t=16m][Conversation w/ Glamorous Toolkit Founder Tudor Girba * Improving your happiness while reading code]]
+* [[https://www.youtube.com/watch?v=Pot9GnHFOVU&feature=youtu.be][Tudor Gîrba * Moldable development]]
+* https://github.com/feenkcom/gtoolkit

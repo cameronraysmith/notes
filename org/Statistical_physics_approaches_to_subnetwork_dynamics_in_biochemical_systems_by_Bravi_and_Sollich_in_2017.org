@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Statistical_physics_approaches_to_subnetwork_dynamics_in_biochemical_systems_by_Bravi_and_Sollich_in_2017
+#+TITLE: Statistical physics approaches to subnetwork dynamics in biochemical systems by Bravi and Sollich in 2017
+* [[file:stochastic_processes.org][stochastic processes]], [[file:systems_biology.org][systems biology]], [[file:biochemistry.org][biochemistry]], [[file:statistical_physics.org][statistical physics]], [[file:marginal_observations.org][marginal observations]]

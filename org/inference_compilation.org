@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: inference_compilation
+#+TITLE: inference compilation
+* [[file:pyprob.org][pyprob]]

@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: predictive_coding_model
+#+TITLE: predictive coding model
+* references
+** Rao, R. P. N., & Ballard, D. H. (1999). Predictive coding in the visual cortex: a functional interpretation of some extra-classical receptive-field effects. __Nature Neuroscience__, __2__(1), 79–87. https://doi.org/10.1038/4580

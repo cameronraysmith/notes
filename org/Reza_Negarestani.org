@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Reza_Negarestani
+#+TITLE: Reza Negarestani
+* lectures
+** [[https://www.youtube.com/watch?v=QSslxuGAJ9s][Seminar with Reza Negarestani, 5/24/20]]
+** 

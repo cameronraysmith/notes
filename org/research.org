@@ -1,0 +1,10 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: research
+#+TITLE: research
+#+roam_tags: domains
+* topics
+** [[file:biology.org][biology]]
+** [[file:model_construction.org][model construction]]
+** [[file:philosophy.org][philosophy]]
+** [[file:computation.org][computation]]
+* [[file:questions.org][questions]]

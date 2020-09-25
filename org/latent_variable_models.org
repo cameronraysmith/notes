@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: latent_variable_models
+#+TITLE: latent variable models

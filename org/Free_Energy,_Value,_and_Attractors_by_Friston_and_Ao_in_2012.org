@@ -1,0 +1,40 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Free_Energy,_Value,_and_Attractors_by_Friston_and_Ao_in_2012
+#+TITLE: Free Energy, Value, and Attractors by Friston and Ao in 2012
+* 2. Ensemble dynamics and random attractors
+** 2.1 Set up: states and dependencies
+** 2.2 Dynamics and ergodicity
+** 2.3 Global random attractors
+** 2.4 Autopoiesis and attracting sets
+** 2.5 Summary
+* 3. The free energy formulation
+** Introduction
+*** the free energy principle states that the conditional entropy of an agent's states is minimized through action
+*** $$a^* = \mathrm{arg\,min}_a \mathscr{H} (X | m) = \mathrm{arg\,min}_a \mathscr{H} (S | m)$$
+*** 
+** 3.1 Active inference and generalized filtering
+** 3.2 Summary
+* 4. Policies and value
+** 4.1 Conservative (Divergence-Free) flow
+** 4.2 Dissipative (Curl-Free) flow and detailed balance
+** 4.3 Summary
+* 5. Optimal (fixed point) control and reinforcement-learning
+** 5.1 Optimal control theory
+** 5.2 Summary
+* 6. Generalized (itinerant) policies
+** 6.1 The mountain car problem
+** 6.2 Optimal itinerancy and weakly attracting sets
+** 6.3 Summary
+* 7. Discussion
+** 7.1 Dynamics versus reinforcement-learning
+** 7.2 Value-learning versus perceptual learning
+* 8. Conclusion
+* Appendices
+** A. Entropy production
+** B. Sensory entropy
+** C. The Laplace assumption
+** D. Value and ergodic densities
+** E. Cost functions and value
+** F. Optimal control and policies
+** G. Value learning and optimality equations
+** H. Integrating active inference schemes

@@ -1,0 +1,11 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Bayesian_approaches_to_clinical_trials_and_health-care_evaluation_by_David_Spiegelhalter,_Keith_Abrams,_and_Jonathan_Myles_in_2004
+#+TITLE: Bayesian approaches to clinical trials and health-care evaluation by David Spiegelhalter, Keith Abrams, and Jonathan Myles in 2004
+#+roam_tags: medicine books
+
+- keywords: [[file:books.org][books]], [[file:probabilistic_inference.org][probabilistic inference]]
+
+* links
+- https://twitter.com/avehtari/status/1251188631487774720?s=20
+- https://avehtari.github.io/ROS-Examples/
+* outline

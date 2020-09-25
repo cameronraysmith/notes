@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: dynamical_systems
+#+TITLE: dynamical systems
+* [[file:structural_stability.org][structural stability]]
+* [[file:symmetry_analysis_of_dynamical_systems.org][symmetry analysis of dynamical systems]]
+* [[file:random_dynamical_systems.org][random dynamical systems]]

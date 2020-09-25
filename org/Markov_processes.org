@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Markov_processes
+#+TITLE: Markov processes
+* [[file:Markov_Processes_for_Stochastic_Modeling_by_Oliver_Ibe_in_2013.org][Markov Processes for Stochastic Modeling by Oliver Ibe in 2013]]

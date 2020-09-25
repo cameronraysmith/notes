@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: What_It_Is_Like_to_Perceive_Direct_Realism_and_the_Phenomenal_Character_of_Perception_by_J_Christopher_Maloney_in_2018
+#+TITLE: What It Is Like to Perceive Direct Realism and the Phenomenal Character of Perception by J Christopher Maloney in 2018
+* [[file:philosophy.org][philosophy]], [[file:cognitive_science.org][cognitive science]]
+* review
+** [[https://ndpr.nd.edu/news/what-it-is-like-to-perceive-direct-realism-and-the-phenomenal-character-of-perception/][What It Is Like to Perceive: Direct Realism and the Phenomenal Character of Perception // Notre Dame Philosophical Reviews]]
+* references
+** [[file:Consciousness_and_intentionality_in_the_Stanford_Encyclopedia_of_Philosophy.org][Consciousness and intentionality in the Stanford Encyclopedia of Philosophy]]

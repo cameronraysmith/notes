@@ -1,0 +1,16 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Some_Relativistic_and_Gravitational_Properties_of_the_Wolfram_Model_by_Jonathan_Gorard_in_2020
+#+TITLE: Some Relativistic and Gravitational Properties of the Wolfram Model by Jonathan Gorard in 2020
+* [[file:digital_physics.org][digital physics]], [[file:theoretical_physics.org][theoretical physics]], [[file:physics.org][physics]], [[file:general_relativity.org][general relativity]]
+* 1. Introduction
+* 2. Space, Time and Causality in the Wolfram Model
+** 2.1 Basic Formalism and Causal Graphs
+** 2.2 Abstract rewriting, the Church-Rosser property and causal invariance
+** 2.3 Causal graph hypersurfaces and discrete Lorentz covariance
+** 2.4 Discrete Lorentz transformations
+* 3. Discrete Geometry, Curvature and Gravitation in the Wolfram Model 
+** 3.1 A Discrete Ricci Scalar Curvature for (Directed) Hypergraphs
+** 3.2 Parallel Transport, Discrete Holonomy, and the Discrete Spacetime Ricci Tensor
+** 3.3 The Discrete Einstein Field Equations
+** 3.4 Topology, Variable Dimensionality and Implications for Cosmology
+* 4. Concluding remarks

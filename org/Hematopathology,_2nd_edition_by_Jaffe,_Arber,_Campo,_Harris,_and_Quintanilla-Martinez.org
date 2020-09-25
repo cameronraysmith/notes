@@ -1,0 +1,345 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Hematopathology,_2nd_edition_by_Jaffe,_Arber,_Campo,_Harris,_and_Quintanilla-Martinez
+#+TITLE: Hematopathology, 2nd edition by Jaffe, Arber, Campo, Harris, and Quintanilla-Martinez
+* Hematologic malignancies by incidence
+** Lymphoid malignancies
+*** [[https://lh3.googleusercontent.com/3Meil5skJPNRjS5B8Jd4U9NhumUcwSvmrcO82RjuhQKuShYS3Y8CYRpTL8y3pUMI_Tdnx8FPj01vEfOVsyqiIiC2TjVEOs0OtaKuvLjsboBVHU69hePxzBexdhODl09MXs7AKUc3PdI=w1186-h741-no]]
+*** 19.3 NHL DLBCL ~ .624*.31 ~19.3%
+*** 16.0 Plasma cell disorders (multiple myeloma) ~16%
+*** 13.7 NHL Follicular lymphoma ~ .624*.22 ~13.7%
+*** 09.0 CLL ~9%
+*** 08.2 HL ~8.2%
+*** 04.7 NHL MALT lymphoma .624*.076 ~4.7%
+*** 04.7 NHL Mature T-cell lymphoma .624*.076 ~4.7%
+*** 04.2 NHL Small lymphocytic lymphoma .624*.067 ~4.2%
+*** 03.8 ALL ~3.8%
+*** 03.7 Mantle cell lymphoma 0.624*.06 ~ 3.7%
+** Plasma cell dyscrasias
+*** Multiple myeloma * 139,000
+** Lymphomas
+*** NHL * 461,000
+*** Hodgkin lymphoma * 73,000
+** Leukemias
+*** Other leukemias * 150,000
+*** CLL * 105,000
+*** AML * 103,000
+*** ALL * 76,000
+*** CML * 32,000
+* I. Technical aspects
+** 1. Processing of the lymph node biopsy specimen
+*** Instructions for the surgeon
+*** Gross processing of the lymph node biopsy by the pathologist
+**** Gross examination
+**** Frozen sections
+**** Cytologic preparations
+**** Sectioning
+**** Fixation
+**** Contribution of the histotechnologist
+*** Routine histologic, histochemical, and special stains
+*** Choice of ancillary studies
+*** Reporting the lymph node biopsy
+** 2. Fine needle aspiration of lymph nodes
+** 3. Collection, processing, and examination of bone marrow specimens
+** 4. Immunohistochemistry for the hematopathology laboratory
+** 5. [[file:flow_cytometry.org][flow cytometry]]
+** 6. Molecular diagnosis in hematopathology
+** 7. Important chromosomal aberrations in hematologic neoplasms and key techniques to diagnose them
+* II. Normal and reactive conditions of hematopoietic tissues
+** 8. Normal lymphoid organs and tissues
+** 9. Reactive lymphadenopathies
+*** Follicular and nodular patterns
+*** Predominantly sinus pattern
+*** Interfollicular or mixed patterns
+**** Paracortical hyperplasia and dermatopathic reaction
+**** Granulomatous lymphadenitis
+**** Immunoglobulin G4-related lymphadenopathy
+**** Kimura's disease
+**** Toxoplasmic lymphadenitis
+**** Systemic lupus erythematosus
+**** Kikuchi's lymphadenitis (histiocytic necrotizing lymphadenitis)
+***** Epidemiology
+****** First described in Japan in 1972
+****** Predominantly affects young adults
+****** Young women of Asian descent are commonly affected
+***** Clinical presentation
+****** cervical lymphadenopathy
+****** sometimes with fever and leukopenia
+***** Stages
+****** Proliferative stage
+******* numerous immunoblasts
+******* large mononuclear cells including histiocytes with curved nuclei
+******* aggregates of plasmacytoid dendritic cells with interspersed Karyorrhectic bodies
+******** necrosis may appear to have begun within these aggregates or nests
+****** Necrotizing stage
+******* neutrophil-depleted patchy areas of necrosis within the paracortex containing abundant karyrrhectic nuclear debris and surrounded by a mixture of mononuclear cells (as in the proliferative type)
+******* karyorrhectic debris is both extracellular and phagocytized by histiocytes
+****** Xanthomatous stage
+******* foamy histiocytes and fewer immunoblasts
+******* necrosis may be absent
+******* thought to represent the healing phase
+***** Diagnostic criteria
+****** Histologic features
+******* paracortical clusters of plasmacytoid dendritic cells
+******* karyorrhectic bodies
+******* crescentic histiocytes
+******* immunoblasts scattered among small lymphocytes
+******* proliferation of high endothelial venules
+****** Immunophenotype
+******* CD8+ T cells outnumber CD4+ T cells
+******* CD123/68/4/43+ plasmacytoid dendritic cells
+******* CD68+ and MPO+ histiocytes
+******* rare B cells
+***** Differential diagnosis
+****** Lupus lymphadenitis
+******* Extensive necrosis, hematoxylin bodies, and plasma cells or neutrophils favor SLE
+******* Kikuchi's patients usually lack ANA
+****** Non-Hodgkin's lymphoma
+**** Kawasaki's disease (mucocutaneous lymph node syndrome)
+**** Inflammatory pseudotumor
+**** Bacillary angiomatosis
+*** Diffuse pattern
+** 10. Normal bone marrow
+*** Hematopoiesis
+**** Erythropoiesis
+**** Granulopoiesis
+**** Megakaryocytes and thrombopoiesis
+**** Other myeloid cells
+**** Cytologic abnormalities in myeloid cells in hematologically normal subjects
+*** Bone marrow lymphoid cells
+*** Other cells present in normal bone marrow
+**** Normal bone marrow components
+**** Extraneous cells and tissues
+*** Cytochemistry and histochemistry
+**** Cytochemistry
+**** Histochemistry
+**** Immunophenotyping including immunohistochemistry
+*** Conclusion
+** 11. Evaluation of anemia, leukopenia, and thrombocytopenia
+** 12. Bone marrow findings in inflammatory, infectious, and metabolic disorders
+* III. Lymphoid neoplasms
+** 13. Principles of classification of lymphoid neoplasms
+*** Historical background
+*** Early events in lymphoid neoplasia: borderlands of malignancy
+*** Small B-cell neoplasms
+*** Aggressive B-cell lymphomas and borderline malignancies
+*** Peripheral T-cell lymphomas
+*** Histiocytic and dendritic cell neoplasms
+*** Conclusion
+** S1. Mature B-cell neoplasms
+*** 14. B-cell chronic lymphocytic leukemia/small lymphocytic lymphoma, Monoclonal B-cell lymphocytosis, and B-cell prolymphocytic leukemia
+*** 15. Lymphoplasmacytic lymphoma and Waldenstrom macroglobulinemia
+**** Definition of disease
+***** LPL: small B-cell neoplasm composed of lymphocytes, plasma cells, and plasmacytoid lymphocytes, which does not meet criteria for any of the other small B-cell lymphomas that exhibits plasmacytic differentiation
+**** Epidemiology and incidence
+**** Clinical features
+**** Morphology
+***** Peripheral blood and bone marrow
+***** Lymph nodes
+***** Spleen and other tissues
+**** Immunophenotype
+**** Genetic features
+***** MYD88 L265P mutation
+***** Other somatic mutations
+***** Cytogenetic abnormalities
+**** Postulated normal counterpart and pathogenesis
+**** Clinical course, treatment and prognosis
+**** Differential diagnosis
+***** Neoplastic conditions
+***** IgM-secreting disorders
+***** Other conditions
+*** 16. Hairy cell leukemia
+*** 17. Splenic marginal-zone lymphoma and other small B-cell neoplasms in the spleen
+*** 18. Follicular lymphoma (~13.7% of lymphomas)
+*** 19. Extranodal marginal zone lymphoma: MALT lymphoma
+*** 20. Primary cutaneous B-cell lymphomas
+*** 21. Nodal marginal zone lymphoma
+*** 22. Mantle cell lymphoma
+*** 23. Diffuse large B-cell lymphoma (~19.3% of lymphomas, 414-444)
+**** Overview
+***** Agressive
+***** Curable in a large portion of patients who achieve remission
+***** Previously there were two subtypes that were merged due to low intra* and inter-observer reproducibility
+**** Definition
+***** Diffuse proliferation of large or medium-sized neoplastic B cells with a nuclear size greater than or equal to that of a histiocyte nucleus, or more than twice the size of a small lymphocyte
+**** Epidemiology
+***** Most common type of NHL (~31%)
+***** No clear ethnic bias
+****** Appears to be more DLBCL than Follicular lymphoma in Asians
+***** Median age is 64 years
+***** Slight male predominance 1.2:1
+**** Etiology
+***** Unclear in most patients
+***** Minority occurs in setting of congenital immunodeficiency or acquired immunodeficiency such as HIV, transplant, history of methotrexate treatment for rheumatoid arthritis, fludarabine treatment for low-grade B-cell lymphoma
+****** Commonly associated with Epstein-Barr virus (EBC) positivity
+***** Angioimmunoblastic T-cell lymphoma
+***** Rare extranodal cases association with chronic inflammation or irritation
+***** Transformation from underlying low-grade lymphoma
+**** Clinical features
+***** Rapidly enlarging lymph nodes or tumor masses in extranodal sites
+***** Extranodal involvement
+****** 71% have extranodal involvement during course of disease
+****** 30% present with extranodal involvement
+****** Common sites include the GI tract (esp stomach) and Waldeyer's ring
+***** Half with stage I or II (early); III (13%); IV(33%)
+***** One-third have B symptoms
+***** 16% have bone marrow involvement, which includes cases with concordant and discordant bone marrow histology
+**** Morphology
+***** 
+**** Immunophenotype
+***** Pan B-cell markers (CD20, CD22, CD79a, PAX5)
+***** Positive for surface or cytoplasmic immunoglobulin
+***** BCL6+ in about 60%
+***** 
+**** Genetics
+***** Clonally rearranged immunoglobulin heavy-chain and light-chain genes (IGH, IGK, and IGL) and germline T-cell receptor genes.
+***** Hypermutated IGHV
+***** Transformation pathway
+****** 20% of cases show t(14; 18)(q32; q21) BCL2 rearrangement, which is considered a hallmark of follicular lymphoma
+****** Such cases may have transformed from a known or occult follicular lymphoma
+***** De novo pathway
+****** 30% show BCL6 3q27 rearrangement, but is also found in some follicular lymphomas
+******* Most commonly the translocation partner involves the immunoglobulin genes via t(3;14)(q27; q32)
+****** 73% show BCL6 somatic mutation and is unrelated to the presence or absence of BCL6 rearrangement
+******* This is a marker for cells that have been through the germinal center and is thereby also observed in 
+***** Myc 8q24 rearrangement occurs in about 10% of DLBCLs being more common in HIV infected patients, pediatric patients, and extranodal lymphomas
+****** 40-60% of cases with Myc rearrangment represent double or triple-hit lymphoma with co-existing BCL2 and/or BCL6 rearrangement and such cases are reclassified as high-grade B-cell lymphoma with BCL2 and/or BCL6 and Myc rearrangement in the 2016 WHO classification
+****** Double-hit
+**** Molecular subtypes
+***** Germinal-center B-cell type
+***** Activated B-cell type
+**** Postulated cell of origin
+**** Clinical course
+**** Prognostic factors
+**** Differential diagnosis
+**** Other lymphomas of large B-cells
+***** T-cell/Histiocyte-rich large B-cell lymphoma
+***** Primary mediastinal (thymic) large B-cell lymphoma
+***** Intravascular large B-cell lymphoma
+*** 24. Burkitt's lymphoma and its mimics 
+*** 25. Plasmablastic neoplasms other than plasma cell myeloma
+*** 26. Plasma cell neoplasms
+**** Plasma cell neoplasms
+***** Definition
+****** Clonal proliferations of Ig-producing plasma cells or lymphocytes that make and secrete a single class of Ig or a polypeptide subunit of a single Ig detectable as a so-called monoclonal protein (M-protein) on serum or urine protein electrophoresis
+***** Classification
+**** Plasma cell myeloma
+***** Definition
+****** Bone marrow-based, multifocal plasma cell neoplasm associated with an M-protein in serum or urine. Other organs may be secondarily involved.
+***** Diagnostic criteria
+***** Epidemiology
+***** Etiology and pathogenesis
+***** Clinical features
+***** Laboratory findings
+***** Radiographic studies
+***** Blood smear and bone marrow findings
+***** Histopathology
+***** Plasma cell myeloma clinical variants
+***** Non-secretory plasma cell myeloma
+***** Smoldering plasma cell myeloma (asymptomatic myeloma)
+***** Plasma cell leukemia
+***** Immunophenotype ([[file:flow_cytometry.org][flow cytometry]])
+***** Immunophenotypic features of normal and neoplastic plasma cells
+***** Technical issues
+***** Diagnostic issues
+***** Unusual morphologic variants of myeloma
+***** Florid reactive plasmacytosis
+***** Non-Hodgkin's lymphomas with extreme plasma cell differentiation
+***** Prediction of genetic abnormalities
+***** Prognostic issues
+***** Quantitative issues at diagnosis
+***** Minimal residual disease
+***** Circulation plasma cells
+***** Immunophenotype
+***** Genetics
+***** Genetic testing for plasma cell myeloma
+***** Differential diagnosis
+***** Treatment and prognosis
+**** Monoclonal gammopathy of undetermined significance
+***** Definition
+***** Epidemiology and etiology
+***** Clinical and laboratory features
+***** Blood and bone marrow findings
+***** Immunophenotype
+***** Genetics
+***** Differential diagnosis
+***** Clinical course, treatment, and prognostic factors
+**** Plasmacytoma
+***** Solitary plasmacytoma of bone
+***** Extraosseous plasmacytoma
+**** Immunoglobulin deposition diseases
+***** Primary amyloidosis
+***** Systemic light chain and heavy chain deposition diseases
+**** Plasma cell neoplasms with associated paraneoplastic syndrome
+***** POEMS syndrome (osteosclerotic myeloma)
+***** TEMPI syndrome
+*** 27. Nodular lymphocyte--predominant Hodgkin's
+*** 28. Classical Hodgkin's lymphoma and related lesions 
+*** 29. Virally associated B-cell lymphoproliferative disease
+** S2. Mature T-cell and NK-cell neoplasms
+*** 30. Virally associated T-cell and NK-cell neoplasms
+*** 31. T-cell and NK-cell large granular lymphocyte proliferations
+*** 32. T-cell prolymphocytic leukemia
+*** 33. Adult T-cell leukemia/lymphoma
+*** 34. Hepatosplenic T-cell lymphoma
+*** 35. Peripheral T-cell lymphoma, not otherwise specified (NOS)
+*** 36. Angioimmunoblastic T-cell lymphoma
+*** 37. Anaplastic large cell lymphoma, ALK positive and ALK negative
+*** 38. Enteropathy-associated T-cell lymphoma and other primary intestinal T-cell lymphomas
+*** 39. Mycosis fungoides and Sezary syndrome
+*** 40. Primary cutaneous CD30-Positive T-cell lymphoproliferative disorders
+*** 41. Primary cutaneous T-cell lymphomas: rare subtypes
+** S3. Precursor B* and T-cell neoplasms
+*** 42. Precursor B* and T-cell neoplasms
+**** 42.1 Classification of precursor lymphoid neoplasms
+***** The majority of ALLs are derived from precursor B cells
+***** The majority of LBLs possess a precursor T-cell phenotype
+**** 42.2 B-cell lymhoblastic leukemia/lymhoblastic lymphoma
+***** Definition
+****** Clonal disorder of hematopoietic precursors with evidence of early B-cell differentiation
+****** More than 95% express CD19, HLA-DR, and rearrangement of IgH locus
+***** Epidemiology
+****** ALL is most common malignancy of children (80% of childhood leukemias) in children <6 years old
+****** 20% of adult leukemias
+***** Etiology
+****** 
+***** Clinical features
+***** Morphology
+***** Immunophenotype
+***** Genetics and molecular findings
+***** Normal counterpart
+***** Clinical course
+***** Differential diagnosis
+**** 42.3 T-cell lymphoblastic leukemia/lymhoblastic lymphoma
+***** Definition
+***** Epidemiology
+***** Etiology
+***** Clinical features
+***** Morphology
+***** Immunophenotype
+***** Genetics and molecular findings
+***** Normal counterpart
+***** Clinical course
+***** Differential diagnosis
+*** 43. Acute leukemias of ambiguous lineage
+* IV. Myeloid neoplasms
+** 44. Principles of classification of myeloid neoplasms
+** 45. Myelodysplastic syndromes
+** 46. Acute myeloid leukemia
+** 47. Myeloproliferative neoplasms
+** 48. Myelodysplastic/Myeloproliferative neoplasms
+** 49. Mastocytosis
+** 50. Eosinophilia and chronic eosinophilic leukemia, including myeloid/lymphoid neoplasms with eosinophilia and rearrangement of PDGFRA, PDGFRB, FGFR1, or JAK2
+** 51. Blastic plasmacytoid dendritic cell neoplasm
+* V. Histiocytic proliferations
+** 52. Non-neoplastic histiocytic proliferations of lymph nodes and bone marrow
+** 53. Histiocytic and dendritic cell neoplasms including Langerhans cell histiocytosis and Langerhans cell sarcoma
+* VI. Immunodeficiency disorders
+** 54. The pathology of primary immunodeficiencies
+** 55. Iatrogenic immunodeficiency-associated lymphoproliferative disorders
+* VII. Site-specific issues in the diagnosis of lymphoma and leukemia
+** 56. Bone marrow evaluation for lymphoma
+** 57. Evaluation of the bone marrow after therapy
+** 58. Non-hematopoietic neoplasms of the bone marrow
+** 59. Non-lymphoid lesions of the lymph nodes
+** 60. Spleen: normal architecture and neoplastic and non-neoplastic lesions
+** 61. Diagnosis of lymphoma in extranodal sites other than skin

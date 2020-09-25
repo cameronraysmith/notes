@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Optimal_transport_for_Applied_Mathematicians_Calculus_of_Variations,_PDEs,_and_Modeling_by_Filippo_Santambrogio_in_2015
+#+TITLE: Optimal transport for Applied Mathematicians Calculus of Variations, PDEs, and Modeling by Filippo Santambrogio in 2015
+* [[file:books.org][books]], [[file:mathematics.org][mathematics]], [[file:dynamical_systems.org][dynamical systems]], [[file:stochastic_processes.org][stochastic processes]], [[file:optimal_transport.org][optimal transport]]
+* citation
+* contents

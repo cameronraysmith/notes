@@ -1,0 +1,56 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: news
+#+TITLE: news
+#+roam_tags: domains
+* schedule
+** see session manager session named `news journalism`
+** Check headlines at [[file:PBS_NewsHour.org][PBS NewsHour]], [[file:The_Correspondent.org][The Correspondent]], [[file:Undark.org][Undark]], [[file:The_Atlantic.org][The Atlantic]], [[file:Propublica.org][Propublica]], [[file:Quanta_magazine.org][Quanta magazine]], [[file:Project_syndicate.org][Project syndicate]], [[file:The_Financial_Times.org][The Financial Times]], [[file:Bloomberg.org][Bloomberg]] and [[file:hacker_news.org][hacker news]] on a daily basis
+** Watch [[file:Wall_street_week.org][Wall street week]] weekly for finance
+** Watch [[file:60_minutes.org][60 minutes]] and [[file:Fareed_Zakaria's_GPS.org][Fareed Zakaria's GPS]] on a weekly basis
+** Check [[file:symmetry_magazine.org][symmetry magazine]], [[file:DW_documentary.org][DW documentary]], [[file:VPRO_documentary.org][VPRO documentary]], [[file:PBS_frontline.org][PBS frontline]], [[file:Foreign_affairs_magazine.org][Foreign affairs magazine]] weekly
+* links to basic sources for sharing e.g. when someone asks [[file:What_are_good_sources_of_news.org][What are good sources of news?]]
+* sources
+** Short-term
+*** PBS
+**** [[file:PBS_NewsHour.org][PBS NewsHour]]
+*** Bloomberg
+**** [[https://en.wikipedia.org/wiki/Bloomberg_Television#New_York_production][schedule]]
+***** Last watch 21:00 * 1:43 <2020-01-12 Sun>
+**** Shows
+***** Private equity
+****** `Money Undercover` with Lisa Abramowicz Tuesdays
+****** 23 minutes
+***** ETFs
+****** `ETF IQ` with Scarlet Fu Wednesdays
+****** 23 minutes
+***** Commodities
+****** `Commodities Edge` with Alix Steel Thursdays
+****** 23 minutes
+***** Interest rates
+****** `Real Yield` with Jon Farro Fridays
+****** 23 minutes
+***** Technology
+****** `Best of Bloomberg Technology` with Emily Chang Fridays
+****** 48 minutes
+***** Economics
+****** [[file:Wall_street_week.org][Wall street week]] with David Westin Fridays at 6pm reboot of original show restarted on <2020-01-10 Fri>
+******
+*** CBS
+**** 60 minutes
+*** NBC
+**** Meet the press
+*** VOA
+**** VOA Africa
+** Medium-term
+*** [[file:The_Correspondent.org][The Correspondent]]
+*** [[file:Undark.org][Undark]]
+*** [[file:The_Atlantic.org][The Atlantic]]
+*** [[file:Project_syndicate.org][Project syndicate]]
+*** [[file:Propublica.org][Propublica]]
+** Long-term
+*** [[file:symmetry_magazine.org][symmetry magazine]]
+*** [[file:DW_documentary.org][DW documentary]]
+*** [[file:VPRO_documentary.org][VPRO documentary]]
+*** [[file:PBS_frontline.org][PBS frontline]]
+*** [[file:Council_on_foreign_relations.org][Council on foreign relations]] [[file:Foreign_affairs_magazine.org][Foreign affairs magazine]]
+*** [[file:Quanta_magazine.org][Quanta magazine]]

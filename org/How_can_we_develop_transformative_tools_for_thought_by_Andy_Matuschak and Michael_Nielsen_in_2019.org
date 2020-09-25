@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: How_can_we_develop_transformative_tools_for_thought_by_Andy_Matuschak and Michael_Nielsen_in_2019
+#+TITLE: How can we develop transformative tools for thought? by Andy Matuschak and Michael Nielsen in 2019
+* https://numinous.productions/ttft/
+* 

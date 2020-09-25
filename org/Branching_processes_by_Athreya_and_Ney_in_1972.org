@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Branching_processes_by_Athreya_and_Ney_in_1972
+#+TITLE: Branching processes by Athreya and Ney in 1972

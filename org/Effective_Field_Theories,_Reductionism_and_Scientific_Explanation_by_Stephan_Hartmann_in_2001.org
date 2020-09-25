@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Effective_Field_Theories,_Reductionism_and_Scientific_Explanation_by_Stephan_Hartmann_in_2001
+#+TITLE: Effective Field Theories, Reductionism and Scientific Explanation by Stephan Hartmann in 2001
+* [[file:papers.org][papers]], [[file:philosophy.org][philosophy]], [[file:physics.org][physics]], [[file:effective_theories.org][effective theories]]

@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: ETH_probabilistic_AI_course
+#+TITLE: ETH probabilistic AI course
+* [[https://www.youtube.com/playlist?list=PLNFIflbQ6VNtwxgOQUYT_kpBeko8S6KVT][YouTube playlist]]

@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Du_Phan
+#+TITLE: Du Phan
+* [[file:probabilistic_inference.org][probabilistic inference]], [[file:variational_inference.org][variational inference]], [[file:pyro.org][pyro]]
+* aka `fehiepsi`: https://fehiepsi.github.io/about/
+** My name is [[http://postech.ac.kr/eng/][[file:Du_Phan.org][Du Phan]]. I got my PhD in Mathematics and Data Science from [POSTECH]], South Korea. I have a deep interest in machine learning, deep learning, and recently Bayesian statistics. Having learned a lot from free resources on the internet, I hope that with this blog, I can contribute my knowledge back to the community.
+* [[https://fehiepsi.github.io/rethinking-numpyro/][pyro implementation]] of [[file:Statistical_rethinking_by_Richard_McElreath_in_2020.org][Statistical rethinking by Richard McElreath in 2020]]

@@ -1,0 +1,60 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Intrinsic_and_extrinsic_thermodynamics_for_stochastic_population_processes_with_multi-level_large-deviation_structure_by_Eric_Smith_in_2020
+#+TITLE: Intrinsic and extrinsic thermodynamics for stochastic population processes with multi-level large-deviation structure by Eric Smith in 2020
+* [[file:papers.org][papers]], [[file:stochastic_processes.org][stochastic processes]], [[file:large_deviations.org][large deviations]], [[file:hierarchical_modularity.org][hierarchical modularity]]
+* contents
+** I. Introduction
+*** 1. Main results and order of the derivation
+** II. Multi-level systems
+*** 1. Micro to macro, within and between levels
+**** A. Models based on population processes
+***** a. The multiscale distribution
+***** b. Fast relaxation to fixed points at the microscale
+***** c. Elementary transitions in the mesoscale
+***** d. Thermalization in the microscale
+***** e. A system/environment partition within the mesoscale
+***** f. Marginal and conditional distributions in system and environment
+***** g. Notations involving pairs of indices
+**** B. Stochastic description within the mesoscale
+***** a. The marginal stochastic process on s
+***** b. Time-independent overall stationary distribution as a reference
+***** c. Detailed balance propagating up from the microscale
+**** C. System-environment decompositions of the entropy change
+***** 1. The information/heat decomposition of total relative-entropy change
+***** 2. Relative entropy referencing the system steady state at instantaneous parameters
+***** 3. Intrinsic and extrinsic thermodynamics
+***** 4. System Hartley information as a temporal connection
+** III. Hamilton-Jacobi theory for large deviations
+*** A. Generating functions, Liouville equation, and the Hamilton-Jacobi construction for saddle points
+**** 1. Relation of the Liouville operator to the cumulant-generating function
+***** a. From coherent-state to number-potential coordinates
+**** 2. Legendre transform of the CGF
+**** 3. Hamiltonian equations of motion and the action
+***** a. Circulation-free vector-field of $$\theta$$ for the stationary distribution
+*** B. The stationary distribution and macrostates
+**** 1. Coherent states, dimensional reduction, and the $$f$$-divergence
+**** 2. Multiple fixed points and instantons
+** IV. Population processes with CRN-form generators 
+*** A. Hypergraph generator of state-space transitions
+**** 1. Descaling of transition matrices for microstates
+**** 2. Descaling of transition matrices for macrostates
+**** 3. Equations of motion and the L=0 manifold
+**** 4. The Schlögl cubic model to illustrate
+*** B. Large-deviation and Lyapunov roles of the effective action
+**** 1. Convexity proof of the Lyapunov property of macrostate entropy in Hamilton-Jacobi variables
+**** 2. Instantons and the loss of Large-deviation accessibility from first passages
+** V. Cycle decompositions and non-decrease of intrinsic and extrinsic relative entropies
+*** A. Complexity classes and cycle decompositions of stationary currents on the hypergraph
+**** 1. Complex balance and relations of the Lyapunov and large-deviation roles of $$S_{\mathrm{eff}}$$
+***** a. Finite cycle decomposition of the steady state current
+***** b. Locally linear coordinates for classical entropy change in complex-balanced CRNs
+**** 2. Vorticity in the flowfield of stationary trajectories
+**** 3. Hyperflow decomposition for non-complex-balanced CRNs
+*** B. Cycle decomposition in the microstate space, and non-decrease of relative entropy components
+**** 1. The system-marginal relative entropy from $$\bar{\rho}^s$$
+**** 2. Non-negativity of the housekeeping entropy rate
+** VI. Examples
+*** A. Dualizing the housekeeping embedding thermodynamics
+**** 1. One system, families of environments
+***** a. elementary reactions
+***** 

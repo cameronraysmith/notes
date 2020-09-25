@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Between-region_genetic_divergence_reflects_the_mode_and_tempo_of_tumor_evolution_by_Ruping_Sun,_Zheng_Hu,_Andrea_Sottoriva,_Trevor_Graham,_and_Christina_Curtis_in_2017
+#+TITLE: Between-region genetic divergence reflects the mode and tempo of tumor evolution by Ruping Sun, Zheng Hu, Andrea Sottoriva, Trevor Graham, and Christina Curtis in 2017
+* [[file:papers.org][papers]], [[file:cancer_evolution.org][cancer evolution]]
+* citation
+* contents
+** 

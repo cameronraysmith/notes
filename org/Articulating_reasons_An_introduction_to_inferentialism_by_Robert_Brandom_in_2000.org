@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Articulating_reasons_An_introduction_to_inferentialism_by_Robert_Brandom_in_2000
+#+TITLE: Articulating reasons An introduction to inferentialism by Robert Brandom in 2000
+* [[file:Robert_Brandom.org][Robert Brandom]], [[file:philosophy.org][philosophy]], [[file:books.org][books]]
+* 

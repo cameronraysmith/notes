@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: dynamics_of_biological_systems
+#+TITLE: dynamics of biological systems
+* [[file:evolutionary_timescale.org][evolutionary timescale]]
+* [[file:physiological_timescale.org][physiological timescale]]
+* [[file:references.org][references]]
+** [[file:An_Introduction_to_Systems_Biology_by_Uri_Alon_in_2020.org][An Introduction to Systems Biology by Uri Alon in 2020]]
+** [[file:Fibration_symmetries_uncover_the_building_blocks_of_biological_networks_by_Flaviano_Morone_and_Hernan_Makse_in_2020.org][Fibration symmetries uncover the building blocks of biological networks by Flaviano Morone and Hernan Makse in 2020]]

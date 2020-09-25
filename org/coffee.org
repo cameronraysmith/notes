@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: coffee
+#+TITLE: coffee
+* [[file:Decent_espresso.org][Decent espresso]]

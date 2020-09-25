@@ -1,0 +1,10 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Mechanistic_Inference_of_Brain_Network_Dynamics_with_Approximate_Bayesian_Computation_by_Timothy_West,_Vladimir_Litvak,_et_al_in_2019
+#+TITLE: Mechanistic Inference of Brain Network Dynamics with Approximate Bayesian Computation by Timothy West, Vladimir Litvak, et al in 2019
+* [[file:approximate_bayesian_computation.org][approximate bayesian computation]], [[file:dynamic_causal_modeling.org][dynamic causal modeling]], [[file:network_inference.org][network inference]], [[file:papers.org][papers]], [[file:probabilistic_inference.org][probabilistic inference]]
+* citation
+** West, T. O., Berthouze, L., Farmer, S. F., Cagnan, H., & Litvak, V. (2019). Mechanistic Inference of Brain Network Dynamics with Approximate Bayesian Computation, __1__, 1–40. https://doi.org/10.1101/785568
+* abstract
+** Applies [[file:approximate_bayesian_computation.org][approximate bayesian computation]] to the data for which [[file:dynamic_causal_modeling.org][dynamic causal modeling]] was developed.
+* contents
+* references

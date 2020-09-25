@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: linear_models
+#+TITLE: linear models
+* [[file:statistics.org][statistics]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:model_construction.org][model construction]]
+* references
+** https://en.wikipedia.org/wiki/Generalized_linear_model#Link_function
+** 

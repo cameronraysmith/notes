@@ -1,0 +1,76 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Geometry_of_physics_by_Urs_Schreiber
+#+TITLE: Geometry of physics by Urs Schreiber
+* Schreiber, U. (2016). Higher prequantum geometry. Retrieved from http://arxiv.org/abs/1601.05956
+* [[https://ncatlab.org/nlab/show/geometry+of+physics][Geometry of physics on nlab]]
+* 0. Preliminaries on categories and toposes
+* I. Geometry
+** 1. Smooth sets
+*** Overview
+**** Generalized sets equipped with smooth structure called smooth sets
+**** Smooth sets are generalized to smooth homotopy types, smooth h-sets, or smooth 0-types
+**** The definition of smooth sets is valuable because it is both simpler and more powerful than those it subsumes, which includes smooth manifolds, Frechet manifolds, and diffeological spaces
+**** The category of smooth sets is the topos of sheaves on the gros site of Cartesian spaces that contains as full subcategories smooth manifolds and diffeological spaces
+*** 1.1 Abstract coordinate systems
+**** Overview
+***** Every kind of geometry is modeled on a collection of archetypical basic spaces and geometric homorphisms between them
+***** In differential geometry the 
+****** 1) archetypical spaces are abstract standard Cartesian coordinate systems, $$\mathbb{R}^n$$
+****** 2) archetypical geometric homomorphisms between them are smooth functions $$\mathbb{R}^{n_1} \rightarrow \mathbb{R}^{n_2}$$ that are sometimes referred to as coordinate transformations
+**** 1.1.1 The continuum real line
+***** The fundamental premise for using differential geometry as a model of geometry for physics is that the abstract worldline of any particle can be modeled by the continuum real line $$\mathbb{R}$$
+***** 
+**** 1.1.2 Cartesian spaces and smooth functions
+**** 1.1.3 The magic properties of smooth functions
+**** 1.1.4 The site of abstract coordinate systems
+*** 1.2 Smooth sets
+**** 1.2.1 Plots of smooth sets and their gluing
+**** 1.2.2 Homomorphisms of smooth sets
+**** 1.2.3 Products and fiber products of smooth sets
+**** 1.2.4 Smooth mapping spaces and smooth moduli spaces
+**** 1.2.5 The cohesive topos of smooth sets
+**** 1.2.6 Concrete smooth sets: diffeological spaces
+**** 1.2.7 Differential forms
+**** 1.2.8 Integration and transgression
+** 2. Smooth homotopy types
+** 3. Stable homotopy types
+** 4. Groups
+** 5. [[file:principal_bundle.org][principal bundle]]s
+** 6. Manifolds and orbifolds
+** 7. G-structure and Cartan geometry
+** 8. Representations and associated bundles
+** 9. Modules
+** 10. Flat connections
+** 11. de Rham coefficients
+** 12. Principal connections
+** 13. Integration
+** 14. Super-geometry
+* I-5. Transition
+** 1. Prequantum geometry
+** 2. WZW terms
+** 3. BPS charges
+* II. Physics
+** 1. Perturbative quantum field theory
+*** 1. Geometry
+*** 2. Spacetime
+*** 3. Fields
+*** 4. Field variations
+*** 5. Lagrangians
+*** 6. Symmetries
+*** 7. Observables
+*** 8. Phase space
+*** 9. Propagators
+*** 10. Gauge symmetries
+*** 11. Reduced phase space
+*** 12. Gauge fixing
+*** 13. Quantization
+*** 14. Free quantum fields
+*** 15. Interacting quantum fields
+*** 16. Renormalization
+** 2. Physics in higher geometry: motivation and survey
+** 3. Hamilton-Jacobi-Lagrange mechanics via prequantized Lagrangian correspondences
+** 4. Hamilton-de Donder-Wyel field theory via higher correspondences
+** 5. Local topological prequantum field theory
+** 6. Prequantum gauge theory and gravity
+** 7. Quantum mechanics
+** 8. Geometric quantization

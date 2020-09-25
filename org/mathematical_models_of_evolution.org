@@ -1,0 +1,9 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: mathematical_models_of_evolution
+#+TITLE: mathematical models of evolution
+* Topics
+** [[file:branching_processes.org][branching processes]]
+** [[file:asexual_evolution.org][asexual evolution]]
+* [[file:references.org][references]]
+** [[file:Joachim_Krug_ICTS_Lectures_June_2019.org][Joachim Krug ICTS Lectures June 2019]]
+** [[file:Multiscale_Structure_in_Eco-Evolutionary_Dynamics_by_Blake_Stacey_in_2015.org][Multiscale Structure in Eco-Evolutionary Dynamics by Blake Stacey in 2015]]

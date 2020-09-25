@@ -1,0 +1,10 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: video_editing
+#+TITLE: video editing
+* shotcut and blender
+* for simple video editing, shotcut is a good option
+* if video editing becomes more complex blender is probably the next best option taking into account it is completely open source and has an associated community. the free version of DaVinci Resolve is also worth trying out.
+* reviews
+** [[https://www.youtube.com/watch?v=amadM2oTrsM][Kdenlive Is Rubbish * Time For A Change!]] shotcut is best among the general set of open source simple video editors
+** [[https://www.youtube.com/watch?v=REJqyCPmPdc][Why Blender is a Better Free Video Editor Than DaVinci Resolve]] blender open source is better than proprietary free DaVinci resolve 
+** [[https://www.youtube.com/watch?v=yTyli7KarOM) DaVinci resolve is better than shotcut (which corrupted a project as of March 2019][DaVinci, Hitfilm and Shotcut ! Best Free Video Editing Software]]

@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: A_statistical_approach_for_tracking_clonal_dynamics_in_cancer_using_longitudinal_next-generation_sequencing_data_by_Dimitrios_Vavoulis_et_al_in_2020
+#+TITLE: A statistical approach for tracking clonal dynamics in cancer using longitudinal next-generation sequencing data by Dimitrios Vavoulis et al in 2020
+* [[file:cancer_evolution.org][cancer evolution]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:papers.org][papers]]
+* Vavoulis, D. V., Cutts, A., Taylor, J. C., & Schuh, A. (2020). A statistical approach for tracking clonal dynamics in cancer using longitudinal next-generation sequencing data by Dimitrios Vavoulis et al in 2020. __BioRxiv__, 2020.01.20.913236. https://doi.org/10.1101/2020.01.20.913236
+* http://github.com/dvav/clonosGP
+* https://github.com/cameronraysmith/cevo

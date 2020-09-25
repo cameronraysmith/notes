@@ -1,0 +1,164 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Data_analysis_using_regression_and_multilevel_hierarchical_models_by_Andrew_Gelman_and_Jennifer_Hill_in_2006
+#+TITLE: Data analysis using regression and multilevel hierarchical models by Andrew Gelman and Jennifer Hill in 2006
+* [[file:books.org][books]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:Andrew_Gelman.org][Andrew Gelman]], [[file:Jennifer_Hill.org][Jennifer Hill]]
+* references
+** http://www.stat.columbia.edu/~gelman/arm/
+** Note that this book is currently undergoing a separation into two books. The book website currently inside a folder named "arm" clearly intends to eventually refer to the second book exclusively on multilevel or hierarchical modeling
+*** [[file:Regression_and_Other_Stories_by_Andrew_Gelman,_Jennifer_Hill,_and_Aki_Vehtari_in_2020.org][Regression and Other Stories by Andrew Gelman, Jennifer Hill, and Aki Vehtari in 2020]]
+*** Advanced Regression and Multilevel Models
+* examples
+** Compare to those of [[file:Regression_and_Other_Stories_by_Andrew_Gelman,_Jennifer_Hill,_and_Aki_Vehtari_in_2020.org][Regression and Other Stories by Andrew Gelman, Jennifer Hill, and Aki Vehtari in 2020]] at least for part 1 of the book
+** http://www.stat.columbia.edu/~gelman/arm/examples/ARM_Data.zip
+** http://www.stat.columbia.edu/~gelman/arm/examples/
+** order of first appearance
+*** Home radon 
+*** Forecasting elections
+*** State-level opinions from national polls 
+*** Police stops by ethnic group
+*** Public opinion on the death penalty 
+*** Testing for election fraud 
+*** Sex ratio of births
+*** Mothers’ education and children’s test scores 
+*** Height and weight
+*** Beauty and teaching evaluations
+*** Height and earnings
+*** Handedness Yields of mesquite bushes
+*** Political party identification over time 
+*** Income and voting
+*** Arsenic in drinking water 
+*** Death-sentencing appeals process
+*** Ordered logistic model for storable votes 
+*** Cockroaches in apartments
+*** Behavior of couples at risk for HIV 
+*** Academy Award voting
+*** Incremental cost-effectiveness ratio 
+*** Unemployment time series
+*** The Electric Company TV show
+*** Hypothetical study of parenting quality as an intermediate outcome 
+*** Sesame Street TV show
+*** Messy randomized experiment of cow feed 
+*** Incumbency and congressional elections
+*** Value of a statistical life
+*** Evaluating the Infant Health and Development Program 
+*** Ideology of congress members
+*** Hypothetical randomized-encouragement study 
+*** Child support enforcement 
+*** Adolescent smoking 
+*** Rodents in apartments 
+*** Olympic judging
+*** Time series of children’s CD4 counts 
+*** Flight simulator experiment
+*** Latin square agricultural experiment 
+*** Income and voting by state 
+*** Item-response models
+*** Ideal-point modeling for the Supreme Court 
+*** Speed dating
+*** Social networks
+*** Regression with censored data 
+*** Educational testing experiments 
+*** Zinc for HIV-positive children
+*** Cluster sampling of New York City residents 
+*** Value added of school teachers
+*** Advanced Placement scores and college grades 
+*** Prison sentences
+*** Magnetic fields and brain functioning 
+*** Analysis of variance for web connect times 
+*** Split-plot latin square
+*** Educational-subsidy program in Mexican villages 
+*** Checking models of behavioral learning in dogs 
+*** Missing data in the Social Indicators Survey
+** alphabetical order
+*** Academy Award voting
+*** Adolescent smoking 
+*** Advanced Placement scores and college grades 
+*** Analysis of variance for web connect times 
+*** Arsenic in drinking water 
+*** Beauty and teaching evaluations
+*** Behavior of couples at risk for HIV 
+*** Checking models of behavioral learning in dogs 
+*** Child support enforcement 
+*** Cluster sampling of New York City residents 
+*** Cockroaches in apartments
+*** Death-sentencing appeals process
+*** Educational testing experiments 
+*** Educational-subsidy program in Mexican villages 
+*** Evaluating the Infant Health and Development Program 
+*** Flight simulator experiment
+*** Forecasting elections
+*** Handedness Yields of mesquite bushes
+*** Height and earnings
+*** Height and weight
+*** Home radon 
+*** Hypothetical randomized-encouragement study 
+*** Hypothetical study of parenting quality as an intermediate outcome 
+*** Ideal-point modeling for the Supreme Court 
+*** Ideology of congress members
+*** Income and voting
+*** Income and voting by state 
+*** Incremental cost-effectiveness ratio 
+*** Incumbency and congressional elections
+*** Item-response models
+*** Latin square agricultural experiment 
+*** Magnetic fields and brain functioning 
+*** Messy randomized experiment of cow feed 
+*** Missing data in the Social Indicators Survey
+*** Mothers’ education and children’s test scores 
+*** Olympic judging
+*** Ordered logistic model for storable votes 
+*** Police stops by ethnic group
+*** Political party identification over time 
+*** Prison sentences
+*** Public opinion on the death penalty 
+*** Regression with censored data 
+*** Rodents in apartments 
+*** Sesame Street TV show
+*** Sex ratio of births
+*** Social networks
+*** Speed dating
+*** Split-plot latin square
+*** State-level opinions from national polls 
+*** Testing for election fraud 
+*** The Electric Company TV show
+*** Time series of children’s CD4 counts 
+*** Unemployment time series
+*** Value added of school teachers
+*** Value of a statistical life
+*** Zinc for HIV-positive children
+* contents
+** The content is designed to explain how to fit, graph, and understand classical and multilevel linear and generalized linear models and to use these model fits to make predictions and inferences about quantities of interest, including causal treatment effects
+** Chapter 1: Why?
+*** 1.1 What is multilevel regression modeling?
+**** Models for regression coefficients
+***** Varying-intercept model
+***** Varying-intercept, varying slope model
+*** 
+** Chapter 2: Concepts and methods from basic probability and statistics
+** Part 1A: Fit, understand, and graph classical regressions and generalized linear models. 
+*** – Chapter 3: Fit linear regressions and be able to interpret and display estimated coefficients.
+*** – Chapter 4: Build linear regression models by transforming and combining variables.
+*** – Chapter 5: Fit, understand, and display logistic regression models for binary data.
+*** – Chapter 6: Fit, understand, and display generalized linear models, including Poisson regression with overdispersion and ordered logit and probit models.
+** Part 1B: Use regression to learn about quantities of substantive interest (not just regression coefficients). 
+*** – Chapter 7: Simulate probability models and uncertainty about inferences and predictions.
+*** – Chapter 8: Check model fits using fake-data simulation and predictive simu* lation.
+*** – Chapter 9: Understand assumptions underlying causal inference. Set up re* gressions for causal inference and understand the challenges that arise.
+*** – Chapter 10: Understand the assumptions underlying propensity score match* ing, instrumental variables, and other techniques to perform causal inference when simple regression is not enough. Be able to use these when appropriate.
+** Part 2A: Understand and graph multilevel models.
+*** – Chapter 11: Understand multilevel data structures and models as generaliza* tions of classical regression.
+*** – Chapter 12: Understand and graph simple varying-intercept regressions and interpret as partial-pooling estimates.
+*** – Chapter 13: Understand and graph multilevel linear models with varying in* tercepts and slopes, non-nested structures, and other complications.
+*** – Chapter 14: Understand and graph multilevel logistic models. 
+*** – Chapter 15: Understand and graph multilevel overdispersed Poisson, ordered logit and probit, and other generalized linear models.
+** Part 2B: Fit multilevel models using the software packages R and Bugs. 
+*** – Chapter 16: Fit varying-intercept regressions and understand the basics of Bugs. Check your programming using fake-data simulation.
+*** – Chapter 17: Use Bugs to fit various models from Part 2A. 
+*** – Chapter 18: Understand Bayesian inference as a generalization of least squares and maximum likelihood. Use the Gibbs sampler to fit multilevel models.
+*** – Chapter 19: Use redundant parameterizations to speed the convergence of the Gibbs sampler.
+** Part 3:
+*** – Chapter 20: Perform sample size and power calculations for classical and hier* archical models: standard-error formulas for basic calculations and fake-data simulation for harder problems.
+*** – Chapter 21: Calculate and understand contrasts, explained variance, partial pooling coefficients, and other summaries of fitted multilevel models.
+*** – Chapter 22: Use the ideas of analysis of variance to summarize fitted multilevel models; use multilevel models to perform analysis of variance.
+*** – Chapter 23: Use multilevel models in causal inference. 
+*** – Chapter 24: Check the fit of models using predictive simulation. 
+*** – Chapter 25: Use regression to impute missing data in multivariate datasets.

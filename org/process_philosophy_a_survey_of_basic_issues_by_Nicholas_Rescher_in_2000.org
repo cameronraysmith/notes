@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: process_philosophy_a_survey_of_basic_issues_by_Nicholas_Rescher_in_2000
+#+TITLE: process philosophy a survey of basic issues by Nicholas Rescher in 2000
+* [[file:philosophy.org][philosophy]], [[file:process_philosophy.org][process philosophy]], [[file:books.org][books]], [[file:Nicholas_Rescher.org][Nicholas Rescher]]
+* 

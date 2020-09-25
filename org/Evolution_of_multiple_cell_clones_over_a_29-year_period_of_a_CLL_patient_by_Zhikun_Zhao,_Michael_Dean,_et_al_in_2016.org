@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Evolution_of_multiple_cell_clones_over_a_29-year_period_of_a_CLL_patient_by_Zhikun_Zhao,_Michael_Dean,_et_al_in_2016
+#+TITLE: Evolution of multiple cell clones over a 29-year period of a CLL patient by Zhikun Zhao, Michael Dean, et al in 2016
+* [[file:cancer_evolution.org][cancer evolution]]
+* citation
+* contents
+** [[https://photos.google.com/share/AF1QipPnnL6vYeAxzYgffL7I5f2GPTg6_JXMPrkOK9eSmzWgno-yz-wmcvz6QqnEGOmtOQ/photo/AF1QipNjW_sQ2sV2ZGCB6XbUMyCe-m01DA7S7meXF6n7?key=Zk53OTVHUXVKaGgyVXRnUXc1SUNicUdkcUNPWjBR][figure 1]]
+** 

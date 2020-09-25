@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Sthenojl
+#+TITLE: Stheno.jl
+* [[file:software_library.org][software library]], [[file:Gaussian_process.org][Gaussian process]], [[file:julia.org][julia]]
+* 

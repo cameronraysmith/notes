@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: measurement_of_biological_systems
+#+TITLE: measurement of biological systems
+* [[file:genomics.org][genomics]]
+* [[file:transcriptomics.org][transcriptomics]]

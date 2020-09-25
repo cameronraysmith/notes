@@ -1,0 +1,12 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Network_inference_and_biological_dynamics_by_Chris_Oates_and_Sach_Mukherjee_in_2012
+#+TITLE: Network inference and biological dynamics by Chris Oates and Sach Mukherjee in 2012
+* [[file:papers.org][papers]], [[file:network_inference.org][network inference]], [[file:probabilistic_inference.org][probabilistic inference]]
+* citation
+** Oates, C. J., & Mukherjee, S. (2012). Network inference and biological dynamics. __The Annals of Applied Statistics__, __6__(3), 1209–1235. https://doi.org/10.1214/11-AOAS532
+* code
+** matlab zip file
+*** http://oates.work/papers
+*** https://projecteuclid.org/euclid.aoas/1346418580#supplemental
+* contents
+** 

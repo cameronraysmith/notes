@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Facets_of_Systems_Science_2nd_ed_by_George_Klir_in_2001
+#+TITLE: Facets of Systems Science 2nd ed by George Klir in 2001
+* First edition: https://doi.org/10.1007/978-1-4899-0718-9
+* 29. [[file:Principles_of_the_self-organizing_system_by_W_Ross_Ashby_in_1962.org][Principles of the self-organizing system by W. Ross Ashby in 1962]]

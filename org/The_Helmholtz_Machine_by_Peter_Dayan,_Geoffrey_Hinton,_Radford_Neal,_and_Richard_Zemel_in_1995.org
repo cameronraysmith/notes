@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_Helmholtz_Machine_by_Peter_Dayan,_Geoffrey_Hinton,_Radford_Neal,_and_Richard_Zemel_in_1995
+#+TITLE: The Helmholtz Machine by Peter Dayan, Geoffrey Hinton, Radford Neal, and Richard Zemel in 1995
+* [[file:variational_inference.org][variational inference]], [[file:Bayesian_brain_hypothesis.org][Bayesian brain hypothesis]], [[file:free_energy_principle.org][free energy principle]], [[file:probabilistic_inference.org][probabilistic inference]]
+* Dayan, P., Hinton, G. E., Neal, R. M., & Zemel, R. S. (1995). The Helmholtz Machine __Neural Computation__, __7__(5), 889–904. 
+* https://doi.org/10.1162/neco.1995.7.5.889
+* Is this the first presentation of [[file:variational_inference.org][variational inference]] within any field?
+*  

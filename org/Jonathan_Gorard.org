@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Jonathan_Gorard
+#+TITLE: Jonathan Gorard
+* [[file:Some_Relativistic_and_Gravitational_Properties_of_the_Wolfram_Model_by_Jonathan_Gorard_in_2020.org][Some Relativistic and Gravitational Properties of the Wolfram Model by Jonathan Gorard in 2020]]
+* [[file:Some_Quantum_Mechanical_Properties_of_the_Wolfram_Model_by_Jonathan_Gorard_in_2020.org][Some Quantum Mechanical Properties of the Wolfram Model by Jonathan Gorard in 2020]]

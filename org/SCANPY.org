@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: SCANPY
+#+TITLE: SCANPY
+* [[file:single-cell_transcriptome_analysis.org][single-cell transcriptome analysis]], [[file:bioinformatics.org][bioinformatics]], [[file:code_repository.org][code repository]], [[file:software_library.org][software library]]
+* https://github.com/theislab/scanpy
+* https://scanpy.readthedocs.io/en/latest/tutorials.html

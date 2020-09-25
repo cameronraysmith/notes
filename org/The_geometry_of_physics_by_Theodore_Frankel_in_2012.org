@@ -1,0 +1,408 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_geometry_of_physics_by_Theodore_Frankel_in_2012
+#+TITLE: The geometry of physics by Theodore Frankel in 2012
+* [[file:differential_geometry.org][differential geometry]], [[file:physics.org][physics]], [[file:mathematics.org][mathematics]], [[file:theoretical_physics.org][theoretical physics]]
+* 0. Overview: An informal overview of Cartan's exterior differential forms, illustrated with an application to Cauchy's stress tensor
+** Introduction
+*** 0.a Introduction
+** Vectors, 1-forms, and tensors
+*** 0.b Two kinds of vectors
+**** $$ \mathbf{v} = \mathbf{\partial} v$$
+***** $$\mathbf{\partial} = \left( \mathbf{\partial}_1 , \ldots , \mathbf{\partial}_n \right)$$
+***** $$v = \left(  v^1 \, \cdots \; v^n  \right)^T$$
+**** 
+*** 0.c Superscripts, subscripts, summation convention
+*** 0.d Riemmanian metrics [[file:progress_indicators.org][progress indicators]]
+*** 0.e Tensors
+** Integrals and exterior forms
+*** 0.f Line integrals
+*** 0.g Exterior 2-forms
+*** 0.h Exterior p-forms and algebra in $$\mathbb{R}^n$$
+*** 0.i The exterior differential $$d$$
+*** 0.j The push-forward of a vector and the pull-back of a form
+*** 0.k Surface integrals and "Stokes' Theorem"
+*** 0.l Electromagnetism, or, Is it a vector or a form?
+*** 0.m Interior products
+*** 0.n Volume forms and Cartan's vector valued exterior forms
+*** 0.o Magnetic field for current in a straight wire
+** Electricity and stresses
+*** 0.p Cauchy stress, floating bodies, twisted cylinders, and strain energy
+*** 0.q Sketch of Cauchy's "First theorem"
+*** 0.r Sketch of Cauchy's "Second theorem" moments as generators of rotations
+*** 0.s A remarkable formula for differentiating Line, Surface, and ..., Integrals
+* I. Manifolds, tensors, and exterior forms
+** 1. Manifolds and vector fields
+*** 1.1 Submanifolds of Euclidean space
+**** 1.1a Submanifolds of $$\mathbb{R}^N$$
+**** 1.1b The geometry of Jacobian matrices: The "Differential"
+**** 1.1c The main theorem on submanifolds of $$\mathbb{R}^N$$
+**** 1.1d A nontrivial example: the configuration space of a rigid body
+*** 1.2 Manifolds
+**** a. Some notions from point set topology
+**** b. The idea of a manifold
+**** c. A rigorous definition of a manifold
+**** d. Complex manifolds: the Riemann sphere
+*** 1.3 Tangent vectors and mappings
+**** a. Tangent or contravariant vectors
+**** b. Vectors as differential operators
+**** c. The tangent space to M^n at a point
+**** d. Mappings and submanifolds of manifolds
+**** e. Change of coordinates
+*** 1.4 Vector fields and flows
+**** a. Vector fields and flows on $$\mathbb{R}^n$$
+**** b. Vector fields on manifolds
+**** c. Straightening flows
+** 2. Tensors and exterior forms
+*** 2.1 Covectors and Riemannian metrics
+*** 2.2 The tangent bundle
+*** 2.3 The cotangent bundle and phase space
+*** 2.4 Tensors
+*** 2.5 The Grassmann or exterior algebra 
+*** 2.6 Exterior differentiation
+*** 2.7 Pull-backs
+*** 2.8 Orientation and pseudoforms
+*** 2.9 Interior products and vector analysis
+*** 2.10 Dictionary
+** 3. Integration of differential forms
+*** 3.1 Integration over a parametrized subset
+*** 3.2 Integration over manifolds with boundary
+*** 3.3 Stokes's theorem
+*** 3.4 Integration of pseudoforms
+*** 3.5 Maxwell's equations
+** 4. The Lie derivative
+*** 4.1 The Lie derivative of a vector field
+*** 4.2 The Lie derivative of a form
+*** 4.3 Differentiation of integrals
+*** 4.4 A problem set on Hamiltonian mechanics
+** 5. The Poincare lemma and potentials
+*** 5.1 A more general Stokes's theorem
+*** 5.2 Closed forms and exact forms
+*** 5.3 Complex analysis
+*** 5.4 The converse to the Poincare lemma
+*** 5.5 Finding potentials
+** 6. Holonomic and nonholonomic constraints
+*** 6.1 The Frobenius integrability condition
+*** 6.2 Integrability and constraints
+*** 6.3 Heuristic thermodynamics via Caratheodory
+* II. Geometry and topology
+** 7. $$\mathbb{R}^3$$ and Minkowski space
+*** 7.1 Curvature and special relativity
+**** a. Curvature of a space curve in $$\mathbb{R}^3$$
+**** b. Minkowski space and special relativity
+**** c. Hamiltonian formulation
+*** 7.2 Electromagnetism in Minkowski space
+**** a. Minkowski's electromagnetic field tensor
+**** b. Maxwell's equations
+** 8. The geometry of surfaces in $$\mathbb{R}^3$$
+*** 8.1 The first and second fundamental forms
+**** a. The first fundamental form, or metric tensor
+**** b. The second fundamental form
+*** 8.2 Gaussian and mean curvatures
+**** a. Symmetry and self-adjointness
+**** b. Principal normal curvatures
+**** c. Gauss and mean curvatures: the Gauss normal map
+*** 8.3 The Brouwer degree of a map: a problem set
+**** a. The Brouwer degree
+**** b. Complex analytic (Holomorphic) maps
+**** c. The Gauss normal map revisited: the Gauss-Bonnet theorem
+**** d. The Kronecker Index of a vector field
+**** e. The Gauss looping integral
+*** 8.4 Area, mean curvature, and soap bubbles
+**** a. The first variation of area
+**** b. Soap bubbles and minimal surfaces
+*** 8.5 Gauss's theorema egregium
+**** a. The equations of Gauss and Codazzi
+**** b. The Theorema Egregium
+*** 8.6 Geodesics
+**** a. The first variation of arc length
+**** b. The intrinsic derivative and the geodesic equation
+*** 8.7 The parallel displacement of Levi-Civita
+** 9. Covariant differentiation and curvature
+*** 9.1 Covariant differentiation
+**** a. Covariant derivative
+**** b. Curvature of an affine connection
+**** c. Torsion and symmetry
+*** 9.2 The Riemmannian connection
+*** 9.3 Cartan's exterior covariant differential
+**** a. Vector-valued forms
+**** b. The Covariant differential of a vector field
+**** c. Cartan's structural equations
+**** d. The exterior covariant differential of a vector-valued form
+**** e. The curvature 2-forms
+*** 9.4 Change of basis and gauge transformations
+**** a. Symmetric connections only
+**** b. Change of frame
+*** 9.5 The curvature forms in a Riemannian manifold
+**** a. The Riemmannian connection
+**** b. Riemannian surfaces $$M^2$$
+*** 9.6 Parallel displacement and curvature on a surface
+*** 9.7 Riemann's theorem and the horizontal distribution
+**** a. Flat metrics
+**** b. The horizontal distribution of an affine connection
+**** c. Riemann's theorem
+** 10. Geodesics
+*** 10.1 Geodesics and Jacobi fields
+**** a. Vector fields along a surface in $$M^n$$
+**** b. Geodesics
+**** c. Jacobi fields
+**** d. Energy
+*** 10.2 Variational principles in mechanics
+**** a. Hamilton's principle in the tangent bundle
+**** b. Hamilton's principle in phase space
+**** c. Jacobi's principle of least action
+**** d. Closed geodesics and periodic motions
+*** 10.3 Geodesics, spiders, and the universe
+**** a. Gaussian coordinates
+**** b. Normal coordinates on a surface
+**** c. Spiders and the universe
+** 11. Relativity, tensors, and curvature
+*** 11.1 Heuristics of Einstein's theory
+**** a. The metric potentials
+**** b. Einstein's field equations
+**** c. Remarks on static metrics
+*** 11.2 Tensor analysis
+**** a. Covariant differentiation of tensors
+**** b. Riemannian connections and the Bianchi identities
+**** c. Second covariant derivatives: the Ricci identities
+*** 11.3 Hilbert's action principle
+**** a. Geodesics in a pseudo-Riemannian manifold
+**** b. Normal coordinates, the divergence and Laplacian
+**** c. Hilbert's variational approach to general relativity
+*** 11.4 The second fundamental form in the Riemannian case
+**** a. The induced connection and the second fundamental form
+**** b. The equations of Gauss and Codazzi
+**** c. The interpretation of the sectional curvature
+**** d. Fixed points of isometries
+*** 11.5 The geometry of Einstein's equations
+**** a. The Einstein tensor in a pseudo Riemannian space-time
+**** b. The relativistic meaning of Gauss' equation
+**** c. The second fundamental form of a spatial slice
+**** d. The Codazzi equations
+**** e. Some remarks on the Schwarzschild solution
+** 12. Curvature and topology: Synge's theorem
+*** 12.1 Synge's formula for second variation
+**** a. The second variation of arc length
+**** b. Jacobi fields
+*** 12.2 Curvature and simple connectivity
+**** a. Synge's theorem
+**** b. Orientability revisited
+** 13. Betti numbers and De Rham's theorem
+*** 13.1 Singular chains and their boundaries
+**** a. Singular chains
+**** b. Some 2-dimensional examples
+*** 13.2 The singular homology groups
+**** a. Coefficient fields
+**** b. Finite simplicial complexes
+**** c. Cycles, boundaries, homology and Betti numbers
+*** 13.3 Homology groups of familiar manifolds
+**** a. Some computational tools
+**** b. Familiar examples
+*** 13.4 De Rham's theorem
+**** a. The statement of de Rham's theorem
+**** b. Two examples
+** 14. Harmonic forms
+*** 14.1 The Hodge operators
+**** a. The * operator
+**** b. The codifferential operator $$\delta = d^*$$
+**** c. Maxwell's equations in curved space-time $$M^4$$
+**** d. The Hilbert Lagrangian
+*** 14.2 Harmonic forms
+**** a. The Laplace operator on forms
+**** b. The Laplacian of a 1-form
+**** c. Harmonic forms on closed manifolds
+**** d. Harmonic forms and de Rham's theorem
+**** e. Bochner's theorem
+*** 14.3 Boundary values, relative homology, and Morse theory
+**** a. Tangential and normal differential forms
+**** b. Hodge's theorem for tangential forms
+**** c. Relative homology groups
+**** d. Hodge's theorem for normal forms
+**** e. Morse's theory of critical points
+* III. Lie groups, bundles, and Chern forms
+** 15. Lie groups
+*** 15.1 Lie groups, invariant vector fields and forms
+**** a. Lie groups
+**** b. Invariant vector fields and forms
+*** 15.2 One parameter subgroups
+*** 15.3 The Lie algebra of a Lie group
+**** a. The Lie algebra
+**** b. The exponential map
+**** c. Examples of Lie algebras
+**** d. Do the 1-parameter subgroups cover G?
+*** 15.4 Subgroups and subalgebras
+**** a. Left invariant fields generate right translations
+**** b. Commutators of matrices 
+**** c. Right invariant fields
+**** d. Subgroups and subalgebras
+** 16. Vector bundles in geometry and physics
+*** 16.1 Vector bundles
+**** a. Motivation by two examples
+**** b. Vector bundles
+**** c. Local trivializations
+**** d. The normal bundle to a submanifold
+*** 16.2 Poincare's theorem and the Euler characteristic
+**** a. Poincare's theorem
+**** b. The Stiefel vector field and Euler's theorem
+*** 16.3 Connections in a vector bundle
+**** a. Connection in a vector bundle
+**** b. Complex vector spaces
+**** c. The structure group of a bundle
+**** d. Complex line bundles
+*** 16.4 The electromagnetic connection
+**** a. Lagrange's equations without electromagnetism
+**** b. The modified Lagrangian and Hamiltonian
+**** c. Schrodinger's equation in an electromagnetic field
+**** d. Global potentials
+**** e. The Dirac monopole
+**** f. The Aharonov-Bohm effect
+** 17. [[file:fiber_bundle.org][fiber bundle]]s, Gauss-Bonnet, and topological quantization
+*** 17.1 [[file:fiber_bundle.org][fiber bundle]]s and [[file:principal_bundle.org][principal bundle]]s
+**** a. [[file:fiber_bundle.org][fiber bundle]]s
+**** b. [[file:principal_bundle.org][principal bundle]]s and frame bundles
+**** c. Action of the structure group on a [[file:principal_bundle.org][principal bundle]]
+*** 17.2 Coset spaces
+**** a. Cosets
+**** b. Grassmann manifolds
+*** 17.3 Chern's proof of the Gauss-Bonnet-Poincare theorem
+**** a. A connection in the frame bundle of a surface
+**** b. The Gauss-Bonnet-Poincare theorem
+**** c. Gauss-Bonnet as an index theorem
+*** 17.4 Line bundles, topological quantization and Berry phase
+**** a. A generalization of Gauss-Bonnet
+**** b. Berry phase
+**** c. Monopoles and the Hopf bundle
+** 18. Connections and associated bundles
+*** 18.1 Forms with values in a Lie algebra
+**** a. The Maurer-Cartan form
+**** b. g-valued p-forms on a Manifold
+**** c. Connections in a [[file:principal_bundle.org][principal bundle]]
+*** 18.2 Associated bundles and connections
+**** a. Associated bundles
+**** b. Connections in associated bundles
+**** c. The associated $$Ad$$ bundle
+*** 18.3 r-Form sections of a vector bundle: curvature
+**** a. r-Form sections of E
+**** b. Curvature and the $$Ad$$ bundle
+** 19. The Dirac equation
+*** 19.1 The groups $$SO(3)$$ and $$SU(2)$$
+**** a. The rotation group $$SO(3)$$ of $$\mathbb{R}^3$$
+**** b. $$SU(2)$$: the Lie algebra $$su(2)$$
+**** c. $$SU(2)$$ is topologically the 3-sphere
+**** d. $$Ad \colon SU(2) \rightarrow SO(3)$$ in more detail
+*** 19.2 Hamilton, Clifford, and Dirac
+**** a. [[file:spinors.org][spinors]] and rotations of $$\mathbb{R}^3$$
+**** b. Hamilton on composing two rotations
+**** c. Clifford algebras
+**** d. The Dirac program: the square root of the d'Alembertian
+*** 19.3 The Dirac algebra
+**** a. The Lorentz algebra
+**** b. The Dirac algebra
+*** 19.4 The Dirac operator $$\partial$$ in Minkowski space
+**** a. Dirac [[file:spinors.org][spinors]]
+**** b. The Dirac operator
+*** 19.5 The Dirac operator in curved space-time
+**** a. The spinor bundle
+**** b. The spin connection in SM
+** 20. Yang-Mills fields
+*** 20.1 Noether's theorem for internal symmetries
+**** a. The tensorial nature of Lagrange's equations
+**** b. Boundary conditions
+**** c. Noether's theorem for internal symmetries
+**** d. Noether's principle 
+*** 20.2 Weyl's gauge invariance revisited
+**** a. The Dirac Lagrangian
+**** b. Weyl's Gauge invariance revisited
+**** c. The electromagnetic Lagrangian
+**** d. Quantization of the A field: photons
+*** 20.3 Yang-Mills nucleon
+**** a. The Heisenberg nucleon
+**** b. The Yang-Mills nucleon
+**** c. A remark on terminology
+*** 20.4 Compact groups and Yang-Mills action
+**** a. The unitary group is compact
+**** b. Averaging over a compact group
+**** c. Compact matrix groups are subgroups of unitary groups
+**** d. $$Ad$$ invariant scalar products in the Lie algebra of a compact group
+**** e. The Yang-Mills action
+*** 20.5 The Yang-Mills equation
+**** a. The exterior covariant divergence $$\Delta^*$$
+**** b. The Yang-Mills analogy with electromagnetism
+**** c. Further remarks on the Yang-Mills equations
+*** 20.6 Yang-Mills instantons
+**** a. Instantons
+**** b. Chern's proof revisited
+**** c. Instantons and the vacuum
+** 21. Betti numbers and covering spaces
+*** 21.1 Bi-invariant forms on compact groups
+**** a. Bi-invariant p-forms
+**** b. The Cartan p-forms
+**** c. Bi-invariant Riemannian metrics
+**** d. Harmonic forms in the bi-invariant metric
+**** e. Weyl and Cartan on the Betti numbers of G
+*** 21.2 The fundamental group and covering spaces
+**** a. Poincare's fundamental group $$\pi_1(M)$$
+**** b. The concept of a covering space
+**** c. The universal covering 
+**** d. The orientable covering 
+**** e. Lifting paths
+**** f. Subgroups of $$\pi(M)$$
+**** g. The universal covering group
+*** 21.3 The theoreme of S.B. Myers: A problem set
+*** 21.4 The geometry of a Lie group
+**** a. The connection of a bi-invariant metric
+**** b. The flat connections
+** 22. Chern forms and homotopy groups
+*** 22.1 Chern forms and winding numbers
+**** a. The Yang-Mills winding number
+**** b. Winding number in terms of field strength
+**** c. The Chern forms for a $$U(n)$$ bundle
+*** 22.2 Homotopies and extensions
+**** a. Homotopy
+**** b. Covering homotopy
+**** c. Some topology of $$SU(n)$$
+*** 22.3 The higher homotopy groups $$\pi_k(M)$$
+**** a. $$\pi_k (M)$$
+**** b. Homotopy groups of spheres
+**** c. Exact sequences of groups
+**** d. The homotopy sequence of a bundle
+**** e. The relation between homotopy and homology groups
+*** 22.4 Some computations of homotopy groups
+**** a. Lifting spheres from $$M$$ into the bundle $$P$$
+**** b. $$SU(n)$$ again
+**** c. The Hopf map and fibering
+*** 22.5 Chern forms as obstructions
+**** a. The Chern forms $$c_r$$ for an $$SU(n)$$ bundle revisited
+**** b. $$c_2$$ as an obstruction cocycle
+**** c. The meaning of the integer $$j(\Delta_4)$$
+**** d. Chern's integral
+**** e. Concluding remarks
+* Appendices
+** A. Forms in continuum mechanics
+*** a The equations of motion of a stressed body
+*** b. Stresses are vector valued $$(n-1)$$ pseudo-forms
+*** c. The Piola-Kirchoff stress tensors $$S$$ and $$P$$
+*** d. Strain energy rate
+*** e. Some typical computations using forms
+*** f. Concluding remarks
+** B. Harmonic chains and Kirchhoff's circuit laws
+*** a. Chain complexes
+*** b. Cochains and cohomology
+*** c. Transpose and adjoint
+*** d. Laplacians and harmonic cochains
+*** e. Kirchoff's circuit laws
+** C. Symmetries, quarks, and meson masses
+*** a. Flavored quarks
+*** b. Interactions of quarks and antiquarks
+*** c. The Lie algebra of $$SU(3)$$
+*** d. Pions, kaons, and etas
+*** e. A reduced symmetry group
+*** f. Meson masses
+** D. Representations and hyperelastic bodies
+*** a. Hyperelastic bodies
+*** b. Isotropic bodies
+*** c. Application of Schur's lemma
+*** d. Frobenius-Schur relations
+*** e. The symmeteric traceless $$3 \times 3$$ matrices are irreducible
+** E. Orbits and Morse-Bott theory in compact Lie groups
+*** a. The topology of conjugacy orbits
+*** b. Application of Bott's extension of Morse theory

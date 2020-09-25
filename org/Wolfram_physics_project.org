@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Wolfram_physics_project
+#+TITLE: Wolfram physics project
+* https://www.wolframphysics.org/
+* [[https://www.youtube.com/playlist?list=PLNFIflbQ6VNumMum_OPdP5NPIv5dW5PX0][Wolfram physics project YouTube playlist]]
+* See chapter 9 in [[file:A_new_kind_of_science_by_Stephen_Wolfram_in_2002.org][A new kind of science by Stephen Wolfram in 2002]]
+* [[file:A_Class_of_Models_with_the_Potential_to_Represent_Fundamental_Physics_by_Stephen_Wolfram_in_2020.org][A Class of Models with the Potential to Represent Fundamental Physics by Stephen Wolfram in 2020]]
+* The existing technical papers as of the release of the project are those by [[file:Jonathan_Gorard.org][Jonathan Gorard]]

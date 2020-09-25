@@ -1,0 +1,166 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Gauge_Theories_in_Particle_Physics_A_Practical_Introduction,_Volume_1_From_Relativistic_Quantum_Mechanics_to_QED_by_Aitchison_and_Hey_in_2013
+#+TITLE: Gauge Theories in Particle Physics A Practical Introduction, Volume 1 From Relativistic Quantum Mechanics to QED by Aitchison and Hey in 2013
+* I. Introductory survey, Electromagnetism as a Gauge Theory, and Relativistic Quantum Mechanics
+** 1. The particles and forces of the Standard Model
+*** 1.1 Introduction: the Standard Model
+*** 1.2 The fermions of the Standard Model
+**** 1.2.1 Leptons
+**** 1.2.2 Quarks
+*** 1.3 Particle interactions in the Standard Model
+**** 1.3.1 Classical and quantum fields
+**** 1.3.2 The Yukawa theory of force as virtual quantum exchange
+**** 1.3.3 The one-quantum exchange amplitude
+**** 1.3.4 Electromagnetic interactions
+**** 1.3.5 Weak interactions
+**** 1.3.6 Strong interactions
+**** 1.3.7 The gauge bosons of the Standard Model
+*** 1.4 Renormalization and the Higgs sector of the Standard Model
+**** 1.4.1 Renormalization
+**** 1.4.2 The Higgs boson of the Standard Model
+*** 1.5 Summary
+*** Problems
+** 2. Electromagnetism as a Gauge Theory
+*** 2.1 Introduction
+*** 2.2 The Maxwell equations: current conservation
+*** 2.3 The Maxwell equations: Lorentz covariance and gauge invariance
+*** 2.4 Gauge invariance (and covariance) in quantum mechanics
+*** 2.5 The argument reversed: the gauge principle
+*** 2.6 Comments on the gauge principle in electromagnetism
+*** Problems
+** 3. Relativistic quantum mechanics
+*** 3.1 The Klein-Gordon equation
+**** 3.1.1 Solution in coordinate space
+**** 3.1.2 Probability current for the KG equation
+*** 3.2 The Dirac equation
+**** 3.2.1 Free-particle solutions
+**** 3.2.2 Probability current for the Dirac equation
+*** 3.3 Spin
+*** 3.4 The negative-energy solutions
+**** 3.4.1 Positive-energy spinors
+**** 3.4.2 Negative-energy spinors
+**** 3.4.3 Dirac's interpretation of the negative-energy solutions of the Dirac equation
+**** 3.4.4 Feynman's interpretation of the negative-energy solutions of the KG and Dirac equations
+*** 3.5 Inclusion of electromagnetic interactions via the gauge principle: the Dirac prediction of $$g=2$$ for the electron
+*** Problems
+** 4. Lorentz transformations and discrete symmetries
+*** 4.1 Lorentz transformations
+**** 4.1.1 The KG equation
+**** 4.1.2 The Dirac equation
+*** 4.2 Discrete transformations: P, C, and T
+**** 4.2.1 Parity
+**** 4.2.2 Charge conjugation
+**** 4.2.3 CP
+**** 4.2.4 Time reversal
+**** 4.2.5 CPT
+**** Problems
+* II. Introduction to Quantum Field Theory
+** 5. Quantum Field Theory I: The Free Scalar Field
+*** 5.1 The quantum field: (i) descriptive
+*** 5.2 The quantum field: (ii) Lagrange-Hamilton formulation
+*** 5.3 Generalizations: four dimensions, relativity, and mass
+*** Problems
+** 6. Quantum Field Theory II: Interacting Scalar Fields
+*** 6.1 Interactions in quantum field theory: qualitative introduction
+*** 6.2 Perturbation theory for interacting fields: the Dyson expansion of the S-matrix
+**** 6.2.1 The interaction picture
+**** 6.2.2 The S-matrix and the Dyson expansion
+*** 6.3 Applications to the ABC theory
+**** 6.3.1 The decay $$C \rightarrow A + B$$
+**** 6.3.2 $$A + B \rightarrow A + B$$ scattering: the amplitudes
+**** 6.3.3 $$A + B \rightarrow A + B$$ scattering: the Yukawa exchange mechanism $$s$$ and $$u$$ channel processes
+**** 6.3.4 $$A + B \rightarrow A + B$$ scattering: the differential cross section
+**** 6.3.5 $$A + B \rightarrow A + B$$ scattering: loose ends
+**** Problems
+** 7. Quantum Field Theory III: Complex scalar fields, Dirac and Maxwell Fields; Introduction of Electromagnetic Interactions
+*** 7.1 The complex scalar field: global $$U(1)$$ phase invariance, particles and antiparticles
+*** 7.2 The Dirac field and the spin-statistics connection
+*** 7.3 The Maxwell field $$A^{\mu}(x)$$
+**** 7.3.1 The classical field case
+**** 7.3.2 Quantizing $$A^{\mu}(x)
+*** 7.4 Introduction of electromagnetic interactions
+*** 7.5 $$\mathbf{P}$$, $$\mathbf{C}$$, and $$\mathbf{T}$$ in quantum field theory
+**** 7.5.1 Parity
+**** 7.5.2 Charge conjugation
+**** 7.5.3 Time reversal
+*** Problems
+* III. Tree-level applications in QED
+** 8. Elementary processes in scalar and spinor electrodynamics
+*** 8.1 Coulomb scattering of charged spin-0 particles
+*** 8.2 Coulomb scattering of charged spin-1/2 particles
+*** 8.3 $$e^-s^+$$ scattering
+**** 8.3.1 The amplitude for $$e^-s^+ \rightarrow e^-s^+$$
+**** 8.3.2 The cross section for $$e^-s^+ \rightarrow e^-s^+$$
+*** 8.4 Scattering from a non-point-like object: the pion form factor in $$e^-\pi^+ \rightarrow e^-\pi^+$$
+**** 8.4.1 $$e^-$$ scattering from a charge distribution
+**** 8.4.2 Lorentz invariance
+**** 8.4.3 Current conservation
+*** 8.5 The form factor in the time-like region: $$e^+e^* \rightarrow \pi^+\pi^-$$ and crossing symmetry
+*** 8.6 Electron compton scattering
+**** 8.6.1 The lowest-order amplitudes
+**** 8.6.2 Gauge invariance
+**** 8.6.3 The Compton cross section
+*** 8.7 Electron muon elastic scattering
+*** 8.8 Electron-proton elastic scattering and nucleon form factors
+**** 8.8.1 Lorentz invariance
+**** 8.8.2 Current conservation
+*** Problems
+** 9. Deep inelastic electron-nucleon scattering and the parton model
+*** 9.1 Inelastic electron-proton scattering: kinematics and structure functions
+*** 9.2 Bjorken scaling and the parton model
+*** 9.3 Partons as quarks and gluons
+*** 9.4 The Drell-Yan process
+*** 9.5 $$e^+e^-$$ annihilation into hadrons
+*** Problems
+* IV. Loops and Renormalization
+** 10. Loops and renormalization I: The ABC theory
+*** 10.1 The propagator correction in ABC theory
+**** 10.1.1 The $$O(g^2)$$ self-energy $$\Pi_C^{[2]}(q^2)$$
+**** 10.1.2 Mass shift
+**** 10.1.3 Field strength renormalization
+*** 10.2 The vertex correction
+*** 10.3 Dealing with the bad news: a simple example
+**** 10.3.1 Evaluating $$\Pi_C^{[2]}(q^2)$$
+**** 10.3.2 Regularization and renormalization
+*** 10.4 Bare and renormalized perturbation theory
+**** 10.4.1 Reorganizing perturbation theory
+**** 10.4.2 The $$O(g^2_{ph})$$ renormalized self-energy revisited: how counter terms are determined by renormalization conditions
+*** 10.5 Renormalizability
+*** Problems
+** 11. Loops and renormalization II: QED
+*** 11.1 Counter terms
+*** 11.2 The $$O(e^2)$$ fermion self-energy
+*** 11.3 The $$O(e^2)$$ photon self-energy
+*** 11.4 The $$O(e^2)$$ renormalized photon self-energy
+*** 11.5 The physics of $$\bar{\Pi}_{\gamma}^{[2]}(q^2)$$
+**** 11.5.1 Modified Coulomb's law
+**** 11.5.2 Radiatively induced charge form factor
+**** 11.5.3 The running coupling constant
+**** 11.5.4 $$\bar{\Pi}_{\gamma}^{[2]}$$ in the $$s$$-channel
+*** 11.6 The $$O(e^2)$$ vertex correction, and $$Z_1 = Z_2$$
+*** 11.7 The anomalous magnetic moment and tests of QED
+*** 11.8 Which theories are renormalizable -* and does it matter?
+*** Problems
+* Appendices
+** A. Non-relativistic quantum mechanics
+** B. Natural units
+** C. Maxwell's equations: choice of units
+** D. Special relativity: invariance and covariance
+** E. Dirac $$\delta$$-function
+** F. Contour integration
+** G. Green functions
+** H. Elements of non-relativistic scattering theory
+*** H.1 Time-independent formulation and differential cross section
+*** H.2 Expression for the scattering amplitude: Born approximation
+*** H.3 Time-dependent approach
+** I. The Schrodinger and Heisenberg pictures
+** J. Dirac algebra and trace identities
+*** J.1 Dirac algebra
+*** J.2 Trace theorems
+** K. Example of a cross section calculation
+*** K.1 The spin-averaged squared matrix element
+*** K.2 Evaluation of two-body Lorentz-invariant phase space in 'laboratory' variables
+** L. Feynman rules for tree graphs in QED
+*** L.1 External particles
+*** L.2 Propagators
+*** L.3 Vertices

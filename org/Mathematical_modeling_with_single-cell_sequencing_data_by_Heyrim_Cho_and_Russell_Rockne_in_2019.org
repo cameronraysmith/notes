@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Mathematical_modeling_with_single-cell_sequencing_data_by_Heyrim_Cho_and_Russell_Rockne_in_2019
+#+TITLE: Mathematical modeling with single-cell sequencing data by Heyrim Cho and Russell Rockne in 2019
+* [[file:papers.org][papers]]
+* 

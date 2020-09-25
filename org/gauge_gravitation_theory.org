@@ -1,0 +1,9 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: gauge_gravitation_theory
+#+TITLE: gauge gravitation theory
+* [[file:gauge_theory.org][gauge theory]], [[file:general_relativity.org][general relativity]]
+* [[https://en.wikipedia.org/wiki/Gauge_gravitation_theory][Gauge gravitation theory * Wikipedia]]
+** In terms of gauge theory on natural bundles, gauge fields are linear connections on a world manifold $$X$$, defined as principal connections on the linear frame bundle $$FX$$, and a metric (tetrad) gravitational field plays the role of a Higgs field responsible for spontaneous symmetry breaking of general covariant transformations.[7]
+** this is to consider gravity and/or general relativity as a gauge theory
+* references
+** Utiyama, R. (1956). Invariant Theoretical Interpretation of Interaction. __Physical Review__, __101__(5), 1597–1607. [[https://doi.org/10.1103/PhysRev.101.1597][doi:10.1103/PhysRev.101.1597]]

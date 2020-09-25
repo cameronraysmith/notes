@@ -1,0 +1,12 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: system-environment_distinction
+#+TITLE: system-environment distinction
+* keywords: [[file:research.org][research]]
+goals: 
+due date:: <2020-06-12 Fri>
+* 
+* [[file:Effective_fluctuation_and_response_theory_by_Polettini_and_Esposito_in_2018.org][Effective fluctuation and response theory by Polettini and Esposito in 2018]]
+* [[file:Markov_blankets,_information_geometry_and_stochastic_thermodynamics_by_Parr_and_Friston_in_2020.org][Markov blankets, information geometry and stochastic thermodynamics by Parr and Friston in 2020]]
+* [[file:Free_Energy,_Value,_and_Attractors_by_Friston_and_Ao_in_2012.org][Free Energy, Value, and Attractors by Friston and Ao in 2012]]
+* [[file:A_free_energy_principle_for_a_particular_physics_by_Karl_Friston_in_2019.org][A free energy principle for a particular physics by Karl Friston in 2019]]
+* [[file:What_Is_a_Macrostate_Subjective_Observations_and_Objective_Dynamics_by_Cosma_Shalizi_and_Chris_Moore_in_2003.org][What Is a Macrostate? Subjective Observations and Objective Dynamics by Cosma Shalizi and Chris Moore in 2003]]

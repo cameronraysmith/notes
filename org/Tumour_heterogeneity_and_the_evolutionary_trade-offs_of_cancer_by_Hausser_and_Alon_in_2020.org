@@ -1,0 +1,20 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Tumour_heterogeneity_and_the_evolutionary_trade-offs_of_cancer_by_Hausser_and_Alon_in_2020
+#+TITLE: Tumour heterogeneity and the evolutionary trade-offs of cancer by Hausser and Alon in 2020
+* Software being advertised
+** Pareto task inference software package, Matlab implementation: https://www.weizmann.ac.il/mcb/UriAlon/download/ParTI
+** An implementation of Pareto task inference for the r software: https://github.com/vitkl/ParetoTI 
+** the iMAXt Grand challenge: https://www.cruk.cam.ac.uk/research-groups/imaxt-laboratory/the-project
+* Introduction
+* Multi-task evolutionary theory
+** Trade-offs can result in a continuum of states inside a polyhedron
+** Heterogeneity and spatiotemporal variations in selection
+** ParTI infers tasks and trade-offs from large-scale data
+** Practical caveats of analyzing cancer data with ParTI
+* Intertumor diversity
+** Tumors share five universal cancer tasks
+** Driver mutations tune gene expression towards specialization
+* Intratumor heterogeneity
+** Spatial organization can maximize total tissue performance
+** Towards a multi-task evolution theory of tumor spatial heterogeneity
+* Conclusions and perspectives

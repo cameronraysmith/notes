@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: SageManifolds
+#+TITLE: SageManifolds
+* definition:: Differential geometry and tensor calculus with [[file:SageMath.org][SageMath]]
+* [[https://sagemanifolds.obspm.fr/examples.html][SageManifolds: examples]]
+* Gourgoulhon, É., & Mancini, M. (2018). Symbolic tensor calculus on manifolds: a SageMath implementation. __Les Cours Du CIRM__, __6__(1), 1–54. https://doi.org/10.5802/ccirm.26

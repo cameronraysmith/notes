@@ -1,0 +1,10 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Statistical_physics_of_biological_evolution_by_Krug_in_2014
+#+TITLE: Statistical physics of biological evolution by Krug in 2014
+* Author: Joachim Krug
+* Outline
+** 1. Basic concepts and evolutionary regimes
+** 2. Sequence space and fitness landscapes
+** 3. Evolutionary accessibility of fitness landscapes
+** 4. Clonal interference and the benefits of sex
+* [[file:Joachim_Krug_ICTS_Lectures_June_2019.org][Joachim Krug ICTS Lectures June 2019]]

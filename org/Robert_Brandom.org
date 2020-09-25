@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Robert_Brandom
+#+TITLE: Robert Brandom
+* [[file:Making_it_explicit_by_Robert_Brandom_in_1998.org][Making it explicit by Robert Brandom in 1998]]
+* [[file:Articulating_reasons_An_introduction_to_inferentialism_by_Robert_Brandom_in_2000.org][Articulating reasons An introduction to inferentialism by Robert Brandom in 2000]]

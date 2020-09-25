@@ -1,0 +1,10 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: conformal_field_theory
+#+TITLE: conformal field theory
+* CFTs are [[file:renormalization.org][renormalization]] group fixed points of QFTs
+** Studying the space of CFTs basically amounts to studying the space of all well-defined QFTs  [[https://physics.stackexchange.com/a/185493/9269][]]
+* [[https://www.youtube.com/playlist?list=PLDfPUNusx1Ep5g1jIKXqpNX_t_Zz-kAlQ][Introduction to conformal field theory by Tobias Osborne in 2018]]
+* [[http://www.scholarpedia.org/article/A-D-E_Classification_of_Conformal_Field_Theories][ADE or A-D-E classification of conformal field theories]] also available on the [[https://arxiv.org/abs/0911.3242][arXiv]]
+* Conformal  field  theories  lead  to  highest  weight  representations  of  the  [[file:Virasoro__algebra.org][Virasoro  algebra]],  a  special  case  of  this  being  the  assertion  that  the highest weight  representations  of  affine  Lie  algebras  can  be  extended  to  the  semi-direct  product  with  the Virasoro  algebra. -* p. 46 [[file:Physics_and_geometry_by_Edward_Witten_in_1986.org][Physics and geometry by Edward Witten in 1986]]
+* [[file:references.org][references]]
+** [[file:A_mathematical_introduction_to_conformal_field_theory_by_Martin_Schottenloher_in_2008.org][A mathematical introduction to conformal field theory by Martin Schottenloher in 2008]]

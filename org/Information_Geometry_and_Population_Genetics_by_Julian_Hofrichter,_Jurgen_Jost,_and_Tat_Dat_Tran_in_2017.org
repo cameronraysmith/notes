@@ -1,0 +1,16 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Information_Geometry_and_Population_Genetics_by_Julian_Hofrichter,_Jurgen_Jost,_and_Tat_Dat_Tran_in_2017
+#+TITLE: Information Geometry and Population Genetics by Julian Hofrichter, Jurgen Jost, and Tat Dat Tran in 2017
+*  [[file:books.org][books]], [[file:information_geometry.org][information geometry]], [[file:population_dynamics.org][population dynamics]], [[file:evolutionary_timescale.org][evolutionary timescale]], [[file:differential_geometry.org][differential geometry]], [[file:stochastic_processes.org][stochastic processes]], [[file:Jurgen_Jost.org][Jurgen Jost]]
+* contents
+** 1. Introduction
+** 2. The Wright-Fisher Model
+** 3. Geometric structures and information geometry
+** 4. Continuous approximations
+** 5. Recombination
+** 6. Moment generating and free energy functionals
+** 7. Large deviation theory
+** 8. The forward equation
+** 9. The backward equation
+** 10. Applications
+** A. Hypergeometric functions and their generalizations

@@ -1,0 +1,45 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: An_introduction_to_manifolds_by_Loring_Tu_in_2010
+#+TITLE: An introduction to manifolds by Loring Tu in 2010
+* 1. Euclidean spaces
+** 1. Smooth functions on a Euclidean space
+** 2. Tangent vectors in $$\mathbb{R}^n$$ as derivations
+** 3. The exterior algebra of multicovectors
+** 4. Differential forms on $$\mathbb{R}^n$$
+* 2. Manifolds
+** 5. Manifolds
+** 6. Smooth maps on a manifold
+** 7. Quotients
+* 3. The tangent space
+** 8. The tangent space
+** 9. Submanifolds
+** 10. Categories and functors
+** 11. The rank of a smooth map
+** 12. The tangent bundle
+** 13. Bump functions and partitions of unity
+** 14. Vector fields
+* 4. Lie groups and Lie algebras
+** 15. Lie groups
+** 16. Lie algebras
+* 5. Differential forms
+** 17. Differential 1-Forms
+** 18. Differential k-Forms
+** 19. The exterior derivative
+** 20. The Lie derivative and interior multiplication
+* 6. Integration
+** 21. Orientations
+** 22. Manifolds with boundary
+** 23. Integration on Manifolds
+* 7. De Rham Theory
+** 24. De Rham Cohomology
+** 25. The Long exact sequence in cohomology
+** 26. The Mayer-Vietoris sequence
+** 27. Homotopy invariance
+** 28. Computation of de Rham Cohomology
+** 29. Proof of homotopy invariance
+* Appendices
+** A. Point-Set Topology
+** B. The inverse function theorem on $$\mathbb{R}^n$$ and related results
+** C. Existence of a partition of unity in general
+** D. Linear algebra
+** E. Quaternions and the symplectic group

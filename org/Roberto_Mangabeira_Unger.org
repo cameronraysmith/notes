@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Roberto_Mangabeira_Unger
+#+TITLE: Roberto Mangabeira Unger
+* [[file:philosophy.org][philosophy]], [[file:political_science.org][political science]], [[file:law.org][law]]
+* [[file:Economic_alternatives_for_the_future_by_Roberto_Mangabeira_Unger_in_2020.org][Economic alternatives for the future by Roberto Mangabeira Unger in 2020]]

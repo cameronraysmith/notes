@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: google_cloud_platform
+#+TITLE: google cloud platform

@@ -1,0 +1,23 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: free_energy_principle
+#+TITLE: free energy principle
+* [[file:intrinsic_motivation.org][intrinsic motivation]], [[file:variational_inference.org][variational inference]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:statistical_physics.org][statistical physics]], [[file:Bayesian_brain_hypothesis.org][Bayesian brain hypothesis]]
+* First heard of this in [[https://www.youtube.com/watch?v=TcFLQvz5uEg&t=844s][Mindscape 87 | Karl Friston on Brains, Predictions, and Free Energy]] the Mindscape podcast episode interviewing [[file:Karl_Friston.org][Karl Friston]] on <2020-03-09 Mon>
+* Considered here as that developed by [[file:Karl_Friston.org][Karl Friston]] originally (to the best of my knowledge as of <2020-05-14 Thu>) in [[file:A_theory_of_cortical_responses_by_Karl_Friston_in_2005.org][A theory of cortical responses by Karl Friston in 2005]] and most recently in [[file:A_free_energy_principle_for_a_particular_physics_by_Karl_Friston_in_2019.org][A free energy principle for a particular physics by Karl Friston in 2019]]
+* __The free energy principle tries to explain how biological systems remain in non-equilibrium steady-states by restricting themselves to a limited number of states.__ — via [[https://en.wikipedia.org/wiki/Free_energy_principle][Free energy principle * Wikipedia]]
+* [[https://iwaiworkshop.github.io/#][1st International Workshop on Active Inference]] to be held <2020-09-14 Mon> with paper submission deadline <2020-06-09 Tue>.
+** Submissions are being accepted in [[https://www.overleaf.com/latex/templates/springer-lecture-notes-in-computer-science/kzwwpvhwnvfj#.WuA4JS5uZpi][LNCS overleaf]] format
+* [[file:references.org][references]]
+** [[file:Principles_of_the_self-organizing_system_by_W_Ross_Ashby_in_1962.org][Principles of the self-organizing system by W. Ross Ashby in 1962]]
+*** Chapter 29 in [[file:Facets_of_Systems_Science_2nd_ed_by_George_Klir_in_2001.org][Facets of Systems Science 2nd ed by George Klir in 2001]] 
+** [[file:The_free_energy_principle_for_action_and_perception_A_mathematical_review_by_Christopher_Buckley,_Anil_Seth,_et_al_in_2017.org][The free energy principle for action and perception A mathematical review by Christopher Buckley, Anil Seth, et al in 2017]]
+** [[file:A_tutorial_on_the_free-energy_framework_for_modeling_perception_and_learning_by_Rafal_Bogacz_in_2017.org][A tutorial on the free-energy framework for modeling perception and learning by Rafal Bogacz in 2017]]
+** [[file:Active_inference_on_discrete_state-spaces_--_a_synthesis_by_Lancelot_Da_Costa,_Thomas_Parr,_Karl_Friston_et_al_in_2020.org][Active inference on discrete state-spaces - a synthesis by Lancelot Da Costa, Thomas Parr, Karl Friston et al in 2020]]
+** [[file:Inferring_what_to_do_(and_what_not_to)_by_Thomas_Parr_in_2020.org][Inferring what to do (and what not to) by Thomas Parr in 2020]]
+** [[https://medium.com/@solopchuk][Oleg Solopchuk – Medium]] 
+*** [[https://medium.com/@solopchuk/tutorial-on-active-inference-30edcf50f5dc][Tutorial on Active Inference * Oleg Solopchuk * Medium]]
+* ^^Comments^^
+** At the core of the background necessary to understand the [[file:free_energy_principle.org][free energy principle]] is the relationship between free energy as it is used in [[file:statistical_physics.org][statistical physics]] versus its use in [[file:probabilistic_inference.org][probabilistic inference]] which is encapsulated in the notion of [[file:variational_inference.org][variational inference]]. The best explanation I know of this relationship is in the formulation of Gibbs free energy via a variational principle in [[file:Information,_physics,_and_computation_by_Marc_Mezard_and_Andrea_Montanari_in_2009.org][Information, physics, and computation by Marc Mezard and Andrea Montanari in 2009]].
+** What is the relationship between the free energy principle and [[file:active_inference.org][active inference]]?
+*** https://wiki.ubc.ca/Course:CPSC522/Learning_Attention_via_Active_Inference#Active_Inference
+*** https://en.wikipedia.org/wiki/Free_energy_principle#Active_inference

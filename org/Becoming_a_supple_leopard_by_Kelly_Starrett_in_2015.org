@@ -1,0 +1,74 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Becoming_a_supple_leopard_by_Kelly_Starrett_in_2015
+#+TITLE: Becoming a supple leopard by Kelly Starrett in 2015
+* I. Principles and theory
+** 1. Midline stabilization and organization (spinal mechanics)
+** 2. One-joint rule
+** 3. Laws of torque
+** 4. Body archetypes and the tunnel
+** 5. Movement hierarchy
+** 6. Mobility: a systematic approach
+* II. Categories of movement
+** Category 1
+*** air squat
+*** box squat
+*** back squat
+*** front squat
+*** overhead squat
+*** deadlift
+*** pushup
+*** bench press
+*** dip
+*** strict press
+*** handstand pushup
+*** pull-up
+** Category 2
+*** wall ball
+*** push-press
+*** jumping and landing
+*** kettlebell swing
+*** one-arm swing
+*** rowing
+*** kipping pull-up
+*** snatch balance progression
+** Category 3
+*** burpee
+*** Turkish getup
+*** clean
+*** jerk
+*** snatch
+*** muscle-up
+* III. Mobilization techniques by area of body
+** 1. jaw, head, and neck
+** 2. upper back
+** 3. posterior shoulder, lat, serratus
+** 4. anterior shoulder and chest
+** 5. arm (triceps, elbow, forearm, wrist)
+** 6. trunk (psoas, low back, obliques)
+** 7. glutes, hip capsules
+** 8. hip flexors, quadriceps
+** 9. adductors
+** 10. hamstrings
+** 11. knee
+** 12. shin
+** 13. calf
+** 14. ankle, foot, and toes
+* IV. Mobility prescriptions
+** 1. general overhead
+** 2. troubleshooting overhead
+** 3. general press
+** 4. troubleshooting press
+** 5. general hang
+** 6. troubleshooting hang
+** 7. general front rack
+** 8. troubleshooting front rack
+** 9. general squat
+** 10. troubleshooting squat 1
+** 11. troubleshooting squat 2
+** 12. general pistol 
+** 13. troubleshooting pistol
+** 14. general lunge
+** 15. troubleshooting lunge
+** 16. joint and body area prescriptions
+** 17. 14-day whole body mobility overhaul
+** 18. 14-day whole-body sample programs

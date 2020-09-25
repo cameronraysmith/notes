@@ -1,0 +1,52 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Covariant_Loop_Quantum_Gravity_An_Elementary_Introduction_to_Quantum_Gravity_and_Spinfoam_Theory_by_Rovelli_and_Vidotto_in_2014
+#+TITLE: Covariant Loop Quantum Gravity An Elementary Introduction to Quantum Gravity and Spinfoam Theory by Rovelli and Vidotto in 2014
+* I. Foundations
+** 1. Spacetime as a quantum object
+*** 1.1 The problem
+*** 1.2 The end of space and time
+*** 1.3 Geometry quantized
+**** 1.3.1 Quanta of area and volume
+*** 1.4 Physical consequences of the existence of the Planck scale
+**** 1.4.1 Discreteness: scaling is finite
+**** 1.4.2 Fuzziness: disappearance of classical space and time
+*** 1.5 Graphs, loops, and quantum Faraday lines
+*** 1.6 The landscape
+*** 1.7 Complements
+**** 1.7.1 SU(2) representations and [[file:spinors.org][spinors]]
+**** 1.7.2 Pauli matrices
+**** 1.7.3 Eigenvalues of the volume
+** 2. Physics without time
+*** 2.1 Hamilton function
+*** 2.2 Transition amplitude
+*** 2.3 General covariant form of mechanics
+*** 2.4 Quantum physics without time
+*** 2.5 Complements
+** 3. Gravity
+*** 3.1 Einstein's formulation
+*** 3.2 Tetrads and fermions
+**** 3.2.1 An important sign
+**** 3.2.2 First-order formulation
+*** 3.3 Holst action and Barbero-Immirzi coupling constant
+**** 3.3.1 Linear simplicity constraint
+**** 3.3.2 Boundary term
+*** 3.4 Hamiltonian general relativity
+**** 3.4.1 ADM variables
+**** 3.4.2 What does this mean? Dynamics
+**** 3.4.3 Ashtekar connection and triads
+*** 3.5 Euclidean general relativity in three spacetime dimensions
+*** 3.6 Complements
+**** 3.6.1 Working with general covariant field theory
+**** 3.6.2 Problems
+** 4. Classical discretization
+* II. Three-dimensional theory
+** 5. Three-dimensional euclidean theory
+** 6. Bubbles and the cosmological constant
+* III. The real world
+** 7. The real world: four-dimensional lorentzian theory
+** 8. Classical limit
+** 9. Matter
+** 10. Black holes
+** 11. Cosmology
+** 12. Scattering
+** 13. Final remarks

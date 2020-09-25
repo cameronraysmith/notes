@@ -1,0 +1,10 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: a_containerized_emacs_cloud_multikernel_notebook
+#+TITLE: a containerized emacs cloud multikernel notebook
+* components
+** cloudmacs
+*** https://beepb00p.xyz/cloudmacs.html
+** browser-based tty
+*** wetty
+*** ttyd
+*** gotty

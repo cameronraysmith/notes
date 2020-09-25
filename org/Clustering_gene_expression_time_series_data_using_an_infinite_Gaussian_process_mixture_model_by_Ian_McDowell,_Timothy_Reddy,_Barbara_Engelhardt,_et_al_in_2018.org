@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Clustering_gene_expression_time_series_data_using_an_infinite_Gaussian_process_mixture_model_by_Ian_McDowell,_Timothy_Reddy,_Barbara_Engelhardt,_et_al_in_2018
+#+TITLE: Clustering gene expression time series data using an infinite Gaussian process mixture model by Ian McDowell, Timothy Reddy, Barbara Engelhardt, et al in 2018
+* [[file:probabilistic_inference.org][probabilistic inference]], [[file:Gaussian_process.org][Gaussian process]], [[file:bioinformatics.org][bioinformatics]], [[file:gene_expression_dynamics.org][gene expression dynamics]]
+* citation
+** McDowell, I. C., Manandhar, D., Vockley, C. M., Schmid, A. K., Reddy, T. E., & Engelhardt, B. E. (2018). Clustering gene expression time series data using an infinite Gaussian process mixture model. __PLoS Computational Biology__, __14__(1), 1–27. https://doi.org/10.1371/journal.pcbi.1005896

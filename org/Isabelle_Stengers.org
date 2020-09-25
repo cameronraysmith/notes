@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Isabelle_Stengers
+#+TITLE: Isabelle Stengers

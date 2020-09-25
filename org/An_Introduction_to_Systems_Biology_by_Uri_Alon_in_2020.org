@@ -1,0 +1,66 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: An_Introduction_to_Systems_Biology_by_Uri_Alon_in_2020
+#+TITLE: An Introduction to Systems Biology by Uri Alon in 2020
+* [[file:systems_biology.org][systems biology]], [[file:network_inference.org][network inference]], [[file:dynamical_systems.org][dynamical systems]]
+* Part 1. Network motifs
+** 1. Transcription networks: basic concepts
+*** 1.1 Introduction
+*** 1.2 The cognitive problem of the cell
+*** 1.3 Elements of transcription networks
+**** 1.3.1 Separation of timescales
+**** 1.3.2 The signs on the arrows: activators and repressors
+**** 1.3.3 The numbers on the arrows: input functions
+**** 1.3.4 Logic input functions: a simple framework for understanding network dynamics
+**** 1.3.5 Multi-dimensional input functions govern genes with several inputs
+*** 1.4 Dynamics and response time of simple regulation
+**** 1.4.1 The response time of stable proteins is one cell generation
+** 2. Autoregulation: a network motif
+*** 2.1 Introduction
+*** 2.2 Patterns, randomized networks, and network motifs
+*** 2.3 Autoregulation is a network motif
+*** 2.4 Negative autoregulation speeds the response time of gene circuits
+*** 2.5 Negative autoregulation promotes robustness to fluctuations in production rate
+*** 2.6 Summary: evolution as an engineer
+**** Negative autoregulation is a network motif, a pattern that recurs throughout the network at numbers much higher than expected in random networks. To understand why negative autoregulation is a network motif, we asked what functions it can perform.
+**** The second (NAR) design has the advantage that the goal, $$X_{st}$$, is reached faster. Furthermore, the fluctuations around $$X_{st}$$ due to variations in production and removal rate are reduced in the second, autoregulated design. 
+**** In an imaginary competition between two species are identical except that one uses circuit A, and the second uses circuit B, the latter would have a selective advantage. Over evolutionary times, structures that have engineering advantages would tend to be selected and appear as network motifs.
+** 3. The feedforward loop network motif
+*** 3.1 Introduction
+*** 3.2 The feedforward loop is a network motif
+*** 3.3 The structure of the feedforward loop gene circuit
+*** 3.4 Dynamics of the coherent Type-1 FFL with AND logic
+*** 3.5 The C1-FFL is a sign-sensitive delay element
+*** 3.6 OR-gate C1-FFL is a sign-sensitive delay for off steps
+*** 3.7 The incoherent Type-1 FFL generates pulses of output
+*** 3.8 The other six FFL types can also act as filters and pulse generators
+*** 3.9 Convergent evolution of FFLs
+*** 3.10 Summary
+** 4. Temporal programs and the global structure of transcription networks
+*** 4.1 Introduction
+*** 4.2 The single-input module (SIM) network motif
+*** 4.3 The SIM can generate temporal gene expression programs
+*** 4.4 The multi-output feedforward loop
+*** 4.5 The multi-output FFL can generate FIFO temporal programs
+*** 4.6 Signal integration by BI-FANS and dense-overlapping regulons
+*** 4.7 Network motifs and the global structure of sensory transcription networks
+*** 4.8 Interlocked feedforward loops in the __B. subtilis__ sporulation network
+** 5. Positive feedback, bistability, and memory
+*** 5.1 Network motifs in developmental transcription networks
+*** 5.2 Network motifs in protein-protein interaction networks
+** 6. How to build a biological oscillator
+* Part 2. Robustness
+** 7. Kinetic proofreading and conformational proofreading
+** 8. Robust signaling by bifunctional components
+** 9. Robustness in bacterial chemotaxis
+** 10. Fold-change detection
+** 11. Dynamical compensation and mutant resistance in tissues
+** 12. Robust spatial patterning in development
+* Part 3. Optimality
+** 13. Optimal gene circuit design
+** 14. Multi-objective optimality in biology
+** 15. Modularity
+* Appendices
+** A. The input functions of genes: Michaelis-Menten and Hill equations
+** B. Multi-dimensional input functions
+** C. Graph properties of transcription networks
+** D. Noise in gene expression

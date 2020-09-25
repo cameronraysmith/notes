@@ -1,0 +1,42 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: a_containerized_jupyter_notebook_with_multiple_kernels_on_Arch_Linux
+#+TITLE: a containerized jupyter notebook with multiple kernels on Arch Linux
+* http://github.com/cameronraysmith/notebooks
+** readme
+*** notebooks
+About
+
+See the Makefile for relevant commands.
+
+File listing
+
+```bash
+▶ tree -I 'maxima-jupyter'
+.
+├── Dockerfile
+├── Makefile
+├── README.md
+├── VERSION
+├── etc
+│   ├── jupyter_notebook_config.py
+│   ├── pkglist-01.txt
+│   ├── pkglist-02.txt
+│   ├── pkglist-startup.txt
+│   ├── pkglist-yay.txt
+│   └── python-libraries.txt
+├── notebooks
+│   ├── ...
+│   └── common-lisp-jupyter
+│       ├── ...
+├── scratch
+│   ├── scraps.dockerfile
+│   └── scraps.mk
+└── scripts
+    └── startup.sh
+```
+
+LICENSE
+
+This code is distributed under the [[http://opensource.org/licenses/MIT][MIT License]].
+* https://hub.docker.com/repository/docker/cameronraysmith/notebooks
+* https://github.com/GoogleCloudPlatform/compute-archlinux-image-builder/blob/master/build-arch-gce

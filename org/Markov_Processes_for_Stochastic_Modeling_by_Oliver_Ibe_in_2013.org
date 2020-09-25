@@ -1,0 +1,73 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Markov_Processes_for_Stochastic_Modeling_by_Oliver_Ibe_in_2013
+#+TITLE: Markov Processes for Stochastic Modeling by Oliver Ibe in 2013
+* [[https://lh3.googleusercontent.com/5zidBwggOymXXzK4AYnk4djtAu_HlW2C-4ITFn5y-RIBWZCPx1LeGmOTNTGGwq_L5691i5GLfiMac-U3chFtG7RonG1O8g5d2abrvyYKAvL-9PEB5jXixB7mx-2dtB7w24sxzMZqDBU=w333-h500-no]]
+* 1. Basic concepts in probability
+* 2. Basic concepts in stochastic processes
+** 2.1 Introduction
+** 2.2 Classification of stochastic processes
+** 2.3 Characterizing stochastic processes
+** 2.4 Mean and autocorrelation function of a stochastic process
+** 2.5 Stationary stochastic processes
+** 2.6 Ergodic stochastic processes
+** 2.7 Some models of stochastic processes
+** 2.8 Problems
+* 3. Introduction to Markov processes
+** 3.1 Introduction
+** 3.2 Structure of Markov processes
+** 3.3 Strong Markov property
+** 3.4 Applications of discrete-time Markov processes
+** 3.5 Applications of continuous-time Markov processes
+** 3.6 Applications of continuous-state Markov processes
+** 3.7 Summary
+* 4. Discrete-time Markov chains
+** 4.1 Introduction
+** 4.2 State-transition probability matrix
+** 4.3 State-transition diagrams
+** 4.4 Classification of states
+** 4.5 Limiting-state probabilities
+** 4.6 Sojourn time
+** 4.7 Transient analysis of discrete-time Markov processes
+** 4.8 First passage and recurrence times
+** 4.9 Occupancy times
+** 4.10 Absorbing Markov chains and the fundamental
+** 4.11 Reversible Markov chains
+** 4.12 Problems
+* 5. Continuous-time Markov chains
+** 5.1 Introduction
+** 5.2 Transient analysis
+*** The continuous time Markov process is given by 
+**** $$\frac{d p(t)}{dt} = p(t) Q$$ 
+*** The solution for $$p(0)=I$$ is 
+**** $$p(t) = e^{Qt} = I + \sum_{k=1}^\infty \frac{Q^k t^k}{k!}$$ 
+**** (see equations 5.4 and 5.5)
+*** Applied to "5.1 Overview"
+** 5.3 Birth and death processes
+** 5.4 First passage time
+** 5.5 The uniformization method
+** 5.6 Reversible CTMCs
+** 5.7 Problems
+* 6. Markov renewal processes
+* 7. Markovian queueing systems
+* 8. Random walk
+* 9. Brownian motion
+* 10. Diffusion processes
+* 11. Levy processes
+* 12. Markovian arrival processes
+* 13. Controlled Markov processes
+** 13.2 Markov decision processes ( MDPs ) and reinforcement learning
+* 14. Hidden Markov models
+** 14.1 Introduction
+** 14.2 HMM basics
+** 14.3 HMM assumptions
+** 14.4 Three fundamental problems
+** 14.5 Solution methods
+*** 14.5.1 evaluation
+*** 14.5.2 decoding
+*** 14.5.3 learning
+** 14.6 Types of HMMs
+** 14.7 HMMs with silent states
+** 14.8 Extensions of HMMs
+** 14.9 Other extensions of HMM
+** 14.10 Problems
+* 15. Markov point processes

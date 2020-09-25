@@ -1,0 +1,79 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Physics_and_geometry_by_Edward_Witten_in_1986
+#+TITLE: Physics and geometry by Edward Witten in 1986
+* See also
+** Originally referred here via [[file:The_Graph,_Wall,_Tome_project_of_Eric_Weinstein's_Portal_Community.org][The Graph, Wall, Tome project of Eric Weinstein's Portal Community]]
+***     A paragraph written by Edward Witten p. 280 in the 1986 Proceedings of the International Congress of Mathematicians and on p. 20 in [[file:Physics_and_geometry_by_Edward_Witten_in_1986.org][Physics and geometry by Edward Witten in 1986]] (see below) taken with update from [[https://ericweinstein.org][Eric Weinstein's]], [[https://theportal.wiki/wiki/Graph,_Wall,_Tome][The Portal 'Graph, Wall, Tome project']]
+**** If one wants to summarize our knowledge of physics in the briefest possible terms, there are really three fundamental observations
+***** 1. Space-time is a pseudo-Riemannian manifold, $$M$$, endowed with a metric tensor and governed by geometrical laws
+***** 2. Over $$M$$ is a principal $$G$$-bundle, $$P_G$$, with a non-Abelian structure group $$G$$
+***** 3. Fermions are sections of $$\hat{S}_+ \otimes V_R \oplus \hat{S}_* \otimes V_{\tilde{R}}$$. $$R$$ and $$\tilde{R}$$ are not isomorphic, but should be complex linear representations of $$G$$
+***** 4. ? Higgs
+**** All of this must be supplemented with the understanding that the geometrical laws obeyed by the metric tensor, the gauge fields, and the fermions are to be interpreted in quantum mechanical terms.
+** [[file:The_geometry_of_physics_by_Theodore_Frankel_in_2012.org][The geometry of physics by Theodore Frankel in 2012]]
+** [[file:Lectures_on_Geometrical_Anatomy_of_Theoretical_Physics_by_Frederic_Schuller_in_2015.org][Lectures on Geometrical Anatomy of Theoretical Physics by Frederic Schuller in 2015]]
+*** In particular for a quick and straightforward definition of [[file:principal_bundle.org][principal bundle]]
+* 0. Introduction (p. 1, not numbered in monograph)
+* 1. Particle physics in the 1980's (p. 5)
+** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FhNgQjn4HYJ?alt=media&token=57d85883-12b0-45b6-8e57-fe743f0dc376]]
+** Brief notational reference
+*** $$M$$, spacetime manifold 
+*** $$X$$, principal $$G$$-bundle [[file:principal_bundle.org][principal bundle]]
+*** $$G$$, structure group
+*** $$R$$, representation of $$G$$ or, independently, the Ricci scalar or Ricci tensor
+*** $$V_R$$, associated vector bundle of $$X$$
+*** $$A$$, connection on the bundle $$V$$
+*** $$F$$, curvature two form corresponding to $$A$$
+*** $$g_{ij}$$, the space-time metric
+*** $$\langle | \rangle$$ is the Cartan-Killing form on the Lie algebra of $$G$$
+*** $$e$$ is the Yang-Mills coupling constant
+*** $$\Gamma^i$$, Dirac matrices
+*** $$\Sigma$$, Lorentz generators
+*** $$S$$, action or, independently, an irreducible spinor representation of the Clifford algebra of the Dirac matrices which is also of the Lorentz group in odd $$n$$ and which double covers the Lorentz group in even $$n$$
+*** $$\hat{S}$$, the spin bundle of $$M$$ whose fibers correspond to copies of the Clifford module $$S$$
+*** $$\psi$$, a spin one-half fermi field given as a section of the spin bundle $$\hat{S}$$
+** Page 5 / 6
+** In general relativity, space-time is a pseudo-Riemannian manifold, $$M$$ of signature $$(-, +, +, +)$$. The Einstein action (Lagrangian) is $$S_{GR} = \frac{1}{16 \pi G} \int_M R$$ where $$R$$ is the Ricci scalar of $$M$$ and $$G$$ is Newton's constant
+*** The variational Euler-Lagrange equation derived from the Einstein action is $$R_{ij} * \frac{1}{2} g_{ij} R =0$$
+** Page 8 / 9
+** Over the spacetime manifold, $$M$$, we have a principal $$G$$-bundle, $$X$$
+** Page 9 / 10
+** Experimentally, the Lie algebra of $$G$$ contains the Lie algebra of $$SU(3) \times SU(2) \times U(1)$$ as a subalgebra. 
+** The Yang-Mills action (Lagrangian) is $$S_{YM} = * \frac{1}{4e^2} \int_M |F|^2$$
+*** Where $$|F|^2 = g^{ii'}g^{jj'} \langle F_{ij} | F_{i'j'} \rangle$$
+** This should be the same metric $$g$$ that appears in the Einstein field equation so that we should add the Einstein and Yang-Mills Lagrangians and study the combined theory
+*** $$S=S_{GR} + S_{YM}$$
+** Equations that couple the Yang-Mills and gravitational fields arise upon deriving the Euler-Lagrange variational equations from this combined theory.
+** Page 10 / 11
+** This Yang-Mills and gravitational fields cover the bosonic force-propagating fields. It is also necessary to include fermions.
+** Fermions can be introduced via the Clifford algebra associated to the Dirac matrices
+*** $$\Gamma^i \Gamma^j + \Gamma^j \Gamma^i = -2 g^{ij}, i,j = 1, \ldots, n$$
+*** For even $$n$$, the irreducible representation $$S$$ of the Clifford algebra has dimension $$2^{n/2}$$ and for odd $$n$$ its dimension is $$2^{(n-1)/2}$$
+*** The Clifford module $$S$$ automatically furnishes a representation of the Lorentz group $$SO(1,n-1)$$ named the spinor representation whose Lorentz generators are
+**** $$\Sigma^{ij} = -\Sigma^{ji}=\frac{1}{4}[\Gamma^i, \Gamma^j]$$
+*** For even $$n$$, $$S$$ decomposes into $$S = S_+ \oplus S_-$$ which are the eigenspaces of the involution
+**** $$\bar{\Gamma} = i^{(n+2)/4} \Gamma^1 \Gamma^2 \ldots \Gamma^n$$
+*** If the second Stiefel-Whitney class of $$M$$ vanishes, we can define the spin bundle of $$M$$ as $$\hat{S}$$, which is the vector bundle whose bundle at fiber $$p \in M$$ is the Clifford module associated to the Dirac matrices given above.
+*** A physical field $$\psi$$ is a section of $$\hat{S}$$ called a spin one-half fermi field. These comprise the leptons (such as electrons, muons, tauons) and quarks (the components of protons and neutrons). 
+*** The spin one-half comes from the fact that the weights of the spinor representation of $$SO(1, N-1)$$ are half-integers.
+*** Page 11 / 12
+*** In even dimensions, the spin bundle decomposes as $$\hat{S} = \hat{S}_+ \oplus \hat{S}_-$$. A physical field that is a section of $$ \hat{S}_+ $$ or $$ \hat{S}_* $$ is a fermi field with the respective **chirality**, $$\pm$$.
+*** Since the CPT theorem among others requires fermi fields to be real, in four dimensions, we introduce both $$\psi$$ and $$\tilde{\psi}$$ as sections of $$ \hat{S}_+ $$ or $$ \hat{S}_* $$ . This would be true in all $$4 k $$ dimensions but different in $$4k+2$$ dimensions since in that case the $$S$$ are both real.
+*** Page 12 / 13
+*** The Dirac equation takes the form
+**** $$D_* \psi_+ + \lambda \psi_* = 0$$
+$$D_+ \psi_* + \lambda^* \psi_+ = 0 $$ 
+***** For the so-called Dirac operator $$D = \Gamma^i D_i$$ where $$D_i$$ is the covariant derivative. This operator decomposes in even dimensions as $$D = D_+ \oplus D_-$$ where $$D_* \colon \hat{S}_+ \rightarrow \hat{S}_-$$ and $$D_+ \colon \hat{S}_* \rightarrow \hat{S}_+$$
+***** and where $$\lambda$$ is an arbitrary complex constant generalizing mass and potentially set to zero in the massless case
+*** Page 14 / 15
+*** The decomposition of a representation $$R$$ of the gauge group $$SU(3) \times SU(2) \times U(1)$$ into irreducible components seems to require at least 15 pieces
+**** $$R = \oplus_{i=1}^{15} R_i$$
+*** Page 17 / 18
+*** Discussion of $$SU(5)$$, $$SO(10)$$ and $$E(6)$$ [[file:grand_unified_theories.org][grand unified theories]]
+* 2. Physics in ten dimensions (p. 21)
+** There must be some more economical structure at a more elementary level. Also, it is very peculiar to study a chain that passes from $$SU(5)$$ to $$SO(10)$$ to $$E_6$$ without finding some way to extend this to $$E_8$$.
+** the fact that all we observe in experiment is the character difference (33) or (36) is a warning that the true underlying structure may be far richer than is apparent. 
+** At first sight, one might believe that it is preposterous to imagine that the world is ten dimensional. The world seems to be ‘obviously’ four dimensional (if one includes time along with the three obvious space dimensions). The following is crucial, however. We tend to take for granted that there is some notion of ‘empty space’ and that any other physical state is obtained by adding particles to ‘empty space.’ In reality, though, what we interpret.as empty space is just some solution of the underlying physical equations which plays a special role in our experience. The reason that there is a solution playing such a special role is largely that the energy scales of our experiments are so small compared to the Planck mass. The tools at our disposal are so feeble that we can bring about only minor disturbances in whatever solution of the underlying equations we happen to have been born into.
+* 3. Quantum field theory on a Riemann surface (p. 31)
+* 4. String theory (p. 46) [[file:progress_indicators.org][progress indicators]]
+** 131 https://en.wikipedia.org/wiki/Polyakov_action

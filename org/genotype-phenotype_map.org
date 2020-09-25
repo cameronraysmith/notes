@@ -1,0 +1,14 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: genotype-phenotype_map
+#+TITLE: genotype-phenotype map
+* science
+** [[file:cancer_evolution.org][cancer evolution]]
+** [[file:genomics.org][genomics]]
+** [[file:multiomics.org][multiomics]]
+** [[file:single-cell_transcriptome_analysis.org][single-cell transcriptome analysis]]
+* tools
+** [[file:dynamical_systems.org][dynamical systems]]
+** [[file:network_inference.org][network inference]]
+** [[file:probabilistic_inference.org][probabilistic inference]]
+** [[file:approximate_bayesian_computation.org][approximate bayesian computation]]
+** [[file:information_geometry.org][information geometry]]

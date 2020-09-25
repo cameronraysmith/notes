@@ -1,0 +1,41 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Expanding_the_Active_Inference_Landscape_More_Intrinsic_Motivations_in_the_Perception-Action_Loop_by_Martin_Biehl,_Daniel_Polani,_et_al_in_2018
+#+TITLE: Expanding the Active Inference Landscape More Intrinsic Motivations in the Perception-Action Loop by Martin Biehl, Daniel Polani, et al in 2018
+* [[file:free_energy_principle.org][free energy principle]], [[file:reinforcement_learning.org][reinforcement learning]], [[file:papers.org][papers]]
+* Martin Biehl 1, Christian Guckelsberger2 , Christoph Salge3,4 , Simón C. Smith4,5 and Daniel Polani 4
+* related lectures
+** [[file:Notions_of_intrinsic_motivation_by_Martin_Biehl_in_2017.org][Notions of intrinsic motivation by Martin Biehl in 2017]]
+** __Agents within (not as) stochastic processes by Martin Biehl__ — via [[https://www.youtube.com/watch?v=iLWgD_LbxjE&t=83s][(1) 1/28 Agents within (not as) stochastic processes by Martin Biehl]]
+* 1. Introduction
+** Computational approaches to intrinsic motivations (Oudeyer and Kaplan, 2009; Schmidhuber, 2010; Santucci et al., 2013) can be categorized roughly by the psychological motivations they are imitating, e.g., drives to manipulate and explore, the reduction of cognitive dissonance, the achievement of optimal incongruity, and finally motivations for effectance, personal causation, competence and self-determination.
+*** Oudeyer, P.-Y., and Kaplan, F. (2009). What is intrinsic motivation? A typology of computational approaches. Front. Neurorobot. 1:6. doi: 10.3389/neuro.12.006.2007
+*** Schmidhuber, J. (2010). Formal theory of creativity, fun, and intrinsic motivation (1990-2010). IEEE Trans. Auton. Mental Dev. 2, 230–247. doi: 10.1109/TAMD.2010.20 56368
+*** Santucci, V. G., Baldassarre, G., and Mirolli, M. (2013). Which is the best intrinsic motivation signal for learning multiple skills? Front. Neurorobot. 7:22. doi: 10.3389/fnbot.2013.00022
+* 2. Related work
+* 3. Structure of this article
+* 4. Notation
+* 5. Perception-action loop
+** 5.1 PA-loop Bayesian network
+** 5.2 Assumptions
+* 6. Inference and complete posteriors
+** 6.1 Generative model
+** 6.2 Bayesian complete posteriors
+** 6.3 Connection to universal reinforcement learning
+** 6.4 Approximate complete posteriors
+* 7. Action selection based on intrinsic motivations
+** 7.1 Intrinsic motivation and action-value functions
+** 7.2 Deterministic and stochastic action selection
+** 7.3 Intrinsic motivations
+*** 7.3.1 [[file:free_energy_principle.org][free energy principle]]
+*** 7.3.2 [[file:free_energy_principle.org][free energy principle]] specialized to Friston et al 2015
+*** 7.3.3 Empowerment maximization
+*** 7.3.4 Predictive information maximization
+*** 7.3.5 Knowledge seeking
+* 8. Active inference
+* 9. Applications and limitations
+* 10. Conclusion
+* Appendix
+** A. Posterior factor
+** B. Approximate posterior predictive distribution
+** C. Notation translation tables
+** 

@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Predicting_Evolutionary_Constraints_by_Identifying_Conflicting_Demands_in_Regulatory_Networks_by_Manjunatha_Kogenaru,_Frank_Poelwijk,_Sander_Tans_et_al_in_2020
+#+TITLE: Predicting Evolutionary Constraints by Identifying Conflicting Demands in Regulatory Networks by Manjunatha Kogenaru, Frank Poelwijk, Sander Tans et al in 2020
+* [[file:systems_biology.org][systems biology]], [[file:experimental_evolution.org][experimental evolution]], [[file:papers.org][papers]], [[file:mathematical_models_of_evolution.org][mathematical models of evolution]]
+* 

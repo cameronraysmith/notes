@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Subclonal_reconstruction_of_tumors_by_using_machine_learning_and_population_genetics_by_Giulio_Caravagna,_Marc_Williams,_Trevor_Graham,_and_Andrea_Sottoriva_in_2020
+#+TITLE: Subclonal reconstruction of tumors by using machine learning and population genetics by Giulio Caravagna, Marc Williams, Trevor Graham, and Andrea Sottoriva in 2020
+* [[file:papers.org][papers]], [[file:cancer_evolution.org][cancer evolution]]

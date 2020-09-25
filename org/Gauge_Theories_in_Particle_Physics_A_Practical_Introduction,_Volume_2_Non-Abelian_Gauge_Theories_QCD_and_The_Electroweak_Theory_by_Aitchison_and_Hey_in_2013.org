@@ -1,0 +1,183 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Gauge_Theories_in_Particle_Physics_A_Practical_Introduction,_Volume_2_Non-Abelian_Gauge_Theories_QCD_and_The_Electroweak_Theory_by_Aitchison_and_Hey_in_2013
+#+TITLE: Gauge Theories in Particle Physics A Practical Introduction, Volume 2 Non-Abelian Gauge Theories QCD and The Electroweak Theory by Aitchison and Hey in 2013
+* V. Non-Abelian Symmetries
+** 12. Global Non-Abelian Symmetries
+*** 12.1 The Standard Model
+*** 12.2 The flavor symmetry $$SU(2)_f$$
+**** 12.2.1 The nucleon isospin doublet and the group $$SU(2)$$
+**** 12.2.2 Larger (higher-dimensional) multiplets of $$SU(2)$$ in nuclear physics
+**** 12.2.3 Isospin in particle physics: flavor $$SU(2)_f$$
+*** 12.3 Flavor $$SU(3)_f$$
+*** 12.4 Non-Abelian global symmetries in Lagrangian quantum field theory
+**** 12.4.1 $$SU(2)_f$$ and $$SU(3)_f$$
+**** 12.4.2 Chiral symmetry
+**** Problems
+** 13. Local Non-Abelian (Gauge) Symmetries
+*** 13.1 Local $$SU(2)$$ symmetry
+**** 13.1.1 The covariant derivative and interactions with matter
+**** 13.1.2 The non-Abelian field strength tensor
+*** 13.2 Local $$SU(3)$$ symmetry
+*** 13.3 Local non-Abelian symmetries in Lagrangian quantum field theory
+**** 13.3.1 Local $$SU(2)$$ and $$SU(3)$$ Lagrangians
+**** 13.3.2 Gauge field self-interactions
+**** 13.3.3 Quantizing non-Abelian gauge fields
+**** Problems
+* VI. QCD and the Renormalization Group
+** 14. QCD I: Introduction, Tree Graph Predictions, and Jets
+*** 14.1 The color degree of freedom
+*** 14.2 The dynamics of color
+**** 14.2.1 Color as an $$SU(3)$$ group
+**** 14.2.2 Global $$SU(3)_c$$ invariance, and 'scalar gluons'
+**** 14.2.3 Local $$SU(3)_c$$ invariance: the QCD Lagrangian
+**** 14.2.4 The $$\theta$$-term
+*** 14.3 Hard scattering processes, QCD tree graphs, and jets
+**** 14.3.1 Introduction
+**** 14.3.2 Two-jet events in $$\bar{p}p$$ collisions
+**** 14.3.3 Three-jet events in $$\bar{p}p$$ collisions
+*** 14.4 3-jet events in $$e^+e^-$$ annihilation
+**** 14.4.1 Calculation of the parton-level cross section
+**** 14.4.2 Soft and collinear divergences
+*** 14.5 Definition of the two-jet cross section in $$e^+e^-$$ annihilation
+*** 14.6 Further developments
+**** 14.6.1 Test of non-Abelian nature of QCD in $$e^+e^* \rightarrow 4$$ jets
+**** 14.6.2 Jet algorithms
+**** Problems
+** 15. QCD II: Asymptotic freedom, the Renormalization Group, and Scaling Violations
+*** 15.1 Higher-order QCD corrections to $$\sigma (e^+e^* \rightarrow \mathrm{hadrons})$$: large logarithms
+*** 15.2 The renormalization group and related ideas in QED
+**** 15.2.1 Where do the large logs come from?
+**** 15.2.2 Changing the renormalization scale
+**** 15.2.3 The RGE and large $$-q^2$$ behavior in QED
+*** 15.3 Back to QCD: asymptotic freedom
+**** 15.3.1 One loop calculation
+**** 15.3.2 Higher-order calculations, and experimental comparison
+*** 15.4 $$\sigma (e^+e^* \rightarrow \mathrm{hadrons})$$ revisited
+*** 15.5 A more general form of the RGE: anomalous dimensions and running masses
+*** 15.6 QCD corrections to the parton model predictions for deep inelastic scattering: scaling violations
+**** 15.6.1 Uncancelled mass singularities at order $$\alpha_s$$
+**** 15.6.2 Factorization, and the order $$\alpha_s$$ DGLAP equation
+**** 15.6.3 Comparison with experiment
+**** Problems
+** 16. Lattice Field Theory, and the Renormalization Group Revisited
+*** 16.1 Introduction
+*** 16.2 Discretization
+**** 16.2.1 Scalar fields
+**** 16.2.2 Dirac fields
+**** 16.2.3 Gauge fields
+*** 16.3 Representation of quantum amplitudes
+**** 16.3.1 Quantum mechanics
+**** 16.3.2 Quantum field theory
+**** 16.3.3 Connection with statistical mechanics
+*** 16.4 Renormalization, and the renormalization group, on the lattice
+**** 16.4.1 Introduction
+**** 16.4.2 Two one-dimensional examples
+**** 16.4.3 Connections with particle physics
+*** 16.5 Lattice QCD
+**** 16.5.1 Introduction and the continuum limit
+**** 16.5.2 The static $$q\bar{q}$$ potential
+**** 16.5.3 Calculation of $$\alpha (M_Z^2)$$
+**** 16.5.4 Hadron masses
+**** Problems
+* VII. Spontaneously broken symmetry
+** 17. Spontaneously broken global symmetry
+*** 17.1 Introduction
+*** 17.2 The Fabri-Picasso theorem
+*** 17.3 Spontaneously broken symmetry in condensed matter physics
+*** 17.4 Goldstone's theorem
+*** 17.5 Spontaneously broken global U(1) symmetry: the Goldstone model
+*** 17.6 Spontaneously broken global non-Abelian symmetry
+*** 17.7 The BCS superconducting ground state
+*** Problems
+** 18. Chiral symmetry breaking
+*** 18.1 The Nambu analogy
+**** 18.1.1 Two flavor QCD and $$SU(2)_{f\,L} \times SU(2)_{f\,R}$$
+*** 18.2 Pion decay and the Goldberger-Treiman relation
+*** 18.3 Effective Lagrangians
+**** 18.3.1 The linear and non-linear $$\sigma$$-models
+**** 18.3.2 Inclusion of explicit symmetry breaking: masses for pions and quarks
+**** 18.3.3 Extension to $$SU(3)_{f\,L} \times SU(3)_{f\,R}$$
+*** 18.4 Chiral anomalies
+** 19. Spontaneously broken local symmetry
+*** 19.1 Massive and massless vector particles
+*** 19.2 The generation of 'photon mass in a superconductor: Ginzburg-Landau theory and the Meissner effect
+*** 19.3 Spontaneously broken local U(1) symmetry: the Abelian Higgs model
+*** 19.4 Flux quantization in a superconductor
+*** 19.5 't Hooft's gauges
+*** 19.6 Spontaneously broken local $$SU(2) \times U(1)$$ symmetry 
+* VIII. Weak interactions and the electroweak theory
+** 20. Introduction to the phenomenology of weak interactions
+*** 20.1 Fermi's 'current-current' theory of nuclear $$\beta$$ decay and its generalizations
+*** 20.2 Parity violation in weak interactions and V-A theory
+**** 20.2.1 Parity violation
+**** 20.2.2 V-A theory: chirality and helicity
+*** 20.3 Lepton number and lepton flavors
+*** 20.4 The universal current $$\times$$ current theory for weak interactions of leptons
+*** 20.5 Calculation of the cross section for $$\nu_\mu + e^* \rightarrow \mu^* + \nu_e$$
+*** 20.6 Leptonic weak neutral currents
+*** 20.7 Quark weak currents
+**** 20.7.1 Two generations
+**** 20.7.2 Deep inelastic neutrino scattering
+**** 20.7.3 Three generations
+*** 20.8 Non-leptonic weak interactions
+** 21. CP violation and oscillation phenomena
+*** 21.1 Direct $$\mathbf{CP}$$ violation in B decays
+*** 21.2 $$\mathbf{CP}$$ violation in B meson oscillations
+*** 21.3 $$\mathbf{CP}$$ violation in neutral K-meson decays
+*** 21.4 Neutrino mixing and oscillations
+**** 21.4.1 Neutrino mass and mixing
+**** 21.4.2 Neutrino oscillations: formulae
+**** 21.4.3 Neutrino oscillations: experimental results
+**** 21.4.4 Matter effects in neutrino oscillations
+**** 21.4.5 Further developments
+** 22. Glashow-Salam-Weinberg gauge theory of electroweak interactions
+*** 22.1 Difficulties with the current-current and 'naive' IVB models
+**** 22.1.1 Violations of unitarity
+**** 22.1.2 The problem of non-renormalizability in weak interactions
+*** 22.2 The $$SU(2) \times U(1)$$ electroweak gauge theory
+**** 22.2.1 Quantum number assignments; Higgs, W and Z masses
+**** 22.2.2 The leptonic currents (massless neutrinos): relation to current-current model
+**** 22.2.3 The quark currents
+*** 22.3 Simple (tree-level) predictions
+*** 22.4 The discovery of the $$W^{\pm}$$ and Z^0 at the CERN $$p\bar{p}$$ collider
+**** 22.4.1 Production cross sections for W and Z in $$p\bar{p}$$ colliders
+**** 22.4.2 Charge asymmetry in $$W^{\pm}$$ decay
+**** 22.4.3 Discovery of the $$W^{\pm}$$ and $$Z^0$$ at the $$p\bar{p}$$ collider, and their properties
+*** 22.5 Fermion masses
+**** 22.5.1 One generation
+**** 22.5.2 Three-generation mixing
+*** 22.6 Higher-order corrections
+*** 22.7 The top quark
+*** 22.8 The Higgs sector
+**** 22.8.1 Introduction
+**** 22.8.2 Theoretical considerations concerning $$m_H$$
+**** 22.8.3 Higgs boson searches and the 2012 discovery
+**** Problems
+* Appendices
+** M. Group Theory
+*** M.1 Definition and simple examples
+*** M.2 Lie groups
+*** M.3 Generators of Lie groups
+*** M.4 Examples
+**** M.4.1 SO(3) and three-dimensional rotations
+**** M.4.2 SU(2)
+**** M.4.3 SO(4): The special orthogonal group in four dimensions
+**** M.4.4 The Lorentz group
+**** M.4.5 SU(3)
+*** M.5 Matrix representations of generators, and of Lie groups
+*** M.6 The Lorentz group
+*** M.7 The relation between SU(2) and SO(3)
+** N. Geometrical aspects of gauge fields
+*** N.1 Covariant derivatives and coordinate transformations
+*** N.2 Geometrical curvature and the gauge field strength tensor
+** O. Dimensional regularization
+** P. Grassmann variables
+** Q. Feynman rules for tree graphs in QCD and the electroweak theory
+*** Q.1 QCD
+**** Q.1.1 External particles
+**** Q.1.2 Propagators
+**** Q.1.3 Vertices
+*** Q.2 The electroweak theory
+**** Q.2.1 External particles
+**** Q.2.2 Propagators
+**** Q.2.3 Vertices

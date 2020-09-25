@@ -1,0 +1,10 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Approximate_Bayesian_inference_in_semi-mechanistic_models_by_Andrej_Aderhold,_Dirk_Husmeier,_and_Marco_Grzegorczyk_in_2017
+#+TITLE: Approximate Bayesian inference in semi-mechanistic models by Andrej Aderhold, Dirk Husmeier, and Marco Grzegorczyk in 2017
+* [[file:papers.org][papers]], [[file:network_inference.org][network inference]], [[file:probabilistic_inference.org][probabilistic inference]]
+* citation
+** Aderhold, A., Husmeier, D., & Grzegorczyk, M. (2017). Approximate Bayesian inference in semi-mechanistic models. __Statistics and Computing__, __27__(4), 1003–1040. https://doi.org/10.1007/s11222-016-9668-8
+* code
+** matlab zip file
+*** http://researchdata.gla.ac.uk/374/
+* contents

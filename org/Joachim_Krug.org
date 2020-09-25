@@ -1,0 +1,23 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Joachim_Krug
+#+TITLE: Joachim Krug
+* [[file:references.org][references]]
+** Krug, J. (2019). Accessibility percolation in random fitness landscapes. Retrieved from http://arxiv.org/abs/1903.11913
+** Krug, J. (2018). Population Genetics and Evolution. Retrieved from http://arxiv.org/abs/1803.08474
+** Hwang, S., Schmiegelt, B., Ferretti, L., & Krug, J. (2018). Universality Classes of Interaction Structures for NK Fitness Landscapes. __Journal of Statistical Physics__, __172__(1), 226–278. https://doi.org/10.1007/s10955-018-1979-z
+** Good, B. H., McDonald, M. J., Barrick, J. E., Lenski, R. E., & Desai, M. M. (2017). The dynamics of molecular evolution over 60,000 generations. __Nature__, __551__(7678), 45–50. https://doi.org/10.1038/nature24287
+** Pearce, M. T., & Fisher, D. S. (2017). Rapid adaptation in large populations with very rare sex: Scalings and spontaneous oscillations. __Theoretical Population Biology__. https://doi.org/10.1016/j.tpb.2017.11.005
+** Park, S.-C., Szendro, I. G., Neidhart, J., & Krug, J. (2015). Phase transition in random adaptive walks on correlated fitness landscapes. __Physical Review E__, __91__(4). https://doi.org/10.1103/PhysRevE.91.042707
+** McCandlish, D. M., & Stoltzfus, A. (2014). Modeling Evolution Using the Probability of Fixation: History and Implications. __The Quarterly Review of Biology__, __89__(3), 225–252. https://doi.org/10.1086/677571
+** De Visser, J. A. G. M., & Krug, J. (2014). Empirical fitness landscapes and the predictability of evolution. __Nature Reviews Genetics__, __15__(7), 480–490. https://doi.org/10.1038/nrg3744
+** Wiser, M. J., Ribeck, N., & Lenski, R. E. (2013). Long-Term Dynamics of Adaptation in Asexual Populations. __Science__, __342__(6164), 1364–1367. https://doi.org/10.1126/science.1243357
+** Szendro, I. G., Franke, J., de Visser, J. A. G. M., & Krug, J. (2013). Predictability of evolution depends nonmonotonically on population size. __Proceedings of the National Academy of Sciences of the United States of America__, __110__(2), 571–576. https://doi.org/10.1073/pnas.1213613110
+** Szendro, I. G., Schenk, M. F., Franke, J., Krug, J., & de Visser, J. A. G. M. (2013). Quantitative analyses of empirical fitness landscapes. __Journal of Statistical Mechanics: Theory and Experiment__, __2013__, P01005. https://doi.org/10.1088/1742-5468/2013/01/P01005
+** Krug, J. (2012). Statistical Physics of Biological Evolution. __ArXiv__. Retrieved from http://arxiv.org/abs/1204.2661
+** Szendro, I. G., Franke, J., de Visser, J. A. G. M., & Krug, J. (2012). Predictability of evolution depends nonmonotonically on population size. __Proceedings of the National Academy of Sciences of the United States of America__, 1–6. https://doi.org/10.1073/pnas.1213613110
+** Neidhart, J., & Krug, J. (2011). Adaptive Walks and Extreme Value Theory. __Physical Review Letters__, __107__(17), 178102. https://doi.org/10.1103/PhysRevLett.107.178102
+** Franke, J., Klözer, A., de Visser, J. A. G. M., & Krug, J. (2011). Evolutionary Accessibility of Mutational Pathways. __PLoS Computational Biology__, __7__(8), e1002134. https://doi.org/10.1371/journal.pcbi.1002134
+** Park, S. C., Simon, D., & Krug, J. (2010). The speed of evolution in large asexual populations. __Journal of Statistical Physics__, __138__(1), 381–410. https://doi.org/10.1007/s10955-009-9915-x
+** Park, S.-C., & Krug, J. (2008). Evolution in random fitness landscapes: the infinite sites model. __Journal of Statistical Mechanics: Theory and Experiment__, __2008__(4). https://doi.org/10.1088/1742-5468/2008/04/P04014
+** Blount, Z. D., Borland, C. Z., & Lenski, R. E. (2008). Historical contingency and the evolution of a key innovation in an experimental population of Escherichia coli. __PNAS__, __105__(23), 7899–7906. https://doi.org/10.1073/pnas.0803151105
+** Park, S.-C., & Krug, J. (2007). Clonal interference in large populations. __Proceedings of the National Academy of Sciences of the United States of America__, __104__(46), 18135–18140. https://doi.org/10.1073/pnas.0705778104

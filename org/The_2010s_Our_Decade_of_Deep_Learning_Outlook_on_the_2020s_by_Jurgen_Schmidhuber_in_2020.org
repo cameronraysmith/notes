@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_2010s_Our_Decade_of_Deep_Learning_Outlook_on_the_2020s_by_Jurgen_Schmidhuber_in_2020
+#+TITLE: The 2010s Our Decade of Deep Learning Outlook on the 2020s by Jürgen Schmidhuber in 2020
+* url:: http://people.idsia.ch/~juergen/2010s-our-decade-of-deep-learning.html

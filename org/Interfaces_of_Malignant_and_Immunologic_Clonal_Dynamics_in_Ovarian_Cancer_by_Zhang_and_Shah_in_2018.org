@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Interfaces_of_Malignant_and_Immunologic_Clonal_Dynamics_in_Ovarian_Cancer_by_Zhang_and_Shah_in_2018
+#+TITLE: Interfaces of Malignant and Immunologic Clonal Dynamics in Ovarian Cancer by Zhang and Shah in 2018

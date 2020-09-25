@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: asexual_evolution
+#+TITLE: asexual evolution
+* [[file:references.org][references]]
+**  [[file:papers.org][papers]], [[file:Asexual_evolution_waves_fluctuations_and_universality_by_Daniel_Fisher_in_2013.org][Asexual evolution waves fluctuations and universality by Daniel Fisher in 2013]]
+*** Fisher, D. S. (2013). Asexual evolution waves: fluctuations and universality. __Journal of Statistical Mechanics: Theory and Experiment__, __2013__(01), P01011. https://doi.org/10.1088/1742-5468/2013/01/P01011
+** [[file:The_speed_of_evolution_in_large_asexual_populations_by_Krug_et_al_in_2010.org][The speed of evolution in large asexual populations by Krug et al in 2010]]

@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: single-cell_transcriptome_analysis
+#+TITLE: single-cell transcriptome analysis
+* [[file:scRNA-seq.org][scRNA-seq]]
+* [[file:Current_best_practices_in_single‐cell_RNA‐seq_analysis_a_tutorial_by_Malta_Luecken_and_Fabian_Theis_in_2019.org][Current best practices in single‐cell RNA‐seq analysis a tutorial by Malta Luecken and Fabian Theis in 2019]]
+* [[file:single-cell_variational_inference.org][single-cell variational inference]]

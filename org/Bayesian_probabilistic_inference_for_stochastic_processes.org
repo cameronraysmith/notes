@@ -1,0 +1,11 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Bayesian_probabilistic_inference_for_stochastic_processes
+#+TITLE: Bayesian probabilistic inference for stochastic processes
+* keywords
+- [[file:probabilistic_inference.org][probabilistic inference]], [[file:stochastic_processes.org][stochastic processes]]
+* examples that connect individual-level stochastic processes to Bayesian hierarchical models
+** Parise, F., Lygeros, J., & Ruess, J. (2015). Bayesian inference for stochastic individual-based models of ecological systems: a pest control simulation study. Frontiers in Environmental Science, 3(JUN), 42. https://doi.org/10.3389/fenvs.2015.00042
+Stollenwerk, N., Mateus, L., Rocha, F., Skwara, U., Ghaffari, P., & Aguiar, M. (2015). Prediction and Predictability in Population Biology: Noise and Chaos. Mathematical Modelling of Natural Phenomena, 10(2), 142–164. https://doi.org/10.1051/mmnp/201510210
+Mateus, L., Stollenwerk, N., & Zambrini, J.-C. (2013). Stochastic models in population biology: from dynamic noise to Bayesian description and model comparison for given data sets. International Journal of Computer Mathematics, 90(10), 2161–2173. https://doi.org/10.1080/00207160.2013.792924
+** [[file:Population_biology_and_criticality_by_Nico_Stollenwerk_and_Vincent_Johnson_in_2010.org][Population biology and criticality by Nico Stollenwerk and Vincent Johnson in 2010]]
+** [[file:Inferring_gene_regulatory_networks_from_single-cell_data_a_mechanistic_approach_by_Ulysse_Herbach,_Olivier_Gandrillon,_et_al_in_2017.org][Inferring gene regulatory networks from single-cell data a mechanistic approach by Ulysse Herbach, Olivier Gandrillon, et al in 2017]]

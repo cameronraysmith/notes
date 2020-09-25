@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: What_does_biology_tell_us_about_the_kinds_of_information_essential_to_the_living_state
+#+TITLE: What does biology tell us about the kinds of information essential to the living state?
+* [[file:questions.org][questions]], [[file:origin_of_life.org][origin of life]] 
+* Biology here is interpreted as "the empirical analysis of life-in-planetary-context". The planetary context alludes to the connections between [[file:geochemistry.org][geochemistry]] and [[file:biochemistry.org][biochemistry]].
+* 

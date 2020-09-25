@@ -1,0 +1,37 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: phase_transition
+#+TITLE: phase transition
+* Marsland, R., Cui, W., Goldford, J., Sanchez, A., Korolev, K., & Mehta, P. (2019). Available energy fluxes drive a transition in the diversity, stability, and functional structure of microbial communities. __PLOS Computational Biology__, __15__(2), e1006793. https://doi.org/10.1371/journal.pcbi.1006793
+* Barbier, J., Krzakala, F., Macris, N., Miolane, L., & Zdeborová, L. (2019). Optimal errors and phase transitions in high-dimensional generalized linear models. __Proceedings of the National Academy of Sciences__, __116__(12), 5451–5460. https://doi.org/10.1073/pnas.1802705116
+* Van Nieuwenburg, E., Bairey, E., & Refael, G. (2018). Learning phase transitions from dynamics. __Physical Review B__, __98__. https://doi.org/10.1103/PhysRevB.98.060301
+* Lin, J., Min, J., & Amir, A. (2018). __Optimal segregation of proteins: phase transitions and symmetry breaking__. Retrieved from https://arxiv.org/pdf/1804.09195.pdf
+* Hu, W., Singh, R. R. P., & Scalettar, R. T. (2017). Discovering phases, phase transitions, and crossovers through unsupervised machine learning: A critical examination. __Physical Review E__, __95__(6), 062122. https://doi.org/10.1103/PhysRevE.95.062122
+* Skanata, A., & Kussell, E. (2016). Evolutionary Phase Transitions in Random Environments. __Physical Review Letters__, __117__(3), 038104. https://doi.org/10.1103/PhysRevLett.117.038104
+* Davis, S., Peralta, J., Navarrete, Y., González, D., & Gutiérrez, G. (2016). A Bayesian Interpretation of First-Order Phase Transitions. __Foundations of Physics__, __46__(3), 350–359. https://doi.org/10.1007/s10701-015-9967-5
+* Buceta, J., & Weber, M. (2016). The cellular Ising model: a framework for phase transitions in multicellular environments. https://doi.org/10.1098/rsif.2015.1092
+* Zdeborová, L., & Krzakala, F. (2016). Statistical physics of inference: thresholds and algorithms. __Advances in Physics__, __65__(5), 453–552. https://doi.org/10.1080/00018732.2016.1211393
+* Park, S.-C., Szendro, I. G., Neidhart, J., & Krug, J. (2015). Phase transition in random adaptive walks on correlated fitness landscapes. __Physical Review E__, __91__(4). https://doi.org/10.1103/PhysRevE.91.042707
+* Majumdar, S. N., & Schehr, G. (2014). Top eigenvalue of a random matrix: large deviations and third order phase transition. __Journal of Statistical Mechanics: Theory and Experiment__, __2014__(1), P01012. https://doi.org/10.1088/1742-5468/2014/01/P01012
+* Zeraati, S., Jafarpour, F. H., & Hinrichsen, H. (2013). Phase transition in an exactly solvable reaction-diffusion process. __Physical Review E__, __87__(6), 062120. https://doi.org/10.1103/PhysRevE.87.062120
+* Vaikuntanathan, S., Gingrich, T. R., & Geissler, P. L. (2013). Dynamic phase transitions in simple driven kinetic networks, (1), 1–5. Statistical Mechanics. https://doi.org/10.1103/PhysRevE.89.062108
+* Cabana, T., & Touboul, J. (2013). Large Deviations, Dynamics and Phase Transitions in Large Stochastic and Disordered Neural Networks. __Journal of Statistical Physics__, __153__(2), 211–269. https://doi.org/10.1007/s10955-013-0818-5
+* Wang, X. (2012). Physical Examples of Phase Transition in One-Dimensional Systems with Short Range interaction, 1–11.
+* Smith, E., Krishnamurthy, S., Fontana, W., & Krakauer, D. (2011). Non-equilibrium phase transitions in biomolecular signal transduction, (1), 1–23. Retrieved from http://arxiv.org/abs/1108.4121
+* Davies, P. C., Demetrius, L., & Tuszynski, J. A. (2011). Cancer as a dynamical phase transition. __Theoretical Biology and Medical Modelling__, __8__(1), 30. https://doi.org/10.1186/1742-4682-8-30
+* Ge, H., & Qian, H. (2011). Non-equilibrium phase transition in mesoscopic biochemical systems: from stochastic to nonlinear dynamics and beyond. __Journal of the Royal Society, Interface / the Royal Society__, __8__(54), 107–116. https://doi.org/10.1098/rsif.2010.0202
+* Krzakala, F., Mézard, M., Sausset, F., Sun, Y., & Zdeborová, L. (2011). Statistical physics-based reconstruction in compressed sensing. __ArXiv__, 16. Retrieved from http://www.pct.espci.fr/~florent/ASPICS/ASPICS.html
+* Sen, S. (2010). Symmetry, Symmetry Breaking and Topology. __Symmetry__, __2__(3), 1401–1422. https://doi.org/10.3390/sym2031401
+* Zanardi, P., Giorda, P., & Cozzini, M. (2007). Information-Theoretic Differential Geometry of Quantum Phase Transitions. __Physical Review Letters__, __99__(10), 100603. https://doi.org/10.1103/PhysRevLett.99.100603
+* Krzakala, F., & Zdeborová, L. (2007). Phase Transitions and Computational Difficulty in Random Constraint Satisfaction Problems. __Journal of Physics: Conference Series__, __95__(1), 10. https://doi.org/10.1088/1742-6596/95/1/012012
+* Mobilia, M., Georgiev, I. T., & Täuber, U. C. (2007). Phase Transitions and Spatio-Temporal Fluctuations in Stochastic Lattice Lotka–Volterra Models. __Journal of Statistical Physics__, __128__(1–2), 447–483. https://doi.org/10.1007/s10955-006-9146-3
+* Baik, J., Ben Arous, G., & Péché, S. (2005). Phase transition of the largest eigenvalue for nonnull complex sample covariance matrices. __The Annals of Probability__, __33__(5), 1643–1697. https://doi.org/10.1214/009117905000000233
+* Janke, W., Johnston, D. a., & Kenna, R. (2004). Information geometry and phase transitions. In __Physica A: Statistical Mechanics and its Applications__ (Vol. 336, pp. 181–186). https://doi.org/10.1016/j.physa.2004.01.023
+* LÜBECK, S. (2004). UNIVERSAL SCALING BEHAVIOR OF NON-EQUILIBRIUM PHASE TRANSITIONS. __International Journal of Modern Physics B__, __18__(31n32), 3977–4118. https://doi.org/10.1142/S0217979204027748
+* Huepe, C., & Aldana-gonzález, M. (2002). Dynamical Phase Transition in a Neural Network Model with Noise : An Exact Solution. __Journal of Statistical Physics__, __108__(3–4), 527–540. https://doi.org/10.1023/A:1015777824097
+* Ferreira, C., & Fontanari, J. (2002). Nonequilibrium phase transitions in a model for the origin of life. __Physical Review E__, __65__(2), 021902. https://doi.org/10.1103/PhysRevE.65.021902
+* Hinrichsen, H. (2000). Nonequilibrium Critical Phenomena and Phase Transitions into Absorbing States, 153. Statistical Mechanics. Retrieved from http://arxiv.org/abs/cond-mat/0001070
+* Luque, B., & Solé, R. V. (1997). Phase transitions in random networks: Simple analytic determination of critical points. __Physical Review E__, __55__(1), 257–260. https://doi.org/10.1103/PhysRevE.55.257
+* Gross, D., & Witten, E. (1980). Possible third-order phase transition in the large-N lattice gauge theory. __Physical Review D__, __21__(2), 446–453. https://doi.org/10.1103/PhysRevD.21.446
+* Zilber, P., Smith, N. R., & Meerson, B. (n.d.). __A giant disparity and a dynamical phase transition in large deviations of the time-averaged size of stochastic populations__. Retrieved from https://arxiv.org/pdf/1901.09384.pdf
+* Mathis, C., Bhattacharya, T., & Walker, S. I. (n.d.). The Emergence of Life as a First-Order Phase Transition. https://doi.org/10.1089/ast.2016.1481
+* Kitagawa, T. (n.d.). The idea of Morse Theory.

@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: simulation
+#+TITLE: simulation
+* [[file:stochastic_processes.org][stochastic processes]]
+** [[https://alanderos91.github.io/BioSimulator.jl/stable/][BioSimulator.jl]] in [[file:julia.org][julia]]

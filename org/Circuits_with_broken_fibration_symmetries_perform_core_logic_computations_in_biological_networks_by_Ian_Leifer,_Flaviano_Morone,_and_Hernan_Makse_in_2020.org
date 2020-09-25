@@ -1,0 +1,9 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Circuits_with_broken_fibration_symmetries_perform_core_logic_computations_in_biological_networks_by_Ian_Leifer,_Flaviano_Morone,_and_Hernan_Makse_in_2020
+#+TITLE: Circuits with broken fibration symmetries perform core logic computations in biological networks by Ian Leifer, Flaviano Morone, and Hernan Makse in 2020
+* [[file:fibration.org][fibration]], [[file:symmetry.org][symmetry]], [[file:molecular_biology.org][molecular biology]], [[file:systems_biology.org][systems biology]]
+* citation
+* code
+** 
+* contents
+** 

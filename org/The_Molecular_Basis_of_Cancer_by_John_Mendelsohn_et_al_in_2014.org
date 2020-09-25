@@ -1,0 +1,195 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_Molecular_Basis_of_Cancer_by_John_Mendelsohn_et_al_in_2014
+#+TITLE: The Molecular Basis of Cancer by John Mendelsohn et al in 2014
+* I. Carcinogenesis and cancer genetics
+** 
+* II. Cancer biology
+* III. Molecular pathology and diagnostics
+* IV. Molecular pathogenesis and therapeutic targets for specific cancers
+** 26. Acute lymphoblastic leukemia (ALL)
+*** Introduction
+*** Prognostic factors
+*** Overview of molecular genetics of ALL
+*** Abnormalities of chromosome number (ploidy)
+*** Genetic abnormalities in ALL
+**** B-ALL
+***** Abnormalities of chromosome structure
+****** (ETX6-RUNX1), t(12;21)(p13;q22)
+****** TCF3-PBX1, t(1;19)(q23;p13)
+****** TCF3-HLF, t(17;19)(q23;p13)
+****** BCR-ABL1, t(9;22)(q34;q11)
+****** MLL, 11q23 rearrangements
+***** Intrachromosomal amplification of chromosome 21 (iAMP21)
+***** Submicroscopic abnormalities
+****** PAX5 and EBF1
+****** IKZF1, CRLF2, JAK, IL7R, and the "BCR-ABL1-like" signature
+***** CREBBP and relapsed ALL
+**** T-ALL
+***** NOTCH
+***** Early T-cell precursor phenotype (ETP)
+***** ERG
+**** Other ALL aberrations
+***** c-Myc, t(8;14)(q24;q32)
+****** 7p deletions and monosomy 7
+****** 9p21 deletion
+****** Cooperating pathways: p53, FLT3, Ras, PTPN11
+*** Clinical implications of genetic lesions
+*** Conclusions
+** 27. Childhood neoplasms
+** 28. Adult myelocytic leukemia and myelodysplasia
+*** Introduction
+*** Acute myeloid leukemia
+*** Molecular pathogensis of AML
+**** PML-RAR alpha rearrangements
+***** Core binding factor AMLs
+***** Rearrangements of the MLL and HOX genes
+***** Mutations in the C/EBPalpha and PU.1 genes
+*** Mutations altering signal transduction
+**** Mutations of the nucleophosmin gene
+***** Mutations in genes involved in epigenetic patterning and chromatin conformation
+***** Overexpression of specific genes in AML
+*** Myelodysplastic syndromes
+**** Cytogenetic abnormalities in MDS
+***** Loss of miRNAs 145/146
+***** NUP98-HOX13 translocation
+**** Gene mutations in MDS
+***** Mutations in the spliceosome machinery
+***** Gene mutations altering epigenetic regulation in MDS: TET2, IDH1/2 and ASXL1
+***** RUNX1 mutations
+***** NPM1 mutations
+***** TP53 mutations
+***** Alterations in the bone marrow microenvironment
+*** Concluding remarks
+** 29. Lymphoma hematopathology
+*** Introduction
+**** 70k NHLs + 10k HLs = 4-5% of all cancer incidence in 2012
+**** Deaths attributed to lymphoma 3%
+**** 5-year survival has increased 47% (1975-1977), 51% (1987-1989), 70% (2001-2007)
+*** B and T lymphocyte development
+**** B cells
+***** B cell surface markers
+****** CD19
+****** CD20
+****** CD22
+****** CD23
+***** BCR = surface immunoglobulin
+****** VDJ recombination occurs in the bone marrow
+****** somatic hypermutation occurs in secondary lymphoid organs at rate of 1e5-1e6 times higher than normal mutation rates of somatic cells
+****** two identical light chains of type kappa or lambda
+******* two segments: V and J
+****** one heavy chain of type M, D, A, or G
+******* three segments: V, D, and J
+****** V is the variable terminal Fab component of the antibody
+**** T cells
+***** T cell surface markers
+****** CD3
+****** CD4
+****** CD8
+***** TCR
+****** Maturation occurs in the thymus
+****** Initially double-negative for CD4/8
+****** Then double-positive for CD4/8
+****** Finally either CD4+CD8* T-helper -or* CD4-CD8+ cytotoxic T cells
+****** Recognizes antigens bound to MHC
+****** TCR composed of four chains
+******* alpha paired with beta
+******* gamma paired with delta
+******* VJ alpha and gamma
+******* VDJ beta and delta
+*** Pathogenesis of diffuse large B-cell lymphoma
+**** diffuse growth of neoplastic large B-lymphoid cells with a nuclear size equal to or exceeding normal macrophage nuclei or more than twice the size of a normal lymphocyte.
+**** Two major molecular subtypes identified via gene expression profiling
+***** immunohistochemical algorithms used to approximate gene expression subtype
+***** GCB: germinal center B-cells (GCB), relatively indolent (5-year survival 60%)
+****** genetic
+******* mutations in the Bcl6 autoregulatory domain upstream from the promoter region via somatic hypermutation and AID result in lost feedback loop inhibition from Bcl6, IRF4, and STAT5
+******* Bcl6 BTB domain recruits NCOR, BCOR, and SMRT as well as HDACs to repress DNA damage response via repression of ATR, p53, CHK1, p21, and p27
+******* Bcl6 RD2 domain recruits MTA3 to repress PRDM1, encoding Blimp-1, which is the master regulator of plasma cell development. Its repression leads to the trapping of centroblasts in the germinal center
+******* Bcl6 silencing of IRF4 further inhibits Blimp-1 transcription and contributes to the retention of cells in the germinal center
+******* Tonic dysregulation can lead to constitutive coupling of BCR surface markers to CD79a and CD79b leading to phosphorylation of ITAMs by LYN, FYN, and BLK, which then recruit SYK, engaging NFkB, PI3K, NFAT MAP kinase, and RAS pathways.
+******** SYK inhibitor under investigation
+****** epigenetic
+******* Nonoverlapping mutations in CREBBP (40%) and EP300 (10%) HATs found in GC-DLBCL that inactivate and lead to activation of Bcl6 and inhibition of p53 via impaired acetylation
+******* EZH2 component of the polycomb repression complex-2 (PRC2) which has histone methyltransferase activity leading to H3K27me3 transcriptional silencing. Heterozygous mutations allow the wildtype to transfer the first methyl group and the mutant then methylates in an uncontrolled iterative manner. Hypermethylated CpG islands attract methyl-CpG binding domain proteins to recruit HDACs
+****** micro-RNA
+******* miR-17-92 oncomir-1 increases expression of Myc, downregulates BIM and p21, and has a mutually antagonistic relationship with p53
+***** ABC: activated B cells (ABC), relatively aggressive (5-year survival 40%)
+****** genetic
+******* deranged signaling pathways converge to aberrant activation of NFkB leading to evasion of cell death and resistance to chemotherapy
+******** normal BCR signaling leads to formation of the CBM complex containing CARD11, BCL10, and MALT1, and subsequent NFkB activation
+********* gain of function somatic mutations in the coiled-coil domain of CARD11 found in 10% of ABC-DLBCL and 16% of primary CNS lymphoma (the latter considered a variant of ABC)
+********** CARD11 interacts with IKKBeta, CK1alpha, and MALT1 to activate NFkB
+********* MALT1 cleaves A20 and CYLD, which are two negative regulators of NFkB
+******* Mutations in NFkB inhibitors
+******** TNFAIP3 which encodes A20 can be inactivated via mutation, deletion, or epigenetic silencing
+******** IKBKA encoding IkBa leads to uninhibited translocation of NFkB to the nucleus and increased transcription of NFkB-dependent genes
+******* 20% of tissue samples have substitutions and deletions of CD79a and CD79b ITAMs leading to gain of function of the BCR signaling pathway evading negative feedback by LYN allowing for increased cell surface localization of the BCR
+******* BCR mediated recruitment of Bruton's tyrosine kinase (BTK) via PI3K tends to occur in ABC lymphomas negative for CARD11 mutations
+******* 30% of tissue samples harbor MYD88 gain-of-function mutations in the toll-interleukin receptor (TIR) domain
+****** epigenetic
+*** Molecular pathogenesis of follicular lymphoma
+**** B-cell lymphoma of germinal center B cells with rearranged heavy and light chain genes
+**** Normal BCL2 is antiapoptotic via inhibition of cytochrome c release from mitochondria
+**** 90% have t(14; 18) or variant B-cell CLL/lymphoma 2 (BCL2) rearrangements with Ig kappa or lambda on chr 2 and 22
+***** IgH regulatory apparatus on chr 14
+***** bcl2 gene on chr 18
+***** 65-70% in major breakpoint region (MBR)
+**** t(14;18) can be identified in healthy individuals and is therefor considered an early event
+**** Bcl6 is a zinc-finger repressor of IRF-4/MUM-1
+***** Found in rearrangements and with somatic mutations
+*** Molecular pathogenesis of marginal zone lymphoma and chronic lymphocytic leukemia / small lymphocytic lymphoma
+**** Marginal zone lymphoma
+***** arises from memory B cells that normally reside in the marginal zone of secondary lymphoid follicles
+**** Chronic lymphocytic leukemia
+***** The clonal population expresses hallmark features of mature and activated B lymphocytes
+****** CD19, CD5, CD23, and dim CD20
+***** Prognostic classification based on
+****** mutated V-genes has better prognosis
+****** no CD38 or ZAP-70 has better prognosis
+***** Cytogenetic lesions
+****** 13q14.3 deletion (more than 50% of cases followed over time)
+****** Highest risk
+******* 11q22-23 (including loss of the ATM gene)
+******* 17p13 (including loss of p53)
+******* 6q21
+*** Pathogenesis of mantle-cell lymphoma
+*** Molecular pathogenesis of the peripheral T cell lymphomas
+**** Anaplastic large-cell lymphoma (ALCL)
+**** Angioimmunoblastic T-cell lymphoma
+*** Translating molecular pathogenesis into novel treatment platforms
+*** Future directions
+** 30. Multiple myeloma hematopathology
+*** Mutated genes in multiple myeloma
+**** Prognostic implications of genetic lesions
+**** The microenvironment in multiple myeloma
+**** Deregulated pathways in myeloma and the opening of novel therapeutics
+***** MYC
+***** MAF
+***** Cyclins
+***** Chromatin remodeling genes
+***** MMSET
+***** UTX
+***** RB1, P18, and other members of the RB1 pathway
+***** NFkB
+***** TP53 deletion and mutations
+***** The proteasome Achilles heel
+*** Final remarks
+** 31. Esophageal cancer
+** 32. Lung cancer
+** 33. Head and neck cancer
+** 34. Colon and rectal cancer
+** 35. Pancreatic adenocarcinoma
+** 36. Breast cancer
+** 37. Ovarian cancer
+** 38. Prostate cancer
+** 39. Kidney cancer
+** 40. Primary brain tumors
+** 41. Epithelial skin cancer
+** 42. Cutaneous Melanoma
+** 43. Thyroid cancer
+** 44. Soft tissue sarcomas
+* V. Molecular basis of cancer therapy
+* External notes
+** [[https://www.overleaf.com/project/5dbdb855a1c83c0001cf0719][molecular pathology notes on overleaf]]
+* Quick notes for later incorporation into external overleaf document
+** 

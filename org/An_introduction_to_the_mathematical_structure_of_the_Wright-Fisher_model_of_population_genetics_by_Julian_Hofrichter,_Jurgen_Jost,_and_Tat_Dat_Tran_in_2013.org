@@ -1,0 +1,7 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: An_introduction_to_the_mathematical_structure_of_the_Wright-Fisher_model_of_population_genetics_by_Julian_Hofrichter,_Jurgen_Jost,_and_Tat_Dat_Tran_in_2013
+#+TITLE: An introduction to the mathematical structure of the Wright-Fisher model of population genetics by Julian Hofrichter, Jurgen Jost, and Tat Dat Tran in 2013
+* [[file:population_dynamics.org][population dynamics]], [[file:evolutionary_timescale.org][evolutionary timescale]], [[file:dynamical_systems.org][dynamical systems]], [[file:Jurgen_Jost.org][Jurgen Jost]]
+* citation
+** Tran, T. D., Hofrichter, J., & Jost, J. (2013). An introduction to the mathematical structure of the Wright-Fisher model of population genetics. __Theory in Biosciences = Theorie in Den Biowissenschaften__, __132__(2), 73–82. https://doi.org/10.1007/s12064-012-0170-3
+* contents

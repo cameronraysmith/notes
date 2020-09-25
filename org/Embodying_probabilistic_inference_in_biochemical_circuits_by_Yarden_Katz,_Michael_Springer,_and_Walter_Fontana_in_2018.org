@@ -1,0 +1,21 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Embodying_probabilistic_inference_in_biochemical_circuits_by_Yarden_Katz,_Michael_Springer,_and_Walter_Fontana_in_2018
+#+TITLE: Embodying probabilistic inference in biochemical circuits by Yarden Katz, Michael Springer, and Walter Fontana in 2018
+* Introduction
+* Analysis 
+** Real-time probabilistic inference in a changing environment
+** Representing a changing environment using sensors, recorders and integrators
+** Programmatic generation of a biochemical circuit that performs inference
+** Embodied inference is constrained by the logic of protein production
+*** Properties of an inferential mechanism
+*** Coupling of inference and action
+*** Constraints of embodiment by proteins
+*** Variation in coupling inference to action
+*** Relationship to idealized inference
+** Circuit failure modes
+** Searching for the molecular correlates of inference
+* Discussion
+* [[file:references.org][references]]
+** Mellis, I. A., & Raj, A. (2015). Half dozen of one, six billion of the other: What can small* and large-scale molecular systems biology learn from one another? __Genome Research__, __25__(10), 1466–1472. https://doi.org/10.1101/gr.190579.115
+** Thompson, A. (1997). An evolved circuit, intrinsic in silicon, entwined with physics. In __Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)__ (Vol. 1259, pp. 390–405). https://doi.org/10.1007/3-540-63173-9_61
+** Lazebnik, Y. (2002). Can a biologist fix a radio?—Or, what I learned while studying apoptosis. __Cancer Cell__, __2__(3), 179–182. https://doi.org/10.1016/S1535-6108(02)00133-2

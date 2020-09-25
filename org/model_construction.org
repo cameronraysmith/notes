@@ -1,0 +1,9 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: model_construction
+#+TITLE: model construction
+* [[file:probabilistic_inference.org][probabilistic inference]]
+* [[file:stochastic_processes.org][stochastic processes]]
+* [[file:physics.org][physics]]
+* [[file:dynamical_systems.org][dynamical systems]]
+* [[file:economics.org][economics]]
+* [[file:mathematics.org][mathematics]]

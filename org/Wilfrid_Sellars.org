@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Wilfrid_Sellars
+#+TITLE: Wilfrid Sellars

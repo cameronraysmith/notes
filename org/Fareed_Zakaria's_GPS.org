@@ -1,0 +1,3 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Fareed_Zakaria's_GPS
+#+TITLE: Fareed Zakaria's GPS

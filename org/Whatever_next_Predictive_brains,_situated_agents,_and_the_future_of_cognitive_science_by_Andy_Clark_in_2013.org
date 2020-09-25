@@ -1,0 +1,13 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Whatever_next_Predictive_brains,_situated_agents,_and_the_future_of_cognitive_science_by_Andy_Clark_in_2013
+#+TITLE: Whatever next? Predictive brains, situated agents, and the future of cognitive science by Andy Clark in 2013
+* [[file:Andy_Clark.org][Andy Clark]]
+* Brains, it has recently been argued, are essentially prediction machines. They are bundles of cells that support perception and action by constantly attempting to match incoming sensory inputs with top-down expectations or predictions. This is achieved using a hierarchical generative model that aims to minimize prediction error within a bidirectional cascade of cortical processing.
+* “The whole function of the brain is summed up in: error correction.” So wrote [[file:W_Ross_Ashby.org][W. Ross Ashby]], the British psychiatrist and cyberneticist, some half a century ago.
+* Helmholz’s insight informed influential work by MacKay (1956), Neisser (1967), and Gregory (1980), as part of the cognitive psychological tradition that became known as “analysis-by-synthesis” (for a review, see Yuille & Kersten 2006)
+** MacKay,D.M.(1956) The epistemological problem for automata. In: Automata studies, ed. C. E. Shannon&J.McCarthy, pp. 235–51. PrincetonUniversityPress
+** Neisser, U. (1967) Cognitive psychology. Appleton-Century-Crofts
+** Gregory, R. L. (1980) Perceptions as hypotheses. Philosophical Transactions of the Royal Society of London B 290(1038):181–97
+** Yuille, A. & Kersten, D. (2006) Vision as Bayesian inference: Analysis by synthesis? Trends in Cognitive Science 10(7):301–308.
+* Maximal mutual information, not minimal entropy, for escaping the “Dark Room”
+** Important early implementations of a [[file:maximal_mutual_information_principle.org][maximal mutual information principle]] in modeling passive learning include the [[file:computational_mechanics.org][computational mechanics]] approach for dynamical systems of Crutchfield and Young (1989) and the [[file:information_bottleneck_method.org][information bottleneck method]] of [[file:Naftali_Tishby.org][Naftali Tishby]] et al. (1999) for analyzing time series. Recently, the [[file:information_bottleneck_method.org][information bottleneck method]] has been extended to action selection by Still (2009). Further, the [[file:predictive_information_maximization.org][predictive information maximization]] of Ay et al. (2008) has shown that complex behaviors can emerge from simple manipulations of action controllers towards maximizing the [[file:mutual_information.org][mutual information]] between states. And our own work utilizes [[file:mutual_information.org][mutual information]] to drive exploratory behaviors (Little & Sommer 2011).

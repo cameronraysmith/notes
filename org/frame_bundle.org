@@ -1,0 +1,4 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: frame_bundle
+#+TITLE: frame bundle
+* Canonical example of a [[file:principal_bundle.org][principal bundle]]

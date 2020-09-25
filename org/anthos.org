@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: anthos
+#+TITLE: anthos
+* [[file:cloud_computing.org][cloud computing]], [[file:google_cloud_platform.org][google cloud platform]]
+* [[https://www.youtube.com/playlist?list=PLIivdWyY5sqKN73vzKpg2p2JmOGoAN0CG][Anthos 101]]
+* **Anthos** is a modern application platform that provides a consistent development and operations experience across hybrid and multi **cloud** environments.

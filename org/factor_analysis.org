@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: factor_analysis
+#+TITLE: factor analysis
+* tutorials
+** [[https://www.youtube.com/watch?v=WV_jcaDBZ2I][Factor Analysis * an introduction]]

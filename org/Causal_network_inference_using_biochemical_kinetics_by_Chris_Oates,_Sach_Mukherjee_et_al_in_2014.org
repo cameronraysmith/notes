@@ -1,0 +1,12 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Causal_network_inference_using_biochemical_kinetics_by_Chris_Oates,_Sach_Mukherjee_et_al_in_2014
+#+TITLE: Causal network inference using biochemical kinetics by Chris Oates, Sach Mukherjee et al in 2014
+* [[file:papers.org][papers]], [[file:network_inference.org][network inference]], [[file:probabilistic_inference.org][probabilistic inference]]
+* citation
+** Oates, C. J., Dondelinger, F., Bayani, N., Korkola, J., Gray, J. W., & Mukherjee, S. (2014). Causal network inference using biochemical kinetics. __Bioinformatics__, __30__(17), i468–i474. https://doi.org/10.1093/bioinformatics/btu452
+* code
+** matlab zip file
+*** http://oates.work/papers
+*** https://www.dropbox.com/s/kk9y0w1638gd4vu/CheMA1_0.zip?dl=0
+* contents
+** 

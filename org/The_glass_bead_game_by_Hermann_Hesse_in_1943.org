@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: The_glass_bead_game_by_Hermann_Hesse_in_1943
+#+TITLE: The glass bead game by Hermann Hesse in 1943
+* [[file:literature.org][literature]]
+* 

@@ -1,0 +1,30 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Scale_Up!_by_Odoo
+#+TITLE: Scale Up! by Odoo
+* Backstory
+** See [[https://www.odoo.com/page/scale-up-business-game][Scale Up! business game]]
+** Incorporated MyOffice Inc.
+** Recruit a team
+*** Sales manager
+*** Purchase manager
+*** Secretary
+** Secretary helps find an affordable office location
+** Purchase products, market the company, sell the products
+** Various business scenarios covered in Scale Up!
+*** 1. Basics of buying and selling products "Buy and Sell"
+*** 2. Launch a **point of sale** for consumers
+*** 3. Offer extra **services**
+*** 4. **Manufacture** your own products
+*** 5. Manage inventory with **barcodes**
+*** 6. **Sell online** with an eCommerce website
+*** 7. Lease fully-furnished properties
+* Buy and Sell
+** Overview 
+*** B2B business
+**** buy new products
+**** sell and deliver to customers
+** Create a product available for purchase by the company
+** Purchase 10 items via request for quotation and purchase
+** Log receipt of the product
+** Log the bill and set to be paid by due date
+** 

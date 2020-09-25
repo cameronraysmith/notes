@@ -1,0 +1,20 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: setup_an_inexpensive_gke_kubernetes_cluster_with_no_load_balancer_using_terraform
+#+TITLE: setup an inexpensive gke kubernetes cluster with no load balancer using terraform
+* [[file:cloud_computing.org][cloud computing]], [[file:google_cloud_platform.org][google cloud platform]], [[file:kubernetes.org][kubernetes]], [[file:terraform.org][terraform]]
+* affordable
+* https://www.terraform.io/docs/providers/google/guides/getting_started.html
+* introduction to terraform and gcp: 3 f1-micro preemptible VMs each with 10GB of storage at $5/mo
+** https://github.com/kasuboski/cheap-managed-kubernetes
+** [[https://www.youtube.com/watch?v=gcwn3ETSvm8&t=25s][Cheap Managed Kubernetes with Terraform]]
+* terraform with one stable and free f1-micro instance and 2 preemptible f1-micro instances using XXX for load balancing
+** https://dev.to/verkkokauppacom/how-to-kubernetes-for-cheap-on-google-cloud-1aei
+** https://github.com/nkoson/gke-tutorial
+** notes
+*** use us-central1-f
+**** https://cloud.google.com/compute/docs/regions-zones
+*** create IAM default service account and download json key then check path specification
+*** initialize terraform and bring up the cloud infrastructure.
+**** need to check the organization and workspace names in terraform and update them in the code as well
+*** check compute engine and clusters as well as the terraform site to make sure the deployment succeeded
+*** 

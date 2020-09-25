@@ -1,0 +1,26 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Branching_process_models_of_cancer_by_Durrett_in_2015
+#+TITLE: Branching process models of cancer by Durrett in 2015
+* citation
+* contents
+** 1. Multistage theory of cancer
+** 2. Mathematical overview
+** 3. Branching process results
+*** 3.1 Conditioned branching processes
+** 4. Time for Z0 to reach size M
+** 5. Time until the first type 1
+** 6. Mutation before detection?
+** 7. Accumulation of neutral mutations
+** 8. Properties of the gamma function
+** 9. Growth of $$Z_1(t)$$
+** 10. Moments of $$Z_1(t)$$
+** 11. Luria-Delbruck distributions
+*** 11.1 Deterministic growth of type 1's
+*** 11.2 Lea-Coulson formulation
+** 12. Number of type 1's at time $$T_M$$
+** 13. Growth of $$Z_k(t)$$
+** 14. Transitions between waves
+** 15. Time to the first type $$k, k \geq 2$$
+** 16. Application: metastasis
+** 17. Application: ovarian cancer
+** 18. Application: intratumor heterogeneity

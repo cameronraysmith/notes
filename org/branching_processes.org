@@ -1,0 +1,8 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: branching_processes
+#+TITLE: branching processes
+* Topics
+** [[file:cancer_evolution.org][cancer evolution]]
+* [[file:references.org][references]]
+** [[file:Branching_processes_by_Athreya_and_Ney_in_1972.org][Branching processes by Athreya and Ney in 1972]]
+** [[file:Statistical_physics_of_biological_evolution_by_Krug_in_2014.org][Statistical physics of biological evolution by Krug in 2014]]

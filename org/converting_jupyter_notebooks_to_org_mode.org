@@ -1,0 +1,117 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: converting_jupyter_notebooks_to_org_mode
+#+latex_header: \input{../header.tex}
+#+title: converting jupyter notebooks to org mode
+#+roam_tags:
+
+* introduction
+** use case
+** tests
+
+It will be helpful to use a relatively simple jupyter notebook. I will use the =ipynb= for testing nbcorg and the jupytext markdown for testing pandoc conversion.
+
+* tools
+
+** pandoc
+:PROPERTIES:
+:ID:       07775aa6-4596-4c62-8a9e-4ee69b13d055
+:END:
+
+It might make more sense to just use =pandoc= from the command line; however, there is a package named =org-pandoc-import= that allows for importing these files directly from emacs. The doom config is
+
+#+BEGIN_EXAMPLE elisp
+(package! org-pandoc-import
+  :recipe (:host github
+           :repo "tecosaur/org-pandoc-import"
+           :files ("*.el" "filters" "preprocessors")))
+#+END_EXAMPLE
+
+After loading that you just open the =ipynb= and then run the function =org-pandoc-import-to-org=. This works!
+
+** nbcorg for nbconvert
+
+reference :: [[https://pypi.org/project/nbcorg/][nbcorg · PyPI]]
+
+Make sure we have the package installed.
+
+#+BEGIN_SRC sh :session test :results output verbatim replace :exports both
+echo $HOME $0
+pwd
+#+END_SRC
+
+#+RESULTS:
+: /Users/crs58 /bin/sh
+: /Users/crs58/projects/notes/org
+
+#+BEGIN_SRC sh :results output verbatim replace :session convertingjupyter
+pip freeze | grep nbcorg
+pip install nbcorg
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+
+nbcorg==0.0.1
+Requirement already satisfied: nbcorg in /Users/crs58/.asdf/installs/python/3.8.2/lib/python3.8/site-packages (0.0.1)
+Requirement already satisfied: nbconvert in /Users/crs58/.asdf/installs/python/3.8.2/lib/python3.8/site-packages (from nbcorg) (5.6.1)
+Requirement already satisfied: pandoc in /Users/crs58/.asdf/installs/python/3.8.2/lib/python3.8/site-packages (from nbcorg) (1.0.2)
+=2.4 in /Users/crs58/.asdf/installs/python/3.8.2/lib/python3.8/site-packages (from nbconvert->nbcorg) (2.11.2)
+nbcorg) (3.1.5)
+=4.4 in /Users/crs58/.asdf/installs/python/3.8.2/lib/python3.8/site-packages (from nbconvert->nbcorg) (5.0.7)
+nbcorg) (0.4.4)
+=4.2 in /Users/crs58/.local/lib/python3.8/site-packages (from nbconvert->nbcorg) (5.0.3)
+nbcorg) (4.6.3)
+=0.2.2 in /Users/crs58/.asdf/installs/python/3.8.2/lib/python3.8/site-packages (from nbconvert->nbcorg) (0.3)
+=1.4.1 in /Users/crs58/.asdf/installs/python/3.8.2/lib/python3.8/site-packages (from nbconvert->nbcorg) (1.4.2)
+=0.8.1 in /Users/crs58/.asdf/installs/python/3.8.2/lib/python3.8/site-packages (from nbconvert->nbcorg) (0.8.4)
+nbcorg) (2.6.1)
+nbcorg) (0.6.0)
+nbcorg) (3.11)
+=0.23 in /Users/crs58/.asdf/installs/python/3.8.2/lib/python3.8/site-packages (from jinja2>=2.4->nbconvert->nbcorg) (1.1.1)
+=1.9.0 in /Users/crs58/.local/lib/python3.8/site-packages (from bleach->nbconvert->nbcorg) (1.15.0)
+nbconvert->nbcorg) (0.5.1)
+nbconvert->nbcorg) (20.4)
+=4.4->nbconvert->nbcorg) (0.2.0)
+=2.4 in /Users/crs58/.asdf/installs/python/3.8.2/lib/python3.8/site-packages (from nbformat>=4.4->nbconvert->nbcorg) (3.2.0)
+=2.0.2 in /Users/crs58/.asdf/installs/python/3.8.2/lib/python3.8/site-packages (from packaging->bleach->nbconvert->nbcorg) (2.4.7)
+=0.14.0 in /Users/crs58/.asdf/installs/python/3.8.2/lib/python3.8/site-packages (from jsonschema!=2.5.0,>=2.4->nbformat>=4.4->nbconvert->nbcorg) (0.16.0)
+=17.4.0 in /Users/crs58/.asdf/installs/python/3.8.2/lib/python3.8/site-packages (from jsonschema!=2.5.0,>=2.4->nbformat>=4.4->nbconvert->nbcorg) (19.3.0)
+=2.4->nbformat>=4.4->nbconvert->nbcorg) (49.2.0)
+#+end_example
+
+Create directory and copy files for running the test.
+
+#+BEGIN_SRC sh :results output verbatim replace :session convertingjupyter :exports both
+PROJECT_DIR=~/projects/convert-jupyter-org
+SOURCE_DIR=~/projects/applied-probabilistic-inference
+mkdir -p $PROJECT_DIR
+cp $SOURCE_DIR/plotting.* $PROJECT_DIR
+ls $PROJECT_DIR
+#+END_SRC
+
+#+RESULTS:
+:
+: sh-3.2$ sh-3.2$ sh-3.2$ plotting.ipynb	plotting.md	plotting.py
+
+#+BEGIN_SRC sh :results output verbatim replace :session convertingjupyter :exports both
+echo $PROJECT_DIR
+echo $SOURCE_DIR
+#+END_SRC
+
+#+RESULTS:
+: /Users/crs58/projects/convert-jupyter-org
+: /Users/crs58/projects/applied-probabilistic-inference
+
+#+BEGIN_SRC sh :results output verbatim replace :session convertingjupyter
+cd $PROJECT_DIR
+jupyter nbconvert --to orgmode --OrgmodeExporter.src_block_options=':session plotting :results output replace' --OrgmodeExporter.exclude_output=True plotting.ipynb
+# jupyter nbconvert --version
+#+END_SRC
+
+Good to know that this is essentially broken for now due to
+
+#+BEGIN_EXAMPLE
+File "/Users/crs58/.asdf/installs/python/3.8.2/lib/python3.8/site-packages/jinja2/loaders.py", line 429, in load
+  raise TemplateNotFound(name)
+jinja2.exceptions.TemplateNotFound: base.tpl
+#+END_EXAMPLE

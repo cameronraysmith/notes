@@ -1,0 +1,6 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: Population_biology_and_criticality_by_Nico_Stollenwerk_and_Vincent_Johnson_in_2010
+#+TITLE: Population biology and criticality by Nico Stollenwerk and Vincent Johnson in 2010
+* [[file:books.org][books]]
+* [[file:stochastic_processes.org][stochastic processes]], [[file:dynamical_systems.org][dynamical systems]], [[file:population_dynamics.org][population dynamics]]
+* 

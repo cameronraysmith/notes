@@ -1,0 +1,66 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: pyro
+#+TITLE: pyro
+* [[file:variational_inference.org][variational inference]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:computation.org][computation]] 
+* lectures
+** [[file:Du_Phan.org][Du Phan]] implemented [[file:Statistical_rethinking_by_Richard_McElreath_in_2020.org][Statistical rethinking by Richard McElreath in 2020]] in [[file:pyro.org][pyro]]
+** [[https://youtu.be/mtFBfOmdFQk][talk on pyro by Chi Nhan Nguyen at ML conference]]
+** technical talk including implementation information [[https://youtu.be/aLFJ5ERxt2c][Uber Open Summit 2018 Pyro: Deep Probabilistic Programming]]
+* documentation
+** introduction
+*** [[https://pyro.ai/examples/intro_part_i.html][An Introduction to Models in Pyro]]
+**** [[https://pyro.ai/examples/intro_part_i.html#Primitive-Stochastic-Functions][Primitive Stochastic Functions]]
+**** [[https://pyro.ai/examples/intro_part_i.html#A-Simple-Model][A Simple Model]]
+**** [[https://pyro.ai/examples/intro_part_i.html#The-pyro.sample-Primitive][The pyro.sample Primitive]]
+**** [[https://pyro.ai/examples/intro_part_i.html#Universality:-Stochastic-Recursion,-Higher-order-Stochastic-Functions,-and-Random-Control-Flow][Universality: Stochastic Recursion, Higher-order Stochastic Functions, and Random Control Flow]]
+**** [[https://pyro.ai/examples/intro_part_i.html#Next-Steps][Next Steps]]
+*** [[https://pyro.ai/examples/intro_part_ii.html][An Introduction to Inference in Pyro]]
+**** [[https://pyro.ai/examples/intro_part_ii.html#A-Simple-Example][A Simple Example]]
+**** [[https://pyro.ai/examples/intro_part_ii.html#Conditioning][Conditioning]]
+**** [[https://pyro.ai/examples/intro_part_ii.html#Flexible-Approximate-Inference-With-Guide-Functions][Flexible Approximate Inference With Guide Functions]]
+**** [[https://pyro.ai/examples/intro_part_ii.html#Parametrized-Stochastic-Functions-and-Variational-Inference][Parametrized Stochastic Functions and Variational Inference]]
+**** [[https://pyro.ai/examples/intro_part_ii.html#Next-Steps][Next Steps]]
+*** [[https://pyro.ai/examples/svi_part_i.html][SVI Part I: An Introduction to Stochastic Variational Inference in Pyro]]
+**** [[https://pyro.ai/examples/svi_part_i.html#Setup][Setup]]
+***** The different pieces of a `model()` are encoded via the mapping:
+****** 1. observations $$\Longleftrightarrow$$ `pyro.sample` with the `obs` argument
+****** 2. latent random variables $$\Longleftrightarrow$$ `pyro.sample`
+****** 3. parameters $$\Longleftrightarrow$$ `pyro.param`
+***** When random variables are specified in Pyro with the primitive statement `pyro.sample()` the first argument denotes the name of the random variable. These names are used to align the random variables in the model and guide.
+**** [[https://pyro.ai/examples/svi_part_i.html#Model-Learning][Model Learning]]
+**** [[https://pyro.ai/examples/svi_part_i.html#Guide][Guide]]
+***** The guide is a variational distribution
+***** Just like the model, the guide is encoded as a stochastic function `guide()` that contains `pyro.sample` and `pyro.param` statements. 
+***** It does __not__ contain observed data, since the guide needs to be a properly normalized distribution. 
+***** Pyro enforces that `model()` and `guide()` have the same call signature, i.e. both callables should take the same arguments.
+**** [[https://pyro.ai/examples/svi_part_i.html#ELBO][ELBO]]
+***** the gap between the ELBO and the log evidence is given by the KL divergence between the guide and the posterior
+**** [[https://pyro.ai/examples/svi_part_i.html#SVI-Class][SVI Class]]
+**** [[https://pyro.ai/examples/svi_part_i.html#Optimizers][Optimizers]]
+***** Indeed parameters may be created dynamically during the course of inference. In other words the space we’re doing optimization over, which is parameterized by 𝜃θ and 𝜙ϕ, can grow and change dynamically.
+**** [[https://pyro.ai/examples/svi_part_i.html#A-simple-example][A simple example]]
+**** [[https://pyro.ai/examples/svi_part_i.html#References][References]]
+*** [[https://pyro.ai/examples/svi_part_ii.html][SVI Part II: Conditional Independence, Subsampling, and Amortization]]
+**** [[https://pyro.ai/examples/svi_part_ii.html#The-Goal:-Scaling-SVI-to-Large-Datasets][The Goal: Scaling SVI to Large Datasets]]
+**** [[https://pyro.ai/examples/svi_part_ii.html#Marking-Conditional-Independence-in-Pyro][Marking Conditional Independence in Pyro]] [[file:progress_indicators.org][progress indicators]]
+***** Sequential
+****** __pyro.plate____ is not appropriate for temporal models where each iteration of a loop depends on the previous iteration; in this case a ____range____ or ____pyro.markov____ should be used instead.__
+***** Vectorized
+****** __Conceptually vectorized ____plate____ is the same as sequential ____plate____ except that it is a vectorized operation (as ____torch.arange____ is to ____range____)__
+**** [[https://pyro.ai/examples/svi_part_ii.html#Subsampling][Subsampling]]
+**** [[https://pyro.ai/examples/svi_part_ii.html#Amortization][Amortization]]
+**** [[https://pyro.ai/examples/svi_part_ii.html#Tensor-shapes-and-vectorized-plate][Tensor shapes and vectorized plate]]
+**** [[https://pyro.ai/examples/svi_part_ii.html#References][References]]
+*** [[https://pyro.ai/examples/svi_part_iii.html][SVI Part III: ELBO Gradient Estimators]]
+**** [[https://pyro.ai/examples/svi_part_iii.html#Setup][Setup]]
+**** [[https://pyro.ai/examples/svi_part_iii.html#Easy-Case:-Reparameterizable-Random-Variables][Easy Case: Reparameterizable Random Variables]]
+**** [[https://pyro.ai/examples/svi_part_iii.html#Tricky-Case:-Non-reparameterizable-Random-Variables][Tricky Case: Non-reparameterizable Random Variables]]
+**** [[https://pyro.ai/examples/svi_part_iii.html#Variance-or-Why-I-Wish-I-Was-Doing-MLE-Deep-Learning][Variance or Why I Wish I Was Doing MLE Deep Learning]]
+**** [[https://pyro.ai/examples/svi_part_iii.html#References][References]]
+** advanced
+** examples
+*** 
+** contributed
+*** [[https://pyro.ai/examples/dirichlet_process_mixture.html][dirichlet process mixture model]]
+* notes
+** [[https://en.wikipedia.org/wiki/Variational_Bayesian_methods][stochastic variational inference in variational bayesian methods]]
