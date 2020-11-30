@@ -1,0 +1,5 @@
+#+setupfile: ./hugo_setup.org
+#+hugo_slug: gottfried_leibniz
+#+latex_header: \input{header.tex}
+#+TITLE: Gottfried Leibniz
+#+roam_tags:
