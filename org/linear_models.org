@@ -1,7 +1,473 @@
 #+setupfile: ./hugo_setup.org
 #+hugo_slug: linear_models
 #+TITLE: linear models
+#+PROPERTY: header-args :eval never-export
+
 * [[file:statistics.org][statistics]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:model_construction.org][model construction]]
 * references
-** https://en.wikipedia.org/wiki/Generalized_linear_model#Link_function
-** 
+
+- https://en.wikipedia.org/wiki/Generalized_linear_model#Link_function
+- cite:Gelman2006,Gelman2014,McElreath2019,Barber2012,Bishop2007
+
+* test remote jupyter kernel
+:PROPERTIES:
+:header-args: :exports both :eval never-export :async no :session /ssh:notebooks-vm.us-central1-f.quarere|docker:klt-notebooks-vm-cjme:julia-remote-test :kernel julia-1.5
+:END:
+
+#+BEGIN_SRC jupyter-julia
+x = "foo"
+y = "bar"
+println(x)
+println(y)
+#+END_SRC
+
+* examples
+:PROPERTIES:
+:header-args: :exports both :eval never-export :async yes :session julia-linear-models :kernel julia-1.5
+:END:
+
+In most cases we do not need to modify the default =:results output verbatim replace= in the =:header-args:=. See [[https://org-babel.readthedocs.io/en/latest/header-args/#results][Header arguments - Org Babel reference card]].
+
+** julia tests
+:PROPERTIES:
+:ID:       1ace2812-a0ca-414d-b2ea-7dfc07ee1c4b
+:END:
+
+#+NAME: define-vars
+#+BEGIN_SRC jupyter-julia :session julia-test
+x = "foo"
+y = "bar"
+println(x)
+println(y)
+#+END_SRC
+
+#+RESULTS: define-vars
+: foo
+: bar
+
+Since =jupyter-julia= supports sessions, we can make use of the variables defined in the previous block
+
+#+BEGIN_SRC jupyter-julia :session julia-test
+print(join([x, " ", y]))
+#+END_SRC
+
+#+RESULTS:
+: foo bar
+
+** load common libraries
+:PROPERTIES:
+:ID:       b2507946-5725-4636-bc69-94cfe77eae69
+:END:
+
+Load libraries
+
+#+BEGIN_SRC jupyter-julia
+@time begin
+using Dates
+using Turing
+using CSV, DataFrames, Distributions
+using MCMCChains, StatsFuns, StatsPlots
+end
+now()
+#+END_SRC
+
+#+RESULTS:
+:RESULTS:
+:  35.783676 seconds (79.42 M allocations: 4.116 GiB, 4.30% gc time)
+: 2020-10-29T21:39:30.7
+:END:
+
+Print list of loaded modules
+
+#+BEGIN_SRC jupyter-julia
+loaded_modules = Base.loaded_modules_array()
+println(loaded_modules)
+now()
+#+END_SRC
+
+** models
+*** testing
+**** model definition
+
+See [[id:b2507946-5725-4636-bc69-94cfe77eae69][load libraries]] for those used across examples.
+
+#+BEGIN_SRC jupyter-julia
+@time begin
+end
+now()
+#+END_SRC
+
+Print current working directory
+
+#+BEGIN_SRC jupyter-julia
+println(pwd())
+now()
+#+END_SRC
+
+#+RESULTS:
+:RESULTS:
+: /Users/crs58/projects/notes/org
+: 2020-10-17T11:24:44.226
+:END:
+
+Define the =Turing.jl= model
+
+#+BEGIN_SRC jupyter-julia
+
+@time begin
+# Define a simple Normal model with unknown mean and variance.
+@model gdemo(x, y) = begin
+    s ~ InverseGamma(2, 3)
+    m ~ Normal(0, sqrt(s))
+    x ~ Normal(m, sqrt(s))
+    y ~ Normal(m, sqrt(s))
+end
+end
+now()
+
+#+END_SRC
+
+#+RESULTS:
+:RESULTS:
+:   0.000082 seconds (85 allocations: 7.407 KiB)
+: 2020-10-29T21:39:51.823
+:END:
+
+**** sampling
+
+Run and profile the sampler
+
+#+BEGIN_SRC jupyter-julia
+#  Run sampler, collect results
+@time chn = sample(gdemo(1.5, 2), NUTS(0.65), 1000)
+now()
+#+END_SRC
+
+#+RESULTS:
+:RESULTS:
+: ┌ Info: Found initial step size
+: │   ϵ = 1.6
+: └ @ Turing.Inference /Users/crs58/.julia/packages/Turing/RzDvB/src/inference/hmc.jl:625
+: [32mSampling: 100%|█████████████████████████████████████████| Time: 0:00:00[39m
+:  16.546298 seconds (42.02 M allocations: 2.128 GiB, 4.43% gc time)
+: 2020-10-29T21:40:08.642
+:END:
+
+
+Print the result summary
+
+#+BEGIN_SRC jupyter-julia
+# Summarise results (currently requires the master branch from MCMCChains)
+display(chn)
+# describe(chn; sections = :internals)
+# show(stdout, "text/plain", chn)
+now()
+#+END_SRC
+
+#+RESULTS:
+:RESULTS:
+#+begin_example
+Chains MCMC chain (500×14×1 Array{Float64,3}):
+
+Iterations        = 1:500
+Thinning interval = 1
+Chains            = 1
+Samples per chain = 500
+parameters        = m, s
+internals         = acceptance_rate, hamiltonian_energy, hamiltonian_energy_error, is_accept, log_density, lp, max_hamiltonian_energy_error, n_steps, nom_step_size, numerical_error, step_size, tree_depth
+
+Summary Statistics
+ [0m[1m parameters [0m [0m[1m    mean [0m [0m[1m     std [0m [0m[1m naive_se [0m [0m[1m    mcse [0m [0m[1m      ess [0m [0m[1m    rhat [0m [0m
+ [0m[90m     Symbol [0m [0m[90m Float64 [0m [0m[90m Float64 [0m [0m[90m  Float64 [0m [0m[90m Float64 [0m [0m[90m  Float64 [0m [0m[90m Float64 [0m [0m
+ [0m            [0m [0m         [0m [0m         [0m [0m          [0m [0m         [0m [0m          [0m [0m         [0m [0m
+ [0m          m [0m [0m  1.2898 [0m [0m  0.8406 [0m [0m   0.0376 [0m [0m  0.0795 [0m [0m 138.8908 [0m [0m  1.0138 [0m [0m
+ [0m          s [0m [0m  1.9378 [0m [0m  1.6108 [0m [0m   0.0720 [0m [0m  0.1375 [0m [0m 109.5077 [0m [0m  1.0028 [0m [0m
+
+Quantiles
+ [0m[1m parameters [0m [0m[1m    2.5% [0m [0m[1m   25.0% [0m [0m[1m   50.0% [0m [0m[1m   75.0% [0m [0m[1m   97.5% [0m [0m
+ [0m[90m     Symbol [0m [0m[90m Float64 [0m [0m[90m Float64 [0m [0m[90m Float64 [0m [0m[90m Float64 [0m [0m[90m Float64 [0m [0m
+ [0m            [0m [0m         [0m [0m         [0m [0m         [0m [0m         [0m [0m         [0m [0m
+ [0m          m [0m [0m -0.1236 [0m [0m  0.7457 [0m [0m  1.2822 [0m [0m  1.7125 [0m [0m  2.9355 [0m [0m
+ [0m          s [0m [0m  0.6235 [0m [0m  1.1054 [0m [0m  1.5581 [0m [0m  2.1717 [0m [0m  5.7594 [0m [0m
+#+end_example
+: 2020-10-29T21:40:39.455
+:END:
+**** plotting
+
+***** statsplots
+
+Plot the results
+
+#+BEGIN_SRC jupyter-julia
+# Plot and save results
+p = plot(chn)
+savefig("data/linear_models/basic-example-plot.pdf")
+savefig("data/linear_models/basic-example-plot.png")
+#+END_SRC
+
+#+RESULTS:
+
+#+ATTR_ORG: :width 1350
+[[file:data/linear_models/basic-example-plot.png]]
+
+***** arviz
+
+Load additional libraries
+
+#+BEGIN_SRC jupyter-julia
+using ArviZ, PyPlot, PyCall
+now()
+#+END_SRC
+
+#+RESULTS:
+: 2020-10-29T21:40:50.04
+
+The following may be useful if the =Latin Modern= fonts are not installed or setup to work with =matplotlib=.
+
+#+BEGIN_EXAMPLE julia
+mpl = pyimport("matplotlib")
+mplfm = pyimport("matplotlib.font_manager")
+mplfm.fontManager.addfont("~/Library/Fonts/lmsans10-regular.otf")
+mplfm.fontManager.addfont("~/Library/Fonts/lmroman10-regular.otf")
+mplfm.findfont("Latin Modern Sans")
+mplfm._rebuild()
+print(mpl.rcParams)
+#+END_EXAMPLE
+
+Make =InferenceData= object
+
+#+BEGIN_SRC jupyter-julia
+idata = from_mcmcchains(chn, library = "Turing")
+#+END_SRC
+
+#+RESULTS:
+: InferenceData with groups:
+: 	> posterior
+: 	> sample_stats
+
+Print posterior and =sample_stats= from =InferenceData= object
+
+#+BEGIN_SRC jupyter-julia
+print(idata.posterior)
+print(idata.sample_stats)
+now()
+#+END_SRC
+
+#+RESULTS:
+:RESULTS:
+#+begin_example
+Dataset (xarray.Dataset)
+Dimensions:  (chain: 1, draw: 500)
+Coordinates:
+  ,* chain    (chain) int64 0
+  ,* draw     (draw) int64 0 1 2 3 4 5 6 7 8 ... 492 493 494 495 496 497 498 499
+Data variables:
+    m        (chain, draw) float64 1.589 1.183 3.026 ... -0.02606 1.485 -0.3521
+    s        (chain, draw) float64 1.985 1.348 5.464 1.353 ... 1.573 1.399 4.237
+Attributes:
+    created_at:         2020-10-18T18:52:46.016452
+    arviz_version:      0.9.0
+    inference_library:  TuringDataset (xarray.Dataset)
+Dimensions:           (chain: 1, draw: 500)
+Coordinates:
+  ,* chain             (chain) int64 0
+  ,* draw              (draw) int64 0 1 2 3 4 5 6 ... 493 494 495 496 497 498 499
+Data variables:
+    energy            (chain, draw) float64 5.718 5.12 8.651 ... 5.826 8.27
+    energy_error      (chain, draw) float64 0.115 -0.09808 ... -0.2852 0.4234
+    depth             (chain, draw) int64 2 2 2 2 1 2 2 2 2 ... 2 1 2 2 2 1 2 2
+    diverging         (chain, draw) bool False False False ... False False False
+    log_density       (chain, draw) float64 -5.151 -4.634 -8.2 ... -4.762 -7.393
+    max_energy_error  (chain, draw) float64 0.2966 -0.09808 ... -0.2852 0.4626
+    nom_step_size     (chain, draw) float64 0.7675 0.7675 ... 0.7675 0.7675
+    is_accept         (chain, draw) float64 1.0 1.0 1.0 1.0 ... 1.0 1.0 1.0 1.0
+    tree_size         (chain, draw) int64 7 3 3 7 1 3 7 3 3 ... 3 1 3 3 3 1 7 3
+    lp                (chain, draw) float64 -5.151 -4.634 -8.2 ... -4.762 -7.393
+    step_size         (chain, draw) float64 0.7675 0.7675 ... 0.7675 0.7675
+    mean_tree_accept  (chain, draw) float64 0.8756 1.0 0.5808 ... 0.985 0.6447
+Attributes:
+    created_at:         2020-10-18T18:52:46.263700
+    arviz_version:      0.9.0
+    inference_library:  Turing
+#+end_example
+: 2020-10-18T14:55:35.997
+:END:
+Plot
+
+#+BEGIN_SRC jupyter-julia :results silent
+# Plot and save results
+p_arviz_trace = plot_trace(idata)
+PyPlot.savefig("data/linear_models/normal-model-arviz-trace.pdf")
+PyPlot.savefig("data/linear_models/normal-model-arviz-trace.png")
+#+END_SRC
+
+#+ATTR_ORG: :width 1350
+[[file:data/linear_models/normal-model-arviz-trace.png]]
+*** template
+**** model definition
+
+See [[id:b2507946-5725-4636-bc69-94cfe77eae69][load libraries]] for those used across examples.
+
+Define the =Turing.jl= model
+
+#+BEGIN_SRC jupyter-julia
+
+@time begin
+# Define a simple Normal model with unknown mean and variance.
+@model gdemo(x, y) = begin
+    s ~ InverseGamma(2, 3)
+    m ~ Normal(0, sqrt(s))
+    x ~ Normal(m, sqrt(s))
+    y ~ Normal(m, sqrt(s))
+end
+end
+now()
+
+#+END_SRC
+
+#+RESULTS:
+:RESULTS:
+:   0.000082 seconds (85 allocations: 7.407 KiB)
+: 2020-10-29T21:39:51.823
+:END:
+
+**** sampling
+
+Run and profile the sampler
+
+#+BEGIN_SRC jupyter-julia
+#  Run sampler, collect results
+@time chn = sample(gdemo(1.5, 2), NUTS(0.65), 1000)
+now()
+#+END_SRC
+
+#+RESULTS:
+:RESULTS:
+: ┌ Info: Found initial step size
+: │   ϵ = 1.6
+: └ @ Turing.Inference /Users/crs58/.julia/packages/Turing/RzDvB/src/inference/hmc.jl:625
+: [32mSampling: 100%|█████████████████████████████████████████| Time: 0:00:00[39m
+:  16.546298 seconds (42.02 M allocations: 2.128 GiB, 4.43% gc time)
+: 2020-10-29T21:40:08.642
+:END:
+
+
+Print the result summary
+
+#+BEGIN_SRC jupyter-julia
+# Summarise results (currently requires the master branch from MCMCChains)
+display(chn)
+# describe(chn; sections = :internals)
+# show(stdout, "text/plain", chn)
+now()
+#+END_SRC
+
+#+RESULTS:
+:RESULTS:
+#+begin_example
+Chains MCMC chain (500×14×1 Array{Float64,3}):
+
+Iterations        = 1:500
+Thinning interval = 1
+Chains            = 1
+Samples per chain = 500
+parameters        = m, s
+internals         = acceptance_rate, hamiltonian_energy, hamiltonian_energy_error, is_accept, log_density, lp, max_hamiltonian_energy_error, n_steps, nom_step_size, numerical_error, step_size, tree_depth
+
+Summary Statistics
+ [0m[1m parameters [0m [0m[1m    mean [0m [0m[1m     std [0m [0m[1m naive_se [0m [0m[1m    mcse [0m [0m[1m      ess [0m [0m[1m    rhat [0m [0m
+ [0m[90m     Symbol [0m [0m[90m Float64 [0m [0m[90m Float64 [0m [0m[90m  Float64 [0m [0m[90m Float64 [0m [0m[90m  Float64 [0m [0m[90m Float64 [0m [0m
+ [0m            [0m [0m         [0m [0m         [0m [0m          [0m [0m         [0m [0m          [0m [0m         [0m [0m
+ [0m          m [0m [0m  1.2898 [0m [0m  0.8406 [0m [0m   0.0376 [0m [0m  0.0795 [0m [0m 138.8908 [0m [0m  1.0138 [0m [0m
+ [0m          s [0m [0m  1.9378 [0m [0m  1.6108 [0m [0m   0.0720 [0m [0m  0.1375 [0m [0m 109.5077 [0m [0m  1.0028 [0m [0m
+
+Quantiles
+ [0m[1m parameters [0m [0m[1m    2.5% [0m [0m[1m   25.0% [0m [0m[1m   50.0% [0m [0m[1m   75.0% [0m [0m[1m   97.5% [0m [0m
+ [0m[90m     Symbol [0m [0m[90m Float64 [0m [0m[90m Float64 [0m [0m[90m Float64 [0m [0m[90m Float64 [0m [0m[90m Float64 [0m [0m
+ [0m            [0m [0m         [0m [0m         [0m [0m         [0m [0m         [0m [0m         [0m [0m
+ [0m          m [0m [0m -0.1236 [0m [0m  0.7457 [0m [0m  1.2822 [0m [0m  1.7125 [0m [0m  2.9355 [0m [0m
+ [0m          s [0m [0m  0.6235 [0m [0m  1.1054 [0m [0m  1.5581 [0m [0m  2.1717 [0m [0m  5.7594 [0m [0m
+#+end_example
+: 2020-10-29T21:40:39.455
+:END:
+**** plotting
+
+Load additional libraries
+
+#+BEGIN_SRC jupyter-julia
+using ArviZ, PyPlot, PyCall
+now()
+#+END_SRC
+
+#+RESULTS:
+: 2020-10-29T21:40:50.04
+
+Make =InferenceData= object
+
+#+BEGIN_SRC jupyter-julia
+idata = from_mcmcchains(chn, library = "Turing")
+#+END_SRC
+
+#+RESULTS:
+: InferenceData with groups:
+: 	> posterior
+: 	> sample_stats
+
+Print posterior and =sample_stats= from =InferenceData= object
+
+#+BEGIN_SRC jupyter-julia
+print(idata.posterior)
+print(idata.sample_stats)
+now()
+#+END_SRC
+
+#+RESULTS:
+:RESULTS:
+#+begin_example
+Dataset (xarray.Dataset)
+Dimensions:  (chain: 1, draw: 500)
+Coordinates:
+  ,* chain    (chain) int64 0
+  ,* draw     (draw) int64 0 1 2 3 4 5 6 7 8 ... 492 493 494 495 496 497 498 499
+Data variables:
+    m        (chain, draw) float64 1.589 1.183 3.026 ... -0.02606 1.485 -0.3521
+    s        (chain, draw) float64 1.985 1.348 5.464 1.353 ... 1.573 1.399 4.237
+Attributes:
+    created_at:         2020-10-18T18:52:46.016452
+    arviz_version:      0.9.0
+    inference_library:  TuringDataset (xarray.Dataset)
+Dimensions:           (chain: 1, draw: 500)
+Coordinates:
+  ,* chain             (chain) int64 0
+  ,* draw              (draw) int64 0 1 2 3 4 5 6 ... 493 494 495 496 497 498 499
+Data variables:
+    energy            (chain, draw) float64 5.718 5.12 8.651 ... 5.826 8.27
+    energy_error      (chain, draw) float64 0.115 -0.09808 ... -0.2852 0.4234
+    depth             (chain, draw) int64 2 2 2 2 1 2 2 2 2 ... 2 1 2 2 2 1 2 2
+    diverging         (chain, draw) bool False False False ... False False False
+    log_density       (chain, draw) float64 -5.151 -4.634 -8.2 ... -4.762 -7.393
+    max_energy_error  (chain, draw) float64 0.2966 -0.09808 ... -0.2852 0.4626
+    nom_step_size     (chain, draw) float64 0.7675 0.7675 ... 0.7675 0.7675
+    is_accept         (chain, draw) float64 1.0 1.0 1.0 1.0 ... 1.0 1.0 1.0 1.0
+    tree_size         (chain, draw) int64 7 3 3 7 1 3 7 3 3 ... 3 1 3 3 3 1 7 3
+    lp                (chain, draw) float64 -5.151 -4.634 -8.2 ... -4.762 -7.393
+    step_size         (chain, draw) float64 0.7675 0.7675 ... 0.7675 0.7675
+    mean_tree_accept  (chain, draw) float64 0.8756 1.0 0.5808 ... 0.985 0.6447
+Attributes:
+    created_at:         2020-10-18T18:52:46.263700
+    arviz_version:      0.9.0
+    inference_library:  Turing
+#+end_example
+: 2020-10-18T14:55:35.997
+:END:
+Plot
+
+#+BEGIN_SRC jupyter-julia :results silent
+# Plot and save results
+p_arviz_trace = plot_trace(idata)
+PyPlot.savefig("data/linear_models/normal-model-arviz-trace.pdf")
+PyPlot.savefig("data/linear_models/normal-model-arviz-trace.png")
+#+END_SRC
+
+#+ATTR_ORG: :width 1350
+[[file:data/linear_models/normal-model-arviz-trace.png]]

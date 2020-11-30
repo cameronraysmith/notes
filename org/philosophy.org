@@ -10,9 +10,21 @@
 ** [[file:Robert_Brandom.org][Robert Brandom]]
 ** [[file:John_McDowell.org][John McDowell]]
 ** [[file:Georg_Hegel.org][Georg Hegel]]
+** [[file:john_dewey.org][John Dewey]]
+:PROPERTIES:
+:ID:       79f5513e-0d45-4720-91a2-c423945b60d7
+:END:
+** [[file:gottfried_leibniz.org][Gottfried Leibniz]]
+:PROPERTIES:
+:ID:       dcc2e187-1309-4092-8d48-cbee93b811f1
+:END:
 ** [[file:Edmund_Husserl.org][Edmund Husserl]]
 ** [[file:Baruch_Spinoza.org][Baruch Spinoza]]
 ** [[file:Jurgen_Habermas.org][Jurgen Habermas]]
+** [[file:aristotle.org][Aristotle]]
+:PROPERTIES:
+:ID:       b3bcf7c5-5da3-45cf-bd56-dbacef1f6705
+:END:
 ** [[file:Gilles_Deleuze.org][Gilles Deleuze]]
 *** [[file:Gilles_Deleuze_An_Introduction_by_Todd_May_in_2015.org][Gilles Deleuze An Introduction by Todd May in 2015]]
 *** [[file:Stanford_encyclopedia_article_on_Gilles_Deleuze.org][Stanford encyclopedia article on Gilles Deleuze]]

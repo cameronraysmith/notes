@@ -2,12 +2,12 @@
 #+hugo_slug: open_data_sets
 #+TITLE: open data sets
 * sources
-    1. [[https://ckan.org/][Comprehensive Knowledge Archive Network (CKAN)]]
-    2. [awesomedata](https://github.com/awesomedata/awesome-public-datasets) and their [[https://github.com/awesomedata/awesome-public-datasets#complementary-collections][list of other collections of open data]]
-    3. [datahub](https://datahub.io/core)([github](https://github.com/datasets/)) by [[https://www.datopian.com/][Datopian]]
-    4. [[file:Regression_and_Other_Stories_by_Andrew_Gelman,_Jennifer_Hill,_and_Aki_Vehtari_in_2020.org][Regression and Other Stories by Andrew Gelman, Jennifer Hill, and Aki Vehtari in 2020]]
-    5. [[file:Data_analysis_using_regression_and_multilevel_hierarchical_models_by_Andrew_Gelman_and_Jennifer_Hill_in_2006.org][Data analysis using regression and multilevel hierarchical models by Andrew Gelman and Jennifer Hill in 2006]]
-    6. [[https://frictionlessdata.io/][frictionlessdata]]
-    7. [[https://archive.ics.uci.edu/ml/index.php][UC Irvine Machine Learning Repository]]
-    8. [[https://www.kaggle.com/datasets][kaggle datasets]]
-    9. [[https://scikit-learn.org/stable/modules/classes.html#module-sklearn.datasets][sklearn datasets]]
+1. [[https://ckan.org/][Comprehensive Knowledge Archive Network (CKAN)]]
+2. [[https://github.com/awesomedata/awesome-public-datasets][awesomedata]] and their [[https://github.com/awesomedata/awesome-public-datasets#complementary-collections][list of other collections of open data]]
+3. [[https://datahub.io/core][datahub]]([[https://github.com/datasets/)][github]]) by [[https://www.datopian.com/][Datopian]]
+4. [[file:Regression_and_Other_Stories_by_Andrew_Gelman,_Jennifer_Hill,_and_Aki_Vehtari_in_2020.org][Regression and Other Stories by Andrew Gelman, Jennifer Hill, and Aki Vehtari in 2020]]
+5. [[file:Data_analysis_using_regression_and_multilevel_hierarchical_models_by_Andrew_Gelman_and_Jennifer_Hill_in_2006.org][Data analysis using regression and multilevel hierarchical models by Andrew Gelman and Jennifer Hill in 2006]]
+6. [[https://frictionlessdata.io/][frictionlessdata]]
+7. [[https://archive.ics.uci.edu/ml/index.php][UC Irvine Machine Learning Repository]]
+8. [[https://www.kaggle.com/datasets][kaggle datasets]]
+9. [[https://scikit-learn.org/stable/modules/classes.html#module-sklearn.datasets][sklearn datasets]]

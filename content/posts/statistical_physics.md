@@ -1,7 +1,7 @@
 +++
 title = "statistical physics"
 author = ["Cameron Smith"]
-lastmod = 2020-09-20T17:37:46-04:00
+lastmod = 2020-11-30T00:43:39-05:00
 slug = "statistical_physics"
 draft = false
 +++
@@ -39,7 +39,7 @@ draft = false
 ### [Information Theory for Fields by Torsten Enslin in 2019]({{< relref "Information_Theory_for_Fields_by_Torsten_Enslin_in_2019" >}}) {#information-theory-for-fields-by-torsten-enslin-in-2019--information-theory-for-fields-by-torsten-enslin-in-2019-dot-md}
 
 
-### [A kinetic view of statistical physics by Krapivsky, Redner, and Ben-Naim in 2010]({{< relref "A_kinetic_view_of_statistical_physics_by_Krapivsky,_Redner,_and_Ben-Naim_in_2010" >}}) {#a-kinetic-view-of-statistical-physics-by-krapivsky-redner-and-ben-naim-in-2010--a-kinetic-view-of-statistical-physics-by-krapivsky-redner-and-ben-naim-in-2010-dot-md}
+### [A kinetic view of statistical physics by Pavel Krapivsky, Sidney Redner, and Eli Ben-Naim in 2010]({{< relref "A_kinetic_view_of_statistical_physics_by_Krapivsky,_Redner,_and_Ben-Naim_in_2010" >}}) {#a-kinetic-view-of-statistical-physics-by-pavel-krapivsky-sidney-redner-and-eli-ben-naim-in-2010--a-kinetic-view-of-statistical-physics-by-krapivsky-redner-and-ben-naim-in-2010-dot-md}
 
 
 ### [Effective fluctuation and response theory by Polettini and Esposito in 2018]({{< relref "Effective_fluctuation_and_response_theory_by_Polettini_and_Esposito_in_2018" >}}) {#effective-fluctuation-and-response-theory-by-polettini-and-esposito-in-2018--effective-fluctuation-and-response-theory-by-polettini-and-esposito-in-2018-dot-md}

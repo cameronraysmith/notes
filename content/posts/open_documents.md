@@ -1,12 +1,12 @@
 +++
 title = "open documents"
 author = ["Cameron Smith"]
-lastmod = 2020-09-24T01:27:53-04:00
+lastmod = 2020-11-30T00:43:17-05:00
 slug = "open_documents"
 draft = false
 +++
 
-## [google photos album](<https://photos.google.com/album/AF1QipMyq-YHLSQmwgt7yb7qsSIjcUkNYByW9GNnC91M>) {#google-photos-album--https-photos-dot-google-dot-com-album-af1qipmyq-yhlsqmwgt7yb7qssijcuknybyw9gnnc91m}
+## [google photos album](https://photos.google.com/album/AF1QipMyq-YHLSQmwgt7yb7qsSIjcUkNYByW9GNnC91M) {#google-photos-album}
 
 
 ## roam {#roam}
@@ -60,7 +60,7 @@ draft = false
 
         <!--list-separator-->
 
-        -  [A kinetic view of statistical physics by Krapivsky, Redner, and Ben-Naim in 2010]({{< relref "A_kinetic_view_of_statistical_physics_by_Krapivsky,_Redner,_and_Ben-Naim_in_2010" >}})
+        -  [A kinetic view of statistical physics by Pavel Krapivsky, Sidney Redner, and Eli Ben-Naim in 2010]({{< relref "A_kinetic_view_of_statistical_physics_by_Krapivsky,_Redner,_and_Ben-Naim_in_2010" >}})
 
         <!--list-separator-->
 
@@ -238,7 +238,7 @@ draft = false
         9.  [Pattern recognition and machine learning by Chris Bishop in 2006]({{< relref "Pattern_recognition_and_machine_learning_by_Chris_Bishop_in_2006" >}})
         10. [Bayesian reasoning and machine learning by David Barber in 2012]({{< relref "Bayesian_reasoning_and_machine_learning_by_David_Barber_in_2012" >}})
         11. [An introduction to probabilistic programming by Jan-Willem van de Meent, Frank Wood et al in 2018]({{< relref "An_introduction_to_probabilistic_programming_by_Jan-Willem_van_de_Meent,_Frank_Wood_et_al_in_2018" >}})
-        12. Michael Betancourt's [blog betanalpha](<https://betanalpha.github.io/writing/>)
+        12. Michael Betancourt's [blog betanalpha](https://betanalpha.github.io/writing/)
     2.  [free energy principle]({{< relref "free_energy_principle" >}})
         1.  [Geometry of Friston's active inference by Martin Biehl in 2018]({{< relref "Geometry_of_Friston's_active_inference_by_Martin_Biehl_in_2018" >}})
         2.  [A tutorial on the free-energy framework for modeling perception and learning by Rafal Bogacz in 2017]({{< relref "A_tutorial_on_the_free-energy_framework_for_modeling_perception_and_learning_by_Rafal_Bogacz_in_2017" >}})
@@ -334,11 +334,11 @@ draft = false
 
 <!--list-separator-->
 
--  \![](![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FzxX9Hy3%5F-k.png?alt=media&token=3f834c92-f99f-4211-88b1-32c1b16b011e))
+-  ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FzxX9Hy3%5F-k.png?alt=media&token=3f834c92-f99f-4211-88b1-32c1b16b011e)
 
 <!--list-separator-->
 
--  \![](![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2F3FDsoG6QFj.png?alt=media&token=6b4c5ca6-dcee-4113-9393-70b289fdf9b4))
+-  ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2F3FDsoG6QFj.png?alt=media&token=6b4c5ca6-dcee-4113-9393-70b289fdf9b4)
 
 
 ## mendeley {#mendeley}
@@ -348,7 +348,7 @@ draft = false
 
 <!--list-separator-->
 
--  \![](![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2F8utmeliLlB.png?alt=media&token=4451e4b5-0ddb-4910-ab78-3d76af58536f))
+-  ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2F8utmeliLlB.png?alt=media&token=4451e4b5-0ddb-4910-ab78-3d76af58536f)
 
     <!--list-separator-->
 
@@ -576,8 +576,8 @@ draft = false
 
 <!--list-separator-->
 
--  \![](![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FfpwfNaHwiK.png?alt=media&token=56f66322-94cc-4cdb-bc24-a91e9d14de82))
+-  ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FfpwfNaHwiK.png?alt=media&token=56f66322-94cc-4cdb-bc24-a91e9d14de82)
 
 <!--list-separator-->
 
--  \![](![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2F3WC0cPvb5s.png?alt=media&token=90b8e7fe-5f48-4c96-b0b2-90560b62a289))
+-  ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2F3WC0cPvb5s.png?alt=media&token=90b8e7fe-5f48-4c96-b0b2-90560b62a289)

@@ -1,7 +1,7 @@
 +++
 title = "Towards A Principled Bayesian Workflow by Michael Betancourt in 2020"
 author = ["Cameron Smith"]
-lastmod = 2020-09-24T01:27:05-04:00
+lastmod = 2020-11-30T00:41:06-05:00
 slug = "Towards_A_Principled_Bayesian_Workflow_by_Michael_Betancourt_in_2020"
 draft = false
 +++
@@ -21,7 +21,12 @@ draft = false
 
 <!--list-separator-->
 
--  <https://github.com/lstmemery/principled-bayesian-workflow-pymc3> last updated in August/November 2018 as of <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-08-09 Sun&gt;</span></span>
+-  <https://github.com/lstmemery/principled-bayesian-workflow-pymc3> last updated in August/November 2018
+
+
+## computational environment {#computational-environment}
+
+The related code can be run via Run python session on the remote container.
 
 
 ## Contents {#contents}

@@ -3,5 +3,5 @@
 #+TITLE: Approximation and solution methods for master equations
 * [[file:Master_equations_and_the_theory_of_stochastic_path_integrals_by_Markus_Weber_and_Erwin_Frey_in_2017.org][Master equations and the theory of stochastic path integrals by Markus Weber and Erwin Frey in 2017]]
 * [[file:Introduction_to_dynamical_large_deviations_of_Markov_processes_by_Hugo_Touchette_in_2018.org][Introduction to dynamical large deviations of Markov processes by Hugo Touchette in 2018]]
-* [[file:A_kinetic_view_of_statistical_physics_by_Krapivsky,_Redner,_and_Ben-Naim_in_2010.org][A kinetic view of statistical physics by Krapivsky, Redner, and Ben-Naim in 2010]]
+* [[file:A_kinetic_view_of_statistical_physics_by_Krapivsky,_Redner,_and_Ben-Naim_in_2010.org][A kinetic view of statistical physics by Pavel Krapivsky, Sidney Redner, and Eli Ben-Naim in 2010]]
 * [[file:Population_biology_and_criticality_by_Nico_Stollenwerk_and_Vincent_Johnson_in_2010.org][Population biology and criticality by Nico Stollenwerk and Vincent Johnson in 2010]]

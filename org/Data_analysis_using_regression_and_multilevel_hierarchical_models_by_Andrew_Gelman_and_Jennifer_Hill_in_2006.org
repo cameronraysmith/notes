@@ -2,13 +2,24 @@
 #+hugo_slug: Data_analysis_using_regression_and_multilevel_hierarchical_models_by_Andrew_Gelman_and_Jennifer_Hill_in_2006
 #+TITLE: Data analysis using regression and multilevel hierarchical models by Andrew Gelman and Jennifer Hill in 2006
 * [[file:books.org][books]], [[file:probabilistic_inference.org][probabilistic inference]], [[file:Andrew_Gelman.org][Andrew Gelman]], [[file:Jennifer_Hill.org][Jennifer Hill]]
+* citation
+  :PROPERTIES:
+:ID:       d51b83a7-af39-4281-a0a8-4244b6570b4a
+:END:
+
+  - cite:Gelman2006
+
 * references
+
 ** http://www.stat.columbia.edu/~gelman/arm/
 ** Note that this book is currently undergoing a separation into two books. The book website currently inside a folder named "arm" clearly intends to eventually refer to the second book exclusively on multilevel or hierarchical modeling
 *** [[file:Regression_and_Other_Stories_by_Andrew_Gelman,_Jennifer_Hill,_and_Aki_Vehtari_in_2020.org][Regression and Other Stories by Andrew Gelman, Jennifer Hill, and Aki Vehtari in 2020]]
 *** Advanced Regression and Multilevel Models
 * examples
 ** Compare to those of [[file:Regression_and_Other_Stories_by_Andrew_Gelman,_Jennifer_Hill,_and_Aki_Vehtari_in_2020.org][Regression and Other Stories by Andrew Gelman, Jennifer Hill, and Aki Vehtari in 2020]] at least for part 1 of the book
+:PROPERTIES:
+:ID:       c81fcd54-d1f7-4747-9932-c76524b476d7
+:END:
 ** http://www.stat.columbia.edu/~gelman/arm/examples/ARM_Data.zip
 ** http://www.stat.columbia.edu/~gelman/arm/examples/
 ** order of first appearance

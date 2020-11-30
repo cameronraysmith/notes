@@ -6,7 +6,10 @@
 * See also
 ** Schad, D. J., Betancourt, M., & Vasishth, S. (2019). Toward a principled Bayesian workflow in cognitive science. Retrieved from http://arxiv.org/abs/1904.12765
 ** pymc3 implementation of principled bayesian workflow
-*** https://github.com/lstmemery/principled-bayesian-workflow-pymc3 last updated in August/November 2018 as of <2020-08-09 Sun>
+*** https://github.com/lstmemery/principled-bayesian-workflow-pymc3 last updated in August/November 2018 
+* computational environment
+
+The related code can be run via [[id:1217db72-1d36-4411-b55f-3abc3e183306][Run python session on the remote container]].
 * Contents
 ** 1. Questioning authority
 *** How do we construct models **consistent with our domain expertise** that are **adequate to capture the structure of the phenomena of interest**, and support **accurate** and **relevant inference** from **observations we can feasibly perform** with respect to the **specific questions we need to answer** in order to make **well-informed decisions**?

@@ -8,3 +8,8 @@
 * Videos
 ** [[https://www.youtube.com/watch?v=vrhjtTy0G3Y][Decent DE1 Pro and Monolith MAX workflow]]
 ** [[https://www.youtube.com/watch?v=HR2PxQVjVyI][Blooming Allonge Daily Espresso Preparation * Decent Espresso]]
+* Extraction notes
+- Blooming Allonge
+  + start around 13B and decrease by 1-3 fine-grained adjustment increments until achieving a stable 5-6 bar post-bloom pressure
+- TURBO
+  + start around 15B and decrease by one coarse-grained adjustment increment until the pressure profile appropriately reaches 6 bar and extraction time is less than 35 seconds. If uncertain, better to err slightly on the too fine side as the pressure control will just extract at a slower rate (but definitely too fine if it is taking more than 35 seconds to get a 2:1 extraction).

@@ -12,6 +12,6 @@
 ** [[file:The_demon_in_the_machine_by_Paul_Davies_in_2019.org][The demon in the machine by Paul Davies in 2019]]
 ** [[file:Order_out_of_chaos_by_Prigogine_and_Stengers_in_1984.org][Order out of chaos by Prigogine and Stengers in 1984]]
 ** [[file:Information_Theory_for_Fields_by_Torsten_Enslin_in_2019.org][Information Theory for Fields by Torsten Enslin in 2019]]
-** [[file:A_kinetic_view_of_statistical_physics_by_Krapivsky,_Redner,_and_Ben-Naim_in_2010.org][A kinetic view of statistical physics by Krapivsky, Redner, and Ben-Naim in 2010]]
+** [[file:A_kinetic_view_of_statistical_physics_by_Krapivsky,_Redner,_and_Ben-Naim_in_2010.org][A kinetic view of statistical physics by Pavel Krapivsky, Sidney Redner, and Eli Ben-Naim in 2010]]
 ** [[file:Effective_fluctuation_and_response_theory_by_Polettini_and_Esposito_in_2018.org][Effective fluctuation and response theory by Polettini and Esposito in 2018]]
 ** [[file:Self-organization_in_nonequilibrium_systems_from_dissipative_structures_to_order_through_fluctuations_by_Nicolis_and_Prigogine_in_1977.org][Self-organization in nonequilibrium systems from dissipative structures to order through fluctuations by Nicolis and Prigogine in 1977]]

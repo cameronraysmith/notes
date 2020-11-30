@@ -1,12 +1,17 @@
 +++
 title = "Data analysis using regression and multilevel hierarchical models by Andrew Gelman and Jennifer Hill in 2006"
 author = ["Cameron Smith"]
-lastmod = 2020-09-20T17:34:14-04:00
+lastmod = 2020-11-30T00:36:41-05:00
 slug = "Data_analysis_using_regression_and_multilevel_hierarchical_models_by_Andrew_Gelman_and_Jennifer_Hill_in_2006"
 draft = false
 +++
 
 ## [books]({{< relref "books" >}}), [probabilistic inference]({{< relref "probabilistic_inference" >}}), [Andrew Gelman]({{< relref "Andrew_Gelman" >}}), [Jennifer Hill]({{< relref "Jennifer_Hill" >}}) {#books--books-dot-md--probabilistic-inference--probabilistic-inference-dot-md--andrew-gelman--andrew-gelman-dot-md--jennifer-hill--jennifer-hill-dot-md}
+
+
+## citation {#citation}
+
+-   <sup id="108a9c399b8f98eb2a775abba7ac1e4d"><a href="#Gelman2006" title="Gelman \&amp; Hill, {Data Analysis Using Regression and Multilevel/Hierarchical Models}, Cambridge University Press (2006).">Gelman2006</a></sup>
 
 
 ## references {#references}

@@ -1,42 +1,54 @@
 #+setupfile: ./hugo_setup.org
 #+hugo_slug: a_containerized_jupyter_notebook_with_multiple_kernels_on_Arch_Linux
 #+TITLE: a containerized jupyter notebook with multiple kernels on Arch Linux
-* http://github.com/cameronraysmith/notebooks
-** readme
+
+* references
+  - github: http://github.com/cameronraysmith/notebooks
+  - dockerhub: https://hub.docker.com/repository/docker/cameronraysmith/notebooks
+  - arch linux on GCP
+    + https://github.com/GoogleCloudPlatform/compute-archlinux-image-builder/blob/master/build-arch-gce
+* readme
 *** notebooks
-About
+    About
 
-See the Makefile for relevant commands.
+    See the Makefile for relevant commands.
 
-File listing
+    File listing
 
-```bash
-▶ tree -I 'maxima-jupyter'
-.
-├── Dockerfile
-├── Makefile
-├── README.md
-├── VERSION
-├── etc
-│   ├── jupyter_notebook_config.py
-│   ├── pkglist-01.txt
-│   ├── pkglist-02.txt
-│   ├── pkglist-startup.txt
-│   ├── pkglist-yay.txt
-│   └── python-libraries.txt
-├── notebooks
-│   ├── ...
-│   └── common-lisp-jupyter
-│       ├── ...
-├── scratch
-│   ├── scraps.dockerfile
-│   └── scraps.mk
-└── scripts
-    └── startup.sh
-```
+    #+BEGIN_EXAMPLE sh
+    ▶ tree -I 'maxima-jupyter'
+    .
+    ├── Dockerfile
+    ├── Makefile
+    ├── README.md
+    ├── VERSION
+    ├── etc
+    │   ├── jupyter_notebook_config.py
+    │   ├── pkglist-01.txt
+    │   ├── pkglist-02.txt
+    │   ├── pkglist-startup.txt
+    │   ├── pkglist-yay.txt
+    │   └── python-libraries.txt
+    ├── notebooks
+    │   ├── ...
+    │   └── common-lisp-jupyter
+    │       ├── ...
+    ├── scratch
+    │   ├── scraps.dockerfile
+    │   └── scraps.mk
+    └── scripts
+        └── startup.sh
+    #+END_EXAMPLE
 
-LICENSE
+    LICENSE
 
-This code is distributed under the [[http://opensource.org/licenses/MIT][MIT License]].
-* https://hub.docker.com/repository/docker/cameronraysmith/notebooks
-* https://github.com/GoogleCloudPlatform/compute-archlinux-image-builder/blob/master/build-arch-gce
+    This code is distributed under the [[http://opensource.org/licenses/MIT][MIT License]].
+* doom emacs
+   + should put a custom version of my =doom.d= directory into the default =dotfiles-local= of the =notebooks= repository which should eliminate the steps below
+     - needed to have =cmake= installed so this should be added to packages
+     - realized that I needed =wget= to download [[https://github.com/hlissner/doom-emacs/issues/2204#issuecomment-626654221][doom black hole image]], which doesn't get used properly but would probably lead the config to cause an error
+     - had to add paths such as =~/projects/notes/org/private/agenda=,  =~/org/bib/=, =~/Downloads/figures/= for compatibility with my =doom.d= configuration
+     - had to clone my =dotfiles-local= repository and then copy the =doom.d= directory into the remote machine's copy of =dotfiles-local=, run =rcup=, and then run ~emacs.d/bin/doom sync~.
+   + had to use =SPC := to call =M-x=
+   + had to hard link any shared github repositories containing org files into =projects/notes/org/=
+   + used =global-command-log-mode= and set =command-log-mode-window-size= to =60= instead of =40=

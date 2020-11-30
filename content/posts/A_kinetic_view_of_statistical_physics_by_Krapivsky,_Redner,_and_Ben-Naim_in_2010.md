@@ -1,15 +1,14 @@
 +++
-title = "A kinetic view of statistical physics by Krapivsky, Redner, and Ben-Naim in 2010"
+title = "A kinetic view of statistical physics by Pavel Krapivsky, Sidney Redner, and Eli Ben-Naim in 2010"
 author = ["Cameron Smith"]
-lastmod = 2020-09-20T17:33:39-04:00
+lastmod = 2020-11-29T23:36:46-05:00
 slug = "A_kinetic_view_of_statistical_physics_by_Krapivsky,_Redner,_and_Ben-Naim_in_2010"
 draft = false
 +++
 
 ## Lectures {#lectures}
 
-
-### Krapivsky, P. L., Redner, S., & Ben-Naim, E. (2010). <span class="underline"><span class="underline">A Kinetic View of Statistical Physics</span></span>. Retrieved from <https://www.youtube.com/playlist?list=PLNFIflbQ6VNv%5FKKn9eKn32q6f6WstaEwk> {#krapivsky-p-dot-l-dot-redner-s-dot-and-ben-naim-e-dot--2010--dot-dot-retrieved-from-https-www-dot-youtube-dot-com-playlist-list-plnfiflbq6vnv-kkn9ekn32q6f6wstaewk}
+-   Krapivsky, P. L., Redner, S., & Ben-Naim, E. (2010). <span class="underline"><span class="underline">A Kinetic View of Statistical Physics</span></span>. Retrieved from <https://www.youtube.com/playlist?list=PLNFIflbQ6VNv%5FKKn9eKn32q6f6WstaEwk>
 
 
 ## 1. Aperitifs {#1-dot-aperitifs}

@@ -2,7 +2,7 @@
 #+hugo_slug: Applied_Probabilistic_Modeling_Principled_Bayesian_Inference_for_the_Discerning_Practitioner_by_Michael_Betancourt_in_2020
 #+TITLE: Applied Probabilistic Modeling Principled Bayesian Inference for the Discerning Practitioner by Michael Betancourt in 2020
 * keywords
-- [[file:probabilistic_inference.org][probabilistic inference]], [[file:Applications_of_probabilistic_inference_to_the_interpretation_of_simple_experiments.org][Applications of probabilistic inference to the interpretation of simple experiments]]
+- [[file:probabilistic_inference.org][probabilistic inference]]
 * cover
 ** [[https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FiuEgTSp7f6.png?alt=media&token=456b342d-e189-46d9-b9eb-338b4b995583]]
 * contents

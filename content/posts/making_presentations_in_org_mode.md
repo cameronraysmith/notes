@@ -1,7 +1,7 @@
 +++
 title = "Making presentations in org-mode"
 author = ["Cameron Smith"]
-lastmod = 2020-09-24T15:29:42-04:00
+lastmod = 2020-11-30T00:42:26-05:00
 slug = "making_presentations_in_org_mode"
 draft = false
 +++

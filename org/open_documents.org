@@ -15,7 +15,7 @@
 **** historical
 ***** Armitage, P., & Doll, R. (1954). The Age Distribution of Cancer and a Multi-stage Theory of Carcinogenesis. __British Journal of Cancer__, __8__(1), 1–12. https://doi.org/10.1038/bjc.1954.1
 **** tutorials on solving master equations with generating functions
-***** [[file:A_kinetic_view_of_statistical_physics_by_Krapivsky,_Redner,_and_Ben-Naim_in_2010.org][A kinetic view of statistical physics by Krapivsky, Redner, and Ben-Naim in 2010]]
+***** [[file:A_kinetic_view_of_statistical_physics_by_Krapivsky,_Redner,_and_Ben-Naim_in_2010.org][A kinetic view of statistical physics by Pavel Krapivsky, Sidney Redner, and Eli Ben-Naim in 2010]]
 ***** Walczak, A. M., Mugler, A., & Wiggins, C. H. (2012). Analytic Methods for Modeling Stochastic Regulatory Networks. In X. Liu & M. D. Betterton (Eds.), __Computational Modeling of Signaling Networks__ (Vol. 880). Totowa, NJ: Humana Press. https://doi.org/10.1007/978-1-61779-833-7
 **** [[file:branching_processes.org][branching processes]]
 ***** Armitage, P., & Doll, R. (1954). The Age Distribution of Cancer and a Multi-stage Theory of Carcinogenesis. __British Journal of Cancer__, __8__(1), 1–12. https://doi.org/10.1038/bjc.1954.1

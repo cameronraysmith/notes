@@ -2,5 +2,5 @@
 #+hugo_slug: Non-equilibrium_statistical_physics
 #+TITLE: Non-equilibrium statistical physics
 * [[file:Self-organization_in_nonequilibrium_systems_from_dissipative_structures_to_order_through_fluctuations_by_Nicolis_and_Prigogine_in_1977.org][Self-organization in nonequilibrium systems from dissipative structures to order through fluctuations by Nicolis and Prigogine in 1977]]
-* [[file:A_kinetic_view_of_statistical_physics_by_Krapivsky,_Redner,_and_Ben-Naim_in_2010.org][A kinetic view of statistical physics by Krapivsky, Redner, and Ben-Naim in 2010]]
+* [[file:A_kinetic_view_of_statistical_physics_by_Krapivsky,_Redner,_and_Ben-Naim_in_2010.org][A kinetic view of statistical physics by Pavel Krapivsky, Sidney Redner, and Eli Ben-Naim in 2010]]
 * [[file:Statistical_Physics_of_Complex_Systems_by_Eric_Bertin_in_2016.org][Statistical Physics of Complex Systems by Eric Bertin in 2016]]

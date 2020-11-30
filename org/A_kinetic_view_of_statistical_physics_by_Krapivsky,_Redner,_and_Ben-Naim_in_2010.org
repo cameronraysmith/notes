@@ -1,8 +1,8 @@
 #+setupfile: ./hugo_setup.org
 #+hugo_slug: A_kinetic_view_of_statistical_physics_by_Krapivsky,_Redner,_and_Ben-Naim_in_2010
-#+TITLE: A kinetic view of statistical physics by Krapivsky, Redner, and Ben-Naim in 2010
+#+TITLE: A kinetic view of statistical physics by Pavel Krapivsky, Sidney Redner, and Eli Ben-Naim in 2010
 * Lectures
-** Krapivsky, P. L., Redner, S., & Ben-Naim, E. (2010). __A Kinetic View of Statistical Physics__. Retrieved from https://www.youtube.com/playlist?list=PLNFIflbQ6VNv_KKn9eKn32q6f6WstaEwk
+- Krapivsky, P. L., Redner, S., & Ben-Naim, E. (2010). __A Kinetic View of Statistical Physics__. Retrieved from https://www.youtube.com/playlist?list=PLNFIflbQ6VNv_KKn9eKn32q6f6WstaEwk
 * 1. Aperitifs
 ** 1.1 Diffusion
 ** 1.2 Single-species annihilation/coalescence

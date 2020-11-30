@@ -1,12 +1,12 @@
 +++
 title = "Bayesian data analysis by Andrew Gelman, Aki Vehtari, et al in 2014"
 author = ["Cameron Smith"]
-lastmod = 2020-09-24T22:24:46-04:00
+lastmod = 2020-11-30T00:36:27-05:00
 slug = "Bayesian_data_analysis_by_Andrew_Gelman,_Aki_Vehtari,_et_al_in_2014"
 draft = false
 +++
 
-## [probabilistic inference]({{< relref "probabilistic_inference" >}}), [Applications of probabilistic inference to the interpretation of simple experiments]({{< relref "Applications_of_probabilistic_inference_to_the_interpretation_of_simple_experiments" >}}), [books]({{< relref "books" >}}), [Andrew Gelman]({{< relref "Andrew_Gelman" >}}), [Aki Vehtari]({{< relref "Aki_Vehtari" >}}) {#probabilistic-inference--probabilistic-inference-dot-md--applications-of-probabilistic-inference-to-the-interpretation-of-simple-experiments--applications-of-probabilistic-inference-to-the-interpretation-of-simple-experiments-dot-md--books--books-dot-md--andrew-gelman--andrew-gelman-dot-md--aki-vehtari--aki-vehtari-dot-md}
+## [probabilistic inference]({{< relref "probabilistic_inference" >}}), [books]({{< relref "books" >}}), [Andrew Gelman]({{< relref "Andrew_Gelman" >}}), [Aki Vehtari]({{< relref "Aki_Vehtari" >}}) {#probabilistic-inference--probabilistic-inference-dot-md--books--books-dot-md--andrew-gelman--andrew-gelman-dot-md--aki-vehtari--aki-vehtari-dot-md}
 
 
 ## course {#course}

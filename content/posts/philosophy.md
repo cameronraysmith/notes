@@ -1,7 +1,7 @@
 +++
 title = "philosophy"
 author = ["Cameron Smith"]
-lastmod = 2020-09-24T01:34:25-04:00
+lastmod = 2020-11-30T00:43:29-05:00
 slug = "philosophy"
 draft = false
 +++
@@ -33,6 +33,12 @@ draft = false
 ### [Georg Hegel]({{< relref "Georg_Hegel" >}}) {#georg-hegel--georg-hegel-dot-md}
 
 
+### [John Dewey]({{< relref "john_dewey" >}}) {#john-dewey--john-dewey-dot-md}
+
+
+### [Gottfried Leibniz]({{< relref "gottfried_leibniz" >}}) {#gottfried-leibniz--gottfried-leibniz-dot-md}
+
+
 ### [Edmund Husserl]({{< relref "Edmund_Husserl" >}}) {#edmund-husserl--edmund-husserl-dot-md}
 
 
@@ -40,6 +46,9 @@ draft = false
 
 
 ### [Jurgen Habermas]({{< relref "Jurgen_Habermas" >}}) {#jurgen-habermas--jurgen-habermas-dot-md}
+
+
+### [Aristotle]({{< relref "aristotle" >}}) {#aristotle--aristotle-dot-md}
 
 
 ### [Gilles Deleuze]({{< relref "Gilles_Deleuze" >}}) {#gilles-deleuze--gilles-deleuze-dot-md}
@@ -82,7 +91,7 @@ draft = false
 
 <!--list-separator-->
 
--  \![](<https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FU0Kg3EYNu%5F?alt=media&token=6ad79612-655b-4f3e-86f3-916492055f0b>)
+-  <https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fcameronraysmith%2FU0Kg3EYNu%5F?alt=media&token=6ad79612-655b-4f3e-86f3-916492055f0b>
 
 
 ### Science {#science}
@@ -121,4 +130,4 @@ draft = false
 ## [references]({{< relref "references" >}}) {#references--references-dot-md}
 
 
-### [History of philosophy network visualization](<https://www.denizcemonduygu.com/philo/browse/>) {#history-of-philosophy-network-visualization--https-www-dot-denizcemonduygu-dot-com-philo-browse}
+### [History of philosophy network visualization](https://www.denizcemonduygu.com/philo/browse/) {#history-of-philosophy-network-visualization}

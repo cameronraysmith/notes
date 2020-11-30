@@ -1,7 +1,7 @@
 #+setupfile: ./hugo_setup.org
 #+hugo_slug: Bayesian_data_analysis_by_Andrew_Gelman,_Aki_Vehtari,_et_al_in_2014
 #+TITLE: Bayesian data analysis by Andrew Gelman, Aki Vehtari, et al in 2014
-* [[file:probabilistic_inference.org][probabilistic inference]], [[file:Applications_of_probabilistic_inference_to_the_interpretation_of_simple_experiments.org][Applications of probabilistic inference to the interpretation of simple experiments]], [[file:books.org][books]], [[file:Andrew_Gelman.org][Andrew Gelman]], [[file:Aki_Vehtari.org][Aki Vehtari]]
+* [[file:probabilistic_inference.org][probabilistic inference]], [[file:books.org][books]], [[file:Andrew_Gelman.org][Andrew Gelman]], [[file:Aki_Vehtari.org][Aki Vehtari]]
 * course
 ** materials
 *** code
